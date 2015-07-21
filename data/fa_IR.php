@@ -134,12 +134,7 @@
     't_fmt' => '%OH:%OM:%OS',
     't_fmt_ampm' => '',
     'date_fmt' => '‫%A %Oe %B %Oy، ساعت %OH:%OM:%OS (%Z)‬',
-    'week' => 
-    array (
-      0 => NULL,
-      1 => NULL,
-      2 => NULL,
-    ),
+    'week' => NULL,
     'first_weekday' => 7,
     'first_workday' => 7,
     'era_d_fmt' => NULL,

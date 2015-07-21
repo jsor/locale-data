@@ -73,7 +73,7 @@ LC_TIME:
     first_workday: 1
     era_d_fmt: null
     cal_direction: null
-    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    alt_digits: null
     era: null
     era_d_t_fmt: null
     era_t_fmt: null

@@ -142,12 +142,7 @@
     't_fmt' => '%OI:%OM:%OS %p',
     't_fmt_ampm' => '%OI:%OM:%OS %p',
     'date_fmt' => NULL,
-    'week' => 
-    array (
-      0 => NULL,
-      1 => NULL,
-      2 => NULL,
-    ),
+    'week' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
     'era_d_fmt' => NULL,

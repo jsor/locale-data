@@ -121,11 +121,7 @@
         "t_fmt": "%H\u6642%M\u5206%S\u79d2",
         "t_fmt_ampm": "%p%I\u6642%M\u5206%S\u79d2",
         "date_fmt": "%Y\u5e74 %b %e\u65e5 %A %H:%M:%S %Z",
-        "week": [
-            null,
-            null,
-            null
-        ],
+        "week": null,
         "first_weekday": null,
         "first_workday": null,
         "era_d_fmt": "%EY%m\u6708%d\u65e5",

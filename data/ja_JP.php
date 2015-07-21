@@ -134,12 +134,7 @@
     't_fmt' => '%H時%M分%S秒',
     't_fmt_ampm' => '%p%I時%M分%S秒',
     'date_fmt' => '%Y年 %b %e日 %A %H:%M:%S %Z',
-    'week' => 
-    array (
-      0 => NULL,
-      1 => NULL,
-      2 => NULL,
-    ),
+    'week' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
     'era_d_fmt' => '%EY%m月%d日',

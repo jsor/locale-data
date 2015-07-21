@@ -134,17 +134,19 @@ function value($value)
     return $value;
 }
 
-function nullify($array)
+function nullify($data)
 {
-    if (!is_array($array)) {
-        return null;
+    $nullified = array();
+
+    foreach ($data as $category => $entries) {
+        $nullified[$category] = array();
+
+        foreach ($entries as $key => $value) {
+            $nullified[$category][$key] = null;
+        }
     }
 
-    foreach ($array as $key => &$value) {
-        $value = nullify($value);
-    }
-
-    return $array;
+    return $nullified;
 }
 
 $console = new Application('Localdata', '1.0.0');

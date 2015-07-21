@@ -121,11 +121,7 @@
         "t_fmt": "%OH:%OM:%OS",
         "t_fmt_ampm": "",
         "date_fmt": "\u202b%A %Oe %B %Oy\u060c \u0633\u0627\u0639\u062a %OH:%OM:%OS (%Z)\u202c",
-        "week": [
-            null,
-            null,
-            null
-        ],
+        "week": null,
         "first_weekday": 7,
         "first_workday": 7,
         "era_d_fmt": null,

@@ -127,11 +127,7 @@
         "t_fmt": "%OI:%OM:%OS %p",
         "t_fmt_ampm": "%OI:%OM:%OS %p",
         "date_fmt": null,
-        "week": [
-            null,
-            null,
-            null
-        ],
+        "week": null,
         "first_weekday": null,
         "first_workday": null,
         "era_d_fmt": null,

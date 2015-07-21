@@ -68,12 +68,12 @@ LC_TIME:
     t_fmt: '%H:%M:%S'
     t_fmt_ampm: '%I:%M:%S %p'
     date_fmt: '%a %e %b %Ey %H:%M:%S %Z'
-    week: [null, null, null]
+    week: null
     first_weekday: null
     first_workday: null
     era_d_fmt: '%e %b %Ey'
     cal_direction: null
-    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    alt_digits: null
     era: '+:1:-543/01/01:+*:พ.ศ.:%EC %Ey'
     era_d_t_fmt: 'วัน%Aที่ %e %B %EC %Ey, %H.%M.%S น.'
     era_t_fmt: '%H.%M.%S น.'

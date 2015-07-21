@@ -68,12 +68,12 @@ LC_TIME:
     t_fmt: '%T'
     t_fmt_ampm: ''
     date_fmt: '%a %e %b %Y, %H.%M.%S, %Z'
-    week: [null, null, null]
+    week: null
     first_weekday: 2
     first_workday: 2
     era_d_fmt: null
     cal_direction: null
-    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    alt_digits: null
     era: null
     era_d_t_fmt: null
     era_t_fmt: null
