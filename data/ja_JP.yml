@@ -78,4 +78,3 @@ LC_TIME:
     era_d_t_fmt: '%EY%m月%d日 %H時%M分%S秒'
     era_t_fmt: null
     timezone: null
-

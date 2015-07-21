@@ -78,4 +78,3 @@ LC_TIME:
     era_d_t_fmt: 'ວັນ%Aທີ່ %e %B %EC %Ey, %H.%M.%S ນ.'
     era_t_fmt: '%H.%M.%S ນ.'
     timezone: ICT-7ICT-7
-

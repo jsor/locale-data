@@ -206,7 +206,7 @@ $console
 
             file_put_contents(
                 __DIR__.'/../data/'.$locale.'.yml',
-                Yaml::dump($filled).PHP_EOL
+                Yaml::dump($filled)
             );
 
             $output->writeln('<info>Done</info>.');
