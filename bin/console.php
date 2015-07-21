@@ -22,16 +22,16 @@ function parse($path, $locale)
     $commentChar = '#';
     $escapeChar = '\\';
 
-    $emptyData = $data = [
-        'LC_MONETARY' => [],
-        'LC_NUMERIC' => [],
-        'LC_PAPER' => [],
-        'LC_TELEPHONE' => [],
-        'LC_ADDRESS' => [],
-        'LC_MESSAGES' => [],
-        'LC_NAME' => [],
-        'LC_TIME' => [],
-    ];
+    $emptyData = $data = array(
+        'LC_MONETARY' => array(),
+        'LC_NUMERIC' => array(),
+        'LC_PAPER' => array(),
+        'LC_TELEPHONE' => array(),
+        'LC_ADDRESS' => array(),
+        'LC_MESSAGES' => array(),
+        'LC_NAME' => array(),
+        'LC_TIME' => array(),
+    );
 
     $currentCategory = null;
     $currentLine = '';
@@ -91,7 +91,7 @@ function parse($path, $locale)
         if ('copy' === $key) {
             $copyFrom = parse($path, trim($value, '""'));
 
-            $data[$currentCategory] = isset($copyFrom[$currentCategory]) ? $copyFrom[$currentCategory] : [];
+            $data[$currentCategory] = isset($copyFrom[$currentCategory]) ? $copyFrom[$currentCategory] : array();
             continue;
         }
 

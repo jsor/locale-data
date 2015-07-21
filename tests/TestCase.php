@@ -7,7 +7,7 @@ class TestCase extends \PHPUnit_Framework_TestCase
     public function provideLocales()
     {
         return array_map(function ($file) {
-            return [pathinfo($file[0], PATHINFO_FILENAME)];
+            return array(pathinfo($file[0], PATHINFO_FILENAME));
         }, $this->provideFiles('json'));
     }
 
@@ -35,7 +35,7 @@ class TestCase extends \PHPUnit_Framework_TestCase
         });
 
         $locales = array_map(function ($file) use ($path) {
-            return [$path.DIRECTORY_SEPARATOR.$file];
+            return array($path.DIRECTORY_SEPARATOR.$file);
         }, $locales);
 
         return $locales;
