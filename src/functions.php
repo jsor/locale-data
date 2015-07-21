@@ -4,12 +4,8 @@ namespace Jsor;
 
 use Jsor\LocaleData\InvalidLocaleException;
 
-function localedata($locale = null)
+function localedata($locale)
 {
-    if (!$locale) {
-        $locale = setlocale(LC_ALL, '0');
-    }
-
     if ('C' === $locale) {
         $locale = 'POSIX';
     }
