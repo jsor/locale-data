@@ -6,6 +6,20 @@ use Symfony\Component\Yaml\Yaml;
 
 class FileValidationTest extends TestCase
 {
+    public function assertFileData($data)
+    {
+        $this->assertInternalType('array', $data);
+
+        $this->assertArrayHasKey('LC_MONETARY', $data);
+        $this->assertArrayHasKey('LC_NUMERIC', $data);
+        $this->assertArrayHasKey('LC_PAPER', $data);
+        $this->assertArrayHasKey('LC_TELEPHONE', $data);
+        $this->assertArrayHasKey('LC_ADDRESS', $data);
+        $this->assertArrayHasKey('LC_MESSAGES', $data);
+        $this->assertArrayHasKey('LC_NAME', $data);
+        $this->assertArrayHasKey('LC_TIME', $data);
+    }
+
     /**
      * @test
      * @dataProvider providePhpFiles
@@ -14,7 +28,7 @@ class FileValidationTest extends TestCase
     {
         $data = include $file;
 
-        $this->assertData($data);
+        $this->assertFileData($data);
     }
     /**
      * @test
@@ -24,7 +38,7 @@ class FileValidationTest extends TestCase
     {
         $data = json_decode(file_get_contents($file), true);
 
-        $this->assertData($data);
+        $this->assertFileData($data);
     }
 
     /**
@@ -35,6 +49,6 @@ class FileValidationTest extends TestCase
     {
         $data = Yaml::parse(file_get_contents($file), true);
 
-        $this->assertData($data);
+        $this->assertFileData($data);
     }
 }
