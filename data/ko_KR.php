@@ -68,7 +68,7 @@
   array (
     'yesexpr' => '^[yY예]',
     'noexpr' => '^[nN아]',
-    'yesstr' => NULL,
+    'yesstr' => 'Yes',
     'nostr' => '아니오',
   ),
   'LC_NAME' => 

@@ -60,8 +60,8 @@
   array (
     'yesexpr' => '^(होय|[yY])',
     'noexpr' => '^(बाङ|[nN])',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
   ),
   'LC_NAME' => 
   array (

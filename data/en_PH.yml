@@ -67,7 +67,7 @@ LC_TIME:
     d_fmt: '%A, %d %B, %Y'
     t_fmt: '%I:%M:%S  %Z'
     t_fmt_ampm: '%I:%M:%S %p %Z'
-    date_fmt: null
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     week: null
     first_weekday: null
     first_workday: null

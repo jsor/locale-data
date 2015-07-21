@@ -133,7 +133,7 @@
     'd_fmt' => '%Y/%m/%d',
     't_fmt' => '%r',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => NULL,
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => 
     array (
       0 => 7,

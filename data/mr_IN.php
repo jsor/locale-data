@@ -60,8 +60,8 @@
   array (
     'yesexpr' => '^(Yes|[yY])',
     'noexpr' => '^(No|[nN])',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
   ),
   'LC_NAME' => 
   array (

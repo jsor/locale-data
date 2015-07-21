@@ -126,7 +126,7 @@
         "d_fmt": "%d\/%m\/%y",
         "t_fmt": "%T",
         "t_fmt_ampm": "",
-        "date_fmt": null,
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "week": null,
         "first_weekday": null,
         "first_workday": null,

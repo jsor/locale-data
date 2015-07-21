@@ -48,8 +48,8 @@ LC_ADDRESS:
 LC_MESSAGES:
     yesexpr: '^[yY是]'
     noexpr: '^[nN伓]'
-    yesstr: null
-    nostr: null
+    yesstr: 'Yes'
+    nostr: 'No'
 LC_NAME:
     name_fmt: '%f%t%g%t%d'
     name_gen: 君

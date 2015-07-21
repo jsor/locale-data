@@ -67,7 +67,7 @@ LC_TIME:
     d_fmt: པསྱི་ལོ%yཟལ%mཚེས%d
     t_fmt: ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S
     t_fmt_ampm: 'ཆུ་ཚོད%Iཀསར་མ%Mཀསར་ཆ%S %p'
-    date_fmt: null
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     week: null
     first_weekday: null
     first_workday: null

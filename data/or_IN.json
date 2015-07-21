@@ -60,8 +60,8 @@
     "LC_MESSAGES": {
         "yesexpr": "^[yY].*",
         "noexpr": "^[nN].*",
-        "yesstr": null,
-        "nostr": null
+        "yesstr": "Yes",
+        "nostr": "No"
     },
     "LC_NAME": {
         "name_fmt": "%p%t%f%t%g",
@@ -126,7 +126,7 @@
         "d_fmt": "%Od-%Om-%Oy",
         "t_fmt": "%OI:%OM:%OS %p",
         "t_fmt_ampm": "%OI:%OM:%OS %p",
-        "date_fmt": null,
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "week": null,
         "first_weekday": null,
         "first_workday": null,

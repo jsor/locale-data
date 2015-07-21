@@ -170,7 +170,7 @@ $console
         });
 
         $localeData = array();
-        $normalized = [];
+        $root = array();
 
         foreach ($locales as $locale) {
             $output->write('Processing locale <comment>'.$locale.'</comment>...');
@@ -184,15 +184,25 @@ $console
 
             $localeData[$locale] = $data;
 
-            $normalized = array_replace_recursive($normalized, $data);
+            $root = array_replace_recursive($root, $data);
 
             $output->writeln('<info>Done</info>.');
         }
 
-        $normalized = nullify($normalized);
+        $root = nullify($root);
+
+        if (isset($localeData['POSIX'])) {
+            $root = array_replace_recursive($root, $localeData['POSIX']);
+        }
+
+        $meta = array(
+            'locales' => array_keys($localeData)
+        );
+
+        $localeData = array('root' => $root) + $localeData;
 
         foreach ($localeData as $locale => $data) {
-            $filled = array_replace_recursive($normalized, $data);
+            $filled = array_replace_recursive($root, $data);
 
             $output->write('Storing locale data for <comment>'.$locale.'</comment>...');
 
@@ -213,6 +223,25 @@ $console
 
             $output->writeln('<info>Done</info>.');
         }
+
+        $output->write('Storing meta file...');
+
+        file_put_contents(
+            __DIR__.'/../data/meta.json',
+            json_encode($meta, JSON_PRETTY_PRINT).PHP_EOL
+        );
+
+        file_put_contents(
+            __DIR__.'/../data/meta.php',
+            '<?php return '.var_export($meta, true).';'.PHP_EOL
+        );
+
+        file_put_contents(
+            __DIR__.'/../data/meta.yml',
+            Yaml::dump($meta).PHP_EOL
+        );
+
+        $output->writeln('<info>Done</info>.');
 
         $output->writeln('<info>Finished processing '.count($localeData).' locales.</info>');
     })

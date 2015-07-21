@@ -60,7 +60,7 @@
     "LC_MESSAGES": {
         "yesexpr": "^[yY\uc608]",
         "noexpr": "^[nN\uc544]",
-        "yesstr": null,
+        "yesstr": "Yes",
         "nostr": "\uc544\ub2c8\uc624"
     },
     "LC_NAME": {

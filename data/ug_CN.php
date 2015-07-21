@@ -132,7 +132,7 @@
     'd_t_fmt' => '%a، %d-%m-%Y، %T',
     'd_fmt' => '%a، %d-%m-%Y',
     't_fmt' => '%T',
-    't_fmt_ampm' => NULL,
+    't_fmt_ampm' => '%I:%M:%S %p',
     'date_fmt' => '%a، %d-%m-%Y، %T',
     'week' => NULL,
     'first_weekday' => NULL,

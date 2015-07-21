@@ -142,7 +142,7 @@
     'd_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%d',
     't_fmt' => 'ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
     't_fmt_ampm' => 'ཆུ་ཚོད%Iཀསར་མ%Mཀསར་ཆ%S %p',
-    'date_fmt' => NULL,
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,

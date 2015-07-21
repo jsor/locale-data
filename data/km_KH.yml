@@ -66,8 +66,8 @@ LC_TIME:
     d_t_fmt: '%A ថ្ងៃ %e ខែ %B ឆ្នាំ  %Y, %H ម៉ោង m នាទី %S វិនាទី​'
     d_fmt: '%e %B %Y'
     t_fmt: '%H:%M:%S'
-    t_fmt_ampm: null
-    date_fmt: null
+    t_fmt_ampm: '%I:%M:%S %p'
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     week: null
     first_weekday: null
     first_workday: null

@@ -67,7 +67,7 @@ LC_TIME:
     d_fmt: '%Y年%m月%d日'
     t_fmt: '%H时%M分%S秒 %Z'
     t_fmt_ampm: ''
-    date_fmt: null
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     week: null
     first_weekday: null
     first_workday: null

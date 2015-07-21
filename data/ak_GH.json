@@ -120,7 +120,7 @@
         "d_fmt": "%Y\/%m\/%d",
         "t_fmt": "%r",
         "t_fmt_ampm": "%I:%M:%S %p",
-        "date_fmt": null,
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "week": [
             7,
             19971130,

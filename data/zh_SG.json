@@ -120,7 +120,7 @@
         "d_fmt": "%Y\u5e74%m\u6708%d\u65e5",
         "t_fmt": "%H\u65f6%M\u5206%S\u79d2 %Z",
         "t_fmt_ampm": "",
-        "date_fmt": null,
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "week": null,
         "first_weekday": null,
         "first_workday": null,

@@ -68,8 +68,8 @@
   array (
     'yesexpr' => '^[1JjYy].*',
     'noexpr' => '^[0Nn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
   ),
   'LC_NAME' => 
   array (

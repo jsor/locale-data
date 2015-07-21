@@ -48,7 +48,7 @@ LC_ADDRESS:
 LC_MESSAGES:
     yesexpr: '^[yY예]'
     noexpr: '^[nN아]'
-    yesstr: null
+    yesstr: 'Yes'
     nostr: 아니오
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'

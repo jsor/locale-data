@@ -60,8 +60,8 @@
   array (
     'yesexpr' => '^[yYبf].*',
     'noexpr' => '^[nNخنo].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
   ),
   'LC_NAME' => 
   array (
@@ -133,7 +133,7 @@
     'd_fmt' => 'د %Y د %B %e',
     't_fmt' => '%H:%M:%S',
     't_fmt_ampm' => '‫%I:%M:%S %p‬',
-    'date_fmt' => NULL,
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => NULL,
     'first_weekday' => 7,
     'first_workday' => 7,

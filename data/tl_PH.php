@@ -141,7 +141,7 @@
     'd_fmt' => '%m/%d/%y',
     't_fmt' => '%r',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => NULL,
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,

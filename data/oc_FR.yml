@@ -48,8 +48,8 @@ LC_ADDRESS:
 LC_MESSAGES:
     yesexpr: '^[oOsSyY].*'
     noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesstr: 'Yes'
+    nostr: 'No'
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: null
@@ -67,7 +67,7 @@ LC_TIME:
     d_fmt: '%d.%m.%Y'
     t_fmt: '%T'
     t_fmt_ampm: ''
-    date_fmt: null
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     week: null
     first_weekday: 2
     first_workday: 2

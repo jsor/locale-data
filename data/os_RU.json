@@ -60,8 +60,8 @@
     "LC_MESSAGES": {
         "yesexpr": "^[\u0423\u0434Yy].*",
         "noexpr": "^[\u0443\u043dNn].*",
-        "yesstr": null,
-        "nostr": null
+        "yesstr": "Yes",
+        "nostr": "No"
     },
     "LC_NAME": {
         "name_fmt": "%d%t%g%t%m%t%f",

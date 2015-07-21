@@ -68,8 +68,8 @@
   array (
     'yesexpr' => '^[nNyY].*',
     'noexpr' => '^[hHlL].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
   ),
   'LC_NAME' => 
   array (
@@ -141,7 +141,7 @@
     'd_fmt' => '%d/%m/%Y',
     't_fmt' => '%I:%M:%S %p',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => NULL,
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => 
     array (
       0 => 7,

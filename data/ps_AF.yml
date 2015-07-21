@@ -48,8 +48,8 @@ LC_ADDRESS:
 LC_MESSAGES:
     yesexpr: '^[yYبf].*'
     noexpr: '^[nNخنo].*'
-    yesstr: null
-    nostr: null
+    yesstr: 'Yes'
+    nostr: 'No'
 LC_NAME:
     name_fmt: '%s%t%p%t%g%t%m%t%f'
     name_gen: ' % No general salutation for all persons in Pashto.'
@@ -67,7 +67,7 @@ LC_TIME:
     d_fmt: 'د %Y د %B %e'
     t_fmt: '%H:%M:%S'
     t_fmt_ampm: '‫%I:%M:%S %p‬'
-    date_fmt: null
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     week: null
     first_weekday: 7
     first_workday: 7

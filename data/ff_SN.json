@@ -54,8 +54,8 @@
     "LC_MESSAGES": {
         "yesexpr": "^[yYeE].*",
         "noexpr": "^[nNaA].*",
-        "yesstr": null,
-        "nostr": null
+        "yesstr": "Yes",
+        "nostr": "No"
     },
     "LC_NAME": {
         "name_fmt": "%p%t%g%m%t%f",
@@ -119,8 +119,8 @@
         "d_t_fmt": "%a %d %b %Y %R %Z",
         "d_fmt": "%d\/%m\/%Y",
         "t_fmt": "%R",
-        "t_fmt_ampm": null,
-        "date_fmt": null,
+        "t_fmt_ampm": "%I:%M:%S %p",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "week": [
             7,
             19971129,

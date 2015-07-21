@@ -119,7 +119,7 @@
         "d_t_fmt": "%a\u060c %d-%m-%Y\u060c %T",
         "d_fmt": "%a\u060c %d-%m-%Y",
         "t_fmt": "%T",
-        "t_fmt_ampm": null,
+        "t_fmt_ampm": "%I:%M:%S %p",
         "date_fmt": "%a\u060c %d-%m-%Y\u060c %T",
         "week": null,
         "first_weekday": null,

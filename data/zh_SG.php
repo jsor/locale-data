@@ -133,7 +133,7 @@
     'd_fmt' => '%Y年%m月%d日',
     't_fmt' => '%H时%M分%S秒 %Z',
     't_fmt_ampm' => '',
-    'date_fmt' => NULL,
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,

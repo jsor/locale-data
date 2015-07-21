@@ -60,8 +60,8 @@
   array (
     'yesexpr' => '^[yYeE].*',
     'noexpr' => '^[nNaA].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
   ),
   'LC_NAME' => 
   array (
@@ -132,8 +132,8 @@
     'd_t_fmt' => '%a %d %b %Y %R %Z',
     'd_fmt' => '%d/%m/%Y',
     't_fmt' => '%R',
-    't_fmt_ampm' => NULL,
-    'date_fmt' => NULL,
+    't_fmt_ampm' => '%I:%M:%S %p',
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'week' => 
     array (
       0 => 7,
