@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -22,34 +28,54 @@ LC_PAPER:
     height: 279
     width: 216
 LC_TELEPHONE:
+    tel_dom_fmt: null
     tel_int_fmt: '+%c %a %l'
     int_prefix: '1'
     int_select: '011'
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: null
+    country_post: null
     country_ab2: CA
     country_ab3: CAN
     country_num: 124
-    country_car: CDN
     lang_name: Iñupiatun
     lang_ab: ik
     lang_term: ipk
     lang_lib: ipk
+    country_car: CDN
+    country_isbn: null
 LC_MESSAGES:
-    yesstr: aa
-    nostr: qañaa
     yesexpr: '[yYiIaA].*'
     noexpr: '[nNqQ].*'
+    yesstr: aa
+    nostr: qañaa
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: null
+    name_mrs: null
+    name_miss: null
+    name_ms: null
 LC_TIME:
     abday: [Min, Sav, Ila, Qit, Sis, Tal, Maq]
     day: [Minġuiqsioiq, Savałłiq, Ilaqtchiioiq, Qitchiioiq, Sisamiioiq, Tallimmiioiq, Maqinġuoiq]
     abmon: [Sñt, Sñs, Pan, Qil, Sup, Iġñ, Itc, Tiñ, Ami, Sik, Nip, Siq]
     mon: [Siqiññaatchiaq, Siqiññaasrugruk, Paniqsiqsiivik, 'Qilġich Tatqiat', Suppivik, Iġñivik, Itchavik, Tiññivik, Amiġaiqsivik, Sikkuvik, Nippivik, Siqiñġiḷaq]
+    am_pm: [AM, PM]
     d_t_fmt: '%a %d %b %Y %r %Z'
     d_fmt: '%d/%m/%y'
     t_fmt: '%r'
-    am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'
+    date_fmt: null
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

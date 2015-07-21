@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 2
     p_sign_posn: 4
     n_sign_posn: 4
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -22,21 +28,23 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: 0-%a%l
-    int_select: '001'
+    tel_int_fmt: '+%c %a %l'
     int_prefix: '66'
+    int_select: '001'
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N'
     country_name: ไทย
+    country_post: null
     country_ab2: TH
     country_ab3: THA
-    country_car: T
+    country_num: 764
     lang_name: ไทย
     lang_ab: th
     lang_term: tha
     lang_lib: tha
-    country_num: 764
+    country_car: T
+    country_isbn: null
 LC_MESSAGES:
     yesexpr: '^[yYช]'
     noexpr: '^[nNม]'
@@ -45,23 +53,29 @@ LC_MESSAGES:
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: คุณ
-    name_miss: นางสาว
     name_mr: นาย
     name_mrs: นาง
+    name_miss: นางสาว
+    name_ms: null
 LC_TIME:
     abday: [อา., จ., อ., พ., พฤ., ศ., ส.]
     day: [อาทิตย์, จันทร์, อังคาร, พุธ, พฤหัสบดี, ศุกร์, เสาร์]
     abmon: [ม.ค., ก.พ., มี.ค., เม.ย., พ.ค., มิ.ย., ก.ค., ส.ค., ก.ย., ต.ค., พ.ย., ธ.ค.]
     mon: [มกราคม, 'กุมภาพันธ์', มีนาคม, เมษายน, 'พฤษภาคม', มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม]
+    am_pm: [AM, PM]
     d_t_fmt: '%a %e %b %Ey, %H:%M:%S'
     d_fmt: '%d/%m/%Ey'
     t_fmt: '%H:%M:%S'
-    am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'
-    era: '+:1:-543/01/01:+*:พ.ศ.:%EC %Ey'
-    era_d_fmt: '%e %b %Ey'
-    era_t_fmt: '%H.%M.%S น.'
-    era_d_t_fmt: 'วัน%Aที่ %e %B %EC %Ey, %H.%M.%S น.'
     date_fmt: '%a %e %b %Ey %H:%M:%S %Z'
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: '%e %b %Ey'
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: '+:1:-543/01/01:+*:พ.ศ.:%EC %Ey'
+    era_d_t_fmt: 'วัน%Aที่ %e %B %EC %Ey, %H.%M.%S น.'
+    era_t_fmt: '%H.%M.%S น.'
     timezone: ICT-7ICT-7
 

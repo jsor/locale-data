@@ -12,12 +12,12 @@ LC_MONETARY:
     p_sep_by_space: 0
     n_cs_precedes: 1
     n_sep_by_space: 0
+    p_sign_posn: 1
+    n_sign_posn: 1
     int_p_cs_precedes: 1
     int_p_sep_by_space: 0
     int_n_cs_precedes: 1
     int_n_sep_by_space: 0
-    p_sign_posn: 1
-    n_sign_posn: 1
     int_p_sign_posn: 1
     int_n_sign_posn: 1
 LC_NUMERIC:
@@ -28,20 +28,23 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: +%c-%a-%l
     tel_dom_fmt: '%A-%l'
-    int_select: '00'
+    tel_int_fmt: +%c-%a-%l
     int_prefix: '886'
+    int_select: '00'
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%r %e %h %s%N%z %T%N%c%N'
     country_name: Tâi-oân
+    country_post: null
     country_ab2: TW
     country_ab3: TWN
     country_num: 158
-    country_isbn: '957'
     lang_name: 'Bân-lâm-gú, Hō-ló-oē'
+    lang_ab: null
     lang_term: nan
     lang_lib: nan
+    country_car: null
+    country_isbn: '957'
 LC_MESSAGES:
     yesexpr: '^[sS].*'
     noexpr: '^[mM].*'
@@ -49,20 +52,30 @@ LC_MESSAGES:
     nostr: M̄-Sī
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
-    name_miss: ko͘-niû
+    name_gen: null
     name_mr: sian-siⁿ
     name_mrs: lú-sū
+    name_miss: ko͘-niû
     name_ms: sió-chiá
 LC_TIME:
     abday: [lp, p1, p2, p3, p4, p5, p6]
     day: ['lé-pài-ji̍t', 'pài-it', 'pài-jī', 'pài-saⁿ', 'pài-sì', 'pài-gō͘', 'pài-la̍k']
     abmon: [1g, 2g, 3g, 4g, 5g, 6g, 7g, 8g, 9g, 10g, 11g, 12g]
     mon: [1goe̍h, 2goe̍h, 3goe̍h, 4goe̍h, 5goe̍h, 6goe̍h, 7goe̍h, 8goe̍h, 9goe̍h, 10goe̍h, 11goe̍h, 12goe̍h]
+    am_pm: [téng-po͘, ē-po͘]
     d_t_fmt: '%Y %b %d (%a) %H:%M:%S %Z'
     d_fmt: '%F'
     t_fmt: '%r'
-    am_pm: [téng-po͘, ē-po͘]
     t_fmt_ampm: '%I:%M:%S %p'
-    timezone: TST-8
     date_fmt: '%Y %b %d (%a) %H:%M:%S %Z'
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: TST-8
 

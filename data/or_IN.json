@@ -38,24 +38,30 @@
         "width": 210
     },
     "LC_TELEPHONE": {
+        "tel_dom_fmt": null,
         "tel_int_fmt": "+%c ;%a ;%l",
         "int_prefix": "91",
         "int_select": "00"
     },
     "LC_ADDRESS": {
         "postal_fmt": "%z%c%T%s%b%e%r",
+        "country_name": null,
+        "country_post": null,
         "country_ab2": "IN",
         "country_ab3": "IND",
         "country_num": 356,
-        "country_car": "IND",
         "lang_name": "\u0b13\u0b21\u0b3c\u0b3f\u0b06",
         "lang_ab": "or",
         "lang_term": "ori",
-        "lang_lib": "ori"
+        "lang_lib": "ori",
+        "country_car": "IND",
+        "country_isbn": null
     },
     "LC_MESSAGES": {
         "yesexpr": "^[yY].*",
-        "noexpr": "^[nN].*"
+        "noexpr": "^[nN].*",
+        "yesstr": null,
+        "nostr": null
     },
     "LC_NAME": {
         "name_fmt": "%p%t%f%t%g",
@@ -112,14 +118,24 @@
             "\u0b28\u0b2d\u0b47\u0b2e\u0b4d\u0b2c\u0b30",
             "\u0b21\u0b3f\u0b38\u0b47\u0b2e\u0b4d\u0b2c\u0b30"
         ],
-        "d_fmt": "%Od-%Om-%Oy",
-        "t_fmt": "%OI:%OM:%OS %p",
-        "d_t_fmt": "%Oe %B %Oy %OI:%OM:%OS %p %Z",
         "am_pm": [
             "AM",
             "PM"
         ],
+        "d_t_fmt": "%Oe %B %Oy %OI:%OM:%OS %p %Z",
+        "d_fmt": "%Od-%Om-%Oy",
+        "t_fmt": "%OI:%OM:%OS %p",
         "t_fmt_ampm": "%OI:%OM:%OS %p",
+        "date_fmt": null,
+        "week": [
+            null,
+            null,
+            null
+        ],
+        "first_weekday": null,
+        "first_workday": null,
+        "era_d_fmt": null,
+        "cal_direction": null,
         "alt_digits": [
             "\u0b66",
             "\u0b67",
@@ -221,6 +237,10 @@
             "\u0b6f\u0b6d",
             "\u0b6f\u0b6e",
             "\u0b6f\u0b6f"
-        ]
+        ],
+        "era": null,
+        "era_d_t_fmt": null,
+        "era_t_fmt": null,
+        "timezone": null
     }
 }

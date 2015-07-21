@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -25,6 +31,7 @@ LC_TELEPHONE:
     tel_dom_fmt: '%a-%l'
     tel_int_fmt: '%c-%a-%l'
     int_prefix: '252'
+    int_select: null
 LC_ADDRESS:
     postal_fmt: '%z%c%T%s%b%e%r'
     country_name: Soomaaliya
@@ -32,14 +39,17 @@ LC_ADDRESS:
     country_ab2: SO
     country_ab3: SOM
     country_num: 706
-    country_car: SO
     lang_name: Soomaali
     lang_ab: so
     lang_term: som
     lang_lib: som
+    country_car: SO
+    country_isbn: null
 LC_MESSAGES:
     yesexpr: '^[yY].*'
     noexpr: '^[nN].*'
+    yesstr: null
+    nostr: null
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: ''
@@ -53,9 +63,19 @@ LC_TIME:
     abmon: [Kob, Lab, Sad, Afr, Sha, Lix, Tod, Sid, Sag, Tob, KIT, LIT]
     mon: ['Bisha Koobaad', 'Bisha Labaad', 'Bisha Saddexaad', 'Bisha Afraad', 'Bisha Shanaad', 'Bisha Lixaad', 'Bisha Todobaad', 'Bisha Sideedaad', 'Bisha Sagaalaad', 'Bisha Tobnaad', 'Bisha Kow iyo Tobnaad', 'Bisha Laba iyo Tobnaad']
     am_pm: [subaxnimo, galabnimo]
+    d_t_fmt: '%A, %B %e, %Y %r %Z'
     d_fmt: '%d/%m/%Y'
     t_fmt: '%l:%M:%S'
     t_fmt_ampm: '%X %p'
-    d_t_fmt: '%A, %B %e, %Y %r %Z'
     date_fmt: '%A, %B %e, %r %Z %Y'
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

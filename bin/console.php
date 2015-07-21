@@ -134,6 +134,19 @@ function value($value)
     return $value;
 }
 
+function nullify($array)
+{
+    if (!is_array($array)) {
+        return null;
+    }
+
+    foreach ($array as $key => &$value) {
+        $value = nullify($value);
+    }
+
+    return $array;
+}
+
 $console = new Application('Localdata', '1.0.0');
 $console
     ->register('generate')
@@ -154,7 +167,8 @@ $console
             return '.' !== $path[0];
         });
 
-        $count = 0;
+        $localeData = array();
+        $normalized = [];
 
         foreach ($locales as $locale) {
             $output->write('Processing locale <comment>'.$locale.'</comment>...');
@@ -166,26 +180,39 @@ $console
                 continue;
             }
 
+            $localeData[$locale] = $data;
+
+            $normalized = array_replace_recursive($normalized, $data);
+
+            $output->writeln('<info>Done</info>.');
+        }
+
+        $normalized = nullify($normalized);
+
+        foreach ($localeData as $locale => $data) {
+            $filled = array_replace_recursive($normalized, $data);
+
+            $output->write('Storing locale data for <comment>'.$locale.'</comment>...');
+
             file_put_contents(
                 __DIR__.'/../data/'.$locale.'.json',
-                json_encode($data, JSON_PRETTY_PRINT).PHP_EOL
+                json_encode($filled, JSON_PRETTY_PRINT).PHP_EOL
             );
 
             file_put_contents(
                 __DIR__.'/../data/'.$locale.'.php',
-                '<?php return '.var_export($data, true).';'.PHP_EOL
+                '<?php return '.var_export($filled, true).';'.PHP_EOL
             );
 
             file_put_contents(
                 __DIR__.'/../data/'.$locale.'.yml',
-                Yaml::dump($data).PHP_EOL
+                Yaml::dump($filled).PHP_EOL
             );
 
-            ++$count;
             $output->writeln('<info>Done</info>.');
         }
 
-        $output->writeln('<info>Finished processing '.$count.' locales.</info>');
+        $output->writeln('<info>Finished processing '.count($localeData).' locales.</info>');
     })
 ;
 

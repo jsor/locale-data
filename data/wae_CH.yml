@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 4
     n_sign_posn: 4
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ''''
@@ -22,20 +28,22 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
+    tel_dom_fmt: null
     tel_int_fmt: '+%c %a %l'
     int_prefix: '41'
+    int_select: null
 LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
     country_name: Switzerland
     country_post: DH
-    lang_name: Walser
-    country_car: DH
-    lang_ab: ''
-    lang_term: wae
-    lang_lib: wae
-    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
     country_ab2: CH
     country_ab3: CHE
     country_num: 756
+    lang_name: Walser
+    lang_ab: ''
+    lang_term: wae
+    lang_lib: wae
+    country_car: DH
     country_isbn: 3
 LC_MESSAGES:
     yesexpr: '^[jJyY].*'
@@ -44,22 +52,30 @@ LC_MESSAGES:
     nostr: Nei
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
-    name_miss: Frölein
+    name_gen: null
     name_mr: Herr
     name_mrs: Fröiw
+    name_miss: Frölein
     name_ms: Fröiw
 LC_TIME:
     abday: [Sun, Män, Zis, Mit, Fro, Fri, Sam]
     day: [Suntag, Mäntag, Zischtag, Mittwuch, Frontag, Fritag, Samschtag]
     abmon: [Jen, Hor, Mär, Abr, Mei, Brá, Hei, Öig, Her, Wím, Win, Chr]
     mon: [Jener, Hornig, Märze, Abrille, Meije, Bráchet, Heiwet, Öigschte, Herbschtmánet, Wímánet, Wintermánet, Chrischtmánet]
+    am_pm: ['', '']
     d_t_fmt: '%a %d. %b %Y %T %Z'
     d_fmt: '%Y-%m-%d'
     t_fmt: '%T'
-    am_pm: ['', '']
     t_fmt_ampm: ''
     date_fmt: '%a %-d %b %H:%M:%S %Z %Y'
     week: [7, 19971130, 4]
     first_weekday: 2
     first_workday: 2
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

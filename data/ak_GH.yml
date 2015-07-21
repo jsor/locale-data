@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -22,10 +28,10 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: '%a %l'
-    int_select: '00'
+    tel_int_fmt: '+%c %a %l'
     int_prefix: '233'
+    int_select: '00'
 LC_ADDRESS:
     postal_fmt: '%a%N%f%N%d%N%b%N%h %s %e %r%N%T, %S %z%N%c%N'
     country_name: Gaana
@@ -33,10 +39,12 @@ LC_ADDRESS:
     country_ab2: GH
     country_ab3: GHA
     country_num: 288
-    country_isbn: 9964
     lang_name: Akan
     lang_ab: ak
     lang_term: aka
+    lang_lib: null
+    country_car: null
+    country_isbn: 9964
 LC_MESSAGES:
     yesexpr: '^[yY].*'
     noexpr: '^[dDnN].*'
@@ -44,17 +52,30 @@ LC_MESSAGES:
     nostr: Daabi
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: null
+    name_mrs: null
+    name_miss: null
+    name_ms: null
 LC_TIME:
-    mon: [Sanda-Ɔpɛpɔn, Kwakwar-Ɔgyefuo, Ebɔw-Ɔbenem, Ebɔbira-Oforisuo, 'Esusow Aketseaba-Kɔtɔnimba', Obirade-Ayɛwohomumu, Ayɛwoho-Kitawonsa, Difuu-Ɔsandaa, Fankwa-Ɛbɔ, Ɔbɛsɛ-Ahinime, Ɔberɛfɛw-Obubuo, Mumu-Ɔpɛnimba]
-    abmon: [S-Ɔ, K-Ɔ, E-Ɔ, E-O, E-K, O-A, A-K, D-Ɔ, F-Ɛ, Ɔ-A, Ɔ-O, M-Ɔ]
-    day: [Kwesida, Dwowda, Benada, Wukuda, Yawda, Fida, Memeneda]
     abday: [Kwe, Dwo, Ben, Wuk, Yaw, Fia, Mem]
+    day: [Kwesida, Dwowda, Benada, Wukuda, Yawda, Fida, Memeneda]
+    abmon: [S-Ɔ, K-Ɔ, E-Ɔ, E-O, E-K, O-A, A-K, D-Ɔ, F-Ɛ, Ɔ-A, Ɔ-O, M-Ɔ]
+    mon: [Sanda-Ɔpɛpɔn, Kwakwar-Ɔgyefuo, Ebɔw-Ɔbenem, Ebɔbira-Oforisuo, 'Esusow Aketseaba-Kɔtɔnimba', Obirade-Ayɛwohomumu, Ayɛwoho-Kitawonsa, Difuu-Ɔsandaa, Fankwa-Ɛbɔ, Ɔbɛsɛ-Ahinime, Ɔberɛfɛw-Obubuo, Mumu-Ɔpɛnimba]
+    am_pm: [AN, EW]
     d_t_fmt: '%a %d %b %Y %T %Z'
     d_fmt: '%Y/%m/%d'
     t_fmt: '%r'
     t_fmt_ampm: '%I:%M:%S %p'
-    am_pm: [AN, EW]
+    date_fmt: null
     week: [7, 19971130, 7]
     first_weekday: 1
     first_workday: 2
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -22,33 +28,54 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
+    tel_dom_fmt: null
     tel_int_fmt: '+%c %a %l'
     int_prefix: '64'
+    int_select: null
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: null
+    country_post: null
     country_ab2: NZ
     country_ab3: NZL
     country_num: 554
-    country_car: NZ
     lang_name: 'Te Reo'
     lang_ab: mi
     lang_term: mri
     lang_lib: mao
+    country_car: NZ
+    country_isbn: null
 LC_MESSAGES:
-    yesstr: āe
-    nostr: kāore
     yesexpr: '^[1yYāĀäÄaA].*'
     noexpr: '^[0nNkK].*'
+    yesstr: āe
+    nostr: kāore
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: null
+    name_mrs: null
+    name_miss: null
+    name_ms: null
 LC_TIME:
     abday: [Ta, Ma, Tū, We, Tāi, Pa, Hā]
     day: [Rātapu, Mane, Tūrei, Wenerei, Tāite, Paraire, Hātarei]
     abmon: [Kohi, Hui, Pou, Pae, Hara, Pipi, Hōngoi, Here, Mahu, Whi-nu, Whi-ra, Haki]
     mon: [Kohi-tātea, Hui-tanguru, Poutū-te-rangi, Paenga-whāwhā, Haratua, Pipiri, Hōngoingoi, Here-turi-kōkā, Mahuru, Whiringa-ā-nuku, Whiringa-ā-rangi, Hakihea]
+    am_pm: ['', '']
     d_t_fmt: 'Te %A, te %d o %B, %Y %T %Z'
     d_fmt: '%d/%m/%y'
     t_fmt: '%T'
-    am_pm: ['', '']
     t_fmt_ampm: ''
+    date_fmt: null
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -22,22 +28,23 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: '%A %l'
-    int_select: '00'
+    tel_int_fmt: '+%c %a %l'
     int_prefix: '44'
+    int_select: '00'
 LC_ADDRESS:
     postal_fmt: '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N'
     country_name: Cymru
+    country_post: null
     country_ab2: GB
     country_ab3: GBR
     country_num: 826
-    country_isbn: 0
-    country_car: GB
     lang_name: Cymraeg
     lang_ab: cy
     lang_term: cym
     lang_lib: wel
+    country_car: GB
+    country_isbn: 0
 LC_MESSAGES:
     yesexpr: '^[iItTyY].*'
     noexpr: '^[nN].*'
@@ -45,21 +52,30 @@ LC_MESSAGES:
     nostr: na
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
-    name_miss: Miss.
+    name_gen: null
     name_mr: Mr.
     name_mrs: Mrs.
+    name_miss: Miss.
     name_ms: Ms.
 LC_TIME:
     abday: [Sul, Llu, Maw, Mer, Iau, Gwe, Sad]
     day: [Sul, Llun, Mawrth, Mercher, Iau, Gwener, Sadwrn]
     abmon: [Ion, Chw, Maw, Ebr, Mai, Meh, Gor, Aws, Med, Hyd, Tach, Rha]
     mon: [Ionawr, Chwefror, Mawrth, Ebrill, Mai, Mehefin, Gorffennaf, Awst, Medi, Hydref, Tachwedd, Rhagfyr]
+    am_pm: [am, pm]
     d_t_fmt: 'Dydd %A %d mis %B %Y %T %Z'
     d_fmt: '%d.%m.%y'
     t_fmt: '%T'
-    am_pm: [am, pm]
     t_fmt_ampm: '%l:%M:%S %P %Z'
     date_fmt: '%a %e %b %H:%M:%S %Z %Y'
-    first_workday: 2
+    week: [null, null, null]
     first_weekday: 2
+    first_workday: 2
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

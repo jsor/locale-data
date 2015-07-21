@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ''
@@ -37,9 +43,13 @@ LC_ADDRESS:
     lang_ab: aa
     lang_term: aar
     lang_lib: aar
+    country_car: null
+    country_isbn: null
 LC_MESSAGES:
     yesexpr: '^[oOyY].*'
     noexpr: '^[mnMN].*'
+    yesstr: null
+    nostr: null
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: ''
@@ -53,9 +63,19 @@ LC_TIME:
     abmon: [qun, nah, cig, agd, cax, qas, qad, leq, way, dit, xim, kax]
     mon: ['Qunxa Garablu', Kudo, 'Ciggilta Kudo', 'Agda Baxisso', 'Caxah Alsa', 'Qasa Dirri', 'Qado Dirri', Liiqen, Waysu, Diteli, Ximoli, 'Kaxxa Garablu']
     am_pm: [saaku, carra]
+    d_t_fmt: '%a %d %b %Y %r %Z'
     d_fmt: '%d.%m.%Y'
     t_fmt: '%l:%M:%S'
     t_fmt_ampm: '%X %p'
-    d_t_fmt: '%a %d %b %Y %r %Z'
     date_fmt: '%a %b %e %r %Z %Y'
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

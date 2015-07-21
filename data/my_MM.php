@@ -20,6 +20,12 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_p_cs_precedes' => NULL,
+    'int_p_sep_by_space' => NULL,
+    'int_n_cs_precedes' => NULL,
+    'int_n_sep_by_space' => NULL,
+    'int_p_sign_posn' => NULL,
+    'int_n_sign_posn' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -38,10 +44,10 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => '%a %l',
-    'int_select' => '0',
+    'tel_int_fmt' => '+%c %a %l',
     'int_prefix' => '95',
+    'int_select' => '0',
   ),
   'LC_ADDRESS' => 
   array (
@@ -49,11 +55,14 @@
     'country_name' => 'မြန်မာ',
     'country_post' => 'Myanmar',
     'country_ab2' => 'MM',
-    'country_car' => 'BA',
-    'lang_ab' => 'my',
+    'country_ab3' => NULL,
+    'country_num' => NULL,
     'lang_name' => 'ဗမာ',
+    'lang_ab' => 'my',
     'lang_term' => 'mya',
     'lang_lib' => 'mya',
+    'country_car' => 'BA',
+    'country_isbn' => NULL,
   ),
   'LC_MESSAGES' => 
   array (
@@ -68,8 +77,8 @@
     'name_gen' => '',
     'name_mr' => 'ဦး',
     'name_mrs' => 'ဒေါ်',
-    'name_ms' => 'ဒေါ်',
     'name_miss' => 'မ',
+    'name_ms' => 'ဒေါ်',
   ),
   'LC_TIME' => 
   array (
@@ -132,7 +141,17 @@
     'd_fmt' => '%OC%Oy %b %Od %A',
     't_fmt' => '%OI:%OM:%OS %p',
     't_fmt_ampm' => '%OI:%OM:%OS %p',
-    'timezone' => 'MMT-6.5MMT-6.5',
+    'date_fmt' => NULL,
+    'week' => 
+    array (
+      0 => NULL,
+      1 => NULL,
+      2 => NULL,
+    ),
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
+    'era_d_fmt' => NULL,
+    'cal_direction' => NULL,
     'alt_digits' => 
     array (
       0 => '၀၀',
@@ -236,5 +255,9 @@
       98 => '၉၈',
       99 => '၉၉',
     ),
+    'era' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'timezone' => 'MMT-6.5MMT-6.5',
   ),
 );

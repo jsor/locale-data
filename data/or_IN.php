@@ -44,6 +44,7 @@
   ),
   'LC_TELEPHONE' => 
   array (
+    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c ;%a ;%l',
     'int_prefix' => '91',
     'int_select' => '00',
@@ -51,19 +52,24 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => NULL,
+    'country_post' => NULL,
     'country_ab2' => 'IN',
     'country_ab3' => 'IND',
     'country_num' => 356,
-    'country_car' => 'IND',
     'lang_name' => 'ଓଡ଼ିଆ',
     'lang_ab' => 'or',
     'lang_term' => 'ori',
     'lang_lib' => 'ori',
+    'country_car' => 'IND',
+    'country_isbn' => NULL,
   ),
   'LC_MESSAGES' => 
   array (
     'yesexpr' => '^[yY].*',
     'noexpr' => '^[nN].*',
+    'yesstr' => NULL,
+    'nostr' => NULL,
   ),
   'LC_NAME' => 
   array (
@@ -126,15 +132,26 @@
       10 => 'ନଭେମ୍ବର',
       11 => 'ଡିସେମ୍ବର',
     ),
-    'd_fmt' => '%Od-%Om-%Oy',
-    't_fmt' => '%OI:%OM:%OS %p',
-    'd_t_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p %Z',
     'am_pm' => 
     array (
       0 => 'AM',
       1 => 'PM',
     ),
+    'd_t_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p %Z',
+    'd_fmt' => '%Od-%Om-%Oy',
+    't_fmt' => '%OI:%OM:%OS %p',
     't_fmt_ampm' => '%OI:%OM:%OS %p',
+    'date_fmt' => NULL,
+    'week' => 
+    array (
+      0 => NULL,
+      1 => NULL,
+      2 => NULL,
+    ),
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
+    'era_d_fmt' => NULL,
+    'cal_direction' => NULL,
     'alt_digits' => 
     array (
       0 => '୦',
@@ -238,5 +255,9 @@
       98 => '୯୮',
       99 => '୯୯',
     ),
+    'era' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'timezone' => NULL,
   ),
 );

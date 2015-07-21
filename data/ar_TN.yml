@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 2
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -22,18 +28,23 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
+    tel_dom_fmt: null
     tel_int_fmt: '+%c ;%a ;%l'
     int_prefix: '216'
+    int_select: null
 LC_ADDRESS:
     postal_fmt: '%z%c%T%s%b%e%r'
+    country_name: null
+    country_post: null
     country_ab2: TN
     country_ab3: TUN
     country_num: 788
-    country_car: TN
     lang_name: العربية
     lang_ab: ar
     lang_term: ara
     lang_lib: ara
+    country_car: TN
+    country_isbn: null
 LC_MESSAGES:
     yesexpr: '^[نyY].*'
     noexpr: '^[لnN].*'
@@ -57,4 +68,14 @@ LC_TIME:
     t_fmt: '%Z %I:%M:%S '
     t_fmt_ampm: '%Z %I:%M:%S %p'
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    week: [null, null, null]
+    first_weekday: null
+    first_workday: null
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

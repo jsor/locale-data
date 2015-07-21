@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: ','
     thousands_sep: ' '
@@ -22,36 +28,54 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: +%c-%a-%l
     tel_dom_fmt: 0%a-%l
-    int_select: '00'
+    tel_int_fmt: +%c-%a-%l
     int_prefix: '46'
+    int_select: '00'
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: null
+    country_post: null
     country_ab2: SE
     country_ab3: SWE
     country_num: 752
-    country_car: S
     lang_name: svenska
     lang_ab: sv
     lang_term: swe
     lang_lib: swe
+    country_car: S
+    country_isbn: null
 LC_MESSAGES:
     yesexpr: '^[jJyY].*'
     noexpr: '^[nN].*'
+    yesstr: null
+    nostr: null
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: null
+    name_mrs: null
+    name_miss: null
+    name_ms: null
 LC_TIME:
     abday: [sön, mån, tis, ons, tor, fre, lör]
     day: [söndag, måndag, tisdag, onsdag, torsdag, fredag, lördag]
     abmon: [jan, feb, mar, apr, maj, jun, jul, aug, sep, okt, nov, dec]
     mon: [januari, februari, mars, april, maj, juni, juli, augusti, september, oktober, november, december]
+    am_pm: ['', '']
     d_t_fmt: '%a %e %b %Y %H:%M:%S'
     d_fmt: '%Y-%m-%d'
     t_fmt: '%H:%M:%S'
-    am_pm: ['', '']
     t_fmt_ampm: ''
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    week: [null, null, null]
     first_weekday: 2
     first_workday: 2
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 

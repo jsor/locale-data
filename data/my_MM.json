@@ -17,7 +17,13 @@
         "n_cs_precedes": 0,
         "n_sep_by_space": 0,
         "p_sign_posn": 1,
-        "n_sign_posn": 1
+        "n_sign_posn": 1,
+        "int_p_cs_precedes": null,
+        "int_p_sep_by_space": null,
+        "int_n_cs_precedes": null,
+        "int_n_sep_by_space": null,
+        "int_p_sign_posn": null,
+        "int_n_sign_posn": null
     },
     "LC_NUMERIC": {
         "decimal_point": ".",
@@ -32,21 +38,24 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c %a %l",
         "tel_dom_fmt": "%a %l",
-        "int_select": "0",
-        "int_prefix": "95"
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "95",
+        "int_select": "0"
     },
     "LC_ADDRESS": {
         "postal_fmt": "%a%N%d%N%f%N%b%N%h%t%r%t%e%t%s%N%T%t%z%N%c%N",
         "country_name": "\u1019\u103c\u1014\u103a\u1019\u102c",
         "country_post": "Myanmar",
         "country_ab2": "MM",
-        "country_car": "BA",
-        "lang_ab": "my",
+        "country_ab3": null,
+        "country_num": null,
         "lang_name": "\u1017\u1019\u102c",
+        "lang_ab": "my",
         "lang_term": "mya",
-        "lang_lib": "mya"
+        "lang_lib": "mya",
+        "country_car": "BA",
+        "country_isbn": null
     },
     "LC_MESSAGES": {
         "yesexpr": "^[yY\u101f].*",
@@ -59,8 +68,8 @@
         "name_gen": "",
         "name_mr": "\u1026\u1038",
         "name_mrs": "\u1012\u1031\u102b\u103a",
-        "name_ms": "\u1012\u1031\u102b\u103a",
-        "name_miss": "\u1019"
+        "name_miss": "\u1019",
+        "name_ms": "\u1012\u1031\u102b\u103a"
     },
     "LC_TIME": {
         "abday": [
@@ -117,7 +126,16 @@
         "d_fmt": "%OC%Oy %b %Od %A",
         "t_fmt": "%OI:%OM:%OS %p",
         "t_fmt_ampm": "%OI:%OM:%OS %p",
-        "timezone": "MMT-6.5MMT-6.5",
+        "date_fmt": null,
+        "week": [
+            null,
+            null,
+            null
+        ],
+        "first_weekday": null,
+        "first_workday": null,
+        "era_d_fmt": null,
+        "cal_direction": null,
         "alt_digits": [
             "\u1040\u1040",
             "\u1040\u1041",
@@ -219,6 +237,10 @@
             "\u1049\u1047",
             "\u1049\u1048",
             "\u1049\u1049"
-        ]
+        ],
+        "era": null,
+        "era_d_t_fmt": null,
+        "era_t_fmt": null,
+        "timezone": "MMT-6.5MMT-6.5"
     }
 }

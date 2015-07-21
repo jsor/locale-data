@@ -14,6 +14,12 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NUMERIC:
     decimal_point: ','
     thousands_sep: ' '
@@ -22,8 +28,8 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: '%A %l'
+    tel_int_fmt: '+%c %a %l'
     int_prefix: '389'
     int_select: '00'
 LC_ADDRESS:
@@ -32,13 +38,13 @@ LC_ADDRESS:
     country_post: MK
     country_ab2: MK
     country_ab3: MKD
-    country_car: MK
     country_num: 807
-    country_isbn: '9989'
     lang_name: 'македонск/и јазик'
     lang_ab: mk
     lang_term: mkd
     lang_lib: mac
+    country_car: MK
+    country_isbn: '9989'
 LC_MESSAGES:
     yesexpr: '^[ДдDdYy1].*'
     noexpr: '^[НнNn0].*'
@@ -46,23 +52,30 @@ LC_MESSAGES:
     nostr: не
 LC_NAME:
     name_fmt: '%g%t%f'
+    name_gen: почитуван
     name_mr: г-дин
     name_mrs: г-ѓа
     name_miss: г-ѓица
     name_ms: г-ѓа
-    name_gen: почитуван
 LC_TIME:
     abday: [нед, пон, вто, сре, чет, пет, саб]
     day: [недела, понеделник, вторник, среда, четврток, петок, сабота]
     abmon: [јан, фев, мар, апр, мај, јун, јул, авг, сеп, окт, ное, дек]
     mon: [јануари, февруари, март, април, мај, јуни, јули, август, септември, октомври, ноември, декември]
+    am_pm: ['', '']
     d_t_fmt: '%a, %d %b %Y %T %Z'
     d_fmt: '%d.%m.%Y'
     t_fmt: '%T'
-    am_pm: ['', '']
     t_fmt_ampm: ''
     date_fmt: '%a, %d %b %H:%M:%S %Z %Y'
     week: [7, 19971130, 4]
     first_weekday: 2
     first_workday: 2
+    era_d_fmt: null
+    cal_direction: null
+    alt_digits: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    era: null
+    era_d_t_fmt: null
+    era_t_fmt: null
+    timezone: null
 
