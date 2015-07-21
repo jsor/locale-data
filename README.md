@@ -1,7 +1,7 @@
 Localdata
 =========
 
-[![Build Status](https://travis-ci.org/jsor/localedata.svg?branch=master)](https://travis-ci.org/jsor/localedata)
+[![Build Status](https://travis-ci.org/jsor/locale-data.svg?branch=master)](https://travis-ci.org/jsor/locale-data)
 
 License
 -------
