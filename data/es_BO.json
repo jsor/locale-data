@@ -1,0 +1,116 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "BOB ",
+        "currency_symbol": "$b",
+        "mon_decimal_point": ",",
+        "mon_thousands_sep": ".",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": ".",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "591",
+        "int_select": "00"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "BO",
+        "country_ab3": "BOL",
+        "country_num": 68,
+        "country_car": "BOL",
+        "lang_name": "Espa\u00f1ol",
+        "lang_ab": "es",
+        "lang_term": "spa",
+        "lang_lib": "spa"
+    },
+    "LC_MESSAGES": {
+        "yesstr": "Si",
+        "nostr": "No",
+        "yesexpr": "^[sSyY].*",
+        "noexpr": "^[nN].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "dom",
+            "lun",
+            "mar",
+            "mi\u00e9",
+            "jue",
+            "vie",
+            "s\u00e1b"
+        ],
+        "day": [
+            "domingo",
+            "lunes",
+            "martes",
+            "mi\u00e9rcoles",
+            "jueves",
+            "viernes",
+            "s\u00e1bado"
+        ],
+        "abmon": [
+            "ene",
+            "feb",
+            "mar",
+            "abr",
+            "may",
+            "jun",
+            "jul",
+            "ago",
+            "sep",
+            "oct",
+            "nov",
+            "dic"
+        ],
+        "mon": [
+            "enero",
+            "febrero",
+            "marzo",
+            "abril",
+            "mayo",
+            "junio",
+            "julio",
+            "agosto",
+            "septiembre",
+            "octubre",
+            "noviembre",
+            "diciembre"
+        ],
+        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_fmt": "%d\/%m\/%y",
+        "t_fmt": "%T",
+        "am_pm": [
+            "",
+            ""
+        ],
+        "t_fmt_ampm": "",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y"
+    }
+}

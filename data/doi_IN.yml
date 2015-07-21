@@ -1,0 +1,58 @@
+LC_MONETARY:
+    int_curr_symbol: 'INR '
+    currency_symbol: ₹
+    mon_decimal_point: .
+    mon_thousands_sep: ','
+    mon_grouping: 3
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 1
+    n_cs_precedes: 1
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: 3
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c ;%a ;%l'
+    int_prefix: '91'
+    int_select: '00'
+LC_ADDRESS:
+    postal_fmt: '%z%c%T%s%b%e%r'
+    country_ab2: IN
+    country_ab3: IND
+    country_num: 356
+    country_car: IND
+    lang_name: डोगरी
+    lang_term: doi
+    lang_lib: doi
+LC_MESSAGES:
+    yesexpr: '^(ऑह|[yY])'
+    noexpr: '^(ना|[nN])'
+LC_NAME:
+    name_fmt: '%p%t%f%t%g'
+    name_gen: ''
+    name_mr: Mr.
+    name_mrs: Mrs.
+    name_miss: Miss.
+    name_ms: Ms.
+LC_TIME:
+    abday: ['ऐत ', 'सोम ', 'मंगल ', 'बुध ', 'बीर ', 'शुक्कर ', 'श्नीचर ']
+    day: ['ऐतबार ', 'सोमबार ', 'मंगलबर ', 'बुधबार ', 'बीरबार ', 'शुक्करबार ', 'श्नीचरबार ']
+    abmon: [जनवरी, फरवरी, मार्च, एप्रैल, मेई, जून, जूलै, 'अगस्त', सितंबर, 'अक्तूबर', नवंबर, दिसंबर]
+    mon: [जनवरी, फरवरी, मार्च, एप्रैल, मेई, जून, जूलै, 'अगस्त', सितंबर, 'अक्तूबर', नवंबर, दिसंबर]
+    am_pm: [सञं, सबेर]
+    d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'
+    d_fmt: '%A %d %b %Y'
+    t_fmt: '%I:%M:%S  %Z'
+    t_fmt_ampm: '%I:%M:%S %p %Z'
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+

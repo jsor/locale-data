@@ -1,0 +1,91 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "",
+        "currency_symbol": "",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": "",
+        "mon_grouping": -1,
+        "positive_sign": "",
+        "negative_sign": "",
+        "int_frac_digits": -1,
+        "frac_digits": -1,
+        "p_cs_precedes": -1,
+        "p_sep_by_space": -1,
+        "n_cs_precedes": -1,
+        "n_sep_by_space": -1,
+        "p_sign_posn": -1,
+        "n_sign_posn": -1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ".",
+        "thousands_sep": "",
+        "grouping": -1
+    },
+    "LC_PAPER": [],
+    "LC_TELEPHONE": [],
+    "LC_ADDRESS": [],
+    "LC_MESSAGES": {
+        "yesexpr": "^[yY]",
+        "noexpr": "^[nN]",
+        "yesstr": "Yes",
+        "nostr": "No"
+    },
+    "LC_NAME": [],
+    "LC_TIME": {
+        "abday": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ],
+        "day": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "abmon": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "mon": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "am_pm": [
+            "AM",
+            "PM"
+        ],
+        "d_t_fmt": "%a %b %e %H:%M:%S %Y",
+        "d_fmt": "%m\/%d\/%y",
+        "t_fmt": "%H:%M:%S",
+        "t_fmt_ampm": "%I:%M:%S %p",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y"
+    }
+}

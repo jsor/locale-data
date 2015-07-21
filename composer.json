@@ -1,0 +1,33 @@
+{
+    "name": "jsor/localedata",
+    "description": "Locale data in various formats.",
+    "authors": [
+        {
+            "name": "Jan Sorgalla",
+            "email": "jsorgalla@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jsor\\": "src/"
+        },
+        "files": ["src/functions_include.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jsor\\LocaleData\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "php": ">=5.4.0",
+        "symfony/console": "^2.7",
+        "symfony/yaml": "^2.7"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

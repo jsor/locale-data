@@ -1,0 +1,115 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "RUB ",
+        "currency_symbol": "sum",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": "\u2002",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 0,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 0,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": ".",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "7",
+        "int_select": "0~10"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "RU",
+        "country_ab3": "RUS",
+        "country_num": 643,
+        "country_car": "RUS",
+        "lang_ab": "tt",
+        "lang_term": "tat",
+        "lang_lib": "tat"
+    },
+    "LC_MESSAGES": {
+        "yesstr": "ey\u00ed",
+        "nostr": "yuq",
+        "yesexpr": "^[Ee].*",
+        "noexpr": "^[YyNn].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "day": [
+            "Yek\u015femb\u00ed",
+            "D\u00fc\u015femb\u00ed",
+            "Si\u015femb\u00ed",
+            "\u00c7er\u015femb\u00ed",
+            "Penc\u00ed\u015femb\u00ed",
+            "Com\u011fa",
+            "\u015eimbe"
+        ],
+        "abday": [
+            "Yek",
+            "D\u00fc\u015f",
+            "Si\u015f",
+            "\u00c7er",
+            "Pen",
+            "Com",
+            "\u015eim"
+        ],
+        "mon": [
+            "\u011e\u0131nwar",
+            "Fiwral'",
+            "Mart",
+            "April",
+            "May",
+            "Y\u00fcn",
+            "Y\u00fcl",
+            "Awgust",
+            "Sinteb\u00edr",
+            "\u00dckteb\u00edr",
+            "Noyeb\u00edr",
+            "Dikeb\u00edr"
+        ],
+        "abmon": [
+            "\u011e\u0131n",
+            "Fiw",
+            "Mar",
+            "Apr",
+            "May",
+            "Y\u00fcn",
+            "Y\u00fcl",
+            "Awg",
+            "Sin",
+            "\u00dckt",
+            "Noy",
+            "Dik"
+        ],
+        "d_t_fmt": "%a %d %b %Y %T",
+        "d_fmt": "%d.%m.%Y",
+        "t_fmt": "%T",
+        "am_pm": [
+            "\u00d6A",
+            "\u00d6S"
+        ],
+        "t_fmt_ampm": "%I:%M:%S %p",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y"
+    }
+}

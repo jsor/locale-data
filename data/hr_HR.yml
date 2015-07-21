@@ -1,0 +1,53 @@
+LC_MONETARY:
+    int_curr_symbol: 'HRK '
+    currency_symbol: Kn
+    mon_decimal_point: ','
+    mon_thousands_sep: ' '
+    mon_grouping: [3, 3]
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 1
+    n_cs_precedes: 1
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: ','
+    thousands_sep: ''
+    grouping: [0, 0]
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a %l'
+    int_prefix: '385'
+    int_select: '00'
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_ab2: HR
+    country_ab3: HRV
+    country_num: 191
+    country_car: HR
+    lang_name: hrvatski
+    lang_ab: hr
+    lang_term: hrv
+LC_MESSAGES:
+    yesexpr: '^[dDyY].*'
+    noexpr: '^[nN].*'
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+LC_TIME:
+    abday: [Ned, Pon, Uto, Sri, Čet, Pet, Sub]
+    day: [Nedjelja, Ponedjeljak, Utorak, Srijeda, Četvrtak, Petak, Subota]
+    abmon: [Sij, Vel, Ožu, Tra, Svi, Lip, Srp, Kol, Ruj, Lis, Stu, Pro]
+    mon: [Siječanj, Veljača, Ožujak, Travanj, Svibanj, Lipanj, Srpanj, Kolovoz, Rujan, Listopad, Studeni, Prosinac]
+    d_t_fmt: '%a %d %b %Y %T'
+    d_fmt: '%d.%m.%Y'
+    t_fmt: '%T'
+    am_pm: ['', '']
+    t_fmt_ampm: ''
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+

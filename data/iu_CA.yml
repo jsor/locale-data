@@ -1,0 +1,53 @@
+LC_MONETARY:
+    int_curr_symbol: 'CAD '
+    currency_symbol: $
+    mon_decimal_point: .
+    mon_thousands_sep: ','
+    mon_grouping: [3, 3]
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 0
+    n_cs_precedes: 1
+    n_sep_by_space: 0
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: [3, 3]
+LC_PAPER:
+    height: 279
+    width: 216
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a %l'
+    int_prefix: '1'
+    int_select: '011'
+LC_ADDRESS:
+    postal_fmt: '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N'
+    country_ab2: CA
+    country_ab3: CAN
+    country_num: 124
+    country_car: CDN
+    lang_name: ᐃᓄᒃᑎᑐᑦ
+    lang_ab: iu
+    lang_term: iku
+    lang_lib: iku
+LC_MESSAGES:
+    yesexpr: '[yYsS].*'
+    noexpr: '[nN].*'
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+LC_TIME:
+    abday: [ᓈ, ᓇ, ᓕ, ᐱ, ᕿ, 'ᐅ', ᓯ]
+    day: [ᓈᑦᑎᖑᔭᕐᕕᒃ, 'ᓇᒡᒐᔾᔭᐅ', 'ᓇᒡᒐᔾᔭᐅᓕᖅᑭᑦ', 'ᐱᖓᓲᓕᖅᓯᐅᑦ', 'ᕿᑎᖅᑰᑦ', 'ᐅᓪᓗᕈᓘᑐᐃᓇᖅ', ᓯᕙᑖᕕᒃ]
+    abmon: [ᔮᓄ, ᕕᕗ, 'ᒪᔅ', ᐃᐳ, ᒪᐃ, ᔪᓂ, ᔪᓚ, ᐊᒋ, ᓯᑎ, ᐊᑦ, ᓄᕕ, ᑎᓯ]
+    mon: [ᔮᓄᐊᓕ, ᕕᕗᐊᓕ, 'ᒪᔅᓯ', ᐃᐳᓗ, ᒪᐃ, ᔪᓂ, ᔪᓚᐃ, ᐊᒋᓯ, ᓯᑎᕙ, ᐊᑦᑐᕙ, ᓄᕕᕙ, ᑎᓯᕝᕙ]
+    d_t_fmt: '%a %d %b %Y %r %Z'
+    d_fmt: '%m/%d/%y'
+    t_fmt: '%r'
+    am_pm: [AM, PM]
+    t_fmt_ampm: '%I:%M:%S %p'
+

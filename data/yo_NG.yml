@@ -1,0 +1,58 @@
+LC_MONETARY:
+    int_curr_symbol: 'NGN '
+    currency_symbol: ₦
+    mon_decimal_point: .
+    mon_thousands_sep: ','
+    mon_grouping: [3, 3]
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 0
+    n_cs_precedes: 1
+    n_sep_by_space: 0
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: [3, 3]
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a %l'
+    tel_dom_fmt: '(%A) %l'
+    int_select: '009'
+    int_prefix: '234'
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: Nigeria
+    lang_name: Yorùbá
+    country_car: WAN
+    country_isbn: 978
+    lang_ab: yo
+    lang_term: yor
+    lang_lib: yor
+    country_ab2: NG
+    country_ab3: NGA
+    country_num: 566
+LC_MESSAGES:
+    yesstr: 'Bẹ́ẹ̀ ni'
+    yesexpr: '^[EeyY].*'
+    nostr: 'Bẹ́ẹ̀ kọ́'
+    noexpr: '^[rROoKkNn].*'
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+LC_TIME:
+    abday: [SUN, MON, TUE, WED, THU, FRI, SAT]
+    day: [Àìkú, Ajé, Ìṣẹ́gun, Ọjọ́rú, Ọjọ́bọ̀, Ẹ̀tì, Àbámẹ́ta]
+    abmon: [JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
+    mon: [Jánúárì, Fẹ́búárì, 'Máàṣì', Épírì, Méè, Júùnù, Júláì, Ọ́ọ́gọsì, 'Sẹ̀tẹ̀ńbà', 'Ọtóbà', 'Nòfẹ̀ńbà', 'Dìsẹ̀ńbà']
+    d_t_fmt: 'ọjọ́ %A, %d oṣù %B ọdún %Y %T %Z'
+    d_fmt: '%d/%m/%y'
+    t_fmt: '%r'
+    am_pm: [AM, PM]
+    t_fmt_ampm: '%I:%M:%S %p'
+

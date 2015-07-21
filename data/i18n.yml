@@ -1,0 +1,47 @@
+LC_MONETARY:
+    int_curr_symbol: 'XDR '
+    currency_symbol: ¤
+    mon_decimal_point: ','
+    mon_thousands_sep: ''
+    mon_grouping: -1
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: -1
+    frac_digits: -1
+    p_cs_precedes: -1
+    p_sep_by_space: -1
+    n_cs_precedes: -1
+    n_sep_by_space: -1
+    p_sign_posn: -1
+    n_sign_posn: -1
+LC_NUMERIC:
+    decimal_point: ','
+    thousands_sep: ''
+    grouping: -1
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c +a +l'
+LC_ADDRESS:
+    postal_fmt: '%a%N%f%N%d%N%b%N%s %h %e %r%N%C-%z %T%N%c%N'
+LC_MESSAGES:
+    yesexpr: '^[+1]'
+    noexpr: '^[-0]'
+LC_NAME:
+    name_fmt: '%p%t%g%t%m%t%f'
+LC_TIME:
+    abday: ['1', '2', '3', '4', '5', '6', '7']
+    day: ['1', '2', '3', '4', '5', '6', '7']
+    week: [7, 19971201, 4]
+    first_weekday: 1
+    first_workday: 1
+    abmon: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
+    mon: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
+    am_pm: ['', '']
+    d_t_fmt: '%F %T'
+    d_fmt: '%F'
+    t_fmt: '%T'
+    t_fmt_ampm: ''
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+

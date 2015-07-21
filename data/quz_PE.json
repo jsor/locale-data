@@ -1,0 +1,121 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "PEN ",
+        "currency_symbol": "S\/",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": ",",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": ".",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "51"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "PE",
+        "country_ab3": "PER",
+        "country_num": 604,
+        "country_car": "PE",
+        "lang_name": "Quechua (Cusco) ",
+        "lang_term": "quz",
+        "lang_lib": "quz"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[aAsSyY].*",
+        "noexpr": "^[mMnN].*",
+        "yesstr": "Ar\u00ed",
+        "nostr": "Manan"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "mon": [
+            "iniru",
+            "phiwriru",
+            "marsu",
+            "awril",
+            "mayu",
+            "huniyu",
+            "huliyu",
+            "agustu",
+            "siptiyimri",
+            "uktuwri",
+            "nuwiyimri",
+            "tisiyimri"
+        ],
+        "abmon": [
+            "ini",
+            "phi",
+            "mar",
+            "awr",
+            "may",
+            "hun",
+            "hul",
+            "agu",
+            "sip",
+            "ukt",
+            "nuw",
+            "tis"
+        ],
+        "day": [
+            "tuminku",
+            "lunis",
+            "martis",
+            "miyirkulis",
+            "juywis",
+            "wiyirnis",
+            "sawatu"
+        ],
+        "abday": [
+            "tum",
+            "lun",
+            "mar",
+            "miy",
+            "juy",
+            "wiy",
+            "saw"
+        ],
+        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_fmt": "%d\/%m\/%y",
+        "t_fmt": "%I:%M:%S %p",
+        "am_pm": [
+            "AM",
+            "PM"
+        ],
+        "t_fmt_ampm": "%I:%M:%S %p",
+        "week": [
+            7,
+            19971130,
+            7
+        ],
+        "first_weekday": 1,
+        "first_workday": 2,
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y"
+    }
+}

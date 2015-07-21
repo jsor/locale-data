@@ -1,0 +1,119 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "PLN ",
+        "currency_symbol": "z\u0142",
+        "mon_decimal_point": ",",
+        "mon_thousands_sep": ".",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 0,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 0,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": "",
+        "grouping": [
+            0,
+            0
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "48"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "PL",
+        "country_ab3": "POL",
+        "country_num": 616,
+        "country_car": "PL",
+        "lang_name": "kasz\u00ebbsczi j\u00e3z\u00ebk",
+        "lang_term": "csb",
+        "lang_lib": "csb"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[JjTtYy].*",
+        "noexpr": "^[nN].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "nie",
+            0,
+            "wt\u00f3",
+            0,
+            "czw",
+            0,
+            "sob"
+        ],
+        "day": [
+            "niedzela",
+            "p\u00f2niedz\u00f4\u0142k",
+            "wt\u00f3rk",
+            "strzoda",
+            "czwi\u00f4rtk",
+            "pi\u0105tk",
+            "sob\u00f2ta"
+        ],
+        "abmon": [
+            "st\u00eb",
+            0,
+            "stm",
+            0,
+            "m\u00f4j",
+            0,
+            "l\u00ebp",
+            0,
+            "s\u00e9w",
+            0,
+            "l\u00ebs",
+            0
+        ],
+        "mon": [
+            "st\u00ebcznik",
+            "gromicznik",
+            "strumiannik",
+            "\u0142\u017c\u00ebkwi\u00f4t",
+            "m\u00f4j",
+            "czerwi\u0144c",
+            "l\u00ebpinc",
+            "z\u00e9lnik",
+            "s\u00e9wnik",
+            "rujan",
+            "l\u00ebstopadnik",
+            "g\u00f2dnik"
+        ],
+        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_fmt": "%Y-%m-%d",
+        "t_fmt": "%T",
+        "am_pm": [
+            "",
+            ""
+        ],
+        "t_fmt_ampm": "",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "week": [
+            7,
+            19971130,
+            4
+        ],
+        "first_weekday": 2,
+        "first_workday": 2
+    }
+}

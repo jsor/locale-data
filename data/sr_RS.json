@@ -1,0 +1,130 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "RSD ",
+        "currency_symbol": "\u0434\u0438\u043d",
+        "mon_decimal_point": ",",
+        "mon_thousands_sep": ".",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 0,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 0,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": "",
+        "grouping": [
+            0,
+            0
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "tel_dom_fmt": "%A %l",
+        "int_prefix": "381",
+        "int_select": "99"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "RS",
+        "country_ab3": "SRB",
+        "country_post": "SRB",
+        "country_name": "\u0421\u0440\u0431\u0438\u0458\u0430",
+        "country_num": 688,
+        "country_car": "SRB",
+        "country_isbn": "86",
+        "lang_name": "\u0441\u0440\u043f\u0441\u043a\u0438",
+        "lang_term": "srp",
+        "lang_lib": "scc",
+        "lang_ab": "sr"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[\u0414\u0434DdYy]",
+        "noexpr": "^[\u041d\u043dNn]"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_gen": "",
+        "name_mr": "\u0433-\u0434\u0438\u043d",
+        "name_mrs": "\u0433-\u0452\u0430",
+        "name_miss": "\u0433-\u0452\u0438\u0446\u0430",
+        "name_ms": "\u0433-\u0452\u0430"
+    },
+    "LC_TIME": {
+        "abday": [
+            "\u043d\u0435\u0434",
+            "\u043f\u043e\u043d",
+            "\u0443\u0442\u043e",
+            "\u0441\u0440\u0435",
+            "\u0447\u0435\u0442",
+            "\u043f\u0435\u0442",
+            "\u0441\u0443\u0431"
+        ],
+        "day": [
+            "\u043d\u0435\u0434\u0435\u0459\u0430",
+            "\u043f\u043e\u043d\u0435\u0434\u0435\u0459\u0430\u043a",
+            "\u0443\u0442\u043e\u0440\u0430\u043a",
+            "\u0441\u0440\u0435\u0434\u0430",
+            "\u0447\u0435\u0442\u0432\u0440\u0442\u0430\u043a",
+            "\u043f\u0435\u0442\u0430\u043a",
+            "\u0441\u0443\u0431\u043e\u0442\u0430"
+        ],
+        "abmon": [
+            "\u0458\u0430\u043d",
+            "\u0444\u0435\u0431",
+            "\u043c\u0430\u0440",
+            "\u0430\u043f\u0440",
+            "\u043c\u0430\u0458",
+            "\u0458\u0443\u043d",
+            "\u0458\u0443\u043b",
+            "\u0430\u0432\u0433",
+            "\u0441\u0435\u043f",
+            "\u043e\u043a\u0442",
+            "\u043d\u043e\u0432",
+            "\u0434\u0435\u0446"
+        ],
+        "mon": [
+            "\u0458\u0430\u043d\u0443\u0430\u0440",
+            "\u0444\u0435\u0431\u0440\u0443\u0430\u0440",
+            "\u043c\u0430\u0440\u0442",
+            "\u0430\u043f\u0440\u0438\u043b",
+            "\u043c\u0430\u0458",
+            "\u0458\u0443\u043d",
+            "\u0458\u0443\u043b",
+            "\u0430\u0432\u0433\u0443\u0441\u0442",
+            "\u0441\u0435\u043f\u0442\u0435\u043c\u0431\u0430\u0440",
+            "\u043e\u043a\u0442\u043e\u0431\u0430\u0440",
+            "\u043d\u043e\u0432\u0435\u043c\u0431\u0430\u0440",
+            "\u0434\u0435\u0446\u0435\u043c\u0431\u0430\u0440"
+        ],
+        "d_t_fmt": "%A, %d. %B %Y. %T %Z",
+        "d_fmt": "%d.%m.%Y.",
+        "t_fmt": "%T",
+        "am_pm": [
+            "",
+            ""
+        ],
+        "t_fmt_ampm": "%T",
+        "date_fmt": "%a, %e. %b %Y.  %H:%M:%S %Z\n",
+        "week": [
+            7,
+            19971130,
+            4
+        ],
+        "first_weekday": 2,
+        "first_workday": 2
+    }
+}

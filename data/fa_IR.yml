@@ -1,0 +1,72 @@
+LC_MONETARY:
+    int_curr_symbol: 'IRR '
+    currency_symbol: ریال
+    mon_decimal_point: ٫
+    mon_thousands_sep: ٬
+    mon_grouping: 3
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 0
+    frac_digits: 0
+    p_cs_precedes: 0
+    p_sep_by_space: 1
+    n_cs_precedes: 0
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+    int_p_cs_precedes: 0
+    int_p_sep_by_space: 1
+    int_n_cs_precedes: 0
+    int_n_sep_by_space: 1
+    int_p_sign_posn: 1
+    int_n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: 3
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '‪+%c %a %l‬'
+    tel_dom_fmt: ‪%A‒%l‬
+    int_select: '00'
+    int_prefix: '98'
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: ایران
+    country_ab2: IR
+    country_ab3: IRN
+    country_num: 364
+    country_car: IR
+    country_isbn: '964'
+    lang_name: فارسی
+    lang_ab: fa
+    lang_term: fas
+    lang_lib: per
+LC_MESSAGES:
+    yesexpr: '^[yYآبHf].*'
+    noexpr: '^[nNخنok].*'
+LC_NAME:
+    name_gen: ''
+    name_miss: 'خانم'
+    name_ms: 'خانم'
+    name_mrs: 'خانم'
+    name_mr: آقای
+    name_fmt: '%d%t%s%t%g%t%m%t%f'
+LC_TIME:
+    alt_digits: [۰۰, ۰۱, ۰۲, ۰۳, ۰۴, ۰۵, ۰۶, ۰۷, ۰۸, ۰۹, ۱۰, ۱۱, ۱۲, ۱۳, ۱۴, ۱۵, ۱۶, ۱۷, ۱۸, ۱۹, ۲۰, ۲۱, ۲۲, ۲۳, ۲۴, ۲۵, ۲۶, ۲۷, ۲۸, ۲۹, ۳۰, ۳۱, ۳۲, ۳۳, ۳۴, ۳۵, ۳۶, ۳۷, ۳۸, ۳۹, ۴۰, ۴۱, ۴۲, ۴۳, ۴۴, ۴۵, ۴۶, ۴۷, ۴۸, ۴۹, ۵۰, ۵۱, ۵۲, ۵۳, ۵۴, ۵۵, ۵۶, ۵۷, ۵۸, ۵۹, ۶۰, ۶۱, ۶۲, ۶۳, ۶۴, ۶۵, ۶۶, ۶۷, ۶۸, ۶۹, ۷۰, ۷۱, ۷۲, ۷۳, ۷۴, ۷۵, ۷۶, ۷۷, ۷۸, ۷۹, ۸۰, ۸۱, ۸۲, ۸۳, ۸۴, ۸۵, ۸۶, ۸۷, ۸۸, ۸۹, ۹۰, ۹۱, ۹۲, ۹۳, ۹۴, ۹۵, ۹۶, ۹۷, ۹۸, ۹۹]
+    abday: [یکشنبه, دوشنبه, سه‌شنبه, چهارشنبه, پنجشنبه, 'جمعه', شنبه]
+    day: [یکشنبه, دوشنبه, سه‌شنبه, چهارشنبه, پنجشنبه, 'جمعه', شنبه]
+    mon: [ژانویه, فوریه, 'مارس', آوریل, 'مه', ژوئن, ژوئیه, اوت, 'سپتامبر', اكتبر, 'نوامبر', 'دسامبر']
+    abmon: [ژانویه, فوریه, 'مارس', آوریل, 'مه', ژوئن, ژوئیه, اوت, 'سپتامبر', اكتبر, 'نوامبر', 'دسامبر']
+    am_pm: ['', '']
+    t_fmt_ampm: ''
+    d_fmt: '%Oy/%Om/%Od'
+    t_fmt: '%OH:%OM:%OS'
+    d_t_fmt: '‫%A %Oe %B %Oy، %OH:%OM:%OS‬'
+    date_fmt: '‫%A %Oe %B %Oy، ساعت %OH:%OM:%OS (%Z)‬'
+    first_weekday: 7
+    first_workday: 7
+    cal_direction: 3
+

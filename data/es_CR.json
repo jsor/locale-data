@@ -1,0 +1,127 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "CRC ",
+        "currency_symbol": "\u20a1",
+        "mon_decimal_point": ",",
+        "mon_thousands_sep": " ",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": " ",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 279,
+        "width": 216
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "tel_dom_fmt": "%l",
+        "int_prefix": "506",
+        "int_select": "00"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_name": "Costa Rica",
+        "country_post": "CR",
+        "country_car": "CR",
+        "country_isbn": "9930,9977,9968",
+        "country_ab2": "CR",
+        "country_ab3": "CRI",
+        "country_num": 188,
+        "lang_name": "Espa\u00f1ol",
+        "lang_ab": "es",
+        "lang_term": "spa",
+        "lang_lib": "spa"
+    },
+    "LC_MESSAGES": {
+        "yesstr": "Si",
+        "nostr": "No",
+        "yesexpr": "^[sSyY].*",
+        "noexpr": "^[nN].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_gen": "Sr.\/Sra.",
+        "name_miss": "Srta.",
+        "name_mr": "Sr.",
+        "name_mrs": "Sra.",
+        "name_ms": "Sra."
+    },
+    "LC_TIME": {
+        "abday": [
+            "dom",
+            "lun",
+            "mar",
+            "mi\u00e9",
+            "jue",
+            "vie",
+            "s\u00e1b"
+        ],
+        "day": [
+            "domingo",
+            "lunes",
+            "martes",
+            "mi\u00e9rcoles",
+            "jueves",
+            "viernes",
+            "s\u00e1bado"
+        ],
+        "abmon": [
+            "ene",
+            "feb",
+            "mar",
+            "abr",
+            "may",
+            "jun",
+            "jul",
+            "ago",
+            "sep",
+            "oct",
+            "nov",
+            "dic"
+        ],
+        "mon": [
+            "enero",
+            "febrero",
+            "marzo",
+            "abril",
+            "mayo",
+            "junio",
+            "julio",
+            "agosto",
+            "septiembre",
+            "octubre",
+            "noviembre",
+            "diciembre"
+        ],
+        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_fmt": "%d\/%m\/%Y",
+        "t_fmt": "%T",
+        "am_pm": [
+            "a.m.",
+            "p.m."
+        ],
+        "t_fmt_ampm": "%I:%M:%S %p",
+        "date_fmt": "%a %e %b %H:%M:%S %Z %Y",
+        "first_weekday": 2,
+        "first_workday": 2
+    }
+}

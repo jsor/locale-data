@@ -1,0 +1,117 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "ZAR ",
+        "currency_symbol": "R",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": ",",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 0,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 0,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ".",
+        "thousands_sep": ",",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "tel_dom_fmt": "(%A) %l",
+        "int_select": "00",
+        "int_prefix": "27"
+    },
+    "LC_ADDRESS": {
+        "country_name": "Afrika Borwa",
+        "country_post": "ZA",
+        "lang_name": "Sesotho",
+        "country_car": "ZA",
+        "lang_ab": "st",
+        "lang_term": "sot",
+        "lang_lib": "sot",
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_num": 710,
+        "country_ab2": "ZA",
+        "country_ab3": "ZAF"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[yY]",
+        "noexpr": "^[nN]"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "Son",
+            "Mma",
+            "Bed",
+            "Rar",
+            "Ne",
+            "Hla",
+            "Moq"
+        ],
+        "day": [
+            "Sontaha",
+            "Mantaha",
+            "Labobedi",
+            "Laboraro",
+            "Labone",
+            "Labohlano",
+            "Moqebelo"
+        ],
+        "abmon": [
+            "Phe",
+            "Hla",
+            "TlH",
+            "Mme",
+            "Mot",
+            "Jan",
+            "Upu",
+            "Pha",
+            "Leo",
+            "Mph",
+            "Pud",
+            "Tsh"
+        ],
+        "mon": [
+            "Pherekgong",
+            "Hlakola",
+            "Tlhakubele",
+            "Mmese",
+            "Motsheanong",
+            "Phupjane",
+            "Phupu",
+            "Phato",
+            "Leotse",
+            "Mphalane",
+            "Pudungwana",
+            "Tshitwe"
+        ],
+        "d_t_fmt": "%a %-e %b %Y %T %Z",
+        "d_fmt": "%d\/%m\/%Y",
+        "t_fmt": "%T",
+        "am_pm": [
+            "",
+            ""
+        ],
+        "t_fmt_ampm": "",
+        "date_fmt": "%a %b %-e %H:%M:%S %Z %Y"
+    }
+}

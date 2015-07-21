@@ -1,0 +1,54 @@
+LC_MONETARY:
+    int_curr_symbol: 'RWF '
+    currency_symbol: Frw
+    mon_decimal_point: ','
+    mon_thousands_sep: .
+    mon_grouping: [3, 3]
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 0
+    p_sep_by_space: 1
+    n_cs_precedes: 0
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: ','
+    thousands_sep: ''
+    grouping: -1
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a %l'
+    tel_dom_fmt: '%a%l'
+    int_prefix: '250'
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: Rwanda
+    country_ab2: RW
+    country_ab3: RWA
+    country_car: RWA
+    lang_name: Kinyarwanda
+    lang_ab: rw
+    lang_term: kin
+    lang_lib: kin
+LC_MESSAGES:
+    yesexpr: '^[yY]'
+    noexpr: '^[nNoO]'
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+LC_TIME:
+    abday: [Mwe, Mbe, Kab, Gtu, Kan, Gnu, Gnd]
+    day: ['Ku cyumweru', 'Kuwa mbere', 'Kuwa kabiri', 'Kuwa gatatu', 'Kuwa kane', 'Kuwa gatanu', 'Kuwa gatandatu']
+    abmon: [Mut, Gas, Wer, Mat, Gic, Kam, Nya, Kan, Nze, Ukw, Ugu, Uku]
+    mon: [Mutarama, Gashyantare, Werurwe, Mata, Gicuransi, Kamena, Nyakanga, Kanama, Nzeli, Ukwakira, Ugushyingo, Ukuboza]
+    d_t_fmt: '%a %d %b %Y %T %Z'
+    d_fmt: '%d.%m.%Y'
+    t_fmt: '%T'
+    am_pm: ['', '']
+    t_fmt_ampm: ''
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+

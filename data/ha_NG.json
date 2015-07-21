@@ -1,0 +1,118 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "NGN ",
+        "currency_symbol": "\u20a6",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": ",",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 0,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 0,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ".",
+        "thousands_sep": ",",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "tel_dom_fmt": "(%A) %l",
+        "int_select": "009",
+        "int_prefix": "234"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_name": "Nigeria",
+        "lang_name": "Hausa",
+        "country_car": "WAN",
+        "country_isbn": 978,
+        "lang_ab": "ha",
+        "lang_term": "hau",
+        "lang_lib": "hau",
+        "country_ab2": "NG",
+        "country_ab3": "NGA",
+        "country_num": 566
+    },
+    "LC_MESSAGES": {
+        "yesstr": "Toh",
+        "yesexpr": "^[TtiIYy].*",
+        "nostr": "Babu",
+        "noexpr": "^[bBaAnN].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "Lah",
+            "Lit",
+            "Tal",
+            "Lar",
+            "Alh",
+            "Jum",
+            "Asa"
+        ],
+        "day": [
+            "Lahadi",
+            "Litini",
+            "Talata",
+            "Laraba",
+            "Alhamis",
+            "Juma'a",
+            "Asabar"
+        ],
+        "abmon": [
+            "Jan",
+            "Fab",
+            "Mar",
+            "Afr",
+            "May",
+            "Yun",
+            "Yul",
+            "Agu",
+            "Sat",
+            "Okt",
+            "Nuw",
+            "Dis"
+        ],
+        "mon": [
+            "Janairu",
+            "Fabrairu",
+            "Maris",
+            "Afrilu",
+            "Mayu",
+            "Yuni",
+            "Yuli",
+            "Agusta",
+            "Satumba",
+            "Oktoba",
+            "Nuwamba",
+            "Disamba"
+        ],
+        "d_t_fmt": "ranar %A, %d ga %B cikin %r %Z",
+        "d_fmt": "%d\/%m\/%y",
+        "t_fmt": "%r",
+        "am_pm": [
+            "AM",
+            "PM"
+        ],
+        "t_fmt_ampm": "%I:%M:%S %p"
+    }
+}

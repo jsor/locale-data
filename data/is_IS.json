@@ -1,0 +1,114 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "ISK ",
+        "currency_symbol": "kr",
+        "mon_decimal_point": ",",
+        "mon_thousands_sep": ".",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 0,
+        "frac_digits": 0,
+        "p_cs_precedes": 0,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 0,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": ".",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "354",
+        "int_select": "00"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "IS",
+        "country_ab3": "ISL",
+        "country_num": 352,
+        "country_car": "IS",
+        "lang_name": "\u00edslenska",
+        "lang_ab": "is",
+        "lang_term": "isl",
+        "lang_lib": "ice"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[jJyY].*",
+        "noexpr": "^[nN].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "sun",
+            "m\u00e1n",
+            "\u00feri",
+            "mi\u00f0",
+            "fim",
+            "f\u00f6s",
+            "lau"
+        ],
+        "day": [
+            "sunnudagur",
+            "m\u00e1nudagur",
+            "\u00feri\u00f0judagur",
+            "mi\u00f0vikudagur",
+            "fimmtudagur",
+            "f\u00f6studagur",
+            "laugardagur"
+        ],
+        "abmon": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "ma\u00ed",
+            "j\u00fan",
+            "j\u00fal",
+            "\u00e1g\u00fa",
+            "sep",
+            "okt",
+            "n\u00f3v",
+            "des"
+        ],
+        "mon": [
+            "jan\u00faar",
+            "febr\u00faar",
+            "mars",
+            "apr\u00edl",
+            "ma\u00ed",
+            "j\u00fan\u00ed",
+            "j\u00fal\u00ed",
+            "\u00e1g\u00fast",
+            "september",
+            "okt\u00f3ber",
+            "n\u00f3vember",
+            "desember"
+        ],
+        "d_t_fmt": "%a %e.%b %Y, %T %Z",
+        "d_fmt": "%a %e.%b %Y",
+        "t_fmt": "%T",
+        "am_pm": [
+            "fh",
+            "eh"
+        ],
+        "t_fmt_ampm": "",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y"
+    }
+}

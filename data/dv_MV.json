@@ -1,0 +1,110 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "MVR ",
+        "currency_symbol": "\u0783.",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": ",",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 0,
+        "p_sign_posn": 2,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ".",
+        "thousands_sep": ",",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "tel_dom_fmt": "%a %l",
+        "int_select": "00",
+        "int_prefix": "960"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N",
+        "lang_ab": "dv",
+        "lang_term": "div",
+        "lang_lib": "div"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[yY].*",
+        "noexpr": "^[nN].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "\u0787\u07a7\u078b\u07a9\u0787\u07b0\u078c\u07a6",
+            "\u0780\u07af\u0789\u07a6",
+            "\u0787\u07a6\u0782\u07b0\u078e\u07a7\u0783\u07a6",
+            "\u0784\u07aa\u078b\u07a6",
+            "\u0784\u07aa\u0783\u07a7\u0790\u07b0\u078a\u07a6\u078c\u07a8",
+            "\u0780\u07aa\u0786\u07aa\u0783\u07aa",
+            "\u0780\u07ae\u0782\u07a8\u0780\u07a8\u0783\u07aa"
+        ],
+        "day": [
+            "\u0787\u07a7\u078b\u07a9\u0787\u07b0\u078c\u07a6",
+            "\u0780\u07af\u0789\u07a6",
+            "\u0787\u07a6\u0782\u07b0\u078e\u07a7\u0783\u07a6",
+            "\u0784\u07aa\u078b\u07a6",
+            "\u0784\u07aa\u0783\u07a7\u0790\u07b0\u078a\u07a6\u078c\u07a8",
+            "\u0780\u07aa\u0786\u07aa\u0783\u07aa",
+            "\u0780\u07ae\u0782\u07a8\u0780\u07a8\u0783\u07aa"
+        ],
+        "abmon": [
+            "\u0796\u07ac\u0782\u07aa\u0787\u07a6\u0783\u07a9",
+            "\u078a\u07ac\u0784\u07b0\u0783\u07aa\u0787\u07a6\u0783\u07a9",
+            "\u0789\u07a7\u0783\u0797\u07b0",
+            "\u0787\u07ac\u0795\u07b0\u0783\u07a9\u078d\u07b0",
+            "\u0789\u07ac\u0787\u07a8",
+            "\u0796\u07ab\u0782\u07b0",
+            "\u0796\u07aa\u078d\u07a6\u0787\u07a8",
+            "\u0787\u07ae\u078e\u07a6\u0790\u07b0\u0793\u07b0",
+            "\u0790\u07ac\u0795\u07b0\u0793\u07ac\u0782\u07b0\u0784\u07a6\u0783",
+            "\u0787\u07ae\u0786\u07b0\u0793\u07ab\u0784\u07a6\u0783",
+            "\u0782\u07ae\u0788\u07ac\u0782\u07b0\u0784\u07a6\u0783",
+            "\u0791\u07a8\u0790\u07ac\u0782\u07b0\u0784\u07a6\u0783"
+        ],
+        "mon": [
+            "\u0796\u07ac\u0782\u07aa\u0787\u07a6\u0783\u07a9",
+            "\u078a\u07ac\u0784\u07b0\u0783\u07aa\u0787\u07a6\u0783\u07a9",
+            "\u0789\u07a7\u0783\u0797\u07b0",
+            "\u0787\u07ac\u0795\u07b0\u0783\u07a9\u078d\u07b0",
+            "\u0789\u07ac\u0787\u07a8",
+            "\u0796\u07ab\u0782\u07b0",
+            "\u0796\u07aa\u078d\u07a6\u0787\u07a8",
+            "\u0787\u07ae\u078e\u07a6\u0790\u07b0\u0793\u07b0",
+            "\u0790\u07ac\u0795\u07b0\u0793\u07ac\u0782\u07b0\u0784\u07a6\u0783",
+            "\u0787\u07ae\u0786\u07b0\u0793\u07ab\u0784\u07a6\u0783",
+            "\u0782\u07ae\u0788\u07ac\u0782\u07b0\u0784\u07a6\u0783",
+            "\u0791\u07a8\u0790\u07ac\u0782\u07b0\u0784\u07a6\u0783"
+        ],
+        "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
+        "d_fmt": "%d\/%m\/%Y",
+        "t_fmt": "%H:%M:%S",
+        "am_pm": [
+            "\u0789\u0786",
+            "\u0789\u078a"
+        ],
+        "t_fmt_ampm": "%P %I:%M:%S",
+        "cal_direction": 3
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "BYR ",
+        "currency_symbol": "Rub",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": " ",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 0,
+        "p_sep_by_space": 1,
+        "n_cs_precedes": 0,
+        "n_sep_by_space": 1,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ",",
+        "thousands_sep": ".",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_prefix": "375",
+        "int_select": "8~10"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_ab2": "BY",
+        "country_ab3": "BLR",
+        "country_num": 112,
+        "country_car": "BY",
+        "lang_name": "byelaruskaya mova",
+        "lang_ab": "be",
+        "lang_term": "bel",
+        "lang_lib": "bel"
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[TtYy].*",
+        "noexpr": "^[Nn].*"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f"
+    },
+    "LC_TIME": {
+        "abday": [
+            "Nia",
+            "Pan",
+            "A\u016dt",
+            "Sie",
+            "\u010ca\u0107",
+            "Pia",
+            "Sub"
+        ],
+        "day": [
+            "Niadziela",
+            "Paniadzie\u0142ak",
+            "A\u016dtorak",
+            "Sierada",
+            "\u010ca\u0107vier",
+            "Piatnica",
+            "Subota"
+        ],
+        "abmon": [
+            "Stu",
+            "Lut",
+            "Sak",
+            "Kra",
+            "Tra",
+            "\u010cer",
+            "Lip",
+            "\u017dni",
+            "Vie",
+            "Kas",
+            "Lis",
+            "\u015ani"
+        ],
+        "mon": [
+            "Studzie\u0144",
+            "Luty",
+            "Sakavik",
+            "Krasavik",
+            "Travie\u0144",
+            "\u010cervie\u0144",
+            "Lipie\u0144",
+            "\u017dnivie\u0144",
+            "Vierasie\u0144",
+            "Kastry\u010dnik",
+            "Listapad",
+            "\u015anie\u017ea\u0144"
+        ],
+        "am_pm": [
+            "",
+            ""
+        ],
+        "d_t_fmt": "%a %d %b %Y %T",
+        "d_fmt": "%d.%m.%Y",
+        "t_fmt": "%T",
+        "t_fmt_ampm": "",
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "LC_MONETARY": {
+        "int_curr_symbol": "AMD ",
+        "currency_symbol": "\u0534",
+        "mon_decimal_point": ".",
+        "mon_thousands_sep": ",",
+        "mon_grouping": [
+            3,
+            3
+        ],
+        "positive_sign": "",
+        "negative_sign": "-",
+        "int_frac_digits": 2,
+        "frac_digits": 2,
+        "p_cs_precedes": 1,
+        "p_sep_by_space": 0,
+        "n_cs_precedes": 1,
+        "n_sep_by_space": 0,
+        "p_sign_posn": 1,
+        "n_sign_posn": 1
+    },
+    "LC_NUMERIC": {
+        "decimal_point": ".",
+        "thousands_sep": ",",
+        "grouping": [
+            3,
+            3
+        ]
+    },
+    "LC_PAPER": {
+        "height": 297,
+        "width": 210
+    },
+    "LC_TELEPHONE": {
+        "tel_int_fmt": "+%c %a %l",
+        "int_select": "00",
+        "int_prefix": "374"
+    },
+    "LC_ADDRESS": {
+        "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
+        "country_name": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+        "country_ab2": "AM",
+        "country_ab3": "ARM",
+        "country_num": 51,
+        "country_car": "AM",
+        "country_isbn": "99930",
+        "lang_name": "\u0540\u0561\u0575\u0565\u0580\u0565\u0576",
+        "lang_ab": "hy",
+        "lang_term": "hye",
+        "lang_lib": "arm"
+    },
+    "LC_MESSAGES": {
+        "yesstr": "\u0561\u0575\u0578",
+        "nostr": "\u0578\u0579",
+        "yesexpr": "^[yYsS\u0561\u0531]",
+        "noexpr": "^[nN\u0578\u0548]"
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_miss": "\u0585\u0580\u056b\u0578\u0580\u0564",
+        "name_mr": "\u057a\u0580\u0576",
+        "name_mrs": "\u057f\u056f\u0576"
+    },
+    "LC_TIME": {
+        "abday": [
+            "\u053f\u0580\u056f",
+            "\u0535\u0580\u056f",
+            "\u0535\u0580\u0584",
+            "\u0549\u0580\u0584",
+            "\u0540\u0576\u0563",
+            "\u0548\u0582\u0580",
+            "\u0547\u0562\u0569"
+        ],
+        "day": [
+            "\u053f\u056b\u0580\u0561\u056f\u056b",
+            "\u0535\u0580\u056f\u0578\u0582\u0577\u0561\u0562\u0569\u056b",
+            "\u0535\u0580\u0565\u0584\u0577\u0561\u0562\u0569\u056b",
+            "\u0549\u0578\u0580\u0565\u0584\u0577\u0561\u0562\u0569\u056b",
+            "\u0540\u056b\u0576\u0563\u0577\u0561\u0562\u0569\u056b",
+            "\u0548\u0582\u0580\u0562\u0561\u0569",
+            "\u0547\u0561\u0562\u0561\u0569"
+        ],
+        "abmon": [
+            "\u0540\u0576\u057e",
+            "\u0553\u057f\u0580",
+            "\u0544\u0561\u0580",
+            "\u0531\u057a\u0580",
+            "\u0544\u0561\u0575",
+            "\u0540\u0576\u057d",
+            "\u0540\u056c\u057d",
+            "\u0555\u0563\u057d",
+            "\u054d\u0565\u057a",
+            "\u0540\u0578\u056f",
+            "\u0546\u0574\u0562",
+            "\u0534\u0565\u056f"
+        ],
+        "mon": [
+            "\u0540\u0578\u0582\u0576\u057e\u0561\u0580\u056b",
+            "\u0553\u0565\u057f\u0580\u057e\u0561\u0580\u056b",
+            "\u0544\u0561\u0580\u057f\u056b",
+            "\u0531\u057a\u0580\u056b\u056c\u056b",
+            "\u0544\u0561\u0575\u056b\u057d\u056b",
+            "\u0540\u0578\u0582\u0576\u056b\u057d\u056b",
+            "\u0540\u0578\u0582\u056c\u056b\u057d\u056b",
+            "\u0555\u0563\u0578\u057d\u057f\u0578\u057d\u056b",
+            "\u054d\u0565\u057a\u057f\u0565\u0574\u0562\u0565\u0580\u056b",
+            "\u0540\u0578\u056f\u057f\u0565\u0574\u0562\u0565\u0580\u056b",
+            "\u0546\u0578\u0575\u0565\u0574\u0562\u0565\u0580\u056b",
+            "\u0534\u0565\u056f\u057f\u0565\u0574\u0562\u0565\u0580\u056b"
+        ],
+        "d_t_fmt": "%a %d %b %Y %r %Z",
+        "d_fmt": "%m\/%d\/%y",
+        "t_fmt": "%r",
+        "am_pm": [
+            "",
+            ""
+        ],
+        "t_fmt_ampm": ""
+    }
+}

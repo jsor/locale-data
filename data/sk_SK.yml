@@ -1,0 +1,57 @@
+LC_MONETARY:
+    int_curr_symbol: 'EUR '
+    currency_symbol: €
+    mon_decimal_point: ','
+    mon_thousands_sep: "\_"
+    mon_grouping: [3, 3]
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 0
+    p_sep_by_space: 1
+    n_cs_precedes: 0
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: ','
+    thousands_sep: "\_"
+    grouping: [3, 3]
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a %l'
+    int_prefix: '421'
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_ab2: SK
+    country_ab3: SVK
+    country_num: 703
+    country_car: SK
+    lang_ab: sk
+    lang_term: slk
+    lang_lib: slo
+LC_MESSAGES:
+    yesexpr: '^[aAáÁyY].*'
+    noexpr: '^[nN].*'
+    yesstr: áno
+    nostr: nie
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+LC_TIME:
+    abday: [Ne, Po, Ut, St, 'Št', Pi, So]
+    day: [Nedeľa, Pondelok, Utorok, Streda, 'Štvrtok', Piatok, Sobota]
+    mon: [január, február, marec, apríl, máj, jún, júl, august, september, október, november, december]
+    abmon: [jan, feb, mar, apr, máj, jún, júl, aug, sep, okt, nov, dec]
+    d_t_fmt: "%a\_%e.\_%B\_%Y,\_%H:%M:%S\_%Z"
+    d_fmt: '%d.%m.%Y'
+    t_fmt: '%H:%M:%S'
+    t_fmt_ampm: '%I:%M:%S'
+    am_pm: ['', '']
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    week: [7, 19971130, 4]
+    first_weekday: 2
+    first_workday: 2
+

@@ -1,0 +1,64 @@
+LC_MONETARY:
+    int_curr_symbol: 'BGN '
+    currency_symbol: лв
+    mon_decimal_point: ','
+    mon_thousands_sep: "\_"
+    mon_grouping: [3, 3]
+    positive_sign: ''
+    negative_sign: '-'
+    int_frac_digits: 2
+    frac_digits: 2
+    p_cs_precedes: 0
+    p_sep_by_space: 1
+    n_cs_precedes: 0
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+LC_NUMERIC:
+    decimal_point: ','
+    thousands_sep: ''
+    grouping: [3, 3]
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '(+%c %a) %l'
+    tel_dom_fmt: '(0%a) %l'
+    int_prefix: '359'
+    int_select: '00'
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%sN%h, %e, %r%N%z %T%N%c%N'
+    country_name: Bulgaria
+    country_post: BG
+    country_ab2: BG
+    country_ab3: BGR
+    country_num: 100
+    country_car: BG
+    country_isbn: 954
+    lang_name: 'български език'
+    lang_ab: bg
+    lang_term: bul
+    lang_lib: bul
+LC_MESSAGES:
+    yesexpr: '^[+1ДдDdYyOo].*'
+    noexpr: '^[-0НнNnKk].*'
+LC_NAME:
+    name_fmt: '%s%t%g%t%m%t%f'
+    name_mr: г-дин
+    name_ms: г-жа
+    name_mrs: г-жа
+    name_miss: г-жица
+LC_TIME:
+    d_t_fmt: '%x (%a) %X %Z'
+    d_fmt: '%e.%m.%Y'
+    t_fmt: '%k,%M,%S'
+    am_pm: ['', '']
+    t_fmt_ampm: '%l,%M,%S'
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    first_weekday: 2
+    first_workday: 2
+    abday: [нд, пн, вт, ср, чт, пт, сб]
+    day: [неделя, понеделник, вторник, сряда, четвъртък, петък, събота]
+    abmon: [яну, фев, мар, апр, май, юни, юли, авг, сеп, окт, ное, дек]
+    mon: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
+
