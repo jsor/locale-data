@@ -17,9 +17,11 @@ class FallbackReader implements ReaderInterface
     {
         $locales = array($locale);
 
-        if (strlen($locale) > 2) {
+        if (false !== strpos($locale, '_')) {
             // en_US -> en
-            $locales[] = substr($locale, 0, 2);
+            list($parent) = explode('_', $locale, 2);
+
+            $locales[] = $parent;
         }
 
         $locales[] = ReaderInterface::ROOT_LOCALE;
