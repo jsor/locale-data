@@ -1,6 +1,28 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z",
+        "country_name": "\u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d",
+        "country_post": "UZ\" % ??",
+        "country_ab2": "UZ",
+        "country_ab3": "UZB",
+        "country_num": 860,
+        "country_car": "UZ",
+        "country_isbn": null,
+        "lang_name": "\u040e\u0437\u0431\u0435\u043a\u0447\u0430",
+        "lang_ab": "uz",
+        "lang_term": "uzb",
+        "lang_lib": "uzb"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[\u04b2\u04b3Yy].*",
+        "noexpr": "^[\u0419\u0439Nn].*",
+        "yesstr": "\u04b2\u0430",
+        "nostr": "\u0419\u045e\u049b"
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "UZS ",
         "currency_symbol": "\u0441\u045e\u043c",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
@@ -10,7 +32,6 @@
         ],
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 1,
         "p_sep_by_space": 0,
@@ -18,12 +39,22 @@
         "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
+        "int_curr_symbol": "UZS ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%f%t%g%t%m",
+        "name_gen": "\u04b2\u0443\u0440\u043c\u0430\u0442\u043b\u0438",
+        "name_mr": "\u0416\u0430\u043d\u043e\u0431",
+        "name_mrs": "\u0425\u043e\u043d\u0438\u043c",
+        "name_miss": "",
+        "name_ms": ""
     },
     "LC_NUMERIC": {
         "decimal_point": ".",
@@ -38,40 +69,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": null,
         "tel_int_fmt": "+%c %a %l",
-        "int_prefix": "27",
-        "int_select": null
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z",
-        "country_name": "\u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d",
-        "country_post": "UZ\" % ??",
-        "country_ab2": "UZ",
-        "country_ab3": "UZB",
-        "country_num": 860,
-        "lang_name": "\u040e\u0437\u0431\u0435\u043a\u0447\u0430",
-        "lang_ab": "uz",
-        "lang_term": "uzb",
-        "lang_lib": "uzb",
-        "country_car": "UZ",
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[\u04b2\u04b3Yy].*",
-        "noexpr": "^[\u0419\u0439Nn].*",
-        "yesstr": "\u04b2\u0430",
-        "nostr": "\u0419\u045e\u049b"
-    },
-    "LC_NAME": {
-        "name_fmt": "%d%t%f%t%g%t%m",
-        "name_gen": "\u04b2\u0443\u0440\u043c\u0430\u0442\u043b\u0438",
-        "name_mr": "\u0416\u0430\u043d\u043e\u0431",
-        "name_mrs": "\u0425\u043e\u043d\u0438\u043c",
-        "name_miss": "",
-        "name_ms": ""
+        "tel_dom_fmt": null,
+        "int_select": null,
+        "int_prefix": "27"
     },
     "LC_TIME": {
+        "date_fmt": "%d %B, %Y \u0439\u0438\u043b, %A",
         "abday": [
             "\u042f\u043a\u0448",
             "\u0414\u0443\u0448",
@@ -90,6 +94,7 @@
             "\u0416\u0443\u043c\u0430",
             "\u0428\u0430\u043d\u0431\u0430"
         ],
+        "week": null,
         "abmon": [
             "\u042f\u043d\u0432",
             "\u0424\u0435\u0432",
@@ -118,24 +123,23 @@
             "\u041d\u043e\u044f\u0431\u0440\u044c",
             "\u0414\u0435\u043a\u0430\u0431\u0440\u044c"
         ],
+        "d_t_fmt": "%T, %d %B, %Y \u0439\u0438\u043b, %A",
+        "d_fmt": "%d\/%m\/%y",
+        "t_fmt": "%T",
         "am_pm": [
             "",
             ""
         ],
-        "d_t_fmt": "%T, %d %B, %Y \u0439\u0438\u043b, %A",
-        "d_fmt": "%d\/%m\/%y",
-        "t_fmt": "%T",
         "t_fmt_ampm": "",
-        "date_fmt": "%d %B, %Y \u0439\u0438\u043b, %A",
-        "week": null,
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": null,
         "first_workday": null,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }

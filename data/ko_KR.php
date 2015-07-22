@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
+    'country_name' => NULL,
+    'country_post' => NULL,
+    'country_ab2' => 'KR',
+    'country_ab3' => 'KOR',
+    'country_num' => 410,
+    'country_car' => 'ROK',
+    'country_isbn' => NULL,
+    'lang_name' => '한국말',
+    'lang_ab' => 'ko',
+    'lang_term' => 'kor',
+    'lang_lib' => 'kor',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY예]',
+    'noexpr' => '^[nN아]',
+    'yesstr' => NULL,
+    'nostr' => '아니오',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'KRW ',
     'currency_symbol' => '￦',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 0,
     'frac_digits' => 0,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 4,
+    'int_curr_symbol' => 'KRW ',
+    'int_frac_digits' => 0,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => NULL,
+    'name_mrs' => NULL,
+    'name_miss' => NULL,
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '(%A) %l',
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '82',
+    'tel_dom_fmt' => '(%A) %l',
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
-    'country_post' => NULL,
-    'country_ab2' => 'KR',
-    'country_ab3' => 'KOR',
-    'country_num' => 410,
-    'lang_name' => '한국말',
-    'lang_ab' => 'ko',
-    'lang_term' => 'kor',
-    'lang_lib' => 'kor',
-    'country_car' => 'ROK',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY예]',
-    'noexpr' => '^[nN아]',
-    'yesstr' => 'Yes',
-    'nostr' => '아니오',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => NULL,
-    'name_mrs' => NULL,
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'int_prefix' => '82',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%Y. %m. %d. (%a) %H:%M:%S %Z',
     'abday' => 
     array (
       0 => '일',
@@ -102,6 +107,7 @@
       5 => '금요일',
       6 => '토요일',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => ' 1월',
@@ -132,25 +138,24 @@
       10 => '11월',
       11 => '12월',
     ),
+    'd_t_fmt' => '%x (%a) %r',
+    'd_fmt' => '%Y년 %m월 %d일',
+    't_fmt' => '%H시 %M분 %S초',
     'am_pm' => 
     array (
       0 => '오전',
       1 => '오후',
     ),
-    'd_t_fmt' => '%x (%a) %r',
-    'd_fmt' => '%Y년 %m월 %d일',
-    't_fmt' => '%H시 %M분 %S초',
     't_fmt_ampm' => '%p %I시 %M분 %S초',
-    'date_fmt' => '%Y. %m. %d. (%a) %H:%M:%S %Z',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

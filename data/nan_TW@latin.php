@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%b%N%r %e %h %s%N%z %T%N%c%N',
+    'country_name' => 'Tâi-oân',
+    'country_post' => NULL,
+    'country_ab2' => 'TW',
+    'country_ab3' => 'TWN',
+    'country_num' => 158,
+    'country_car' => NULL,
+    'country_isbn' => '957',
+    'lang_name' => 'Bân-lâm-gú, Hō-ló-oē',
+    'lang_ab' => NULL,
+    'lang_term' => 'nan',
+    'lang_lib' => 'nan',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[sS].*',
+    'noexpr' => '^[mM].*',
+    'yesstr' => 'Sī',
+    'nostr' => 'M̄-Sī',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'TWD ',
     'currency_symbol' => 'NT$',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'TWD ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => 1,
     'int_p_sep_by_space' => 0,
     'int_n_cs_precedes' => 1,
     'int_n_sep_by_space' => 0,
     'int_p_sign_posn' => 1,
     'int_n_sign_posn' => 1,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => 'sian-siⁿ',
+    'name_mrs' => 'lú-sū',
+    'name_miss' => 'ko͘-niû',
+    'name_ms' => 'sió-chiá',
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '%A-%l',
     'tel_int_fmt' => '+%c-%a-%l',
-    'int_prefix' => '886',
+    'tel_dom_fmt' => '%A-%l',
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%b%N%r %e %h %s%N%z %T%N%c%N',
-    'country_name' => 'Tâi-oân',
-    'country_post' => NULL,
-    'country_ab2' => 'TW',
-    'country_ab3' => 'TWN',
-    'country_num' => 158,
-    'lang_name' => 'Bân-lâm-gú, Hō-ló-oē',
-    'lang_ab' => NULL,
-    'lang_term' => 'nan',
-    'lang_lib' => 'nan',
-    'country_car' => NULL,
-    'country_isbn' => '957',
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[sS].*',
-    'noexpr' => '^[mM].*',
-    'yesstr' => 'Sī',
-    'nostr' => 'M̄-Sī',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => 'sian-siⁿ',
-    'name_mrs' => 'lú-sū',
-    'name_miss' => 'ko͘-niû',
-    'name_ms' => 'sió-chiá',
+    'int_prefix' => '886',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%Y %b %d (%a) %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'lp',
@@ -94,6 +99,7 @@
       5 => 'pài-gō͘',
       6 => 'pài-la̍k',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => '1g',
@@ -124,25 +130,24 @@
       10 => '11goe̍h',
       11 => '12goe̍h',
     ),
+    'd_t_fmt' => '%Y %b %d (%a) %H:%M:%S %Z',
+    'd_fmt' => '%F',
+    't_fmt' => '%r',
     'am_pm' => 
     array (
       0 => 'téng-po͘',
       1 => 'ē-po͘',
     ),
-    'd_t_fmt' => '%Y %b %d (%a) %H:%M:%S %Z',
-    'd_fmt' => '%F',
-    't_fmt' => '%r',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => '%Y %b %d (%a) %H:%M:%S %Z',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => 'TST-8',
   ),
 );

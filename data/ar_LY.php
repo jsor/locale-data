@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => NULL,
+    'country_post' => NULL,
+    'country_ab2' => 'LY',
+    'country_ab3' => 'LBY',
+    'country_num' => 434,
+    'country_car' => 'LAR',
+    'country_isbn' => NULL,
+    'lang_name' => 'العربية',
+    'lang_ab' => 'ar',
+    'lang_term' => 'ara',
+    'lang_lib' => 'ara',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[نyY].*',
+    'noexpr' => '^[لnN].*',
+    'yesstr' => 'نعم',
+    'nostr' => 'لا',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'LYD ',
     'currency_symbol' => 'د.ل.',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 3,
     'frac_digits' => 3,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 1,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 2,
+    'int_curr_symbol' => 'LYD ',
+    'int_frac_digits' => 3,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%p%t%f%t%g',
+    'name_gen' => '-san',
+    'name_mr' => 'Mr.',
+    'name_mrs' => 'Mrs.',
+    'name_miss' => 'Miss.',
+    'name_ms' => 'Ms.',
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c ;%a ;%l',
-    'int_prefix' => '218',
+    'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
-    'country_post' => NULL,
-    'country_ab2' => 'LY',
-    'country_ab3' => 'LBY',
-    'country_num' => 434,
-    'lang_name' => 'العربية',
-    'lang_ab' => 'ar',
-    'lang_term' => 'ara',
-    'lang_lib' => 'ara',
-    'country_car' => 'LAR',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[نyY].*',
-    'noexpr' => '^[لnN].*',
-    'yesstr' => 'نعم',
-    'nostr' => 'لا',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%p%t%f%t%g',
-    'name_gen' => '-san',
-    'name_mr' => 'Mr.',
-    'name_mrs' => 'Mrs.',
-    'name_miss' => 'Miss.',
-    'name_ms' => 'Ms.',
+    'int_prefix' => '218',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'ح',
@@ -94,6 +99,7 @@
       5 => 'الجمعة',
       6 => 'السبت',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ينا',
@@ -124,25 +130,24 @@
       10 => 'نوفمبر',
       11 => 'ديسمبر',
     ),
+    'd_t_fmt' => '%d %b, %Y %Z %I:%M:%S %p',
+    'd_fmt' => '%d %b, %Y',
+    't_fmt' => '%Z %I:%M:%S ',
     'am_pm' => 
     array (
       0 => 'ص',
       1 => 'م',
     ),
-    'd_t_fmt' => '%d %b, %Y %Z %I:%M:%S %p',
-    'd_fmt' => '%d %b, %Y',
-    't_fmt' => '%Z %I:%M:%S ',
     't_fmt_ampm' => '%Z %I:%M:%S %p',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

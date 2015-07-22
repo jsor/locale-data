@@ -1,13 +1,34 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_name": null,
+        "country_post": null,
+        "country_ab2": "NO",
+        "country_ab3": "NOR",
+        "country_num": 578,
+        "country_car": "N",
+        "country_isbn": null,
+        "lang_name": "Nynorsk",
+        "lang_ab": "nn",
+        "lang_term": "nno",
+        "lang_lib": "nno"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[JjYy].*",
+        "noexpr": "^[Nn].*",
+        "yesstr": null,
+        "nostr": null
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "NOK ",
         "currency_symbol": "kr",
         "mon_decimal_point": ",",
         "mon_thousands_sep": "\u00a0",
         "mon_grouping": 3,
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 1,
         "p_sep_by_space": 1,
@@ -15,12 +36,22 @@
         "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 3,
+        "int_curr_symbol": "NOK ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_gen": null,
+        "name_mr": null,
+        "name_mrs": null,
+        "name_miss": null,
+        "name_ms": null
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
@@ -35,40 +66,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": "%l",
         "tel_int_fmt": "+%c %l",
-        "int_prefix": "47",
-        "int_select": "00"
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
-        "country_post": null,
-        "country_ab2": "NO",
-        "country_ab3": "NOR",
-        "country_num": 578,
-        "lang_name": "Nynorsk",
-        "lang_ab": "nn",
-        "lang_term": "nno",
-        "lang_lib": "nno",
-        "country_car": "N",
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[JjYy].*",
-        "noexpr": "^[Nn].*",
-        "yesstr": "Yes",
-        "nostr": "No"
-    },
-    "LC_NAME": {
-        "name_fmt": "%d%t%g%t%m%t%f",
-        "name_gen": null,
-        "name_mr": null,
-        "name_mrs": null,
-        "name_miss": null,
-        "name_ms": null
+        "tel_dom_fmt": "%l",
+        "int_select": "00",
+        "int_prefix": "47"
     },
     "LC_TIME": {
+        "date_fmt": "%a %d. %b %H:%M:%S %z %Y",
         "abday": [
             "su.",
             "m\u00e5.",
@@ -86,6 +90,11 @@
             "torsdag ",
             "fredag ",
             "laurdag "
+        ],
+        "week": [
+            7,
+            19971130,
+            4
         ],
         "abmon": [
             "jan.",
@@ -115,28 +124,23 @@
             "november",
             "desember"
         ],
+        "d_t_fmt": "%a %d. %b %Y kl. %H.%M %z",
+        "d_fmt": "%d. %b %Y",
+        "t_fmt": "kl. %H.%M %z",
         "am_pm": [
             "",
             ""
         ],
-        "d_t_fmt": "%a %d. %b %Y kl. %H.%M %z",
-        "d_fmt": "%d. %b %Y",
-        "t_fmt": "kl. %H.%M %z",
         "t_fmt_ampm": "",
-        "date_fmt": "%a %d. %b %H:%M:%S %z %Y",
-        "week": [
-            7,
-            19971130,
-            4
-        ],
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": 2,
         "first_workday": 2,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }

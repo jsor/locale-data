@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => NULL,
+    'country_post' => NULL,
+    'country_ab2' => 'IN',
+    'country_ab3' => 'IND',
+    'country_num' => 356,
+    'country_car' => 'IND',
+    'country_isbn' => NULL,
+    'lang_name' => 'ଓଡ଼ିଆ',
+    'lang_ab' => 'or',
+    'lang_term' => 'ori',
+    'lang_lib' => 'ori',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY].*',
+    'noexpr' => '^[nN].*',
+    'yesstr' => NULL,
+    'nostr' => NULL,
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'INR ',
     'currency_symbol' => '₹',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 1,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'INR ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => 1,
     'int_p_sep_by_space' => 1,
     'int_n_cs_precedes' => 1,
     'int_n_sep_by_space' => 1,
     'int_p_sign_posn' => 1,
     'int_n_sign_posn' => 1,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%p%t%f%t%g',
+    'name_gen' => '',
+    'name_mr' => 'Mr.',
+    'name_mrs' => 'Mrs.',
+    'name_miss' => 'Miss.',
+    'name_ms' => 'Ms.',
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c ;%a ;%l',
-    'int_prefix' => '91',
+    'tel_dom_fmt' => NULL,
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
-    'country_post' => NULL,
-    'country_ab2' => 'IN',
-    'country_ab3' => 'IND',
-    'country_num' => 356,
-    'lang_name' => 'ଓଡ଼ିଆ',
-    'lang_ab' => 'or',
-    'lang_term' => 'ori',
-    'lang_lib' => 'ori',
-    'country_car' => 'IND',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%p%t%f%t%g',
-    'name_gen' => '',
-    'name_mr' => 'Mr.',
-    'name_mrs' => 'Mrs.',
-    'name_miss' => 'Miss.',
-    'name_ms' => 'Ms.',
+    'int_prefix' => '91',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'ରବି',
@@ -102,6 +107,7 @@
       5 => 'ଶୁକ୍ରବାର',
       6 => 'ଶନିବାର',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => '1',
@@ -132,21 +138,20 @@
       10 => 'ନଭେମ୍ବର',
       11 => 'ଡିସେମ୍ବର',
     ),
+    'd_t_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p %Z',
+    'd_fmt' => '%Od-%Om-%Oy',
+    't_fmt' => '%OI:%OM:%OS %p',
     'am_pm' => 
     array (
       0 => 'AM',
       1 => 'PM',
     ),
-    'd_t_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p %Z',
-    'd_fmt' => '%Od-%Om-%Oy',
-    't_fmt' => '%OI:%OM:%OS %p',
     't_fmt_ampm' => '%OI:%OM:%OS %p',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
-    'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
     'era_d_fmt' => NULL,
-    'cal_direction' => NULL,
+    'era_t_fmt' => NULL,
     'alt_digits' => 
     array (
       0 => '୦',
@@ -250,9 +255,9 @@
       98 => '୯୮',
       99 => '୯୯',
     ),
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
+    'cal_direction' => NULL,
     'timezone' => NULL,
   ),
 );

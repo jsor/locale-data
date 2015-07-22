@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
+    'country_name' => 'ລາວ',
+    'country_post' => NULL,
+    'country_ab2' => 'LA',
+    'country_ab3' => 'LAO',
+    'country_num' => 418,
+    'country_car' => 'LAO',
+    'country_isbn' => NULL,
+    'lang_name' => 'ລາວ',
+    'lang_ab' => 'lo',
+    'lang_term' => 'lao',
+    'lang_lib' => 'lao',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yYມ]',
+    'noexpr' => '^[nNບ]',
+    'yesstr' => 'ແມ່ນ',
+    'nostr' => 'ບໍ່ແມ່ນ',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'LAK ',
     'currency_symbol' => '₭',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 2,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 2,
     'p_sign_posn' => 4,
     'n_sign_posn' => 4,
+    'int_curr_symbol' => 'LAK ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => 'ທ.',
+    'name_mrs' => 'ນ.',
+    'name_miss' => NULL,
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -40,44 +75,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '(%A)%l',
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '856',
+    'tel_dom_fmt' => '(%A)%l',
     'int_select' => '001',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
-    'country_name' => 'ລາວ',
-    'country_post' => NULL,
-    'country_ab2' => 'LA',
-    'country_ab3' => 'LAO',
-    'country_num' => 418,
-    'lang_name' => 'ລາວ',
-    'lang_ab' => 'lo',
-    'lang_term' => 'lao',
-    'lang_lib' => 'lao',
-    'country_car' => 'LAO',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yYມ]',
-    'noexpr' => '^[nNບ]',
-    'yesstr' => 'ແມ່ນ',
-    'nostr' => 'ບໍ່ແມ່ນ',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => 'ທ.',
-    'name_mrs' => 'ນ.',
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'int_prefix' => '856',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %e %b %Ey %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'ອາ.',
@@ -98,6 +103,7 @@
       5 => 'ສຸກ',
       6 => 'ເສົາ',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ມ.ກ.',
@@ -128,25 +134,24 @@
       10 => 'ພະຈິກ',
       11 => 'ທັນວາ',
     ),
+    'd_t_fmt' => '%a %e %b %Ey, %H:%M:%S',
+    'd_fmt' => '%d/%m/%Ey',
+    't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (
       0 => 'AM',
       1 => 'PM',
     ),
-    'd_t_fmt' => '%a %e %b %Ey, %H:%M:%S',
-    'd_fmt' => '%d/%m/%Ey',
-    't_fmt' => '%H:%M:%S',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => '%a %e %b %Ey %H:%M:%S %Z',
-    'week' => NULL,
+    'era' => '+:1:-543/01/01:+*:ພ.ສ.:%EC %Ey',
+    'era_year' => NULL,
+    'era_d_t_fmt' => 'ວັນ%Aທີ່ %e %B %EC %Ey, %H.%M.%S ນ.',
+    'era_d_fmt' => '%e %b %Ey',
+    'era_t_fmt' => '%H.%M.%S ນ.',
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => '%e %b %Ey',
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => '+:1:-543/01/01:+*:ພ.ສ.:%EC %Ey',
-    'era_d_t_fmt' => 'ວັນ%Aທີ່ %e %B %EC %Ey, %H.%M.%S ນ.',
-    'era_t_fmt' => '%H.%M.%S ນ.',
     'timezone' => 'ICT-7ICT-7',
   ),
 );

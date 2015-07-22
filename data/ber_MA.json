@@ -1,13 +1,34 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%z%c%T%s%b%e%r",
+        "country_name": null,
+        "country_post": null,
+        "country_ab2": "MA",
+        "country_ab3": "MAR",
+        "country_num": 504,
+        "country_car": "MA",
+        "country_isbn": null,
+        "lang_name": "\u2d5c\u2d30\u2d4e\u2d30\u2d49\u2d56\u2d5c",
+        "lang_ab": null,
+        "lang_term": "ber",
+        "lang_lib": "ber"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[Bb].*",
+        "noexpr": "^[YyNn].*",
+        "yesstr": "b\u0259li",
+        "nostr": "yox"
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "MAD ",
         "currency_symbol": "\u2d37.\u2d4e.",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
         "mon_grouping": 3,
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 3,
         "frac_digits": 3,
         "p_cs_precedes": 1,
         "p_sep_by_space": 1,
@@ -15,12 +36,22 @@
         "n_sep_by_space": 1,
         "p_sign_posn": 1,
         "n_sign_posn": 2,
+        "int_curr_symbol": "MAD ",
+        "int_frac_digits": 3,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%p%t%f%t%g",
+        "name_gen": "-san",
+        "name_mr": "Mr.",
+        "name_mrs": "Mrs.",
+        "name_miss": "Miss.",
+        "name_ms": "Ms."
     },
     "LC_NUMERIC": {
         "decimal_point": ".",
@@ -32,40 +63,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": null,
         "tel_int_fmt": "+%c ;%a ;%l",
-        "int_prefix": "212",
-        "int_select": null
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%z%c%T%s%b%e%r",
-        "country_name": null,
-        "country_post": null,
-        "country_ab2": "MA",
-        "country_ab3": "MAR",
-        "country_num": 504,
-        "lang_name": "\u2d5c\u2d30\u2d4e\u2d30\u2d49\u2d56\u2d5c",
-        "lang_ab": null,
-        "lang_term": "ber",
-        "lang_lib": "ber",
-        "country_car": "MA",
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[Bb].*",
-        "noexpr": "^[YyNn].*",
-        "yesstr": "b\u0259li",
-        "nostr": "yox"
-    },
-    "LC_NAME": {
-        "name_fmt": "%p%t%f%t%g",
-        "name_gen": "-san",
-        "name_mr": "Mr.",
-        "name_mrs": "Mrs.",
-        "name_miss": "Miss.",
-        "name_ms": "Ms."
+        "tel_dom_fmt": null,
+        "int_select": null,
+        "int_prefix": "212"
     },
     "LC_TIME": {
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
             "baz",
             "bir",
@@ -84,6 +88,7 @@
             "be\u015finci g\u00fcn",
             "alt\u0131nc\u0131 g\u00fcn"
         ],
+        "week": null,
         "abmon": [
             "Yan",
             "Fev",
@@ -112,24 +117,23 @@
             "noyabr",
             "dekabr"
         ],
+        "d_t_fmt": "%A, %d %B %Y %T",
+        "d_fmt": "%d.%m.%Y",
+        "t_fmt": "%T",
         "am_pm": [
             "",
             ""
         ],
-        "d_t_fmt": "%A, %d %B %Y %T",
-        "d_fmt": "%d.%m.%Y",
-        "t_fmt": "%T",
         "t_fmt_ampm": "",
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
-        "week": null,
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": null,
         "first_workday": null,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }

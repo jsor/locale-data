@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%z%c%T%s%b%e%r'
+    country_name: null
+    country_post: null
+    country_ab2: LK
+    country_ab3: LKA
+    country_num: 144
+    country_car: CL
+    country_isbn: null
+    lang_name: null
+    lang_ab: ta
+    lang_term: tam
+    lang_lib: tam
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[ஆம்yY]'
+    noexpr: '^[இல்லைnN]'
+    yesstr: ஆம்
+    nostr: இல்லை
 LC_MONETARY:
-    int_curr_symbol: 'INR '
     currency_symbol: ₹
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 2]
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 2
     frac_digits: 2
     p_cs_precedes: 1
     p_sep_by_space: 1
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
+    int_curr_symbol: 'INR '
+    int_frac_digits: 2
     int_p_cs_precedes: null
     int_p_sep_by_space: null
     int_n_cs_precedes: null
     int_n_sep_by_space: null
     int_p_sign_posn: null
     int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%p%t%f%t%g'
+    name_gen: ''
+    name_mr: 'திரு '
+    name_mrs: 'திருமதி '
+    name_miss: 'செல்வி '
+    name_ms: Ms.
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: '(%a) %l'
     tel_int_fmt: '+%c (%a) %l'
-    int_prefix: '94'
+    tel_dom_fmt: '(%a) %l'
     int_select: '00'
-LC_ADDRESS:
-    postal_fmt: '%z%c%T%s%b%e%r'
-    country_name: null
-    country_post: null
-    country_ab2: LK
-    country_ab3: LKA
-    country_num: 144
-    lang_name: null
-    lang_ab: ta
-    lang_term: tam
-    lang_lib: tam
-    country_car: CL
-    country_isbn: null
-LC_MESSAGES:
-    yesexpr: '^[ஆம்yY]'
-    noexpr: '^[இல்லைnN]'
-    yesstr: ஆம்
-    nostr: இல்லை
-LC_NAME:
-    name_fmt: '%p%t%f%t%g'
-    name_gen: ''
-    name_mr: 'திரு '
-    name_mrs: 'திருமதி '
-    name_miss: 'செல்வி '
-    name_ms: Ms.
+    int_prefix: '94'
 LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ஞா, தி, செ, பு, வி, வெ, ச]
     day: [ஞாயிறு, திங்கள், செவ்வாய், புதன், வியாழன், வெள்ளி, சனி]
+    week: null
     abmon: [ஜன, பிப், மார், ஏப், மே, ஜூன், ஜூலை, ஆக, செப், 'அக்', நவ, டிச]
     mon: [ஜனவரி, பிப்ரவரி, மார்ச், ஏப்ரல், மே, ஜூன், ஜூலை, ஆகஸ்ட், செப்டம்பர், 'அக்டோபர்', நவம்பர், டிசம்பர்]
-    am_pm: [காலை, மாலை]
     d_t_fmt: '%A %d %B %Y %I:%M:%S %p %Z'
     d_fmt: '%A %d %B %Y'
     t_fmt: '%I:%M:%S  %Z'
+    am_pm: [காலை, மாலை]
     t_fmt_ampm: '%I:%M:%S %p %Z'
-    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
     first_weekday: null
     first_workday: null
-    era_d_fmt: null
     cal_direction: null
-    alt_digits: null
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: null

@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
+    'country_name' => 'Türkmenistan',
+    'country_post' => 'TM',
+    'country_ab2' => 'TM',
+    'country_ab3' => 'TKM',
+    'country_num' => 795,
+    'country_car' => 'TM',
+    'country_isbn' => NULL,
+    'lang_name' => 'Türkmençe',
+    'lang_ab' => 'tk',
+    'lang_term' => 'tuk',
+    'lang_lib' => 'tuk',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[hH].*',
+    'noexpr' => '^[ýÝnN].*',
+    'yesstr' => 'hawa',
+    'nostr' => 'ýok',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'TMM "        % TMM',
     'currency_symbol' => 'MANAT" % MANAT',
     'mon_decimal_point' => '."                             % .',
     'mon_thousands_sep' => ',"                             % ,',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-"                             % -',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 0,
     'p_sep_by_space' => 1,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'TMM "        % TMM',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => '',
+    'name_mr' => '',
+    'name_mrs' => '',
+    'name_miss' => '',
+    'name_ms' => '',
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => NULL,
+    'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Türkmenistan',
-    'country_post' => 'TM',
-    'country_ab2' => 'TM',
-    'country_ab3' => 'TKM',
-    'country_num' => 795,
-    'lang_name' => 'Türkmençe',
-    'lang_ab' => 'tk',
-    'lang_term' => 'tuk',
-    'lang_lib' => 'tuk',
-    'country_car' => 'TM',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[hH].*',
-    'noexpr' => '^[ýÝnN].*',
-    'yesstr' => 'hawa',
-    'nostr' => 'ýok',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => '',
-    'name_mr' => '',
-    'name_mrs' => '',
-    'name_miss' => '',
-    'name_ms' => '',
+    'int_prefix' => NULL,
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'Duş',
@@ -102,6 +107,7 @@
       5 => 'Şenbe',
       6 => 'Ýekşenbe',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'Ýan',
@@ -132,25 +138,24 @@
       10 => 'Noýabr',
       11 => 'Dekabr',
     ),
+    'd_t_fmt' => '%d.%m.%Y %T',
+    'd_fmt' => '%d.%m.%Y',
+    't_fmt' => '%T',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    'd_t_fmt' => '%d.%m.%Y %T',
-    'd_fmt' => '%d.%m.%Y',
-    't_fmt' => '%T',
     't_fmt_ampm' => '',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

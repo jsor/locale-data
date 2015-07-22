@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%a%N%d%N%f%N%b%N%h%t%r%t%e%t%s%N%T%t%z%N%c%N'
+    country_name: မြန်မာ
+    country_post: Myanmar
+    country_ab2: MM
+    country_ab3: null
+    country_num: null
+    country_car: BA
+    country_isbn: null
+    lang_name: ဗမာ
+    lang_ab: my
+    lang_term: mya
+    lang_lib: mya
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[yYဟ].*'
+    noexpr: '^[nNမ].*'
+    yesstr: ဟုတ်တယ်
+    nostr: မဟုတ်ဘူး
 LC_MONETARY:
-    int_curr_symbol: 'MMK '
     currency_symbol: Ks
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 2
     frac_digits: 2
     p_cs_precedes: 0
     p_sep_by_space: 0
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
+    int_curr_symbol: 'MMK '
+    int_frac_digits: 2
     int_p_cs_precedes: null
     int_p_sep_by_space: null
     int_n_cs_precedes: null
     int_n_sep_by_space: null
     int_p_sign_posn: null
     int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%p%t%g%t%m%t%f'
+    name_gen: ''
+    name_mr: ဦး
+    name_mrs: ဒေါ်
+    name_miss: မ
+    name_ms: ဒေါ်
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: '%a %l'
     tel_int_fmt: '+%c %a %l'
-    int_prefix: '95'
+    tel_dom_fmt: '%a %l'
     int_select: '0'
-LC_ADDRESS:
-    postal_fmt: '%a%N%d%N%f%N%b%N%h%t%r%t%e%t%s%N%T%t%z%N%c%N'
-    country_name: မြန်မာ
-    country_post: Myanmar
-    country_ab2: MM
-    country_ab3: null
-    country_num: null
-    lang_name: ဗမာ
-    lang_ab: my
-    lang_term: mya
-    lang_lib: mya
-    country_car: BA
-    country_isbn: null
-LC_MESSAGES:
-    yesexpr: '^[yYဟ].*'
-    noexpr: '^[nNမ].*'
-    yesstr: ဟုတ်တယ်
-    nostr: မဟုတ်ဘူး
-LC_NAME:
-    name_fmt: '%p%t%g%t%m%t%f'
-    name_gen: ''
-    name_mr: ဦး
-    name_mrs: ဒေါ်
-    name_miss: မ
-    name_ms: ဒေါ်
+    int_prefix: '95'
 LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [နွေ, လာ, ဂါ, ဟူး, တေး, သော, နေ]
     day: [တနင်္ဂနွေ, တနင်္လာ, အင်္ဂါ, ဗုဒ္ဓဟူး, ကြာသပတေး, သောကြာ, 'စနေ']
+    week: null
     abmon: [ဇန်, ဖေ, မတ်, ဧပြီ, မေ, ဇွန်, ဇူ, ဩ, 'စက်', အောက်, နို, ဒီ]
     mon: [ဇန်နဝါရီ, ဖေဖော်ဝါရီ, မတ်, ဧပြီ, မေ, ဇွန်, ဇူလိုင်, ဩဂုတ်, 'စက်တင်ဘာ', အောက်တိုဘာ, နိုဝင်ဘာ, ဒီဇင်ဘာ]
-    am_pm: [နံနက်, ညနေ]
     d_t_fmt: '%OC%Oy %b %Od %A %OI:%OM:%OS %Op %Z'
     d_fmt: '%OC%Oy %b %Od %A'
     t_fmt: '%OI:%OM:%OS %p'
+    am_pm: [နံနက်, ညနေ]
     t_fmt_ampm: '%OI:%OM:%OS %p'
-    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: [၀၀, ၀၁, ၀၂, ၀၃, ၀၄, '၀၅', ၀၆, ၀၇, ၀၈, ၀၉, ၁၀, ၁၁, ၁၂, ၁၃, ၁၄, '၁၅', ၁၆, ၁၇, ၁၈, ၁၉, ၂၀, ၂၁, ၂၂, ၂၃, ၂၄, '၂၅', ၂၆, ၂၇, ၂၈, ၂၉, ၃၀, ၃၁, ၃၂, ၃၃, ၃၄, '၃၅', ၃၆, ၃၇, ၃၈, ၃၉, ၄၀, ၄၁, ၄၂, ၄၃, ၄၄, '၄၅', ၄၆, ၄၇, ၄၈, ၄၉, '၅၀', '၅၁', '၅၂', '၅၃', '၅၄', '၅၅', '၅၆', '၅၇', '၅၈', '၅၉', ၆၀, ၆၁, ၆၂, ၆၃, ၆၄, '၆၅', ၆၆, ၆၇, ၆၈, ၆၉, ၇၀, ၇၁, ၇၂, ၇၃, ၇၄, '၇၅', ၇၆, ၇၇, ၇၈, ၇၉, ၈၀, ၈၁, ၈၂, ၈၃, ၈၄, '၈၅', ၈၆, ၈၇, ၈၈, ၈၉, ၉၀, ၉၁, ၉၂, ၉၃, ၉၄, '၉၅', ၉၆, ၉၇, ၉၈, ၉၉]
     first_weekday: null
     first_workday: null
-    era_d_fmt: null
     cal_direction: null
-    alt_digits: [၀၀, ၀၁, ၀၂, ၀၃, ၀၄, '၀၅', ၀၆, ၀၇, ၀၈, ၀၉, ၁၀, ၁၁, ၁၂, ၁၃, ၁၄, '၁၅', ၁၆, ၁၇, ၁၈, ၁၉, ၂၀, ၂၁, ၂၂, ၂၃, ၂၄, '၂၅', ၂၆, ၂၇, ၂၈, ၂၉, ၃၀, ၃၁, ၃၂, ၃၃, ၃၄, '၃၅', ၃၆, ၃၇, ၃၈, ၃၉, ၄၀, ၄၁, ၄၂, ၄၃, ၄၄, '၄၅', ၄၆, ၄၇, ၄၈, ၄၉, '၅၀', '၅၁', '၅၂', '၅၃', '၅၄', '၅၅', '၅၆', '၅၇', '၅၈', '၅၉', ၆၀, ၆၁, ၆၂, ၆၃, ၆၄, '၆၅', ၆၆, ၆၇, ၆၈, ၆၉, ၇၀, ၇၁, ၇၂, ၇၃, ၇၄, '၇၅', ၇၆, ၇၇, ၇၈, ၇၉, ၈၀, ၈၁, ၈၂, ၈၃, ၈၄, '၈၅', ၈၆, ၈၇, ၈၈, ၈၉, ၉၀, ၉၁, ၉၂, ၉၃, ၉၄, '၉၅', ၉၆, ၉၇, ၉၈, ၉၉]
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: MMT-6.5MMT-6.5

@@ -10,13 +10,14 @@ class FileValidationTest extends TestCase
     {
         $this->assertInternalType('array', $data);
 
+        $this->assertArrayHasKey('LC_ADDRESS', $data);
+        $this->assertArrayHasKey('LC_MEASUREMENT', $data);
+        $this->assertArrayHasKey('LC_MESSAGES', $data);
         $this->assertArrayHasKey('LC_MONETARY', $data);
+        $this->assertArrayHasKey('LC_NAME', $data);
         $this->assertArrayHasKey('LC_NUMERIC', $data);
         $this->assertArrayHasKey('LC_PAPER', $data);
         $this->assertArrayHasKey('LC_TELEPHONE', $data);
-        $this->assertArrayHasKey('LC_ADDRESS', $data);
-        $this->assertArrayHasKey('LC_MESSAGES', $data);
-        $this->assertArrayHasKey('LC_NAME', $data);
         $this->assertArrayHasKey('LC_TIME', $data);
     }
 

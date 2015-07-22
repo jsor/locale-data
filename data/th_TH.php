@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
+    'country_name' => 'ไทย',
+    'country_post' => NULL,
+    'country_ab2' => 'TH',
+    'country_ab3' => 'THA',
+    'country_num' => 764,
+    'country_car' => 'T',
+    'country_isbn' => NULL,
+    'lang_name' => 'ไทย',
+    'lang_ab' => 'th',
+    'lang_term' => 'tha',
+    'lang_lib' => 'tha',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yYช]',
+    'noexpr' => '^[nNม]',
+    'yesstr' => 'ใช่',
+    'nostr' => 'ไม่ใช่',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'THB ',
     'currency_symbol' => '฿',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 2,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 2,
     'p_sign_posn' => 4,
     'n_sign_posn' => 4,
+    'int_curr_symbol' => 'THB ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => 'คุณ',
+    'name_mr' => 'นาย',
+    'name_mrs' => 'นาง',
+    'name_miss' => 'นางสาว',
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '0-%a%l',
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '66',
+    'tel_dom_fmt' => '0-%a%l',
     'int_select' => '001',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
-    'country_name' => 'ไทย',
-    'country_post' => NULL,
-    'country_ab2' => 'TH',
-    'country_ab3' => 'THA',
-    'country_num' => 764,
-    'lang_name' => 'ไทย',
-    'lang_ab' => 'th',
-    'lang_term' => 'tha',
-    'lang_lib' => 'tha',
-    'country_car' => 'T',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yYช]',
-    'noexpr' => '^[nNม]',
-    'yesstr' => 'ใช่',
-    'nostr' => 'ไม่ใช่',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => 'คุณ',
-    'name_mr' => 'นาย',
-    'name_mrs' => 'นาง',
-    'name_miss' => 'นางสาว',
-    'name_ms' => NULL,
+    'int_prefix' => '66',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %e %b %Ey %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'อา.',
@@ -94,6 +99,7 @@
       5 => 'ศุกร์',
       6 => 'เสาร์',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ม.ค.',
@@ -124,25 +130,24 @@
       10 => 'พฤศจิกายน',
       11 => 'ธันวาคม',
     ),
+    'd_t_fmt' => '%a %e %b %Ey, %H:%M:%S',
+    'd_fmt' => '%d/%m/%Ey',
+    't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (
       0 => 'AM',
       1 => 'PM',
     ),
-    'd_t_fmt' => '%a %e %b %Ey, %H:%M:%S',
-    'd_fmt' => '%d/%m/%Ey',
-    't_fmt' => '%H:%M:%S',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => '%a %e %b %Ey %H:%M:%S %Z',
-    'week' => NULL,
+    'era' => '+:1:-543/01/01:+*:พ.ศ.:%EC %Ey',
+    'era_year' => NULL,
+    'era_d_t_fmt' => 'วัน%Aที่ %e %B %EC %Ey, %H.%M.%S น.',
+    'era_d_fmt' => '%e %b %Ey',
+    'era_t_fmt' => '%H.%M.%S น.',
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => '%e %b %Ey',
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => '+:1:-543/01/01:+*:พ.ศ.:%EC %Ey',
-    'era_d_t_fmt' => 'วัน%Aที่ %e %B %EC %Ey, %H.%M.%S น.',
-    'era_t_fmt' => '%H.%M.%S น.',
     'timezone' => 'ICT-7ICT-7',
   ),
 );

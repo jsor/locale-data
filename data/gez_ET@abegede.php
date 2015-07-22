@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => 'ኢትዮጵያ',
+    'country_post' => 'ETH',
+    'country_ab2' => 'ET',
+    'country_ab3' => 'ETH',
+    'country_num' => 231,
+    'country_car' => 'ETH',
+    'country_isbn' => NULL,
+    'lang_name' => 'ግዕዝ',
+    'lang_ab' => NULL,
+    'lang_term' => 'gez',
+    'lang_lib' => NULL,
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY].*',
+    'noexpr' => '^[nN].*',
+    'yesstr' => NULL,
+    'nostr' => NULL,
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'ETB ',
     'currency_symbol' => '$',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'ETB ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => '',
+    'name_mr' => 'አቶ"             % "አይተ" is informal',
+    'name_mrs' => 'ወ/ሮ',
+    'name_miss' => 'ወ/ሪት',
+    'name_ms' => 'ወ/ሪት',
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '%a-%l',
     'tel_int_fmt' => '%c-%a-%l',
-    'int_prefix' => '251',
+    'tel_dom_fmt' => '%a-%l',
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => 'ኢትዮጵያ',
-    'country_post' => 'ETH',
-    'country_ab2' => 'ET',
-    'country_ab3' => 'ETH',
-    'country_num' => 231,
-    'lang_name' => 'ግዕዝ',
-    'lang_ab' => NULL,
-    'lang_term' => 'gez',
-    'lang_lib' => NULL,
-    'country_car' => 'ETH',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => '',
-    'name_mr' => 'አቶ"             % "አይተ" is informal',
-    'name_mrs' => 'ወ/ሮ',
-    'name_miss' => 'ወ/ሪት',
-    'name_ms' => 'ወ/ሪት',
+    'int_prefix' => '251',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%A፥%B፡%e፡መዓልት፡%r፡%Z፡%Y፡ዓ/ም',
     'abday' => 
     array (
       0 => 'እኁድ',
@@ -102,6 +107,7 @@
       5 => 'ዓርበ',
       6 => 'ቀዳሚት',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ጃንዩ',
@@ -132,25 +138,24 @@
       10 => 'ኖቬምበር',
       11 => 'ዲሴምበር',
     ),
+    'd_t_fmt' => '%A፥%B፡%e፡መዓልት፡%Y፡%r፡%Z',
+    'd_fmt' => '%d/%m/%Y',
+    't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (
       0 => 'ጽባሕ',
       1 => 'ምሴት',
     ),
-    'd_t_fmt' => '%A፥%B፡%e፡መዓልት፡%Y፡%r፡%Z',
-    'd_fmt' => '%d/%m/%Y',
-    't_fmt' => '%l:%M:%S',
     't_fmt_ampm' => '%X፡%p',
-    'date_fmt' => '%A፥%B፡%e፡መዓልት፡%r፡%Z፡%Y፡ዓ/ም',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

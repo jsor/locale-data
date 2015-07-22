@@ -1,6 +1,28 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%d%N%s%t%h%N%b%t%e%t%r%N%z%t%T%N%S%t%c%N",
+        "country_name": "Rom\u00e2nia",
+        "country_post": "RO",
+        "country_ab2": "RO",
+        "country_ab3": "ROU",
+        "country_num": 642,
+        "country_car": "RO",
+        "country_isbn": 973,
+        "lang_name": "rom\u00e2n\u0103",
+        "lang_ab": "ro",
+        "lang_term": "ron",
+        "lang_lib": "rum"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[DdYy].*",
+        "noexpr": "^[nN].*",
+        "yesstr": null,
+        "nostr": null
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "RON ",
         "currency_symbol": "Lei",
         "mon_decimal_point": ",",
         "mon_thousands_sep": ".",
@@ -10,7 +32,6 @@
         ],
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 1,
         "p_sep_by_space": 1,
@@ -18,12 +39,22 @@
         "n_sep_by_space": 1,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
+        "int_curr_symbol": "RON ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%s%t%f%t%g%t%m",
+        "name_gen": null,
+        "name_mr": "Dl.",
+        "name_mrs": "D-na.",
+        "name_miss": "D-ra.",
+        "name_ms": null
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
@@ -38,40 +69,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": null,
         "tel_int_fmt": "+%c %a %l",
-        "int_prefix": "40",
-        "int_select": null
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%f%N%a%d%N%s%t%h%N%b%t%e%t%r%N%z%t%T%N%S%t%c%N",
-        "country_name": "Rom\u00e2nia",
-        "country_post": "RO",
-        "country_ab2": "RO",
-        "country_ab3": "ROU",
-        "country_num": 642,
-        "lang_name": "rom\u00e2n\u0103",
-        "lang_ab": "ro",
-        "lang_term": "ron",
-        "lang_lib": "rum",
-        "country_car": "RO",
-        "country_isbn": 973
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[DdYy].*",
-        "noexpr": "^[nN].*",
-        "yesstr": "Yes",
-        "nostr": "No"
-    },
-    "LC_NAME": {
-        "name_fmt": "%d%t%s%t%f%t%g%t%m",
-        "name_gen": null,
-        "name_mr": "Dl.",
-        "name_mrs": "D-na.",
-        "name_miss": "D-ra.",
-        "name_ms": null
+        "tel_dom_fmt": null,
+        "int_select": null,
+        "int_prefix": "40"
     },
     "LC_TIME": {
+        "date_fmt": "%A %-e %B %Y, %H:%M:%S %z",
         "abday": [
             "Du",
             "Lu",
@@ -90,6 +94,7 @@
             "vineri",
             "s\u00e2mb\u0103t\u0103"
         ],
+        "week": null,
         "abmon": [
             "ian",
             "feb",
@@ -118,24 +123,23 @@
             "noiembrie",
             "decembrie"
         ],
+        "d_t_fmt": "%a %d %b %Y %T %z",
+        "d_fmt": "%d.%m.%Y",
+        "t_fmt": "%T",
         "am_pm": [
             "",
             ""
         ],
-        "d_t_fmt": "%a %d %b %Y %T %z",
-        "d_fmt": "%d.%m.%Y",
-        "t_fmt": "%T",
         "t_fmt_ampm": "",
-        "date_fmt": "%A %-e %B %Y, %H:%M:%S %z",
-        "week": null,
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": 2,
         "first_workday": 2,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }

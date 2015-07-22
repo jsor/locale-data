@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
+    'country_name' => 'កម្ពុជា',
+    'country_post' => NULL,
+    'country_ab2' => 'LA',
+    'country_ab3' => 'LAO',
+    'country_num' => 418,
+    'country_car' => 'LAO',
+    'country_isbn' => NULL,
+    'lang_name' => 'ភាសាខ្មែរ',
+    'lang_ab' => 'lo',
+    'lang_term' => 'lao',
+    'lang_lib' => 'lao',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY]([eE][sS])?',
+    'noexpr' => '^[nN][oO]?',
+    'yesstr' => 'yes:YES:y:Y',
+    'nostr' => 'no:NO:n:N',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'KHR ',
     'currency_symbol' => '៛',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 0,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'KHR ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => 0,
     'int_p_sep_by_space' => 0,
     'int_n_cs_precedes' => 0,
     'int_n_sep_by_space' => 0,
     'int_p_sign_posn' => 1,
     'int_n_sign_posn' => 1,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => 'ທ.',
+    'name_mrs' => 'ນ.',
+    'name_miss' => NULL,
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -40,44 +75,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '(%A)%l',
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '856',
+    'tel_dom_fmt' => '(%A)%l',
     'int_select' => '001',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
-    'country_name' => 'កម្ពុជា',
-    'country_post' => NULL,
-    'country_ab2' => 'LA',
-    'country_ab3' => 'LAO',
-    'country_num' => 418,
-    'lang_name' => 'ភាសាខ្មែរ',
-    'lang_ab' => 'lo',
-    'lang_term' => 'lao',
-    'lang_lib' => 'lao',
-    'country_car' => 'LAO',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY]([eE][sS])?',
-    'noexpr' => '^[nN][oO]?',
-    'yesstr' => 'yes:YES:y:Y',
-    'nostr' => 'no:NO:n:N',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => 'ທ.',
-    'name_mrs' => 'ນ.',
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'int_prefix' => '856',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'អា',
@@ -98,6 +103,7 @@
       5 => 'ថ្ងៃ​សុក្រ',
       6 => 'ថ្ងៃ​សៅរ៍',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => '១',
@@ -128,25 +134,24 @@
       10 => 'វិច្ឆិកា',
       11 => 'ធ្នូ',
     ),
+    'd_t_fmt' => '%A ថ្ងៃ %e ខែ %B ឆ្នាំ  %Y, %H ម៉ោង m នាទី %S វិនាទី​',
+    'd_fmt' => '%e %B %Y',
+    't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (
       0 => 'ព្រឹក',
       1 => 'ល្ងាច',
     ),
-    'd_t_fmt' => '%A ថ្ងៃ %e ខែ %B ឆ្នាំ  %Y, %H ម៉ោង m នាទី %S វិនាទី​',
-    'd_fmt' => '%e %B %Y',
-    't_fmt' => '%H:%M:%S',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

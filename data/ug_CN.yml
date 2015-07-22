@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N'
+    country_name: '中华人民共和国'
+    country_post: null
+    country_ab2: CN
+    country_ab3: CHN
+    country_num: 156
+    country_car: null
+    country_isbn: '7'
+    lang_name: null
+    lang_ab: ug
+    lang_term: uig
+    lang_lib: uig
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[yY].*'
+    noexpr: '^[nN].*'
+    yesstr: 'Yes'
+    nostr: 'No'
 LC_MONETARY:
-    int_curr_symbol: 'CNY '
     currency_symbol: ￥
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 2
     frac_digits: 2
     p_cs_precedes: 1
     p_sep_by_space: 0
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 4
     n_sign_posn: 4
+    int_curr_symbol: 'CNY '
+    int_frac_digits: 2
     int_p_cs_precedes: 1
     int_p_sep_by_space: 0
     int_n_cs_precedes: 1
     int_n_sep_by_space: 0
     int_p_sign_posn: 1
     int_n_sign_posn: 1
+LC_NAME:
+    name_fmt: '%p%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: null
+    name_mrs: null
+    name_miss: null
+    name_ms: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: '0%a %l'
     tel_int_fmt: '+%c %a %l'
-    int_prefix: '86'
+    tel_dom_fmt: '0%a %l'
     int_select: '00'
-LC_ADDRESS:
-    postal_fmt: '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N'
-    country_name: '中华人民共和国'
-    country_post: null
-    country_ab2: CN
-    country_ab3: CHN
-    country_num: 156
-    lang_name: null
-    lang_ab: ug
-    lang_term: uig
-    lang_lib: uig
-    country_car: null
-    country_isbn: '7'
-LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[nN].*'
-    yesstr: 'Yes'
-    nostr: 'No'
-LC_NAME:
-    name_fmt: null
-    name_gen: null
-    name_mr: null
-    name_mrs: null
-    name_miss: null
-    name_ms: null
+    int_prefix: '86'
 LC_TIME:
+    date_fmt: '%a، %d-%m-%Y، %T'
     abday: [ي, د, س, چ, پ, ج, ش]
     day: [يەكشەنبە, دۈشەنبە, سەيشەنبە, چارشەنبە, پەيشەنبە, 'جۈمە', شەنبە]
+    week: null
     abmon: [قەھرىتان, ھۇت, نورۇز, 'ئۈمىد', باھار, سەپەر, چىللە, 'تومۇز', 'مىزان', ئوغۇز, ئوغلاق, كۆنەك]
     mon: [قەھرىتان, ھۇت, نورۇز, 'ئۈمىد', باھار, سەپەر, چىللە, 'تومۇز', 'مىزان', ئوغۇز, ئوغلاق, كۆنەك]
-    am_pm: ['', '']
     d_t_fmt: '%a، %d-%m-%Y، %T'
     d_fmt: '%a، %d-%m-%Y'
     t_fmt: '%T'
+    am_pm: ['', '']
     t_fmt_ampm: '%I:%M:%S %p'
-    date_fmt: '%a، %d-%m-%Y، %T'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
     first_weekday: null
     first_workday: null
-    era_d_fmt: null
     cal_direction: null
-    alt_digits: null
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: null

@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
+    'country_name' => 'Հայաստան',
+    'country_post' => NULL,
+    'country_ab2' => 'AM',
+    'country_ab3' => 'ARM',
+    'country_num' => 51,
+    'country_car' => 'AM',
+    'country_isbn' => '99930',
+    'lang_name' => 'Հայերեն',
+    'lang_ab' => 'hy',
+    'lang_term' => 'hye',
+    'lang_lib' => 'arm',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yYsSաԱ]',
+    'noexpr' => '^[nNոՈ]',
+    'yesstr' => 'այո',
+    'nostr' => 'ոչ',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'AMD ',
     'currency_symbol' => 'Դ',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'AMD ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => 'պրն',
+    'name_mrs' => 'տկն',
+    'name_miss' => 'օրիորդ',
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '374',
+    'tel_dom_fmt' => NULL,
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
-    'country_name' => 'Հայաստան',
-    'country_post' => NULL,
-    'country_ab2' => 'AM',
-    'country_ab3' => 'ARM',
-    'country_num' => 51,
-    'lang_name' => 'Հայերեն',
-    'lang_ab' => 'hy',
-    'lang_term' => 'hye',
-    'lang_lib' => 'arm',
-    'country_car' => 'AM',
-    'country_isbn' => '99930',
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yYsSաԱ]',
-    'noexpr' => '^[nNոՈ]',
-    'yesstr' => 'այո',
-    'nostr' => 'ոչ',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => 'պրն',
-    'name_mrs' => 'տկն',
-    'name_miss' => 'օրիորդ',
-    'name_ms' => NULL,
+    'int_prefix' => '374',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'Կրկ',
@@ -102,6 +107,7 @@
       5 => 'Ուրբաթ',
       6 => 'Շաբաթ',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'Հնվ',
@@ -132,25 +138,24 @@
       10 => 'Նոյեմբերի',
       11 => 'Դեկտեմբերի',
     ),
+    'd_t_fmt' => '%a %d %b %Y %r %Z',
+    'd_fmt' => '%m/%d/%y',
+    't_fmt' => '%r',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%m/%d/%y',
-    't_fmt' => '%r',
     't_fmt_ampm' => '',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

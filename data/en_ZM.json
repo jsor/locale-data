@@ -1,13 +1,34 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%a%N%f%N%e %h%N%b %s%N%z%N%T%N%c%N",
+        "country_name": "Zambia",
+        "country_post": "ZM",
+        "country_ab2": "ZM",
+        "country_ab3": "ZMB",
+        "country_num": 894,
+        "country_car": "Z",
+        "country_isbn": null,
+        "lang_name": "English",
+        "lang_ab": "en",
+        "lang_term": "eng",
+        "lang_lib": "eng"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[yYeE].*",
+        "noexpr": "^[nNaA].*",
+        "yesstr": null,
+        "nostr": null
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "ZMK ",
         "currency_symbol": "K",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
         "mon_grouping": 3,
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 1,
         "p_sep_by_space": 0,
@@ -15,12 +36,22 @@
         "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
+        "int_curr_symbol": "ZMK ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_gen": null,
+        "name_mr": "Mr.",
+        "name_mrs": "Mrs.",
+        "name_miss": "Miss.",
+        "name_ms": "Ms."
     },
     "LC_NUMERIC": {
         "decimal_point": ".",
@@ -35,40 +66,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": "%A %l",
         "tel_int_fmt": "+%c %A %l",
-        "int_prefix": "260",
-        "int_select": "00"
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%a%N%f%N%e %h%N%b %s%N%z%N%T%N%c%N",
-        "country_name": "Zambia",
-        "country_post": "ZM",
-        "country_ab2": "ZM",
-        "country_ab3": "ZMB",
-        "country_num": 894,
-        "lang_name": "English",
-        "lang_ab": "en",
-        "lang_term": "eng",
-        "lang_lib": "eng",
-        "country_car": "Z",
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[yYeE].*",
-        "noexpr": "^[nNaA].*",
-        "yesstr": "Yes",
-        "nostr": "No"
-    },
-    "LC_NAME": {
-        "name_fmt": "%d%t%g%t%m%t%f",
-        "name_gen": null,
-        "name_mr": "Mr.",
-        "name_mrs": "Mrs.",
-        "name_miss": "Miss.",
-        "name_ms": "Ms."
+        "tel_dom_fmt": "%A %l",
+        "int_select": "00",
+        "int_prefix": "260"
     },
     "LC_TIME": {
+        "date_fmt": "%a %e %b %H:%M:%S %Z %Y",
         "abday": [
             "Sun",
             "Mon",
@@ -86,6 +90,11 @@
             "Thursday",
             "Friday",
             "Saturday"
+        ],
+        "week": [
+            7,
+            19971130,
+            4
         ],
         "abmon": [
             "Jan",
@@ -115,28 +124,23 @@
             "November",
             "December"
         ],
+        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_fmt": "%d\/%m\/%y",
+        "t_fmt": "%T",
         "am_pm": [
             "am",
             "pm"
         ],
-        "d_t_fmt": "%a %d %b %Y %T %Z",
-        "d_fmt": "%d\/%m\/%y",
-        "t_fmt": "%T",
         "t_fmt_ampm": "%l:%M:%S %P %Z",
-        "date_fmt": "%a %e %b %H:%M:%S %Z %Y",
-        "week": [
-            7,
-            19971130,
-            4
-        ],
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": 2,
         "first_workday": 2,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }

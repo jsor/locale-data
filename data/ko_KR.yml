@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: null
+    country_post: null
+    country_ab2: KR
+    country_ab3: KOR
+    country_num: 410
+    country_car: ROK
+    country_isbn: null
+    lang_name: 한국말
+    lang_ab: ko
+    lang_term: kor
+    lang_lib: kor
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[yY예]'
+    noexpr: '^[nN아]'
+    yesstr: null
+    nostr: 아니오
 LC_MONETARY:
-    int_curr_symbol: 'KRW '
     currency_symbol: ￦
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 0
     frac_digits: 0
     p_cs_precedes: 1
     p_sep_by_space: 0
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 4
+    int_curr_symbol: 'KRW '
+    int_frac_digits: 0
     int_p_cs_precedes: null
     int_p_sep_by_space: null
     int_n_cs_precedes: null
     int_n_sep_by_space: null
     int_p_sign_posn: null
     int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: null
+    name_mrs: null
+    name_miss: null
+    name_ms: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: '(%A) %l'
     tel_int_fmt: '+%c %a %l'
-    int_prefix: '82'
+    tel_dom_fmt: '(%A) %l'
     int_select: null
-LC_ADDRESS:
-    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
-    country_post: null
-    country_ab2: KR
-    country_ab3: KOR
-    country_num: 410
-    lang_name: 한국말
-    lang_ab: ko
-    lang_term: kor
-    lang_lib: kor
-    country_car: ROK
-    country_isbn: null
-LC_MESSAGES:
-    yesexpr: '^[yY예]'
-    noexpr: '^[nN아]'
-    yesstr: 'Yes'
-    nostr: 아니오
-LC_NAME:
-    name_fmt: '%d%t%g%t%m%t%f'
-    name_gen: null
-    name_mr: null
-    name_mrs: null
-    name_miss: null
-    name_ms: null
+    int_prefix: '82'
 LC_TIME:
+    date_fmt: '%Y. %m. %d. (%a) %H:%M:%S %Z'
     abday: [일, 월, 화, 수, 목, 금, '토']
     day: [일요일, 월요일, 화요일, 수요일, 목요일, 금요일, '토요일']
+    week: null
     abmon: [' 1월', ' 2월', ' 3월', ' 4월', ' 5월', ' 6월', ' 7월', ' 8월', ' 9월', 10월, 11월, 12월]
     mon: [1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월]
-    am_pm: ['오전', 오후]
     d_t_fmt: '%x (%a) %r'
     d_fmt: '%Y년 %m월 %d일'
     t_fmt: '%H시 %M분 %S초'
+    am_pm: ['오전', 오후]
     t_fmt_ampm: '%p %I시 %M분 %S초'
-    date_fmt: '%Y. %m. %d. (%a) %H:%M:%S %Z'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
     first_weekday: null
     first_workday: null
-    era_d_fmt: null
     cal_direction: null
-    alt_digits: null
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: null

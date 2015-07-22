@@ -39,11 +39,39 @@ class LocaleData
         return $data['locales'];
     }
 
+    public function getAddressData($locale)
+    {
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_ADDRESS'];
+    }
+
+    public function getMeasurementData($locale)
+    {
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_MEASUREMENT'];
+    }
+
+    public function getMessagesData($locale)
+    {
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_MESSAGES'];
+    }
+
     public function getMonetaryData($locale)
     {
         $data = $this->reader->read($this->path, $locale);
 
         return $data['LC_MONETARY'];
+    }
+
+    public function getNameData($locale)
+    {
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_NAME'];
     }
 
     public function getNumericData($locale)
@@ -65,27 +93,6 @@ class LocaleData
         $data = $this->reader->read($this->path, $locale);
 
         return $data['LC_TELEPHONE'];
-    }
-
-    public function getAddressData($locale)
-    {
-        $data = $this->reader->read($this->path, $locale);
-
-        return $data['LC_ADDRESS'];
-    }
-
-    public function getMessagesData($locale)
-    {
-        $data = $this->reader->read($this->path, $locale);
-
-        return $data['LC_MESSAGES'];
-    }
-
-    public function getNameData($locale)
-    {
-        $data = $this->reader->read($this->path, $locale);
-
-        return $data['LC_NAME'];
     }
 
     public function getTimeData($locale)

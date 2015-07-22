@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => 'Soomaaliya',
+    'country_post' => 'SOM',
+    'country_ab2' => 'SO',
+    'country_ab3' => 'SOM',
+    'country_num' => 706,
+    'country_car' => 'SO',
+    'country_isbn' => NULL,
+    'lang_name' => 'Soomaali',
+    'lang_ab' => 'so',
+    'lang_term' => 'som',
+    'lang_lib' => 'som',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY].*',
+    'noexpr' => '^[nN].*',
+    'yesstr' => NULL,
+    'nostr' => NULL,
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'SOS ',
     'currency_symbol' => '$',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'SOS ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => '',
+    'name_mr' => 'Md',
+    'name_mrs' => 'Mw',
+    'name_miss' => '',
+    'name_ms' => 'Mw',
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '%a-%l',
     'tel_int_fmt' => '%c-%a-%l',
-    'int_prefix' => '252',
+    'tel_dom_fmt' => '%a-%l',
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => 'Soomaaliya',
-    'country_post' => 'SOM',
-    'country_ab2' => 'SO',
-    'country_ab3' => 'SOM',
-    'country_num' => 706,
-    'lang_name' => 'Soomaali',
-    'lang_ab' => 'so',
-    'lang_term' => 'som',
-    'lang_lib' => 'som',
-    'country_car' => 'SO',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => '',
-    'name_mr' => 'Md',
-    'name_mrs' => 'Mw',
-    'name_miss' => '',
-    'name_ms' => 'Mw',
+    'int_prefix' => '252',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%A, %B %e, %r %Z %Y',
     'abday' => 
     array (
       0 => 'Axa',
@@ -102,6 +107,7 @@
       5 => 'Jimco',
       6 => 'Sabti',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'Kob',
@@ -132,25 +138,24 @@
       10 => 'Bisha Kow iyo Tobnaad',
       11 => 'Bisha Laba iyo Tobnaad',
     ),
+    'd_t_fmt' => '%A, %B %e, %Y %r %Z',
+    'd_fmt' => '%d/%m/%Y',
+    't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (
       0 => 'subaxnimo',
       1 => 'galabnimo',
     ),
-    'd_t_fmt' => '%A, %B %e, %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
-    't_fmt' => '%l:%M:%S',
     't_fmt_ampm' => '%X %p',
-    'date_fmt' => '%A, %B %e, %r %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N',
+    'country_name' => '中華民國',
+    'country_post' => 'TW',
+    'country_ab2' => 'TW',
+    'country_ab3' => 'TWN',
+    'country_num' => 158,
+    'country_car' => NULL,
+    'country_isbn' => 957,
+    'lang_name' => '漢語文言',
+    'lang_ab' => NULL,
+    'lang_term' => 'lzh',
+    'lang_lib' => 'lzh',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY是]',
+    'noexpr' => '^[nN非]',
+    'yesstr' => NULL,
+    'nostr' => NULL,
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'TWD ',
     'currency_symbol' => 'NT$',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 4,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'TWD ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => 1,
     'int_p_sep_by_space' => 0,
     'int_n_cs_precedes' => 1,
     'int_n_sep_by_space' => 0,
     'int_p_sign_posn' => 1,
     'int_n_sign_posn' => 1,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%f%d%t%g',
+    'name_gen' => '君',
+    'name_mr' => '子',
+    'name_mrs' => '氏',
+    'name_miss' => '女',
+    'name_ms' => '娘',
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '%A-%l',
     'tel_int_fmt' => '+%c-%a-%l',
-    'int_prefix' => '886',
+    'tel_dom_fmt' => '%A-%l',
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N',
-    'country_name' => '中華民國',
-    'country_post' => 'TW',
-    'country_ab2' => 'TW',
-    'country_ab3' => 'TWN',
-    'country_num' => 158,
-    'lang_name' => '漢語文言',
-    'lang_ab' => NULL,
-    'lang_term' => 'lzh',
-    'lang_lib' => 'lzh',
-    'country_car' => NULL,
-    'country_isbn' => 957,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY是]',
-    'noexpr' => '^[nN非]',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%f%d%t%g',
-    'name_gen' => '君',
-    'name_mr' => '子',
-    'name_mrs' => '氏',
-    'name_miss' => '女',
-    'name_ms' => '娘',
+    'int_prefix' => '886',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '公曆 %C%Oy年 %B %Oe日 %A %OH時%OM分%OS秒',
     'abday' => 
     array (
       0 => '日',
@@ -94,6 +99,7 @@
       5 => '週五',
       6 => '週六',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => ' 一 ',
@@ -124,21 +130,20 @@
       10 => '十一月',
       11 => '十二月',
     ),
+    'd_t_fmt' => '%OC%Oy年%B%Od日 (%A) %OH時%OM分%OS秒',
+    'd_fmt' => '%OC%Oy年%B%Od日',
+    't_fmt' => '%OH時%OM分%OS秒',
     'am_pm' => 
     array (
       0 => '朝',
       1 => '暮',
     ),
-    'd_t_fmt' => '%OC%Oy年%B%Od日 (%A) %OH時%OM分%OS秒',
-    'd_fmt' => '%OC%Oy年%B%Od日',
-    't_fmt' => '%OH時%OM分%OS秒',
     't_fmt_ampm' => '%p %OI時%OM分%OS秒',
-    'date_fmt' => '公曆 %C%Oy年 %B %Oe日 %A %OH時%OM分%OS秒',
-    'week' => NULL,
-    'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
     'era_d_fmt' => NULL,
-    'cal_direction' => NULL,
+    'era_t_fmt' => NULL,
     'alt_digits' => 
     array (
       0 => '〇',
@@ -174,9 +179,9 @@
       30 => '卅',
       31 => '卅一',
     ),
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
+    'cal_direction' => NULL,
     'timezone' => NULL,
   ),
 );

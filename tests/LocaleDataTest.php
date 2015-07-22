@@ -19,6 +19,99 @@ class LocaleDataTest extends TestCase
      * @test
      * @dataProvider provideLocales
      */
+    public function it_provides_address_data($locale)
+    {
+        $data = LocaleData::getInstance()->getAddressData($locale);
+
+        $this->assertData($data, 'LC_ADDRESS');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_address_fallback_data()
+    {
+        $data = LocaleData::getInstance()->getAddressData('foo'); // Length must be < 4 to count as a locale
+
+        $this->assertData($data, 'LC_ADDRESS');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_address_data_for_invalid_locale()
+    {
+        $data = LocaleData::getInstance()->getAddressData('invalid'); // Length must be > 4 to not count as a locale
+
+        $this->assertData($data, 'LC_ADDRESS');
+    }
+
+    /**
+     * @test
+     * @dataProvider provideLocales
+     */
+    public function it_provides_measurement_data($locale)
+    {
+        $data = LocaleData::getInstance()->getMeasurementData($locale);
+
+        $this->assertData($data, 'LC_MEASUREMENT');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_measurement_fallback_data()
+    {
+        $data = LocaleData::getInstance()->getMeasurementData('foo'); // Length must be < 4 to count as a locale
+
+        $this->assertData($data, 'LC_MEASUREMENT');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_measurement_data_for_invalid_locale()
+    {
+        $data = LocaleData::getInstance()->getMeasurementData('invalid'); // Length must be > 4 to not count as a locale
+
+        $this->assertData($data, 'LC_MEASUREMENT');
+    }
+
+    /**
+     * @test
+     * @dataProvider provideLocales
+     */
+    public function it_provides_messages_data($locale)
+    {
+        $data = LocaleData::getInstance()->getMessagesData($locale);
+
+        $this->assertData($data, 'LC_MESSAGES');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_messages_fallback_data()
+    {
+        $data = LocaleData::getInstance()->getMessagesData('foo'); // Length must be < 4 to count as a locale
+
+        $this->assertData($data, 'LC_MESSAGES');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_messages_data_for_invalid_locale()
+    {
+        $data = LocaleData::getInstance()->getMessagesData('invalid'); // Length must be > 4 to not count as a locale
+
+        $this->assertData($data, 'LC_MESSAGES');
+    }
+
+    /**
+     * @test
+     * @dataProvider provideLocales
+     */
     public function it_provides_monetary_data($locale)
     {
         $data = LocaleData::getInstance()->getMonetaryData($locale);
@@ -44,6 +137,37 @@ class LocaleDataTest extends TestCase
         $data = LocaleData::getInstance()->getMonetaryData('invalid'); // Length must be > 4 to not count as a locale
 
         $this->assertData($data, 'LC_MONETARY');
+    }
+
+    /**
+     * @test
+     * @dataProvider provideLocales
+     */
+    public function it_provides_name_data($locale)
+    {
+        $data = LocaleData::getInstance()->getNameData($locale);
+
+        $this->assertData($data, 'LC_NAME');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_name_fallback_data()
+    {
+        $data = LocaleData::getInstance()->getNameData('foo'); // Length must be < 4 to count as a locale
+
+        $this->assertData($data, 'LC_NAME');
+    }
+
+    /**
+     * @test
+     */
+    public function it_provides_name_data_for_invalid_locale()
+    {
+        $data = LocaleData::getInstance()->getNameData('invalid'); // Length must be > 4 to not count as a locale
+
+        $this->assertData($data, 'LC_NAME');
     }
 
     /**
@@ -137,99 +261,6 @@ class LocaleDataTest extends TestCase
         $data = LocaleData::getInstance()->getTelephoneData('invalid'); // Length must be > 4 to not count as a locale
 
         $this->assertData($data, 'LC_TELEPHONE');
-    }
-
-    /**
-     * @test
-     * @dataProvider provideLocales
-     */
-    public function it_provides_address_data($locale)
-    {
-        $data = LocaleData::getInstance()->getAddressData($locale);
-
-        $this->assertData($data, 'LC_ADDRESS');
-    }
-
-    /**
-     * @test
-     */
-    public function it_provides_address_fallback_data()
-    {
-        $data = LocaleData::getInstance()->getAddressData('foo'); // Length must be < 4 to count as a locale
-
-        $this->assertData($data, 'LC_ADDRESS');
-    }
-
-    /**
-     * @test
-     */
-    public function it_provides_address_data_for_invalid_locale()
-    {
-        $data = LocaleData::getInstance()->getAddressData('invalid'); // Length must be > 4 to not count as a locale
-
-        $this->assertData($data, 'LC_ADDRESS');
-    }
-
-    /**
-     * @test
-     * @dataProvider provideLocales
-     */
-    public function it_provides_messages_data($locale)
-    {
-        $data = LocaleData::getInstance()->getMessagesData($locale);
-
-        $this->assertData($data, 'LC_MESSAGES');
-    }
-
-    /**
-     * @test
-     */
-    public function it_provides_messages_fallback_data()
-    {
-        $data = LocaleData::getInstance()->getMessagesData('foo'); // Length must be < 4 to count as a locale
-
-        $this->assertData($data, 'LC_MESSAGES');
-    }
-
-    /**
-     * @test
-     */
-    public function it_provides_messages_data_for_invalid_locale()
-    {
-        $data = LocaleData::getInstance()->getMessagesData('invalid'); // Length must be > 4 to not count as a locale
-
-        $this->assertData($data, 'LC_MESSAGES');
-    }
-
-    /**
-     * @test
-     * @dataProvider provideLocales
-     */
-    public function it_provides_name_data($locale)
-    {
-        $data = LocaleData::getInstance()->getNameData($locale);
-
-        $this->assertData($data, 'LC_NAME');
-    }
-
-    /**
-     * @test
-     */
-    public function it_provides_name_fallback_data()
-    {
-        $data = LocaleData::getInstance()->getNameData('foo'); // Length must be < 4 to count as a locale
-
-        $this->assertData($data, 'LC_NAME');
-    }
-
-    /**
-     * @test
-     */
-    public function it_provides_name_data_for_invalid_locale()
-    {
-        $data = LocaleData::getInstance()->getNameData('invalid'); // Length must be > 4 to not count as a locale
-
-        $this->assertData($data, 'LC_NAME');
     }
 
     /**

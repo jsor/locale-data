@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => NULL,
+    'country_post' => NULL,
+    'country_ab2' => 'IN',
+    'country_ab3' => 'IND',
+    'country_num' => 356,
+    'country_car' => 'IND',
+    'country_isbn' => NULL,
+    'lang_name' => 'कोंकणी',
+    'lang_ab' => NULL,
+    'lang_term' => 'kok',
+    'lang_lib' => 'kok',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^(हय|[yY])',
+    'noexpr' => '^(न्ही|[nN])',
+    'yesstr' => NULL,
+    'nostr' => NULL,
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'INR ',
     'currency_symbol' => '₹',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 1,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'INR ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%p%t%f%t%g',
+    'name_gen' => '',
+    'name_mr' => 'श्री',
+    'name_mrs' => 'श्रीमती',
+    'name_miss' => 'कुमारी',
+    'name_ms' => 'कुमार',
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c ;%a ;%l',
-    'int_prefix' => '91',
+    'tel_dom_fmt' => NULL,
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
-    'country_post' => NULL,
-    'country_ab2' => 'IN',
-    'country_ab3' => 'IND',
-    'country_num' => 356,
-    'lang_name' => 'कोंकणी',
-    'lang_ab' => NULL,
-    'lang_term' => 'kok',
-    'lang_lib' => 'kok',
-    'country_car' => 'IND',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^(हय|[yY])',
-    'noexpr' => '^(न्ही|[nN])',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%p%t%f%t%g',
-    'name_gen' => '',
-    'name_mr' => 'श्री',
-    'name_mrs' => 'श्रीमती',
-    'name_miss' => 'कुमारी',
-    'name_ms' => 'कुमार',
+    'int_prefix' => '91',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'आयतार',
@@ -94,6 +99,7 @@
       5 => 'शुकरार',
       6 => 'शेनवार',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'जेनवरी',
@@ -124,25 +130,24 @@
       10 => 'नोवेंबर',
       11 => 'दिसेंबर',
     ),
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_fmt' => '%A %d %b %Y',
+    't_fmt' => '%I:%M:%S  %Z',
     'am_pm' => 
     array (
       0 => 'म.पू.',
       1 => 'म.नं.',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
-    'd_fmt' => '%A %d %b %Y',
-    't_fmt' => '%I:%M:%S  %Z',
     't_fmt_ampm' => '%I:%M:%S %p %Z',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

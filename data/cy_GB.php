@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
+    'country_name' => 'Cymru',
+    'country_post' => NULL,
+    'country_ab2' => 'GB',
+    'country_ab3' => 'GBR',
+    'country_num' => 826,
+    'country_car' => 'GB',
+    'country_isbn' => 0,
+    'lang_name' => 'Cymraeg',
+    'lang_ab' => 'cy',
+    'lang_term' => 'cym',
+    'lang_lib' => 'wel',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[iItTyY].*',
+    'noexpr' => '^[nN].*',
+    'yesstr' => 'ie',
+    'nostr' => 'na',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'GBP ',
     'currency_symbol' => '£',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'GBP ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => 'Mr.',
+    'name_mrs' => 'Mrs.',
+    'name_miss' => 'Miss.',
+    'name_ms' => 'Ms.',
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '%A %l',
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '44',
+    'tel_dom_fmt' => '%A %l',
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
-    'country_name' => 'Cymru',
-    'country_post' => NULL,
-    'country_ab2' => 'GB',
-    'country_ab3' => 'GBR',
-    'country_num' => 826,
-    'lang_name' => 'Cymraeg',
-    'lang_ab' => 'cy',
-    'lang_term' => 'cym',
-    'lang_lib' => 'wel',
-    'country_car' => 'GB',
-    'country_isbn' => 0,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[iItTyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'ie',
-    'nostr' => 'na',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => 'Mr.',
-    'name_mrs' => 'Mrs.',
-    'name_miss' => 'Miss.',
-    'name_ms' => 'Ms.',
+    'int_prefix' => '44',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %e %b %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'Sul',
@@ -102,6 +107,7 @@
       5 => 'Gwener',
       6 => 'Sadwrn',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'Ion',
@@ -132,25 +138,24 @@
       10 => 'Tachwedd',
       11 => 'Rhagfyr',
     ),
+    'd_t_fmt' => 'Dydd %A %d mis %B %Y %T %Z',
+    'd_fmt' => '%d.%m.%y',
+    't_fmt' => '%T',
     'am_pm' => 
     array (
       0 => 'am',
       1 => 'pm',
     ),
-    'd_t_fmt' => 'Dydd %A %d mis %B %Y %T %Z',
-    'd_fmt' => '%d.%m.%y',
-    't_fmt' => '%T',
     't_fmt_ampm' => '%l:%M:%S %P %Z',
-    'date_fmt' => '%a %e %b %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => 2,
     'first_workday' => 2,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

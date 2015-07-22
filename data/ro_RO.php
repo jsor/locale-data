@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%d%N%s%t%h%N%b%t%e%t%r%N%z%t%T%N%S%t%c%N',
+    'country_name' => 'România',
+    'country_post' => 'RO',
+    'country_ab2' => 'RO',
+    'country_ab3' => 'ROU',
+    'country_num' => 642,
+    'country_car' => 'RO',
+    'country_isbn' => 973,
+    'lang_name' => 'română',
+    'lang_ab' => 'ro',
+    'lang_term' => 'ron',
+    'lang_lib' => 'rum',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[DdYy].*',
+    'noexpr' => '^[nN].*',
+    'yesstr' => NULL,
+    'nostr' => NULL,
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'RON ',
     'currency_symbol' => 'Lei',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 1,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'RON ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%s%t%f%t%g%t%m',
+    'name_gen' => NULL,
+    'name_mr' => 'Dl.',
+    'name_mrs' => 'D-na.',
+    'name_miss' => 'D-ra.',
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '40',
+    'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%d%N%s%t%h%N%b%t%e%t%r%N%z%t%T%N%S%t%c%N',
-    'country_name' => 'România',
-    'country_post' => 'RO',
-    'country_ab2' => 'RO',
-    'country_ab3' => 'ROU',
-    'country_num' => 642,
-    'lang_name' => 'română',
-    'lang_ab' => 'ro',
-    'lang_term' => 'ron',
-    'lang_lib' => 'rum',
-    'country_car' => 'RO',
-    'country_isbn' => 973,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[DdYy].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%s%t%f%t%g%t%m',
-    'name_gen' => NULL,
-    'name_mr' => 'Dl.',
-    'name_mrs' => 'D-na.',
-    'name_miss' => 'D-ra.',
-    'name_ms' => NULL,
+    'int_prefix' => '40',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%A %-e %B %Y, %H:%M:%S %z',
     'abday' => 
     array (
       0 => 'Du',
@@ -102,6 +107,7 @@
       5 => 'vineri',
       6 => 'sâmbătă',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ian',
@@ -132,25 +138,24 @@
       10 => 'noiembrie',
       11 => 'decembrie',
     ),
+    'd_t_fmt' => '%a %d %b %Y %T %z',
+    'd_fmt' => '%d.%m.%Y',
+    't_fmt' => '%T',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %z',
-    'd_fmt' => '%d.%m.%Y',
-    't_fmt' => '%T',
     't_fmt_ampm' => '',
-    'date_fmt' => '%A %-e %B %Y, %H:%M:%S %z',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => 2,
     'first_workday' => 2,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

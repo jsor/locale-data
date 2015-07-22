@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z',
+    'country_name' => 'Ўзбекистон',
+    'country_post' => 'UZ" % ??',
+    'country_ab2' => 'UZ',
+    'country_ab3' => 'UZB',
+    'country_num' => 860,
+    'country_car' => 'UZ',
+    'country_isbn' => NULL,
+    'lang_name' => 'Ўзбекча',
+    'lang_ab' => 'uz',
+    'lang_term' => 'uzb',
+    'lang_lib' => 'uzb',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[ҲҳYy].*',
+    'noexpr' => '^[ЙйNn].*',
+    'yesstr' => 'Ҳа',
+    'nostr' => 'Йўқ',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'UZS ',
     'currency_symbol' => 'сўм',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -12,7 +37,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -20,12 +44,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
+    'int_curr_symbol' => 'UZS ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%d%t%f%t%g%t%m',
+    'name_gen' => 'Ҳурматли',
+    'name_mr' => 'Жаноб',
+    'name_mrs' => 'Хоним',
+    'name_miss' => '',
+    'name_ms' => '',
   ),
   'LC_NUMERIC' => 
   array (
@@ -44,44 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '27',
+    'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z',
-    'country_name' => 'Ўзбекистон',
-    'country_post' => 'UZ" % ??',
-    'country_ab2' => 'UZ',
-    'country_ab3' => 'UZB',
-    'country_num' => 860,
-    'lang_name' => 'Ўзбекча',
-    'lang_ab' => 'uz',
-    'lang_term' => 'uzb',
-    'lang_lib' => 'uzb',
-    'country_car' => 'UZ',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[ҲҳYy].*',
-    'noexpr' => '^[ЙйNn].*',
-    'yesstr' => 'Ҳа',
-    'nostr' => 'Йўқ',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%d%t%f%t%g%t%m',
-    'name_gen' => 'Ҳурматли',
-    'name_mr' => 'Жаноб',
-    'name_mrs' => 'Хоним',
-    'name_miss' => '',
-    'name_ms' => '',
+    'int_prefix' => '27',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%d %B, %Y йил, %A',
     'abday' => 
     array (
       0 => 'Якш',
@@ -102,6 +107,7 @@
       5 => 'Жума',
       6 => 'Шанба',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'Янв',
@@ -132,25 +138,24 @@
       10 => 'Ноябрь',
       11 => 'Декабрь',
     ),
+    'd_t_fmt' => '%T, %d %B, %Y йил, %A',
+    'd_fmt' => '%d/%m/%y',
+    't_fmt' => '%T',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    'd_t_fmt' => '%T, %d %B, %Y йил, %A',
-    'd_fmt' => '%d/%m/%y',
-    't_fmt' => '%T',
     't_fmt_ampm' => '',
-    'date_fmt' => '%d %B, %Y йил, %A',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

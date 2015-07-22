@@ -1,6 +1,28 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_name": null,
+        "country_post": null,
+        "country_ab2": "RU",
+        "country_ab3": "RUS",
+        "country_num": 643,
+        "country_car": "RUS",
+        "country_isbn": null,
+        "lang_name": "\u0427\u04d1\u0432\u0430\u0448\u043b\u0430",
+        "lang_ab": "cv",
+        "lang_term": "chv",
+        "lang_lib": "chv"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[yY].*",
+        "noexpr": "^[nN].*",
+        "yesstr": null,
+        "nostr": null
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "RUB ",
         "currency_symbol": "t",
         "mon_decimal_point": ".",
         "mon_thousands_sep": "\u00a0",
@@ -10,7 +32,6 @@
         ],
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 0,
         "p_sep_by_space": 1,
@@ -18,12 +39,22 @@
         "n_sep_by_space": 1,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
+        "int_curr_symbol": "RUB ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_gen": null,
+        "name_mr": null,
+        "name_mrs": null,
+        "name_miss": null,
+        "name_ms": null
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
@@ -38,40 +69,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": null,
         "tel_int_fmt": "+%c %a %l",
-        "int_prefix": "7",
-        "int_select": "0~10"
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
-        "country_post": null,
-        "country_ab2": "RU",
-        "country_ab3": "RUS",
-        "country_num": 643,
-        "lang_name": "\u0427\u04d1\u0432\u0430\u0448\u043b\u0430",
-        "lang_ab": "cv",
-        "lang_term": "chv",
-        "lang_lib": "chv",
-        "country_car": "RUS",
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[yY].*",
-        "noexpr": "^[nN].*",
-        "yesstr": "Yes",
-        "nostr": "No"
-    },
-    "LC_NAME": {
-        "name_fmt": "%d%t%g%t%m%t%f",
-        "name_gen": null,
-        "name_mr": null,
-        "name_mrs": null,
-        "name_miss": null,
-        "name_ms": null
+        "tel_dom_fmt": null,
+        "int_select": "0~10",
+        "int_prefix": "7"
     },
     "LC_TIME": {
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
             "vr",
             "tn",
@@ -90,6 +94,7 @@
             "ernekun",
             "\u0161\u0103matkun"
         ],
+        "week": null,
         "abmon": [
             "K\u0102R",
             "NAR",
@@ -118,24 +123,23 @@
             "c\u00fck",
             "ra\u0161tav"
         ],
+        "d_t_fmt": "%a %d %b %Y %T",
+        "d_fmt": "%d.%m.%Y",
+        "t_fmt": "%T",
         "am_pm": [
             "",
             ""
         ],
-        "d_t_fmt": "%a %d %b %Y %T",
-        "d_fmt": "%d.%m.%Y",
-        "t_fmt": "%T",
         "t_fmt_ampm": "",
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
-        "week": null,
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": 2,
         "first_workday": 2,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }

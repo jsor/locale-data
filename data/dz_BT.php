@@ -1,7 +1,32 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
+    'country_name' => 'འབྲུག།',
+    'country_post' => NULL,
+    'country_ab2' => 'BT',
+    'country_ab3' => 'BHU',
+    'country_num' => NULL,
+    'country_car' => NULL,
+    'country_isbn' => NULL,
+    'lang_name' => '(རྫོང་ཁ',
+    'lang_ab' => 'dz',
+    'lang_term' => 'dzo',
+    'lang_lib' => 'dzo',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[ཨYy].*',
+    'noexpr' => '^[མNn].*',
+    'yesstr' => 'ཨིན',
+    'nostr' => 'མེན',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'BTN ',
     'currency_symbol' => 'དངུལ་ཀྲམ་',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
@@ -13,7 +38,6 @@
     ),
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 3,
     'frac_digits' => 3,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 1,
@@ -21,12 +45,23 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 4,
     'n_sign_posn' => 4,
+    'int_curr_symbol' => 'BTN ',
+    'int_frac_digits' => 3,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => NULL,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%p%t%g%t%m%t%f',
+    'name_gen' => '',
+    'name_mr' => 'ཕོ',
+    'name_mrs' => 'ཨམ',
+    'name_miss' => 'མོ',
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -45,44 +80,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => NULL,
+    'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
-    'country_name' => 'འབྲུག།',
-    'country_post' => NULL,
-    'country_ab2' => 'BT',
-    'country_ab3' => 'BHU',
-    'country_num' => NULL,
-    'lang_name' => '(རྫོང་ཁ',
-    'lang_ab' => 'dz',
-    'lang_term' => 'dzo',
-    'lang_lib' => 'dzo',
-    'country_car' => NULL,
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[ཨYy].*',
-    'noexpr' => '^[མNn].*',
-    'yesstr' => 'ཨིན',
-    'nostr' => 'མེན',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%p%t%g%t%m%t%f',
-    'name_gen' => '',
-    'name_mr' => 'ཕོ',
-    'name_mrs' => 'ཨམ',
-    'name_miss' => 'མོ',
-    'name_ms' => NULL,
+    'int_prefix' => NULL,
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
       0 => 'ཟླ་',
@@ -103,6 +108,7 @@
       5 => 'གཟའ་སྤེན་ཕ་',
       6 => 'གཟའ་ཉི་མ་',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ཟླ་༡',
@@ -133,25 +139,24 @@
       10 => 'ཟླ་བ་བཅུ་གཅིག་པ་',
       11 => 'ཟླ་བ་བཅུ་གཉིས་པ་',
     ),
+    'd_t_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
+    'd_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%d',
+    't_fmt' => 'ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
     'am_pm' => 
     array (
       0 => 'ངས་ཆ',
       1 => 'ཕྱི་ཆ',
     ),
-    'd_t_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
-    'd_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%d',
-    't_fmt' => 'ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
     't_fmt_ampm' => 'ཆུ་ཚོད%Iཀསར་མ%Mཀསར་ཆ%S %p',
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

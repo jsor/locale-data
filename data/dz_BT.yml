@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N'
+    country_name: 'འབྲུག།'
+    country_post: null
+    country_ab2: BT
+    country_ab3: BHU
+    country_num: null
+    country_car: null
+    country_isbn: null
+    lang_name: (རྫོང་ཁ
+    lang_ab: dz
+    lang_term: dzo
+    lang_lib: dzo
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[ཨYy].*'
+    noexpr: '^[མNn].*'
+    yesstr: ཨིན
+    nostr: མེན
 LC_MONETARY:
-    int_curr_symbol: 'BTN '
     currency_symbol: དངུལ་ཀྲམ་
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 2, '']
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 3
     frac_digits: 3
     p_cs_precedes: 1
     p_sep_by_space: 1
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 4
     n_sign_posn: 4
+    int_curr_symbol: 'BTN '
+    int_frac_digits: 3
     int_p_cs_precedes: null
     int_p_sep_by_space: null
     int_n_cs_precedes: null
     int_n_sep_by_space: null
     int_p_sign_posn: null
     int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%p%t%g%t%m%t%f'
+    name_gen: ''
+    name_mr: ཕོ
+    name_mrs: ཨམ
+    name_miss: མོ
+    name_ms: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: null
     tel_int_fmt: '+%c %a %l'
-    int_prefix: null
+    tel_dom_fmt: null
     int_select: null
-LC_ADDRESS:
-    postal_fmt: '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N'
-    country_name: 'འབྲུག།'
-    country_post: null
-    country_ab2: BT
-    country_ab3: BHU
-    country_num: null
-    lang_name: (རྫོང་ཁ
-    lang_ab: dz
-    lang_term: dzo
-    lang_lib: dzo
-    country_car: null
-    country_isbn: null
-LC_MESSAGES:
-    yesexpr: '^[ཨYy].*'
-    noexpr: '^[མNn].*'
-    yesstr: ཨིན
-    nostr: མེན
-LC_NAME:
-    name_fmt: '%p%t%g%t%m%t%f'
-    name_gen: ''
-    name_mr: ཕོ
-    name_mrs: ཨམ
-    name_miss: མོ
-    name_ms: null
+    int_prefix: null
 LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ཟླ་, མིར་, ལྷག་, པུར་, སངས་, སྤེན་, ཉི་]
     day: ['གཟའ་ཟླ་བ་', 'གཟའ་མིག་དམར་', 'གཟའ་ལྷག་ཕ་', 'གཟའ་པུར་བུ་', 'གཟའ་པ་སངས་', 'གཟའ་སྤེན་ཕ་', 'གཟའ་ཉི་མ་']
+    week: null
     abmon: [ཟླ་༡, ཟླ་༢, ཟླ་༣, ཟླ་༤, ཟླ་༥, ཟླ་༦, ཟླ་༧, ཟླ་༨, ཟླ་༩, 'ཟླ་༡༠', ཟླ་༡༡, ཟླ་༡༢]
     mon: [ཟླ་བ་དང་པ་, ཟླ་བ་གཉིས་པ་, ཟླ་བ་གསུམ་པ་, ཟླ་བ་བཞི་པ་, ཟླ་བ་ལྔ་ཕ་, ཟླ་བ་དྲུག་པ་, ཟླ་བ་བདུནཔ་, ཟླ་བ་བརྒྱད་པ་, ཟླ་བ་དགུ་པ་, 'ཟླ་བ་བཅུ་པ་', 'ཟླ་བ་བཅུ་གཅིག་པ་', 'ཟླ་བ་བཅུ་གཉིས་པ་']
-    am_pm: [ངས་ཆ, ཕྱི་ཆ]
     d_t_fmt: པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S
     d_fmt: པསྱི་ལོ%yཟལ%mཚེས%d
     t_fmt: ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S
+    am_pm: [ངས་ཆ, ཕྱི་ཆ]
     t_fmt_ampm: 'ཆུ་ཚོད%Iཀསར་མ%Mཀསར་ཆ%S %p'
-    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
     first_weekday: null
     first_workday: null
-    era_d_fmt: null
     cal_direction: null
-    alt_digits: null
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: null

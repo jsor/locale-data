@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: Mongolia
+    country_post: MN
+    country_ab2: MN
+    country_ab3: MNG
+    country_num: 496
+    country_car: MGL
+    country_isbn: 99929
+    lang_name: 'Монгол хэл'
+    lang_ab: mn
+    lang_term: mon
+    lang_lib: mon
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[тТyY].*'
+    noexpr: '^[үҮnN].*'
+    yesstr: null
+    nostr: null
 LC_MONETARY:
-    int_curr_symbol: 'MNT '
     currency_symbol: ₮
     mon_decimal_point: .
     mon_thousands_sep: ' '
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 2
     frac_digits: 2
     p_cs_precedes: 0
     p_sep_by_space: 1
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
+    int_curr_symbol: 'MNT '
+    int_frac_digits: 2
     int_p_cs_precedes: null
     int_p_sep_by_space: null
     int_n_cs_precedes: null
     int_n_sep_by_space: null
     int_p_sign_posn: null
     int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: Ноён
+    name_mrs: Хатагтай
+    name_miss: Хатагтай
+    name_ms: Хатагтай
 LC_NUMERIC:
     decimal_point: ','
     thousands_sep: .
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: '(0%a) %l'
     tel_int_fmt: '(+%c %a) %l'
-    int_prefix: '976'
+    tel_dom_fmt: '(0%a) %l'
     int_select: '00'
-LC_ADDRESS:
-    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: Mongolia
-    country_post: MN
-    country_ab2: MN
-    country_ab3: MNG
-    country_num: 496
-    lang_name: 'Монгол хэл'
-    lang_ab: mn
-    lang_term: mon
-    lang_lib: mon
-    country_car: MGL
-    country_isbn: 99929
-LC_MESSAGES:
-    yesexpr: '^[тТyY].*'
-    noexpr: '^[үҮnN].*'
-    yesstr: 'Yes'
-    nostr: 'No'
-LC_NAME:
-    name_fmt: '%d%t%g%t%m%t%f'
-    name_gen: null
-    name_mr: Ноён
-    name_mrs: Хатагтай
-    name_miss: Хатагтай
-    name_ms: Хатагтай
+    int_prefix: '976'
 LC_TIME:
+    date_fmt: '%Z %Y оны %B %e, %a %H:%M:%S'
     abday: [Ня, Да, Мя, 'Лх', Пү, Ба, Бя]
     day: [Ням, Даваа, Мягмар, 'Лхагва', Пүрэв, Баасан, Бямба]
+    week: null
     abmon: [Хул, 'Үхэ', Бар, Туу, Луу, Мог, Мор, Хон, Бич, 'Тах', 'Нох', 'Гах']
     mon: ['Хулгана сарын', 'Үхэр сарын', 'Бар сарын', 'Туулай сарын', 'Луу сарын', 'Могой сарын', 'Морь сарын', 'Хонь сарын', 'Бич сарын', 'Тахиа сарын', 'Нохой сарын', 'Гахай сарын']
-    am_pm: ['', '']
     d_t_fmt: '%Y %b %d, %a %T'
     d_fmt: '%Y.%m.%d'
     t_fmt: '%T'
+    am_pm: ['', '']
     t_fmt_ampm: ''
-    date_fmt: '%Z %Y оны %B %e, %a %H:%M:%S'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
     first_weekday: null
     first_workday: null
-    era_d_fmt: null
     cal_direction: null
-    alt_digits: null
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: null

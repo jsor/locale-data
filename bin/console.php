@@ -134,19 +134,22 @@ function value($value)
     return $value;
 }
 
-function nullify($data)
+function store($name, array $data)
 {
-    $nullified = array();
+    file_put_contents(
+        __DIR__.'/../data/'.$name.'.json',
+        json_encode($data, JSON_PRETTY_PRINT).PHP_EOL
+    );
 
-    foreach ($data as $category => $entries) {
-        $nullified[$category] = array();
+    file_put_contents(
+        __DIR__.'/../data/'.$name.'.php',
+        '<?php return '.var_export($data, true).';'.PHP_EOL
+    );
 
-        foreach ($entries as $key => $value) {
-            $nullified[$category][$key] = null;
-        }
-    }
-
-    return $nullified;
+    file_put_contents(
+        __DIR__.'/../data/'.$name.'.yml',
+        Yaml::dump($data)
+    );
 }
 
 $console = new Application('Localdata', '1.0.0');
@@ -169,8 +172,8 @@ $console
             return '.' !== $path[0];
         });
 
-        $localeData = array();
-        $root = array();
+        $availableLocales = array();
+        $root = include __DIR__.'/data_root.php';
 
         foreach ($locales as $locale) {
             $output->write('Processing locale <comment>'.$locale.'</comment>...');
@@ -182,68 +185,32 @@ $console
                 continue;
             }
 
-            $localeData[$locale] = $data;
-
-            $root = array_replace_recursive($root, $data);
-
-            $output->writeln('<info>Done</info>.');
-        }
-
-        $root = nullify($root);
-
-        if (isset($localeData['POSIX'])) {
-            $root = array_replace_recursive($root, $localeData['POSIX']);
-        }
-
-        $meta = array(
-            'locales' => array_keys($localeData)
-        );
-
-        $localeData = array('root' => $root) + $localeData;
-
-        foreach ($localeData as $locale => $data) {
             $filled = array_replace_recursive($root, $data);
 
-            $output->write('Storing locale data for <comment>'.$locale.'</comment>...');
+            store($locale, $filled);
 
-            file_put_contents(
-                __DIR__.'/../data/'.$locale.'.json',
-                json_encode($filled, JSON_PRETTY_PRINT).PHP_EOL
-            );
-
-            file_put_contents(
-                __DIR__.'/../data/'.$locale.'.php',
-                '<?php return '.var_export($filled, true).';'.PHP_EOL
-            );
-
-            file_put_contents(
-                __DIR__.'/../data/'.$locale.'.yml',
-                Yaml::dump($filled)
-            );
+            $availableLocales[] = $locale;
 
             $output->writeln('<info>Done</info>.');
         }
 
-        $output->write('Storing meta file...');
+        $output->write('Storing root file...');
 
-        file_put_contents(
-            __DIR__.'/../data/meta.json',
-            json_encode($meta, JSON_PRETTY_PRINT).PHP_EOL
-        );
-
-        file_put_contents(
-            __DIR__.'/../data/meta.php',
-            '<?php return '.var_export($meta, true).';'.PHP_EOL
-        );
-
-        file_put_contents(
-            __DIR__.'/../data/meta.yml',
-            Yaml::dump($meta).PHP_EOL
-        );
+        store('root', $root);
 
         $output->writeln('<info>Done</info>.');
 
-        $output->writeln('<info>Finished processing '.count($localeData).' locales.</info>');
+        $output->write('Storing meta file...');
+
+        $meta = array(
+            'locales' => $availableLocales
+        );
+
+        store('meta', $meta);
+
+        $output->writeln('<info>Done</info>.');
+
+        $output->writeln('<info>Finished processing '.count($locales).' locales.</info>');
     })
 ;
 

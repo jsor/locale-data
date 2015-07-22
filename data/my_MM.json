@@ -1,6 +1,28 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%a%N%d%N%f%N%b%N%h%t%r%t%e%t%s%N%T%t%z%N%c%N",
+        "country_name": "\u1019\u103c\u1014\u103a\u1019\u102c",
+        "country_post": "Myanmar",
+        "country_ab2": "MM",
+        "country_ab3": null,
+        "country_num": null,
+        "country_car": "BA",
+        "country_isbn": null,
+        "lang_name": "\u1017\u1019\u102c",
+        "lang_ab": "my",
+        "lang_term": "mya",
+        "lang_lib": "mya"
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[yY\u101f].*",
+        "noexpr": "^[nN\u1019].*",
+        "yesstr": "\u101f\u102f\u1010\u103a\u1010\u101a\u103a",
+        "nostr": "\u1019\u101f\u102f\u1010\u103a\u1018\u1030\u1038"
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "MMK ",
         "currency_symbol": "Ks",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
@@ -10,7 +32,6 @@
         ],
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 0,
         "p_sep_by_space": 0,
@@ -18,12 +39,22 @@
         "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
+        "int_curr_symbol": "MMK ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%p%t%g%t%m%t%f",
+        "name_gen": "",
+        "name_mr": "\u1026\u1038",
+        "name_mrs": "\u1012\u1031\u102b\u103a",
+        "name_miss": "\u1019",
+        "name_ms": "\u1012\u1031\u102b\u103a"
     },
     "LC_NUMERIC": {
         "decimal_point": ".",
@@ -38,40 +69,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": "%a %l",
         "tel_int_fmt": "+%c %a %l",
-        "int_prefix": "95",
-        "int_select": "0"
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%a%N%d%N%f%N%b%N%h%t%r%t%e%t%s%N%T%t%z%N%c%N",
-        "country_name": "\u1019\u103c\u1014\u103a\u1019\u102c",
-        "country_post": "Myanmar",
-        "country_ab2": "MM",
-        "country_ab3": null,
-        "country_num": null,
-        "lang_name": "\u1017\u1019\u102c",
-        "lang_ab": "my",
-        "lang_term": "mya",
-        "lang_lib": "mya",
-        "country_car": "BA",
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[yY\u101f].*",
-        "noexpr": "^[nN\u1019].*",
-        "yesstr": "\u101f\u102f\u1010\u103a\u1010\u101a\u103a",
-        "nostr": "\u1019\u101f\u102f\u1010\u103a\u1018\u1030\u1038"
-    },
-    "LC_NAME": {
-        "name_fmt": "%p%t%g%t%m%t%f",
-        "name_gen": "",
-        "name_mr": "\u1026\u1038",
-        "name_mrs": "\u1012\u1031\u102b\u103a",
-        "name_miss": "\u1019",
-        "name_ms": "\u1012\u1031\u102b\u103a"
+        "tel_dom_fmt": "%a %l",
+        "int_select": "0",
+        "int_prefix": "95"
     },
     "LC_TIME": {
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
             "\u1014\u103d\u1031",
             "\u101c\u102c",
@@ -90,6 +94,7 @@
             "\u101e\u1031\u102c\u1000\u103c\u102c",
             "\u1005\u1014\u1031"
         ],
+        "week": null,
         "abmon": [
             "\u1007\u1014\u103a",
             "\u1016\u1031",
@@ -118,20 +123,19 @@
             "\u1014\u102d\u102f\u101d\u1004\u103a\u1018\u102c",
             "\u1012\u102e\u1007\u1004\u103a\u1018\u102c"
         ],
+        "d_t_fmt": "%OC%Oy %b %Od %A %OI:%OM:%OS %Op %Z",
+        "d_fmt": "%OC%Oy %b %Od %A",
+        "t_fmt": "%OI:%OM:%OS %p",
         "am_pm": [
             "\u1014\u1036\u1014\u1000\u103a",
             "\u100a\u1014\u1031"
         ],
-        "d_t_fmt": "%OC%Oy %b %Od %A %OI:%OM:%OS %Op %Z",
-        "d_fmt": "%OC%Oy %b %Od %A",
-        "t_fmt": "%OI:%OM:%OS %p",
         "t_fmt_ampm": "%OI:%OM:%OS %p",
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
-        "week": null,
-        "first_weekday": null,
-        "first_workday": null,
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
         "era_d_fmt": null,
-        "cal_direction": null,
+        "era_t_fmt": null,
         "alt_digits": [
             "\u1040\u1040",
             "\u1040\u1041",
@@ -234,9 +238,9 @@
             "\u1049\u1048",
             "\u1049\u1049"
         ],
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
+        "first_weekday": null,
+        "first_workday": null,
+        "cal_direction": null,
         "timezone": "MMT-6.5MMT-6.5"
     }
 }

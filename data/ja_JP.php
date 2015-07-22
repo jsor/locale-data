@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%z%c%T%s%b%e%r',
+    'country_name' => NULL,
+    'country_post' => NULL,
+    'country_ab2' => 'JP',
+    'country_ab3' => 'JPN',
+    'country_num' => 392,
+    'country_car' => 'J',
+    'country_isbn' => NULL,
+    'lang_name' => '日本語',
+    'lang_ab' => 'ja',
+    'lang_term' => 'jpn',
+    'lang_lib' => 'jpn',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^([yYｙＹ]|はい|ハイ)',
+    'noexpr' => '^([nNｎＮ]|いいえ|イイエ)',
+    'yesstr' => 'はい',
+    'nostr' => 'いいえ',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'JPY ',
     'currency_symbol' => '￥',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 0,
     'frac_digits' => 0,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 4,
     'n_sign_posn' => 4,
+    'int_curr_symbol' => 'JPY ',
+    'int_frac_digits' => 0,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => 2,
     'int_n_cs_precedes' => NULL,
     'int_n_sep_by_space' => 2,
     'int_p_sign_posn' => NULL,
     'int_n_sign_posn' => NULL,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%p%t%f%t%g',
+    'name_gen' => '様',
+    'name_mr' => 'Mr.',
+    'name_mrs' => 'Mrs.',
+    'name_miss' => 'Miss.',
+    'name_ms' => 'Ms.',
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => NULL,
     'tel_int_fmt' => '+%c ;%a ;%l',
-    'int_prefix' => '81',
+    'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
-    'country_post' => NULL,
-    'country_ab2' => 'JP',
-    'country_ab3' => 'JPN',
-    'country_num' => 392,
-    'lang_name' => '日本語',
-    'lang_ab' => 'ja',
-    'lang_term' => 'jpn',
-    'lang_lib' => 'jpn',
-    'country_car' => 'J',
-    'country_isbn' => NULL,
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^([yYｙＹ]|はい|ハイ)',
-    'noexpr' => '^([nNｎＮ]|いいえ|イイエ)',
-    'yesstr' => 'はい',
-    'nostr' => 'いいえ',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => '%p%t%f%t%g',
-    'name_gen' => '様',
-    'name_mr' => 'Mr.',
-    'name_mrs' => 'Mrs.',
-    'name_miss' => 'Miss.',
-    'name_ms' => 'Ms.',
+    'int_prefix' => '81',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%Y年 %b %e日 %A %H:%M:%S %Z',
     'abday' => 
     array (
       0 => '日',
@@ -94,6 +99,7 @@
       5 => '金曜日',
       6 => '土曜日',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => ' 1月',
@@ -124,21 +130,31 @@
       10 => '11月',
       11 => '12月',
     ),
+    'd_t_fmt' => '%Y年%m月%d日 %H時%M分%S秒',
+    'd_fmt' => '%Y年%m月%d日',
+    't_fmt' => '%H時%M分%S秒',
     'am_pm' => 
     array (
       0 => '午前',
       1 => '午後',
     ),
-    'd_t_fmt' => '%Y年%m月%d日 %H時%M分%S秒',
-    'd_fmt' => '%Y年%m月%d日',
-    't_fmt' => '%H時%M分%S秒',
     't_fmt_ampm' => '%p%I時%M分%S秒',
-    'date_fmt' => '%Y年 %b %e日 %A %H:%M:%S %Z',
-    'week' => NULL,
-    'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'era' => 
+    array (
+      0 => '+:2:1990/01/01:+*:平成:%EC%Ey年',
+      1 => '+:1:1989/01/08:1989/12/31:平成:%EC元年',
+      2 => '+:2:1927/01/01:1989/01/07:昭和:%EC%Ey年',
+      3 => '+:1:1926/12/25:1926/12/31:昭和:%EC元年',
+      4 => '+:2:1913/01/01:1926/12/24:大正:%EC%Ey年',
+      5 => '+:2:1912/07/30:1912/12/31:大正:%EC元年',
+      6 => '+:6:1873/01/01:1912/07/29:明治:%EC%Ey年',
+      7 => '+:1:0001/01/01:1872/12/31:西暦:%EC%Ey年',
+      8 => '+:1:-0001/12/31:-*:紀元前:%EC%Ey年',
+    ),
+    'era_year' => NULL,
+    'era_d_t_fmt' => '%EY%m月%d日 %H時%M分%S秒',
     'era_d_fmt' => '%EY%m月%d日',
-    'cal_direction' => NULL,
+    'era_t_fmt' => NULL,
     'alt_digits' => 
     array (
       0 => '〇',
@@ -242,20 +258,9 @@
       98 => '九十八',
       99 => '九十九',
     ),
-    'era' => 
-    array (
-      0 => '+:2:1990/01/01:+*:平成:%EC%Ey年',
-      1 => '+:1:1989/01/08:1989/12/31:平成:%EC元年',
-      2 => '+:2:1927/01/01:1989/01/07:昭和:%EC%Ey年',
-      3 => '+:1:1926/12/25:1926/12/31:昭和:%EC元年',
-      4 => '+:2:1913/01/01:1926/12/24:大正:%EC%Ey年',
-      5 => '+:2:1912/07/30:1912/12/31:大正:%EC元年',
-      6 => '+:6:1873/01/01:1912/07/29:明治:%EC%Ey年',
-      7 => '+:1:0001/01/01:1872/12/31:西暦:%EC%Ey年',
-      8 => '+:1:-0001/12/31:-*:紀元前:%EC%Ey年',
-    ),
-    'era_d_t_fmt' => '%EY%m月%d日 %H時%M分%S秒',
-    'era_t_fmt' => NULL,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
+    'cal_direction' => NULL,
     'timezone' => NULL,
   ),
 );

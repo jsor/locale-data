@@ -1,14 +1,38 @@
 <?php return array (
+  'LC_ADDRESS' => 
+  array (
+    'postal_fmt' => '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N',
+    'country_name' => '中华人民共和国',
+    'country_post' => NULL,
+    'country_ab2' => 'CN',
+    'country_ab3' => 'CHN',
+    'country_num' => 156,
+    'country_car' => NULL,
+    'country_isbn' => '7',
+    'lang_name' => NULL,
+    'lang_ab' => 'ug',
+    'lang_term' => 'uig',
+    'lang_lib' => 'uig',
+  ),
+  'LC_MEASUREMENT' => 
+  array (
+    'measurement' => 1,
+  ),
+  'LC_MESSAGES' => 
+  array (
+    'yesexpr' => '^[yY].*',
+    'noexpr' => '^[nN].*',
+    'yesstr' => 'Yes',
+    'nostr' => 'No',
+  ),
   'LC_MONETARY' => 
   array (
-    'int_curr_symbol' => 'CNY ',
     'currency_symbol' => '￥',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
-    'int_frac_digits' => 2,
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
@@ -16,12 +40,23 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 4,
     'n_sign_posn' => 4,
+    'int_curr_symbol' => 'CNY ',
+    'int_frac_digits' => 2,
     'int_p_cs_precedes' => 1,
     'int_p_sep_by_space' => 0,
     'int_n_cs_precedes' => 1,
     'int_n_sep_by_space' => 0,
     'int_p_sign_posn' => 1,
     'int_n_sign_posn' => 1,
+  ),
+  'LC_NAME' => 
+  array (
+    'name_fmt' => '%p%t%g%t%m%t%f',
+    'name_gen' => NULL,
+    'name_mr' => NULL,
+    'name_mrs' => NULL,
+    'name_miss' => NULL,
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -36,44 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_dom_fmt' => '0%a %l',
     'tel_int_fmt' => '+%c %a %l',
-    'int_prefix' => '86',
+    'tel_dom_fmt' => '0%a %l',
     'int_select' => '00',
-  ),
-  'LC_ADDRESS' => 
-  array (
-    'postal_fmt' => '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N',
-    'country_name' => '中华人民共和国',
-    'country_post' => NULL,
-    'country_ab2' => 'CN',
-    'country_ab3' => 'CHN',
-    'country_num' => 156,
-    'lang_name' => NULL,
-    'lang_ab' => 'ug',
-    'lang_term' => 'uig',
-    'lang_lib' => 'uig',
-    'country_car' => NULL,
-    'country_isbn' => '7',
-  ),
-  'LC_MESSAGES' => 
-  array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
-  ),
-  'LC_NAME' => 
-  array (
-    'name_fmt' => NULL,
-    'name_gen' => NULL,
-    'name_mr' => NULL,
-    'name_mrs' => NULL,
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'int_prefix' => '86',
   ),
   'LC_TIME' => 
   array (
+    'date_fmt' => '%a، %d-%m-%Y، %T',
     'abday' => 
     array (
       0 => 'ي',
@@ -94,6 +99,7 @@
       5 => 'جۈمە',
       6 => 'شەنبە',
     ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'قەھرىتان',
@@ -124,25 +130,24 @@
       10 => 'ئوغلاق',
       11 => 'كۆنەك',
     ),
+    'd_t_fmt' => '%a، %d-%m-%Y، %T',
+    'd_fmt' => '%a، %d-%m-%Y',
+    't_fmt' => '%T',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    'd_t_fmt' => '%a، %d-%m-%Y، %T',
-    'd_fmt' => '%a، %d-%m-%Y',
-    't_fmt' => '%T',
     't_fmt_ampm' => '%I:%M:%S %p',
-    'date_fmt' => '%a، %d-%m-%Y، %T',
-    'week' => NULL,
+    'era' => NULL,
+    'era_year' => NULL,
+    'era_d_t_fmt' => NULL,
+    'era_d_fmt' => NULL,
+    'era_t_fmt' => NULL,
+    'alt_digits' => NULL,
     'first_weekday' => NULL,
     'first_workday' => NULL,
-    'era_d_fmt' => NULL,
     'cal_direction' => NULL,
-    'alt_digits' => NULL,
-    'era' => NULL,
-    'era_d_t_fmt' => NULL,
-    'era_t_fmt' => NULL,
     'timezone' => NULL,
   ),
 );

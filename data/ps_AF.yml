@@ -1,12 +1,30 @@
+LC_ADDRESS:
+    postal_fmt: '%a%N%f%N%d%N%b%N%s %h %e %r%N%C-%z %T%N%c%N'
+    country_name: افغانستان
+    country_post: null
+    country_ab2: AF
+    country_ab3: AFG
+    country_num: 4
+    country_car: AFG
+    country_isbn: null
+    lang_name: پښتو
+    lang_ab: ps
+    lang_term: pus
+    lang_lib: pus
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[yYبf].*'
+    noexpr: '^[nNخنo].*'
+    yesstr: null
+    nostr: null
 LC_MONETARY:
-    int_curr_symbol: 'AFN '
     currency_symbol: افغانۍ
     mon_decimal_point: ٫
     mon_thousands_sep: ٬
     mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
-    int_frac_digits: 0
     frac_digits: 0
     p_cs_precedes: 0
     p_sep_by_space: 1
@@ -14,12 +32,21 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
+    int_curr_symbol: 'AFN '
+    int_frac_digits: 0
     int_p_cs_precedes: null
     int_p_sep_by_space: null
     int_n_cs_precedes: null
     int_n_sep_by_space: null
     int_p_sign_posn: null
     int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%s%t%p%t%g%t%m%t%f'
+    name_gen: ' % No general salutation for all persons in Pashto.'
+    name_mr: ښاغلې
+    name_mrs: 'بي بي'
+    name_miss: 'بي بي'
+    name_ms: 'بي بي'
 LC_NUMERIC:
     decimal_point: ٫
     thousands_sep: ٬
@@ -28,53 +55,29 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_dom_fmt: '%A‒%l'
     tel_int_fmt: '+%c %a %l'
-    int_prefix: '93'
+    tel_dom_fmt: '%A‒%l'
     int_select: '00'
-LC_ADDRESS:
-    postal_fmt: '%a%N%f%N%d%N%b%N%s %h %e %r%N%C-%z %T%N%c%N'
-    country_name: افغانستان
-    country_post: null
-    country_ab2: AF
-    country_ab3: AFG
-    country_num: 4
-    lang_name: پښتو
-    lang_ab: ps
-    lang_term: pus
-    lang_lib: pus
-    country_car: AFG
-    country_isbn: null
-LC_MESSAGES:
-    yesexpr: '^[yYبf].*'
-    noexpr: '^[nNخنo].*'
-    yesstr: 'Yes'
-    nostr: 'No'
-LC_NAME:
-    name_fmt: '%s%t%p%t%g%t%m%t%f'
-    name_gen: ' % No general salutation for all persons in Pashto.'
-    name_mr: ښاغلې
-    name_mrs: 'بي بي'
-    name_miss: 'بي بي'
-    name_ms: 'بي بي'
+    int_prefix: '93'
 LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ی., د., س., چ., پ., ج., ش.]
     day: [یکشنبه, دوشنبه, سه‌شنبه, چارشنبه, پنجشنبه, 'جمعه', شنبه]
+    week: null
     abmon: [جنو, فبر, 'مار', اپر, 'مـې', جون, جول, اګس, سپت, اکت, 'نوم', 'دسم']
     mon: [جنوري, فبروري, 'مارچ', اپریل, 'مې', جون, جولاي, اګست, 'سپتمبر', اکتوبر, 'نومبر', 'دسمبر']
-    am_pm: ['غ.م.', غ.و.]
     d_t_fmt: '%A د %Y د %B %e، %Z %H:%M:%S'
     d_fmt: 'د %Y د %B %e'
     t_fmt: '%H:%M:%S'
+    am_pm: ['غ.م.', غ.و.]
     t_fmt_ampm: '‫%I:%M:%S %p‬'
-    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    week: null
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
     first_weekday: 7
     first_workday: 7
-    era_d_fmt: null
     cal_direction: 3
-    alt_digits: null
-    era: null
-    era_d_t_fmt: null
-    era_t_fmt: null
     timezone: null

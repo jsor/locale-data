@@ -1,6 +1,28 @@
 {
+    "LC_ADDRESS": {
+        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
+        "country_name": null,
+        "country_post": null,
+        "country_ab2": "IL",
+        "country_ab3": "ISR",
+        "country_num": 376,
+        "country_car": null,
+        "country_isbn": null,
+        "lang_name": null,
+        "lang_ab": null,
+        "lang_term": null,
+        "lang_lib": null
+    },
+    "LC_MEASUREMENT": {
+        "measurement": 1
+    },
+    "LC_MESSAGES": {
+        "yesexpr": "^[Yy\u05db].*",
+        "noexpr": "^[Nn\u05dc].*",
+        "yesstr": null,
+        "nostr": null
+    },
     "LC_MONETARY": {
-        "int_curr_symbol": "ILS ",
         "currency_symbol": "\u05e9\u05d7",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
@@ -10,7 +32,6 @@
         ],
         "positive_sign": "",
         "negative_sign": "-",
-        "int_frac_digits": 2,
         "frac_digits": 2,
         "p_cs_precedes": 1,
         "p_sep_by_space": 1,
@@ -18,12 +39,22 @@
         "n_sep_by_space": 1,
         "p_sign_posn": 2,
         "n_sign_posn": 2,
+        "int_curr_symbol": "ILS ",
+        "int_frac_digits": 2,
         "int_p_cs_precedes": null,
         "int_p_sep_by_space": null,
         "int_n_cs_precedes": null,
         "int_n_sep_by_space": null,
         "int_p_sign_posn": null,
         "int_n_sign_posn": null
+    },
+    "LC_NAME": {
+        "name_fmt": "%d%t%g%t%m%t%f",
+        "name_gen": null,
+        "name_mr": null,
+        "name_mrs": null,
+        "name_miss": null,
+        "name_ms": null
     },
     "LC_NUMERIC": {
         "decimal_point": ".",
@@ -38,40 +69,13 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_dom_fmt": null,
         "tel_int_fmt": "+%c %a %l",
-        "int_prefix": "972",
-        "int_select": null
-    },
-    "LC_ADDRESS": {
-        "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
-        "country_post": null,
-        "country_ab2": "IL",
-        "country_ab3": "ISR",
-        "country_num": 376,
-        "lang_name": null,
-        "lang_ab": null,
-        "lang_term": null,
-        "lang_lib": null,
-        "country_car": null,
-        "country_isbn": null
-    },
-    "LC_MESSAGES": {
-        "yesexpr": "^[Yy\u05db].*",
-        "noexpr": "^[Nn\u05dc].*",
-        "yesstr": "Yes",
-        "nostr": "No"
-    },
-    "LC_NAME": {
-        "name_fmt": "%d%t%g%t%m%t%f",
-        "name_gen": null,
-        "name_mr": null,
-        "name_mrs": null,
-        "name_miss": null,
-        "name_ms": null
+        "tel_dom_fmt": null,
+        "int_select": null,
+        "int_prefix": "972"
     },
     "LC_TIME": {
+        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
             "\u05d0'",
             "\u05d1'",
@@ -90,6 +94,7 @@
             "\u05e9\u05d9\u05e9\u05d9",
             "\u05e9\u05d1\u05ea"
         ],
+        "week": null,
         "abmon": [
             "\u05d9\u05e0\u05d5",
             "\u05e4\u05d1\u05e8",
@@ -118,24 +123,23 @@
             "\u05e0\u05d5\u05d1\u05de\u05d1\u05e8",
             "\u05d3\u05e6\u05de\u05d1\u05e8"
         ],
+        "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
+        "d_fmt": "%d\/%m\/%y",
+        "t_fmt": "%H:%M:%S",
         "am_pm": [
             "AM",
             "PM"
         ],
-        "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
-        "d_fmt": "%d\/%m\/%y",
-        "t_fmt": "%H:%M:%S",
         "t_fmt_ampm": "%I:%M:%S %P",
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
-        "week": null,
+        "era": null,
+        "era_year": null,
+        "era_d_t_fmt": null,
+        "era_d_fmt": null,
+        "era_t_fmt": null,
+        "alt_digits": null,
         "first_weekday": null,
         "first_workday": null,
-        "era_d_fmt": null,
         "cal_direction": null,
-        "alt_digits": null,
-        "era": null,
-        "era_d_t_fmt": null,
-        "era_t_fmt": null,
         "timezone": null
     }
 }
