@@ -2,11 +2,10 @@
 
 namespace Jsor\LocaleData;
 
-use Symfony\Component\Intl\Data\Bundle\Reader\BufferedBundleReader;
-use Symfony\Component\Intl\Data\Bundle\Reader\BundleEntryReader;
-use Symfony\Component\Intl\Data\Bundle\Reader\BundleEntryReaderInterface;
-use Symfony\Component\Intl\Data\Bundle\Reader\JsonBundleReader;
-use Symfony\Component\Intl\Exception\MissingResourceException;
+use Jsor\LocaleData\Reader\BufferedReader;
+use Jsor\LocaleData\Reader\FallbackReader;
+use Jsor\LocaleData\Reader\JsonReader;
+use Jsor\LocaleData\Reader\ReaderInterface;
 
 class LocaleData
 {
@@ -23,11 +22,11 @@ class LocaleData
     private $path;
 
     /**
-     * @var BundleEntryReaderInterface
+     * @var ReaderInterface
      */
     private $reader;
 
-    public function __construct($path, BundleEntryReaderInterface $reader)
+    public function __construct($path, ReaderInterface $reader)
     {
         $this->path = $path;
         $this->reader = $reader;
@@ -35,47 +34,65 @@ class LocaleData
 
     public function getLocales()
     {
-        return $this->reader->readEntry($this->path, 'meta', array('locales'));
+        $data = $this->reader->read($this->path, 'meta');
+
+        return $data['locales'];
     }
 
     public function getMonetaryData($locale)
     {
-        return $this->read($locale, array('LC_MONETARY'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_MONETARY'];
     }
 
     public function getNumericData($locale)
     {
-        return $this->read($locale, array('LC_NUMERIC'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_NUMERIC'];
     }
 
     public function getPaperData($locale)
     {
-        return $this->read($locale, array('LC_PAPER'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_PAPER'];
     }
 
     public function getTelephoneData($locale)
     {
-        return $this->read($locale, array('LC_TELEPHONE'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_TELEPHONE'];
     }
 
     public function getAddressData($locale)
     {
-        return $this->read($locale, array('LC_ADDRESS'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_ADDRESS'];
     }
 
     public function getMessagesData($locale)
     {
-        return $this->read($locale, array('LC_MESSAGES'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_MESSAGES'];
     }
 
     public function getNameData($locale)
     {
-        return $this->read($locale, array('LC_NAME'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_NAME'];
     }
 
     public function getTimeData($locale)
     {
-        return $this->read($locale, array('LC_TIME'));
+        $data = $this->reader->read($this->path, $locale);
+
+        return $data['LC_TIME'];
     }
 
     public static function getInstance()
@@ -89,27 +106,19 @@ class LocaleData
 
     public static function create()
     {
-        $entryReader = new BundleEntryReader(
-            new BufferedBundleReader(
-                new JsonBundleReader(),
+        return new self(
+            self::getDataPath(),
+            new BufferedReader(
+                new FallbackReader(
+                    new JsonReader()
+                ),
                 self::BUFFER_SIZE
             )
         );
-
-        return new self(self::getDataPath(), $entryReader);
     }
 
     public static function getDataPath()
     {
         return realpath(__DIR__.'/../data');
-    }
-
-    private function read($locale, array $indices)
-    {
-        try {
-            return $this->reader->readEntry($this->path, $locale, $indices);
-        } catch (MissingResourceException $e) {
-            return $this->reader->readEntry($this->path, 'POSIX', $indices);
-        }
     }
 }
