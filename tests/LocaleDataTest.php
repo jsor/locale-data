@@ -2,7 +2,7 @@
 
 namespace Jsor\LocaleData;
 
-class LocaledataFunctionTest extends TestCase
+class LocaleDataTest extends TestCase
 {
     /**
      * @test
@@ -42,7 +42,7 @@ class LocaledataFunctionTest extends TestCase
     public function it_provides_monetary_data_for_invalid_locale()
     {
         $data = LocaleData::getInstance()->getMonetaryData('invalid'); // Length must be > 4 to not count as a locale
-        
+
         $this->assertData($data, 'LC_MONETARY');
     }
 
@@ -166,7 +166,7 @@ class LocaledataFunctionTest extends TestCase
     public function it_provides_address_data_for_invalid_locale()
     {
         $data = LocaleData::getInstance()->getAddressData('invalid'); // Length must be > 4 to not count as a locale
-        
+
         $this->assertData($data, 'LC_ADDRESS');
     }
 
@@ -242,7 +242,7 @@ class LocaledataFunctionTest extends TestCase
 
         $this->assertData($data, 'LC_TIME');
     }
-    
+
     /**
      * @test
      */
