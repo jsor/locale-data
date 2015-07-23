@@ -152,7 +152,7 @@ function store($name, array $data)
     );
 }
 
-$console = new Application('Localdata', '1.0.0');
+$console = new Application('LocalData', '1.0.0');
 $console
     ->register('generate')
     ->setDefinition([

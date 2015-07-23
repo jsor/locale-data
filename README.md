@@ -1,4 +1,4 @@
-Localdata
+LocalData
 =========
 
 [![Build Status](https://travis-ci.org/jsor/locale-data.svg?branch=master)](https://travis-ci.org/jsor/locale-data)
