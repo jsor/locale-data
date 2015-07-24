@@ -25,11 +25,6 @@
         "symfony/console": "^2.7",
         "symfony/yaml": "^2.7"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-    },
     "config": {
         "bin-dir": "bin"
     }
