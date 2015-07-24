@@ -7,7 +7,7 @@ use Jsor\LocaleData\Reader\FallbackReader;
 use Jsor\LocaleData\Reader\JsonReader;
 use Jsor\LocaleData\Reader\ReaderInterface;
 
-class LocaleData
+class LocaleData implements LocaleDataInterface
 {
     const BUFFER_SIZE = 10;
 
