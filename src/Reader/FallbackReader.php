@@ -15,13 +15,19 @@ class FallbackReader implements ReaderInterface
 
     public function read($path, $locale)
     {
-        $locales = array($locale);
+        $locale = (string) $locale;
 
-        if (false !== strpos($locale, '_')) {
-            // en_US -> en
-            list($parent) = explode('_', $locale, 2);
+        $locales = array();
 
-            $locales[] = $parent;
+        if ('' !== $locale) {
+            $locales[] = $locale;
+
+            if (false !== strpos($locale, '_')) {
+                // en_US -> en
+                list($parent) = explode('_', $locale, 2);
+
+                $locales[] = $parent;
+            }
         }
 
         $locales[] = ReaderInterface::ROOT_LOCALE;

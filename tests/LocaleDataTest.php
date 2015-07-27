@@ -31,7 +31,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_address_fallback_data()
     {
-        $data = LocaleData::getInstance()->getAddressData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getAddressData(null);
 
         $this->assertData($data, 'LC_ADDRESS');
     }
@@ -41,7 +41,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_address_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getAddressData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getAddressData('invalid');
 
         $this->assertData($data, 'LC_ADDRESS');
     }
@@ -62,7 +62,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_measurement_fallback_data()
     {
-        $data = LocaleData::getInstance()->getMeasurementData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getMeasurementData(null);
 
         $this->assertData($data, 'LC_MEASUREMENT');
     }
@@ -72,7 +72,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_measurement_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getMeasurementData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getMeasurementData('invalid');
 
         $this->assertData($data, 'LC_MEASUREMENT');
     }
@@ -93,7 +93,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_messages_fallback_data()
     {
-        $data = LocaleData::getInstance()->getMessagesData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getMessagesData(null);
 
         $this->assertData($data, 'LC_MESSAGES');
     }
@@ -103,7 +103,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_messages_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getMessagesData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getMessagesData('invalid');
 
         $this->assertData($data, 'LC_MESSAGES');
     }
@@ -124,7 +124,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_monetary_data_fallback_data()
     {
-        $data = LocaleData::getInstance()->getMonetaryData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getMonetaryData(null);
 
         $this->assertData($data, 'LC_MONETARY');
     }
@@ -134,7 +134,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_monetary_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getMonetaryData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getMonetaryData('invalid');
 
         $this->assertData($data, 'LC_MONETARY');
     }
@@ -155,7 +155,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_name_fallback_data()
     {
-        $data = LocaleData::getInstance()->getNameData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getNameData(null);
 
         $this->assertData($data, 'LC_NAME');
     }
@@ -165,7 +165,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_name_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getNameData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getNameData('invalid');
 
         $this->assertData($data, 'LC_NAME');
     }
@@ -186,7 +186,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_numeric_fallback_data()
     {
-        $data = LocaleData::getInstance()->getNumericData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getNumericData(null);
 
         $this->assertData($data, 'LC_NUMERIC');
     }
@@ -196,7 +196,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_numeric_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getNumericData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getNumericData('invalid');
 
         $this->assertData($data, 'LC_NUMERIC');
     }
@@ -217,7 +217,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_paper_fallback_data()
     {
-        $data = LocaleData::getInstance()->getPaperData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getPaperData(null);
 
         $this->assertData($data, 'LC_PAPER');
     }
@@ -227,7 +227,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_paper_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getPaperData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getPaperData('invalid');
 
         $this->assertData($data, 'LC_PAPER');
     }
@@ -248,7 +248,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_telephone_fallback_data()
     {
-        $data = LocaleData::getInstance()->getTelephoneData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getTelephoneData(null);
 
         $this->assertData($data, 'LC_TELEPHONE');
     }
@@ -258,7 +258,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_telephone_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getTelephoneData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getTelephoneData('invalid');
 
         $this->assertData($data, 'LC_TELEPHONE');
     }
@@ -279,7 +279,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_time_fallback_data()
     {
-        $data = LocaleData::getInstance()->getTimeData('foo'); // Length must be < 4 to count as a locale
+        $data = LocaleData::getInstance()->getTimeData(null);
 
         $this->assertData($data, 'LC_TIME');
     }
@@ -289,7 +289,7 @@ class LocaleDataTest extends TestCase
      */
     public function it_provides_time_data_for_invalid_locale()
     {
-        $data = LocaleData::getInstance()->getTimeData('invalid'); // Length must be > 4 to not count as a locale
+        $data = LocaleData::getInstance()->getTimeData('invalid');
 
         $this->assertData($data, 'LC_TIME');
     }
