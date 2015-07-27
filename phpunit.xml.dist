@@ -20,9 +20,6 @@
     <filter>
         <whitelist>
             <directory>./src/</directory>
-            <exclude>
-                <file>./src/functions_include.php</file>
-            </exclude>
         </whitelist>
     </filter>
 </phpunit>
