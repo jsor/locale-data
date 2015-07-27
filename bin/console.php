@@ -152,7 +152,7 @@ function store($name, array $data)
     );
 }
 
-$console = new Application('LocaleData', '1.0.0');
+$console = new Application('LocaleData', '1.0.1');
 $console
     ->register('generate')
     ->setDefinition([
