@@ -30,5 +30,5 @@ script:
   - phpunit -v --coverage-text --coverage-clover ./build/logs/clover.xml
 
 after_script:
-  - composer require satooshi/php-coveralls:dev-master
+  - composer require satooshi/php-coveralls:dev-master --prefer-source
   - php vendor/bin/coveralls -v
