@@ -2,6 +2,7 @@ bin/
 src/
 data/*.php
 tests/
+.coveralls.yml
 .travis.yml
 composer.json
 phpunit.xml.dist
