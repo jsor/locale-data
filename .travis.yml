@@ -23,7 +23,6 @@ before_install:
 
 install:
   - if [ "$deps" = "no" ]; then composer install --prefer-source; fi;
-  - composer require satooshi/php-coveralls:dev-master
 
 script:
   - if [ "$deps" = "high" ]; then composer update --prefer-source; fi;
@@ -31,4 +30,5 @@ script:
   - phpunit -v --coverage-text --coverage-clover ./build/logs/clover.xml
 
 after_script:
+  - composer require satooshi/php-coveralls:dev-master
   - php vendor/bin/coveralls -v
