@@ -24,8 +24,5 @@
     "require-dev": {
         "symfony/console": "^2.7",
         "symfony/yaml": "^2.7"
-    },
-    "config": {
-        "bin-dir": "bin"
     }
 }
