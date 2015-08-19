@@ -2,7 +2,8 @@ bin/
 src/
 data/*.php
 tests/
-.coveralls.yml
-.travis.yml
+vendor/
+.*
 composer.json
+composer.lock
 phpunit.xml.dist
