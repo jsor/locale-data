@@ -10,7 +10,7 @@
     'country_car' => 'IND',
     'country_isbn' => NULL,
     'lang_name' => 'bhili',
-    'lang_ab' => 'bh',
+    'lang_ab' => '',
     'lang_term' => 'bhb',
     'lang_lib' => 'bhb',
   ),

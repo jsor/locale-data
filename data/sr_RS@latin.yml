@@ -10,7 +10,7 @@ LC_ADDRESS:
     lang_name: srpski
     lang_ab: sr
     lang_term: srp
-    lang_lib: scc
+    lang_lib: srp
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:

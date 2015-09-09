@@ -58,7 +58,7 @@
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
-        "thousands_sep": "",
+        "thousands_sep": "\u00a0",
         "grouping": [
             3,
             3
@@ -137,8 +137,8 @@
         "era_d_fmt": null,
         "era_t_fmt": null,
         "alt_digits": null,
-        "first_weekday": null,
-        "first_workday": null,
+        "first_weekday": 2,
+        "first_workday": 2,
         "cal_direction": null,
         "timezone": null
     }

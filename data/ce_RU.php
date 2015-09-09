@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -153,8 +153,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'first_weekday' => 2,
+    'first_workday' => 2,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

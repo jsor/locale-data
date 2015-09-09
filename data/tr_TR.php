@@ -12,7 +12,7 @@
     'lang_name' => 'Turkish',
     'lang_ab' => 'tr',
     'lang_term' => 'tur',
-    'lang_lib' => 'tr',
+    'lang_lib' => 'tur',
   ),
   'LC_MEASUREMENT' => 
   array (

@@ -12,7 +12,7 @@
     'lang_name' => 'Lëtzebuergesch',
     'lang_ab' => 'lb',
     'lang_term' => 'ltz',
-    'lang_lib' => 'lux',
+    'lang_lib' => 'ltz',
   ),
   'LC_MEASUREMENT' => 
   array (

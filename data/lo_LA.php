@@ -152,6 +152,6 @@
     'first_weekday' => NULL,
     'first_workday' => NULL,
     'cal_direction' => NULL,
-    'timezone' => 'ICT-7ICT-7',
+    'timezone' => NULL,
   ),
 );

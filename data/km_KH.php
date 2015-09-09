@@ -10,9 +10,9 @@
     'country_car' => 'LAO',
     'country_isbn' => NULL,
     'lang_name' => 'ភាសាខ្មែរ',
-    'lang_ab' => 'lo',
-    'lang_term' => 'lao',
-    'lang_lib' => 'lao',
+    'lang_ab' => 'km',
+    'lang_term' => 'khm',
+    'lang_lib' => 'khm',
   ),
   'LC_MEASUREMENT' => 
   array (

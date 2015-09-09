@@ -12,7 +12,7 @@
     'lang_name' => 'српски',
     'lang_ab' => 'sr',
     'lang_term' => 'srp',
-    'lang_lib' => 'scc',
+    'lang_lib' => 'srp',
   ),
   'LC_MEASUREMENT' => 
   array (

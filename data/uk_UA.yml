@@ -80,4 +80,4 @@ LC_TIME:
     first_weekday: 2
     first_workday: 2
     cal_direction: 2
-    timezone: 'з.ч.-02:00л.ч.-03:00,M3.5.0/03:00,M10.5.0/04:00'
+    timezone: null

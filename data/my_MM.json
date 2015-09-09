@@ -11,7 +11,7 @@
         "lang_name": "\u1017\u1019\u102c",
         "lang_ab": "my",
         "lang_term": "mya",
-        "lang_lib": "mya"
+        "lang_lib": "bur"
     },
     "LC_MEASUREMENT": {
         "measurement": 1
@@ -241,6 +241,6 @@
         "first_weekday": null,
         "first_workday": null,
         "cal_direction": null,
-        "timezone": "MMT-6.5MMT-6.5"
+        "timezone": null
     }
 }

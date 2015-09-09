@@ -10,7 +10,7 @@ LC_ADDRESS:
     lang_name: ဗမာ
     lang_ab: my
     lang_term: mya
-    lang_lib: mya
+    lang_lib: bur
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
@@ -80,4 +80,4 @@ LC_TIME:
     first_weekday: null
     first_workday: null
     cal_direction: null
-    timezone: MMT-6.5MMT-6.5
+    timezone: null

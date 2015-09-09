@@ -80,4 +80,4 @@ LC_TIME:
     first_weekday: null
     first_workday: null
     cal_direction: null
-    timezone: TST-8
+    timezone: null

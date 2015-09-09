@@ -12,7 +12,7 @@
     'lang_name' => 'Euskara',
     'lang_ab' => 'eu',
     'lang_term' => 'eus',
-    'lang_lib' => 'eus',
+    'lang_lib' => 'baq',
   ),
   'LC_MEASUREMENT' => 
   array (

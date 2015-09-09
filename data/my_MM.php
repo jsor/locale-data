@@ -12,7 +12,7 @@
     'lang_name' => 'ဗမာ',
     'lang_ab' => 'my',
     'lang_term' => 'mya',
-    'lang_lib' => 'mya',
+    'lang_lib' => 'bur',
   ),
   'LC_MEASUREMENT' => 
   array (
@@ -258,6 +258,6 @@
     'first_weekday' => NULL,
     'first_workday' => NULL,
     'cal_direction' => NULL,
-    'timezone' => 'MMT-6.5MMT-6.5',
+    'timezone' => NULL,
   ),
 );

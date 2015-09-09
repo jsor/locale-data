@@ -10,7 +10,7 @@
     'country_car' => 'IND',
     'country_isbn' => NULL,
     'lang_name' => 'ತುಳು',
-    'lang_ab' => 'tu',
+    'lang_ab' => '',
     'lang_term' => 'tcy',
     'lang_lib' => 'tcy',
   ),

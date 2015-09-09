@@ -148,6 +148,6 @@
     'first_weekday' => NULL,
     'first_workday' => NULL,
     'cal_direction' => NULL,
-    'timezone' => 'TST-8',
+    'timezone' => NULL,
   ),
 );

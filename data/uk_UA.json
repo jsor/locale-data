@@ -158,6 +158,6 @@
         "first_weekday": 2,
         "first_workday": 2,
         "cal_direction": 2,
-        "timezone": "\u0437.\u0447.-02:00\u043b.\u0447.-03:00,M3.5.0\/03:00,M10.5.0\/04:00"
+        "timezone": null
     }
 }

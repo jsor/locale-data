@@ -134,6 +134,6 @@
         "first_weekday": null,
         "first_workday": null,
         "cal_direction": null,
-        "timezone": "ICT-7ICT-7"
+        "timezone": null
     }
 }
