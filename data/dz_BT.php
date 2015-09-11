@@ -34,7 +34,7 @@
     array (
       0 => 3,
       1 => 2,
-      2 => '',
+      2 => NULL,
     ),
     'positive_sign' => '',
     'negative_sign' => '-',

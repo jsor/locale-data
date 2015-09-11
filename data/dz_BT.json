@@ -29,7 +29,7 @@
         "mon_grouping": [
             3,
             2,
-            ""
+            null
         ],
         "positive_sign": "",
         "negative_sign": "-",

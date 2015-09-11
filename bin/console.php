@@ -113,7 +113,11 @@ function parse($path, $locale)
 
 function value($value)
 {
-    if ('""' === $value || '' === $value) {
+    if ('' === $value) {
+        return null;
+    }
+
+    if ('""' === $value) {
         return '';
     }
 
