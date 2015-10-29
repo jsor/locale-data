@@ -27,7 +27,7 @@
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'Lt',
+    'currency_symbol' => '€',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 
@@ -44,7 +44,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'LTL ',
+    'int_curr_symbol' => 'EUR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,

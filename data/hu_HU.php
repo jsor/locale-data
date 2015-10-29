@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%Y. %b. %e., %A, %H.%M.%S %Z',
+    'date_fmt' => '%Y. %b. %e., %A, %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'v',
@@ -143,15 +143,15 @@
       10 => 'november',
       11 => 'december',
     ),
-    'd_t_fmt' => '%Y. %b. %e., %A, %H.%M.%S %Z',
+    'd_t_fmt' => '%Y. %b. %e., %A, %H:%M:%S %Z',
     'd_fmt' => '%Y-%m-%d',
-    't_fmt' => '%H.%M.%S',
+    't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    't_fmt_ampm' => '%H.%M.%S',
+    't_fmt_ampm' => '%H:%M:%S',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,
