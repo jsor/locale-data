@@ -9,7 +9,7 @@
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsor/localedata.git"
+    "url": "https://github.com/jsor/locale-data.git"
   },
   "license": "MIT"
 }
