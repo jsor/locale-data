@@ -1,0 +1,151 @@
+(function(window, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define([], function() {
+            return factory();
+        });
+    } else if (typeof module === 'object' && typeof module.exports === 'object') {
+        module.exports = factory();
+    } else {
+        (window.LocaleData || (window.LocaleData = {}))['pa_IN'] = factory();
+    }
+}(typeof window !== "undefined" ? window : this, function() {
+    return {
+        "LC_ADDRESS": {
+            "postal_fmt": "%z%c%T%s%b%e%r",
+            "country_name": null,
+            "country_post": null,
+            "country_ab2": "IN",
+            "country_ab3": "IND",
+            "country_num": 356,
+            "country_car": "IND",
+            "country_isbn": null,
+            "lang_name": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40",
+            "lang_ab": "pa",
+            "lang_term": "pan",
+            "lang_lib": "pan"
+        },
+        "LC_MEASUREMENT": {
+            "measurement": 1
+        },
+        "LC_MESSAGES": {
+            "yesexpr": "^[yY].*",
+            "noexpr": "^[nN].*",
+            "yesstr": null,
+            "nostr": null
+        },
+        "LC_MONETARY": {
+            "currency_symbol": "\u20b9",
+            "mon_decimal_point": ".",
+            "mon_thousands_sep": ",",
+            "mon_grouping": 3,
+            "positive_sign": "",
+            "negative_sign": "-",
+            "frac_digits": 2,
+            "p_cs_precedes": 1,
+            "p_sep_by_space": 1,
+            "n_cs_precedes": 1,
+            "n_sep_by_space": 1,
+            "p_sign_posn": 1,
+            "n_sign_posn": 1,
+            "int_curr_symbol": "INR ",
+            "int_frac_digits": 2,
+            "int_p_cs_precedes": null,
+            "int_p_sep_by_space": null,
+            "int_n_cs_precedes": null,
+            "int_n_sep_by_space": null,
+            "int_p_sign_posn": null,
+            "int_n_sign_posn": null
+        },
+        "LC_NAME": {
+            "name_fmt": "%p%t%f%t%g",
+            "name_gen": "",
+            "name_mr": "Mr.",
+            "name_mrs": "Mrs.",
+            "name_miss": "Miss.",
+            "name_ms": "Ms."
+        },
+        "LC_NUMERIC": {
+            "decimal_point": ".",
+            "thousands_sep": ",",
+            "grouping": 3
+        },
+        "LC_PAPER": {
+            "height": 297,
+            "width": 210
+        },
+        "LC_TELEPHONE": {
+            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_dom_fmt": null,
+            "int_select": "00",
+            "int_prefix": "91"
+        },
+        "LC_TIME": {
+            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "abday": [
+                "\u0a10\u0a24 ",
+                "\u0a38\u0a4b\u0a2e ",
+                "\u0a2e\u0a70\u0a17\u0a32 ",
+                "\u0a2c\u0a41\u0a71\u0a27 ",
+                "\u0a35\u0a40\u0a30 ",
+                "\u0a36\u0a41\u0a71\u0a15\u0a30 ",
+                "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30 "
+            ],
+            "day": [
+                "\u0a10\u0a24\u0a35\u0a3e\u0a30 ",
+                "\u0a38\u0a4b\u0a2e\u0a35\u0a3e\u0a30 ",
+                "\u0a2e\u0a70\u0a17\u0a32\u0a35\u0a3e\u0a30 ",
+                "\u0a2c\u0a41\u0a71\u0a27\u0a35\u0a3e\u0a30 ",
+                "\u0a35\u0a40\u0a30\u0a35\u0a3e\u0a30 ",
+                "\u0a36\u0a41\u0a71\u0a15\u0a30\u0a35\u0a3e\u0a30 ",
+                "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30\u0a35\u0a3e\u0a30 "
+            ],
+            "week": null,
+            "abmon": [
+                "\u0a1c\u0a28\u0a35\u0a30\u0a40",
+                "\u0a5e\u0a30\u0a35\u0a30\u0a40",
+                "\u0a2e\u0a3e\u0a30\u0a1a",
+                "\u0a05\u0a2a\u0a30\u0a48\u0a32",
+                "\u0a2e\u0a08",
+                "\u0a1c\u0a42\u0a28",
+                "\u0a1c\u0a41\u0a32\u0a3e\u0a08",
+                "\u0a05\u0a17\u0a38\u0a24",
+                "\u0a38\u0a24\u0a70\u0a2c\u0a30",
+                "\u0a05\u0a15\u0a24\u0a42\u0a2c\u0a30",
+                "\u0a28\u0a35\u0a70\u0a2c\u0a30",
+                "\u0a26\u0a38\u0a70\u0a2c\u0a30"
+            ],
+            "mon": [
+                "\u0a1c\u0a28\u0a35\u0a30\u0a40",
+                "\u0a5e\u0a30\u0a35\u0a30\u0a40",
+                "\u0a2e\u0a3e\u0a30\u0a1a",
+                "\u0a05\u0a2a\u0a30\u0a48\u0a32",
+                "\u0a2e\u0a08",
+                "\u0a1c\u0a42\u0a28",
+                "\u0a1c\u0a41\u0a32\u0a3e\u0a08",
+                "\u0a05\u0a17\u0a38\u0a24",
+                "\u0a38\u0a24\u0a70\u0a2c\u0a30",
+                "\u0a05\u0a15\u0a24\u0a42\u0a2c\u0a30",
+                "\u0a28\u0a35\u0a70\u0a2c\u0a30",
+                "\u0a26\u0a38\u0a70\u0a2c\u0a30"
+            ],
+            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
+            "d_fmt": "%A %d %b %Y",
+            "t_fmt": "%I:%M:%S  %Z",
+            "am_pm": [
+                "\u0a38\u0a35\u0a47\u0a30\u0a47",
+                "\u0a36\u0a3e\u0a2e"
+            ],
+            "t_fmt_ampm": "%I:%M:%S %p %Z",
+            "era": null,
+            "era_year": null,
+            "era_d_t_fmt": null,
+            "era_d_fmt": null,
+            "era_t_fmt": null,
+            "alt_digits": null,
+            "first_weekday": null,
+            "first_workday": null,
+            "cal_direction": null,
+            "timezone": null
+        }
+    };
+}));

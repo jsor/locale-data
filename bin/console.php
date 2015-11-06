@@ -138,11 +138,44 @@ function value($value)
     return $value;
 }
 
+function indent($str, $indent = '    ')
+{
+    return implode(PHP_EOL, array_map(function($line) use($indent) {
+        return $indent . $line;
+    }, explode(PHP_EOL, $str)));
+}
+
+function js($name, $data)
+{
+    $json = trim(indent(json_encode($data, JSON_PRETTY_PRINT)));
+
+    return <<<EOF
+(function(window, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define([], function() {
+            return factory();
+        });
+    } else if (typeof module === 'object' && typeof module.exports === 'object') {
+        module.exports = factory();
+    } else {
+        (window.LocaleData || (window.LocaleData = {}))['{$name}'] = factory();
+    }
+}(typeof window !== "undefined" ? window : this, function() {
+    return {$json};
+}));
+EOF;
+}
+
 function store($name, array $data)
 {
     file_put_contents(
         __DIR__.'/../data/'.$name.'.json',
         json_encode($data, JSON_PRETTY_PRINT).PHP_EOL
+    );
+
+    file_put_contents(
+        __DIR__.'/../data/'.$name.'.js',
+        js($name, $data).PHP_EOL
     );
 
     file_put_contents(

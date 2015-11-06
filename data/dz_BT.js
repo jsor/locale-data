@@ -1,0 +1,158 @@
+(function(window, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define([], function() {
+            return factory();
+        });
+    } else if (typeof module === 'object' && typeof module.exports === 'object') {
+        module.exports = factory();
+    } else {
+        (window.LocaleData || (window.LocaleData = {}))['dz_BT'] = factory();
+    }
+}(typeof window !== "undefined" ? window : this, function() {
+    return {
+        "LC_ADDRESS": {
+            "postal_fmt": "%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N",
+            "country_name": "\u0f60\u0f56\u0fb2\u0f74\u0f42\u0f0d",
+            "country_post": null,
+            "country_ab2": "BT",
+            "country_ab3": "BHU",
+            "country_num": null,
+            "country_car": null,
+            "country_isbn": null,
+            "lang_name": "(\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41",
+            "lang_ab": "dz",
+            "lang_term": "dzo",
+            "lang_lib": "dzo"
+        },
+        "LC_MEASUREMENT": {
+            "measurement": 1
+        },
+        "LC_MESSAGES": {
+            "yesexpr": "^[\u0f68Yy].*",
+            "noexpr": "^[\u0f58Nn].*",
+            "yesstr": "\u0f68\u0f72\u0f53",
+            "nostr": "\u0f58\u0f7a\u0f53"
+        },
+        "LC_MONETARY": {
+            "currency_symbol": "\u0f51\u0f44\u0f74\u0f63\u0f0b\u0f40\u0fb2\u0f58\u0f0b",
+            "mon_decimal_point": ".",
+            "mon_thousands_sep": ",",
+            "mon_grouping": [
+                3,
+                2,
+                null
+            ],
+            "positive_sign": "",
+            "negative_sign": "-",
+            "frac_digits": 3,
+            "p_cs_precedes": 1,
+            "p_sep_by_space": 1,
+            "n_cs_precedes": 1,
+            "n_sep_by_space": 1,
+            "p_sign_posn": 4,
+            "n_sign_posn": 4,
+            "int_curr_symbol": "BTN ",
+            "int_frac_digits": 3,
+            "int_p_cs_precedes": null,
+            "int_p_sep_by_space": null,
+            "int_n_cs_precedes": null,
+            "int_n_sep_by_space": null,
+            "int_p_sign_posn": null,
+            "int_n_sign_posn": null
+        },
+        "LC_NAME": {
+            "name_fmt": "%p%t%g%t%m%t%f",
+            "name_gen": "",
+            "name_mr": "\u0f55\u0f7c",
+            "name_mrs": "\u0f68\u0f58",
+            "name_miss": "\u0f58\u0f7c",
+            "name_ms": null
+        },
+        "LC_NUMERIC": {
+            "decimal_point": ".",
+            "thousands_sep": ",",
+            "grouping": [
+                3,
+                2
+            ]
+        },
+        "LC_PAPER": {
+            "height": 297,
+            "width": 210
+        },
+        "LC_TELEPHONE": {
+            "tel_int_fmt": "+%c %a %l",
+            "tel_dom_fmt": null,
+            "int_select": null,
+            "int_prefix": null
+        },
+        "LC_TIME": {
+            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "abday": [
+                "\u0f5f\u0fb3\u0f0b",
+                "\u0f58\u0f72\u0f62\u0f0b",
+                "\u0f63\u0fb7\u0f42\u0f0b",
+                "\u0f54\u0f74\u0f62\u0f0b",
+                "\u0f66\u0f44\u0f66\u0f0b",
+                "\u0f66\u0fa4\u0f7a\u0f53\u0f0b",
+                "\u0f49\u0f72\u0f0b"
+            ],
+            "day": [
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f5f\u0fb3\u0f0b\u0f56\u0f0b",
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f58\u0f72\u0f42\u0f0b\u0f51\u0f58\u0f62\u0f0b",
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f63\u0fb7\u0f42\u0f0b\u0f55\u0f0b",
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f54\u0f74\u0f62\u0f0b\u0f56\u0f74\u0f0b",
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f54\u0f0b\u0f66\u0f44\u0f66\u0f0b",
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f66\u0fa4\u0f7a\u0f53\u0f0b\u0f55\u0f0b",
+                "\u0f42\u0f5f\u0f60\u0f0b\u0f49\u0f72\u0f0b\u0f58\u0f0b"
+            ],
+            "week": null,
+            "abmon": [
+                "\u0f5f\u0fb3\u0f0b\u0f21",
+                "\u0f5f\u0fb3\u0f0b\u0f22",
+                "\u0f5f\u0fb3\u0f0b\u0f23",
+                "\u0f5f\u0fb3\u0f0b\u0f24",
+                "\u0f5f\u0fb3\u0f0b\u0f25",
+                "\u0f5f\u0fb3\u0f0b\u0f26",
+                "\u0f5f\u0fb3\u0f0b\u0f27",
+                "\u0f5f\u0fb3\u0f0b\u0f28",
+                "\u0f5f\u0fb3\u0f0b\u0f29",
+                "\u0f5f\u0fb3\u0f0b\u0f21\u0f20",
+                "\u0f5f\u0fb3\u0f0b\u0f21\u0f21",
+                "\u0f5f\u0fb3\u0f0b\u0f21\u0f22"
+            ],
+            "mon": [
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f51\u0f44\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f42\u0f49\u0f72\u0f66\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f42\u0f66\u0f74\u0f58\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f5e\u0f72\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f63\u0f94\u0f0b\u0f55\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f51\u0fb2\u0f74\u0f42\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f51\u0f74\u0f53\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f62\u0f92\u0fb1\u0f51\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f51\u0f42\u0f74\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f45\u0f74\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f45\u0f74\u0f0b\u0f42\u0f45\u0f72\u0f42\u0f0b\u0f54\u0f0b",
+                "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f45\u0f74\u0f0b\u0f42\u0f49\u0f72\u0f66\u0f0b\u0f54\u0f0b"
+            ],
+            "d_t_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%H\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S",
+            "d_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d",
+            "t_fmt": "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%H\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S",
+            "am_pm": [
+                "\u0f44\u0f66\u0f0b\u0f46",
+                "\u0f55\u0fb1\u0f72\u0f0b\u0f46"
+            ],
+            "t_fmt_ampm": "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%I\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S %p",
+            "era": null,
+            "era_year": null,
+            "era_d_t_fmt": null,
+            "era_d_fmt": null,
+            "era_t_fmt": null,
+            "alt_digits": null,
+            "first_weekday": null,
+            "first_workday": null,
+            "cal_direction": null,
+            "timezone": null
+        }
+    };
+}));

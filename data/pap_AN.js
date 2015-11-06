@@ -1,0 +1,157 @@
+(function(window, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define([], function() {
+            return factory();
+        });
+    } else if (typeof module === 'object' && typeof module.exports === 'object') {
+        module.exports = factory();
+    } else {
+        (window.LocaleData || (window.LocaleData = {}))['pap_AN'] = factory();
+    }
+}(typeof window !== "undefined" ? window : this, function() {
+    return {
+        "LC_ADDRESS": {
+            "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
+            "country_name": null,
+            "country_post": null,
+            "country_ab2": "AN",
+            "country_ab3": "ANT",
+            "country_num": 530,
+            "country_car": "NA",
+            "country_isbn": "99904",
+            "lang_name": null,
+            "lang_ab": null,
+            "lang_term": "pap",
+            "lang_lib": "pap"
+        },
+        "LC_MEASUREMENT": {
+            "measurement": 1
+        },
+        "LC_MESSAGES": {
+            "yesexpr": "^[jJyY].*",
+            "noexpr": "^[nN].*",
+            "yesstr": null,
+            "nostr": null
+        },
+        "LC_MONETARY": {
+            "currency_symbol": "f",
+            "mon_decimal_point": ",",
+            "mon_thousands_sep": " ",
+            "mon_grouping": [
+                3,
+                3
+            ],
+            "positive_sign": "",
+            "negative_sign": "-",
+            "frac_digits": 2,
+            "p_cs_precedes": 1,
+            "p_sep_by_space": 1,
+            "n_cs_precedes": 1,
+            "n_sep_by_space": 1,
+            "p_sign_posn": 1,
+            "n_sign_posn": 2,
+            "int_curr_symbol": "ANG ",
+            "int_frac_digits": 2,
+            "int_p_cs_precedes": null,
+            "int_p_sep_by_space": null,
+            "int_n_cs_precedes": null,
+            "int_n_sep_by_space": null,
+            "int_p_sign_posn": null,
+            "int_n_sign_posn": null
+        },
+        "LC_NAME": {
+            "name_fmt": "%d%t%g%t%m%t%f",
+            "name_gen": null,
+            "name_mr": null,
+            "name_mrs": null,
+            "name_miss": null,
+            "name_ms": null
+        },
+        "LC_NUMERIC": {
+            "decimal_point": ",",
+            "thousands_sep": "",
+            "grouping": [
+                0,
+                0
+            ]
+        },
+        "LC_PAPER": {
+            "height": 297,
+            "width": 210
+        },
+        "LC_TELEPHONE": {
+            "tel_int_fmt": "+%c %a %l",
+            "tel_dom_fmt": null,
+            "int_select": "00",
+            "int_prefix": "599"
+        },
+        "LC_TIME": {
+            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "abday": [
+                "do",
+                "lu",
+                "ma",
+                "we",
+                "ra",
+                "bi",
+                "sa"
+            ],
+            "day": [
+                "Djadomingo",
+                "Djaluna",
+                "Djamars",
+                "Djawebs",
+                "Djarason",
+                "Djabierne",
+                "Djasabra"
+            ],
+            "week": null,
+            "abmon": [
+                "Yan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "Mei",
+                "Y\u00fcn",
+                "Y\u00fcl",
+                "Oug",
+                "S\u00e8p",
+                "Okt",
+                "Nov",
+                "Des"
+            ],
+            "mon": [
+                "Yan\u00fcari",
+                "Febr\u00fcari",
+                "Mart",
+                "Aprel",
+                "Mei",
+                "Y\u00fcni",
+                "Y\u00fcli",
+                "Oug\u00f9st\u00f9s",
+                "S\u00e8pt\u00e8mber",
+                "Oktober",
+                "Nov\u00e8mber",
+                "Des\u00e8mber"
+            ],
+            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_fmt": "%d-%m-%y",
+            "t_fmt": "%T",
+            "am_pm": [
+                "",
+                ""
+            ],
+            "t_fmt_ampm": "",
+            "era": null,
+            "era_year": null,
+            "era_d_t_fmt": null,
+            "era_d_fmt": null,
+            "era_t_fmt": null,
+            "alt_digits": null,
+            "first_weekday": null,
+            "first_workday": null,
+            "cal_direction": null,
+            "timezone": null
+        }
+    };
+}));
