@@ -68,9 +68,9 @@ LC_TIME:
     mon: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
     d_t_fmt: '%x (%a) %X %Z'
     d_fmt: '%e.%m.%Y'
-    t_fmt: '%k,%M,%S'
+    t_fmt: '%k:%M:%S'
     am_pm: ['', '']
-    t_fmt_ampm: '%l,%M,%S'
+    t_fmt_ampm: '%l:%M:%S'
     era: null
     era_year: null
     era_d_t_fmt: null

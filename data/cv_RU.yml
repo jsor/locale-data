@@ -64,7 +64,7 @@ LC_TIME:
     abday: [vr, tn, yt, jn, kş, er, šm]
     day: [vyrsarnikun, tuntikun, ytlarikun, junkun, kĕşnernikun, ernekun, šămatkun]
     week: null
-    abmon: [KĂR, NAR, 'PUŠ', AKA, ŞU, ŞĔR, UTĂ, ŞUR, AVĂ, JUP, CÜK, 'RAŠ']
+    abmon: [KĂR, NAR, PUŠ, AKA, ŞU, ŞĔR, UTĂ, ŞUR, AVĂ, JUP, CÜK, RAŠ]
     mon: [kărlac, narăs, puš, aka, şu, şĕrtme, ută, şurla, avăn, jupa, cük, raštav]
     d_t_fmt: '%a %d %b %Y %T'
     d_fmt: '%d.%m.%Y'

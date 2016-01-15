@@ -61,8 +61,8 @@ LC_TELEPHONE:
     int_prefix: '49'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Nj, Pó, Wu, Sr, 'Št', Pj, So]
-    day: [Njedźela, Póndźela, Wutora, Srjeda, 'Štvórtk', Pjatk, Sobota]
+    abday: [Nj, Pó, Wu, Sr, Št, Pj, So]
+    day: [Njedźela, Póndźela, Wutora, Srjeda, Štvórtk, Pjatk, Sobota]
     week: [7, 19971130, 4]
     abmon: [Jan, Feb, Měr, Apr, Mej, Jun, Jul, Awg, Sep, Okt, Now, Dec]
     mon: [Januar, Februar, Měrc, Apryl, Meja, Junij, Julij, Awgust, September, Oktober, Nowember, December]

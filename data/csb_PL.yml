@@ -62,7 +62,7 @@ LC_TELEPHONE:
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [nie, 0, wtó, 0, czw, 0, sob]
-    day: [niedzela, pòniedzôłk, wtórk, strzoda, czwiôrtk, 'piątk', sobòta]
+    day: [niedzela, pòniedzôłk, wtórk, strzoda, czwiôrtk, piątk, sobòta]
     week: [7, 19971130, 4]
     abmon: [stë, 0, stm, 0, môj, 0, lëp, 0, séw, 0, lës, 0]
     mon: [stëcznik, gromicznik, strumiannik, łżëkwiôt, môj, czerwińc, lëpinc, zélnik, séwnik, rujan, lëstopadnik, gòdnik]

@@ -45,7 +45,7 @@ LC_NAME:
     name_gen: null
     name_mr: պրն
     name_mrs: տկն
-    name_miss: 'օրիորդ'
+    name_miss: օրիորդ
     name_ms: null
 LC_NUMERIC:
     decimal_point: .

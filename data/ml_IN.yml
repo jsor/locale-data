@@ -16,8 +16,8 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[അതെyY]'
     noexpr: '^[അല്ലnN]'
-    yesstr: 'അതെ'
-    nostr: 'അല്ല'
+    yesstr: അതെ
+    nostr: അല്ല
 LC_MONETARY:
     currency_symbol: ₹
     mon_decimal_point: .

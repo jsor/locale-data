@@ -61,8 +61,8 @@ LC_TELEPHONE:
     int_prefix: '421'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Ne, Po, Ut, St, 'Št', Pi, So]
-    day: [Nedeľa, Pondelok, Utorok, Streda, 'Štvrtok', Piatok, Sobota]
+    abday: [Ne, Po, Ut, St, Št, Pi, So]
+    day: [Nedeľa, Pondelok, Utorok, Streda, Štvrtok, Piatok, Sobota]
     week: [7, 19971130, 4]
     abmon: [jan, feb, mar, apr, máj, jún, júl, aug, sep, okt, nov, dec]
     mon: [január, február, marec, apríl, máj, jún, júl, august, september, október, november, december]

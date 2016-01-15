@@ -61,8 +61,8 @@ LC_TELEPHONE:
     int_prefix: '370'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Sk, Pr, An, Tr, Kt, Pn, 'Št']
-    day: [Sekmadienis, Pirmadienis, Antradienis, Trečiadienis, Ketvirtadienis, Penktadienis, 'Šeštadienis']
+    abday: [Sk, Pr, An, Tr, Kt, Pn, Št]
+    day: [Sekmadienis, Pirmadienis, Antradienis, Trečiadienis, Ketvirtadienis, Penktadienis, Šeštadienis]
     week: null
     abmon: [Sau, Vas, Kov, Bal, Geg, Bir, Lie, Rgp, Rgs, Spa, Lap, Grd]
     mon: [sausio, vasario, kovo, balandžio, gegužės, birželio, liepos, rugpjūčio, rugsėjo, spalio, lapkričio, gruodžio]

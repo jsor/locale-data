@@ -16,7 +16,7 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[نyY].*'
     noexpr: '^[لnN].*'
-    yesstr: 'نعم'
+    yesstr: نعم
     nostr: لا
 LC_MONETARY:
     currency_symbol: ريال

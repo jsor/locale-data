@@ -60,7 +60,7 @@ LC_TELEPHONE:
     int_select: '011'
     int_prefix: '297'
 LC_TIME:
-    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    date_fmt: '%a %e %b %Y %k:%M:%S %Z'
     abday: [zo, ma, di, wo, do, vr, za]
     day: [zondag, maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag]
     week: [7, 19971130, 4]

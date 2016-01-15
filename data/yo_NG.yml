@@ -65,7 +65,7 @@ LC_TIME:
     day: [Àìkú, Ajé, Ìṣẹ́gun, Ọjọ́rú, Ọjọ́bọ̀, Ẹ̀tì, Àbámẹ́ta]
     week: null
     abmon: [JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
-    mon: [Jánúárì, Fẹ́búárì, 'Máàṣì', Épírì, Méè, Júùnù, Júláì, Ọ́ọ́gọsì, 'Sẹ̀tẹ̀ńbà', 'Ọtóbà', 'Nòfẹ̀ńbà', 'Dìsẹ̀ńbà']
+    mon: [Jánúárì, Fẹ́búárì, Máàṣì, Épírì, Méè, Júùnù, Júláì, Ọ́ọ́gọsì, Sẹ̀tẹ̀ńbà, Ọtóbà, Nòfẹ̀ńbà, Dìsẹ̀ńbà]
     d_t_fmt: 'ọjọ́ %A, %d oṣù %B ọdún %Y %T %Z'
     d_fmt: '%d/%m/%y'
     t_fmt: '%r'
