@@ -22,7 +22,7 @@
         "php": ">=5.3.9"
     },
     "require-dev": {
-        "symfony/console": "^2.7",
-        "symfony/yaml": "^2.7"
+        "symfony/console": "^3.0",
+        "symfony/yaml": "^3.0"
     }
 }
