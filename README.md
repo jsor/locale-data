@@ -7,4 +7,4 @@ LocaleData
 License
 -------
 
-Copyright (c) 2015 Jan Sorgalla. Released under the [MIT](LICENSE?raw=1) license.
+Copyright (c) 2015-2016 Jan Sorgalla. Released under the [MIT](LICENSE?raw=1) license.
