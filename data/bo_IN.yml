@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%z%c%T%s%b%e%r'
-    country_name: རྒྱ་གར
+    country_name: རྒྱ་གར་
     country_post: null
     country_ab2: IN
     country_ab3: IND
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ཨYy].*'
-    noexpr: '^[མNn].*'
-    yesstr: ཨིན
-    nostr: མེན
+    yesexpr: '^[+1ཨYy]'
+    noexpr: '^[-0མNn]'
+    yesstr: ཡིན།
+    nostr: མིན།
 LC_MONETARY:
     currency_symbol: ₹
     mon_decimal_point: .
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ཉི་, ཟླ་, མིར་, ལྷག་, པུར་, སངས་, སྤེན་]
     day: [གཟའ་ཉི་མ་, གཟའ་ཟླ་བ་, གཟའ་མིག་དམར་, གཟའ་ལྷག་ཕ་, གཟའ་པུར་བུ་, གཟའ་པ་སངས་, གཟའ་སྤེན་ཕ་]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ཟླ་༡, ཟླ་༢, ཟླ་༣, ཟླ་༤, ཟླ་༥, ཟླ་༦, ཟླ་༧, ཟླ་༨, ཟླ་༩, ཟླ་༡༠, ཟླ་༡༡, ཟླ་༡༢]
     mon: [ཟླ་བ་དང་པ་, ཟླ་བ་གཉིས་པ་, ཟླ་བ་གསུམ་པ་, ཟླ་བ་བཞི་པ་, ཟླ་བ་ལྔ་ཕ་, ཟླ་བ་དྲུག་པ་, ཟླ་བ་བདུནཔ་, ཟླ་བ་བརྒྱད་པ་, ཟླ་བ་དགུ་པ་, ཟླ་བ་བཅུ་པ་, ཟླ་བ་བཅུ་གཅིག་པ་, ཟླ་བ་བཅུ་གཉིས་པ་]
     d_t_fmt: པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S

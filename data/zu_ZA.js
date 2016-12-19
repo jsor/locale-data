@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Mzansi Afrika",
+            "country_name": "i-South Africa",
             "country_post": "ZA",
             "country_ab2": "ZA",
             "country_ab3": "ZAF",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY]",
-            "noexpr": "^[nNcC]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nNcC]",
+            "yesstr": "yebo",
+            "nostr": "cha"
         },
         "LC_MONETARY": {
             "currency_symbol": "R",
@@ -105,7 +105,11 @@
                 "uLwesihlanu",
                 "uMgqibelo"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Mas",
                 "Ola",

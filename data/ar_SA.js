@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
             "country_post": null,
             "country_ab2": "SA",
             "country_ab3": "SAU",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0646yY].*",
-            "noexpr": "^[\u0644nN].*",
+            "yesexpr": "^[+1\u0646yY]",
+            "noexpr": "^[-0\u0644nN]",
             "yesstr": "\u0646\u0639\u0645",
             "nostr": "\u0644\u0627"
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u0631\u064a\u0627\u0644",
+            "currency_symbol": "\u0631.\u0633",
             "mon_decimal_point": ".",
             "mon_thousands_sep": "",
             "mon_grouping": -1,
@@ -99,7 +99,11 @@
                 0,
                 0
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 0,
@@ -143,7 +147,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": null,
-            "first_workday": null,
+            "first_workday": 1,
             "cal_direction": null,
             "timezone": null
         }

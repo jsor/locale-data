@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Уӕрӕсе
     country_post: null
     country_ab2: RU
     country_ab3: RUS
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[УдYy].*'
-    noexpr: '^[унNn].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1УдYy]'
+    noexpr: '^[-0унNn]'
+    yesstr: уойы
+    nostr: нӕйы
 LC_MONETARY:
-    currency_symbol: сом
+    currency_symbol: ₽
     mon_decimal_point: .
     mon_thousands_sep: "\_"
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Хцб, Крс, Дцг, Æрт, Цпр, Мрб, Сбт]
     day: [Хуыцаубон, Къуырисæр, Дыццæг, Æртыццæг, Цыппæрæм, Майрæмбон, Сабат]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Янв, Фев, Мар, Апр, Май, Июн, Июл, Авг, Сен, Окт, Ноя, Дек]
     mon: [Январь, Февраль, Мартъи, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
     d_t_fmt: '%a %d %b %Y %T'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

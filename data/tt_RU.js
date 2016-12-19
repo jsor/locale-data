@@ -16,7 +16,7 @@
             "country_post": null,
             "country_ab2": null,
             "country_ab3": null,
-            "country_num": null,
+            "country_num": 643,
             "country_car": "RUS",
             "country_isbn": null,
             "lang_name": null,
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0414\u0434Yy].*",
-            "noexpr": "^[\u041d\u043dNn].*",
+            "yesexpr": "^[+1\u0414\u0434Yy]",
+            "noexpr": "^[-0\u041d\u043dNn]",
             "yesstr": "\u04d8\u0439\u0435",
             "nostr": "\u042e\u043a"
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u0440\u0443\u0431",
+            "currency_symbol": "\u20bd",
             "mon_decimal_point": ".",
             "mon_thousands_sep": " ",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "\u0496\u043e\u043c\u0433\u0430",
                 "\u0428\u0438\u043c\u0431\u04d9"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u042f\u043d\u0432",
                 "\u0424\u0435\u0432",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Frañs
     country_post: null
     country_ab2: FR
     country_ab3: FRA
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[oOyY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1oOyY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [sul, lun, meu, mer, yao, gwe, sad]
     day: [sul, lun, meurzh, 'merc''her', yaou, gwener, sadorn]
-    week: null
+    week: [7, 19971130, 4]
     abmon: ['Gen ', 'C''hw', 'Meu ', 'Ebr ', 'Mae ', 'Eve ', 'Gou ', 'Eos ', 'Gwe ', 'Her ', 'Du  ', 'Ker ']
     mon: [Genver, 'C''hwevrer', Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu]
     d_t_fmt: 'D''ar %A %d a viz %B %Y'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

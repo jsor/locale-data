@@ -5,8 +5,8 @@
         "country_post": "Myanmar",
         "country_ab2": "MM",
         "country_ab3": null,
-        "country_num": null,
-        "country_car": "BA",
+        "country_num": 104,
+        "country_car": "MYA",
         "country_isbn": null,
         "lang_name": "\u1017\u1019\u102c",
         "lang_ab": "my",
@@ -17,13 +17,13 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY\u101f].*",
-        "noexpr": "^[nN\u1019].*",
+        "yesexpr": "^[+1yY\u101f]",
+        "noexpr": "^[-0nN\u1019]",
         "yesstr": "\u101f\u102f\u1010\u103a\u1010\u101a\u103a",
         "nostr": "\u1019\u101f\u102f\u1010\u103a\u1018\u1030\u1038"
     },
     "LC_MONETARY": {
-        "currency_symbol": "Ks",
+        "currency_symbol": "K",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
         "mon_grouping": [
@@ -94,7 +94,11 @@
             "\u101e\u1031\u102c\u1000\u103c\u102c",
             "\u1005\u1014\u1031"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u1007\u1014\u103a",
             "\u1016\u1031",

@@ -7,7 +7,7 @@
     'country_ab2' => 'GH',
     'country_ab3' => 'GHA',
     'country_num' => 288,
-    'country_car' => NULL,
+    'country_car' => 'GH',
     'country_isbn' => 9964,
     'lang_name' => 'Akan',
     'lang_ab' => 'ak',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[dDnN].*',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0dDnN]',
     'yesstr' => 'Yiw',
     'nostr' => 'Daabi',
   ),
@@ -103,7 +103,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 7,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -150,8 +150,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
-    'first_workday' => 2,
+    'first_weekday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

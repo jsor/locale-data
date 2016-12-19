@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Canada',
     'country_post' => NULL,
     'country_ab2' => 'CA',
     'country_ab3' => 'CAN',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[oOyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1oOyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'oui',
+    'nostr' => 'non',
   ),
   'LC_MONETARY' => 
   array (
@@ -103,7 +103,12 @@
       5 => 'vendredi',
       6 => 'samedi',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'jan',

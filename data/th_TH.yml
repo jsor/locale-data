@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYช]'
-    noexpr: '^[nNม]'
+    yesexpr: '^[+1yYช]'
+    noexpr: '^[-0nNม]'
     yesstr: ใช่
     nostr: ไม่ใช่
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %e %b %Ey %H:%M:%S %Z'
     abday: [อา., จ., อ., พ., พฤ., ศ., ส.]
     day: [อาทิตย์, จันทร์, อังคาร, พุธ, พฤหัสบดี, ศุกร์, เสาร์]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ม.ค., ก.พ., มี.ค., เม.ย., พ.ค., มิ.ย., ก.ค., ส.ค., ก.ย., ต.ค., พ.ย., ธ.ค.]
     mon: [มกราคม, กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม]
     d_t_fmt: '%a %e %b %Ey, %H:%M:%S'

@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Ελλάδα',
     'country_post' => NULL,
     'country_ab2' => 'GR',
     'country_ab3' => 'GRC',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[νΝyY].*',
-    'noexpr' => '^[οΟnN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1νΝyY]',
+    'noexpr' => '^[-0οΟnN]',
+    'yesstr' => 'ναι',
+    'nostr' => 'όχι',
   ),
   'LC_MONETARY' => 
   array (
@@ -103,7 +103,12 @@
       5 => 'Παρασκευή',
       6 => 'Σάββατο',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 4,
+    ),
     'abmon' => 
     array (
       0 => 'Ιαν',
@@ -150,7 +155,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

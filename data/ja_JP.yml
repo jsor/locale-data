@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%z%c%T%s%b%e%r'
-    country_name: null
+    country_name: 日本
     country_post: null
     country_ab2: JP
     country_ab3: JPN
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^([yYｙＹ]|はい|ハイ)'
-    noexpr: '^([nNｎＮ]|いいえ|イイエ)'
+    yesexpr: '^([+1yYｙＹ]|はい|ハイ)'
+    noexpr: '^([-0nNｎＮ]|いいえ|イイエ)'
     yesstr: はい
     nostr: いいえ
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%Y年 %b %e日 %A %H:%M:%S %Z'
     abday: [日, 月, 火, 水, 木, 金, 土]
     day: [日曜日, 月曜日, 火曜日, 水曜日, 木曜日, 金曜日, 土曜日]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [' 1月', ' 2月', ' 3月', ' 4月', ' 5月', ' 6月', ' 7月', ' 8月', ' 9月', 10月, 11月, 12月]
     mon: [1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
     d_t_fmt: '%Y年%m月%d日 %H時%M分%S秒'

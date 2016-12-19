@@ -7,7 +7,7 @@
     'country_ab2' => 'DJ',
     'country_ab3' => 'DJI',
     'country_num' => 262,
-    'country_car' => NULL,
+    'country_car' => 'DJI',
     'country_isbn' => NULL,
     'lang_name' => 'Soomaali',
     'lang_ab' => 'so',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[oOyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1oOyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'haa',
+    'nostr' => 'maya',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '$',
+    'currency_symbol' => 'Fdj',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'Jimco',
       6 => 'Sabti',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'kob',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 7,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

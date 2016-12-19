@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'پاکستان',
     'country_post' => NULL,
     'country_ab2' => 'PK',
     'country_ab3' => 'PAK',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYهبf].*',
-    'noexpr' => '^[nNنo].*',
-    'yesstr' => 'بلكل',
-    'nostr' => 'نهيں',
+    'yesexpr' => '^[+1yYهبf]',
+    'noexpr' => '^[-0nNنo]',
+    'yesstr' => 'ہاں',
+    'nostr' => 'نہیں',
   ),
   'LC_MONETARY' => 
   array (
@@ -79,10 +79,10 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c %a %l',
+    'tel_int_fmt' => '+%c ;%a ;%l',
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
-    'int_prefix' => '45',
+    'int_prefix' => '92',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'جمعه',
       6 => 'هفته',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'جنوري',

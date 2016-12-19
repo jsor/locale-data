@@ -1,8 +1,8 @@
 <?php return array (
   'LC_ADDRESS' => 
   array (
-    'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'postal_fmt' => '%f%N%h%s%N%T',
+    'country_name' => 'नेपाल',
     'country_post' => NULL,
     'country_ab2' => 'NP',
     'country_ab3' => 'NPL',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'हो',
+    'nostr' => 'होइन',
   ),
   'LC_MONETARY' => 
   array (
@@ -40,7 +40,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'INR ',
+    'int_curr_symbol' => 'NPR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -51,12 +51,12 @@
   ),
   'LC_NAME' => 
   array (
-    'name_fmt' => '%p%t%f%t%g',
-    'name_gen' => '',
-    'name_mr' => 'Mr.',
-    'name_mrs' => 'Mrs.',
-    'name_miss' => 'Miss.',
-    'name_ms' => 'Ms.',
+    'name_fmt' => '%p%t%g%t%m%t%f',
+    'name_gen' => 'ज्यू',
+    'name_mr' => 'श्रीमान्',
+    'name_mrs' => 'श्रीमती',
+    'name_miss' => 'सुश्री',
+    'name_ms' => NULL,
   ),
   'LC_NUMERIC' => 
   array (
@@ -71,10 +71,10 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => '+%c %a%t%l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => '91',
+    'int_prefix' => '977',
   ),
   'LC_TIME' => 
   array (
@@ -83,9 +83,9 @@
     array (
       0 => 'आइत ',
       1 => 'सोम ',
-      2 => 'मंगल ',
+      2 => 'मङ्गल ',
       3 => 'बुध ',
-      4 => 'बिहि ',
+      4 => 'बिही ',
       5 => 'शुक्र ',
       6 => 'शनि ',
     ),
@@ -93,52 +93,57 @@
     array (
       0 => 'आइतबार ',
       1 => 'सोमबार ',
-      2 => 'मंगलबार ',
+      2 => 'मङ्गलबार ',
       3 => 'बुधबार ',
-      4 => 'बिहिबार ',
+      4 => 'बिहीबार ',
       5 => 'शुक्रबार ',
       6 => 'शनिबार ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
-      0 => 'जनवरी',
-      1 => 'फ़रवरी',
+      0 => 'जन',
+      1 => 'फेब',
       2 => 'मार्च',
-      3 => 'अप्रेल',
-      4 => 'मई',
+      3 => 'अप्रि',
+      4 => 'मे',
       5 => 'जून',
-      6 => 'जुलाई',
-      7 => 'अगस्त',
-      8 => 'सितम्बर',
-      9 => 'अक्टूबर',
-      10 => 'नवम्बर',
-      11 => 'दिसम्बर',
+      6 => 'जुला',
+      7 => 'अग',
+      8 => 'सेप्ट',
+      9 => 'अक्ट',
+      10 => 'नोभे',
+      11 => 'डिसे',
     ),
     'mon' => 
     array (
       0 => 'जनवरी',
-      1 => 'फ़रवरी',
+      1 => 'फेब्रुअरी',
       2 => 'मार्च',
-      3 => 'अप्रेल',
-      4 => 'मई',
+      3 => 'अप्रिल',
+      4 => 'मे',
       5 => 'जून',
       6 => 'जुलाई',
       7 => 'अगस्त',
-      8 => 'सितम्बर',
-      9 => 'अक्टूबर',
-      10 => 'नवम्बर',
-      11 => 'दिसम्बर',
+      8 => 'सेप्टेम्बर',
+      9 => 'अक्टोबर',
+      10 => 'नोभेम्बर',
+      11 => 'डिसेम्बर',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
-    'd_fmt' => '%A %d %b %Y',
-    't_fmt' => '%I:%M:%S  %Z',
+    'd_t_fmt' => '%Y %B %d %I:%M:%S %p',
+    'd_fmt' => '%Y %B %d %A',
+    't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (
       0 => 'पूर्वाह्न',
       1 => 'अपराह्न',
     ),
-    't_fmt_ampm' => '%I:%M:%S %p %Z',
+    't_fmt_ampm' => '%I:%M:%S %p',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

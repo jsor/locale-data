@@ -17,7 +17,7 @@
             "country_ab2": "TW",
             "country_ab3": "TWN",
             "country_num": 158,
-            "country_car": null,
+            "country_car": "RC",
             "country_isbn": 957,
             "lang_name": "\u6f22\u8a9e\u5ba2\u5bb6\u8a9e",
             "lang_ab": null,
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY\u4fc2]",
-            "noexpr": "^[nN\u6bcb]",
+            "yesexpr": "^[+1yY\u4fc2]",
+            "noexpr": "^[-0nN\u6bcb]",
             "yesstr": null,
             "nostr": null
         },
@@ -99,7 +99,11 @@
                 "\u79ae\u62dc\u4e94",
                 "\u79ae\u62dc\u516d"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 " 1\u6708",
                 " 2\u6708",

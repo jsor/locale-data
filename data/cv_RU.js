@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "t",
+            "currency_symbol": "\u20bd",
             "mon_decimal_point": ".",
             "mon_thousands_sep": "\u00a0",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "ernekun",
                 "\u0161\u0103matkun"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "K\u0102R",
                 "NAR",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

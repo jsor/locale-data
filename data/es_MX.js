@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "M\u00e9xico",
             "country_post": null,
             "country_ab2": "MX",
             "country_ab3": "MEX",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[sSyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Si",
-            "nostr": "No"
+            "yesexpr": "^[+1sSyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "s\u00ed",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "$",
@@ -105,7 +105,11 @@
                 "viernes",
                 "s\u00e1bado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "ene",
                 "feb",

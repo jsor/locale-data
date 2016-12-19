@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[sSyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Si",
-            "nostr": "No"
+            "yesexpr": "^[+1sSyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "s\u00ed",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20a1",
@@ -105,7 +105,11 @@
                 "viernes",
                 "s\u00e1bado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "ene",
                 "feb",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

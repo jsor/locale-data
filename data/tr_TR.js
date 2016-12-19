@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Turkey",
+            "country_name": "T\u00fcrkiye",
             "country_post": "TR",
             "country_ab2": "TR",
             "country_ab3": "TUR",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE]",
-            "noexpr": "^[nNhH]",
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNhH]",
             "yesstr": "evet",
             "nostr": "hay\u0131r"
         },
         "LC_MONETARY": {
-            "currency_symbol": "TL",
+            "currency_symbol": "\u20ba",
             "mon_decimal_point": ",",
             "mon_thousands_sep": ".",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "Cuma",
                 "Cumartesi"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Oca",
                 "\u015eub",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

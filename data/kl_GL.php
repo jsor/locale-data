@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Kalaallit Nunaat',
     'country_post' => NULL,
     'country_ab2' => 'GL',
     'country_ab3' => 'GRL',
     'country_num' => 304,
-    'country_car' => 'GRO',
+    'country_car' => 'KN',
     'country_isbn' => NULL,
     'lang_name' => 'Kalaallisut',
     'lang_ab' => 'kl',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[JjYyAa].*',
-    'noexpr' => '^[Nn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1JjYyAa]',
+    'noexpr' => '^[-0Nn]',
+    'yesstr' => 'aap',
+    'nostr' => 'naagga',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'tallimanngorneq',
       6 => 'arfininngorneq',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'jan',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

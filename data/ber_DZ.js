@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[Bb].*",
-            "noexpr": "^[YyNn].*",
+            "yesexpr": "^[+1Bb]",
+            "noexpr": "^[-0YyNn]",
             "yesstr": "b\u0259li",
             "nostr": "yox"
         },
@@ -99,7 +99,11 @@
                 "be\u015finci g\u00fcn",
                 "alt\u0131nc\u0131 g\u00fcn"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Yan",
                 "Fev",
@@ -142,8 +146,8 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
-            "first_workday": null,
+            "first_weekday": 7,
+            "first_workday": 1,
             "cal_direction": null,
             "timezone": null
         }

@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '[yYsS].*'
-    noexpr: '[nN].*'
+    yesexpr: '^[+1yYsS]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ᓈ, ᓇ, ᓕ, ᐱ, ᕿ, ᐅ, ᓯ]
     day: [ᓈᑦᑎᖑᔭᕐᕕᒃ, ᓇᒡᒐᔾᔭᐅ, ᓇᒡᒐᔾᔭᐅᓕᖅᑭᑦ, ᐱᖓᓲᓕᖅᓯᐅᑦ, ᕿᑎᖅᑰᑦ, ᐅᓪᓗᕈᓘᑐᐃᓇᖅ, ᓯᕙᑖᕕᒃ]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ᔮᓄ, ᕕᕗ, ᒪᔅ, ᐃᐳ, ᒪᐃ, ᔪᓂ, ᔪᓚ, ᐊᒋ, ᓯᑎ, ᐊᑦ, ᓄᕕ, ᑎᓯ]
     mon: [ᔮᓄᐊᓕ, ᕕᕗᐊᓕ, ᒪᔅᓯ, ᐃᐳᓗ, ᒪᐃ, ᔪᓂ, ᔪᓚᐃ, ᐊᒋᓯ, ᓯᑎᕙ, ᐊᑦᑐᕙ, ᓄᕕᕙ, ᑎᓯᕝᕙ]
     d_t_fmt: '%a %d %b %Y %r %Z'

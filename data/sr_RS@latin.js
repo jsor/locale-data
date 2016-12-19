@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Srbija i Crna Gora",
+            "country_name": "Srbija",
             "country_post": "SRB",
             "country_ab2": "RS",
             "country_ab3": "SRB",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[dDyY]",
-            "noexpr": "^[nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1dDyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "da",
+            "nostr": "ne"
         },
         "LC_MONETARY": {
             "currency_symbol": "din",
@@ -86,7 +86,7 @@
             "int_prefix": "381"
         },
         "LC_TIME": {
-            "date_fmt": "%a, %e. %b %Y.  %H:%M:%S %Z\n",
+            "date_fmt": "%a, %e. %b %Y.  %H:%M:%S %Z",
             "abday": [
                 "ned",
                 "pon",
@@ -108,7 +108,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "jan",
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

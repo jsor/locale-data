@@ -7,7 +7,7 @@
     'country_ab2' => 'AW',
     'country_ab3' => 'ABW',
     'country_num' => 533,
-    'country_car' => '',
+    'country_car' => 'AUA',
     'country_isbn' => '',
     'lang_name' => 'Papiamento',
     'lang_ab' => NULL,
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[jJyY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1jJyY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'f',
+    'currency_symbol' => 'ƒ',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -44,7 +44,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 2,
-    'int_curr_symbol' => 'ANG ',
+    'int_curr_symbol' => 'AWG ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
-    'int_prefix' => '599',
+    'int_prefix' => '297',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Djabierne',
       6 => 'Djasabra',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Yan',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

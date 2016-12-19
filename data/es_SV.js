@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "El Salvador",
             "country_post": null,
             "country_ab2": "SV",
             "country_ab3": "SLV",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[sSyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Si",
-            "nostr": "No"
+            "yesexpr": "^[+1sSyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "s\u00ed",
+            "nostr": "no"
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u20a1",
+            "currency_symbol": "$",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -50,7 +50,7 @@
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
-            "int_curr_symbol": "SVC ",
+            "int_curr_symbol": "USD ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -105,7 +105,11 @@
                 "viernes",
                 "s\u00e1bado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "ene",
                 "feb",

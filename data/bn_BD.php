@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[হ্যাঁyY]',
-    'noexpr' => '^[নাnN]',
+    'yesexpr' => '^[+1হ্যাঁyY]',
+    'noexpr' => '^[-0নাnN]',
     'yesstr' => 'হ্যাঁ',
     'nostr' => 'না',
   ),
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => '%a %l',
     'int_select' => '00',
-    'int_prefix' => '88',
+    'int_prefix' => '880',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'শুক্রবার',
       6 => 'শনিবার',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'জানু',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 6,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

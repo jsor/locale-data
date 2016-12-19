@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYoO].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Yes",
-            "nostr": "No"
+            "yesexpr": "^[+1yYoO]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "yes",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "$",
@@ -105,7 +105,11 @@
                 "Stselkstesq\u0313t",
                 "Stqmekstesq\u0313t"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Kwe",
                 "Tsi",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
+            "first_weekday": null,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

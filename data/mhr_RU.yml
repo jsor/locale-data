@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ТтYy].*'
-    noexpr: '^[УуNn].*'
+    yesexpr: '^[+1ТтYy]'
+    noexpr: '^[-0УуNn]'
     yesstr: null
     nostr: null
 LC_MONETARY:
-    currency_symbol: ТЕҤ
+    currency_symbol: ₽
     mon_decimal_point: .
     mon_thousands_sep: "\_"
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%A %Y %B %d %H:%M:%S %Z'
     abday: [Ршр, Шчм, Кжм, Вгч, Изр, Кгр, Шмт]
     day: [Рушарня, Шочмо, Кушкыжмо, Вӱргече, Изарня, Кугарня, Шуматкече]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Шрк, Пгж, Ӱрн, Вшр, Ага, Пдш, Срм, Срл, Идм, Шыж, Клм, Тел]
     mon: [Шорыкйол, Пургыж, Ӱярня, Вӱдшор, Ага, Пеледыш, Сӱрем, Сорла, Идым, Шыжа, Кылме, Теле]
     d_t_fmt: '%A %Y %B %d %T'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

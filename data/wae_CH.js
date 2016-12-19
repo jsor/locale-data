@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Switzerland",
+            "country_name": "Schwiz",
             "country_post": "DH",
             "country_ab2": "CH",
             "country_ab3": "CHE",
             "country_num": 756,
-            "country_car": "DH",
+            "country_car": "CH",
             "country_isbn": 3,
             "lang_name": "Walser",
             "lang_ab": "",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[jJyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Ja",
-            "nostr": "Nei"
+            "yesexpr": "^[+1jJyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "ja",
+            "nostr": "nei"
         },
         "LC_MONETARY": {
-            "currency_symbol": "Fr.",
+            "currency_symbol": "CHF",
             "mon_decimal_point": ".",
             "mon_thousands_sep": "'",
             "mon_grouping": [
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

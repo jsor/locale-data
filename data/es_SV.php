@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'El Salvador',
     'country_post' => NULL,
     'country_ab2' => 'SV',
     'country_ab3' => 'SLV',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[sSyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Si',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1sSyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'sí',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '₡',
+    'currency_symbol' => '$',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -44,7 +44,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'SVC ',
+    'int_curr_symbol' => 'USD ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -107,7 +107,12 @@
       5 => 'viernes',
       6 => 'sábado',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ene',

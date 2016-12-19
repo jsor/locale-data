@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[1yY\u0101\u0100\u00e4\u00c4aA].*",
-            "noexpr": "^[0nNkK].*",
+            "yesexpr": "^[+1yY\u0101\u0100\u00e4\u00c4aA]",
+            "noexpr": "^[-0nNkK]",
             "yesstr": "\u0101e",
             "nostr": "k\u0101ore"
         },
@@ -105,7 +105,11 @@
                 "Paraire",
                 "H\u0101tarei"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Kohi",
                 "Hui",

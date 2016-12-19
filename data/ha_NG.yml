@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: Nigeria
+    country_name: Najeriya
     country_post: null
     country_ab2: NG
     country_ab3: NGA
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[TtiIYy].*'
-    noexpr: '^[bBaAnN].*'
+    yesexpr: '^[+1TtiIYy]'
+    noexpr: '^[-0bBaAnN]'
     yesstr: Toh
     nostr: Babu
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Lah, Lit, Tal, Lar, Alh, Jum, Asa]
     day: [Lahadi, Litini, Talata, Laraba, Alhamis, 'Juma''a', Asabar]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Jan, Fab, Mar, Afr, May, Yun, Yul, Agu, Sat, Okt, Nuw, Dis]
     mon: [Janairu, Fabrairu, Maris, Afrilu, Mayu, Yuni, Yuli, Agusta, Satumba, Oktoba, Nuwamba, Disamba]
     d_t_fmt: 'ranar %A, %d ga %B cikin %r %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

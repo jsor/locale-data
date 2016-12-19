@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u0a2d\u0a3e\u0a30\u0a24",
             "country_post": null,
             "country_ab2": "IN",
             "country_ab3": "IND",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "\u0a39\u0a3e\u0a02",
+            "nostr": "\u0a28\u0a39\u0a40\u0a02"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20b9",
@@ -99,7 +99,11 @@
                 "\u0a36\u0a41\u0a71\u0a15\u0a30\u0a35\u0a3e\u0a30 ",
                 "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30\u0a35\u0a3e\u0a30 "
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u0a1c\u0a28\u0a35\u0a30\u0a40",
                 "\u0a5e\u0a30\u0a35\u0a30\u0a40",

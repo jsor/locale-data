@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Honduras',
     'country_post' => NULL,
     'country_ab2' => 'HN',
     'country_ab3' => 'HND',
     'country_num' => 340,
-    'country_car' => NULL,
+    'country_car' => 'HN',
     'country_isbn' => NULL,
     'lang_name' => 'Español',
     'lang_ab' => 'es',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[sSyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Si',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1sSyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'sí',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'L.',
+    'currency_symbol' => 'L',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'viernes',
       6 => 'sábado',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ene',

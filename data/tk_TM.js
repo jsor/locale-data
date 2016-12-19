@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[hH].*",
-            "noexpr": "^[\u00fd\u00ddnN].*",
+            "yesexpr": "^[+1hH]",
+            "noexpr": "^[-0\u00fd\u00ddnN]",
             "yesstr": "hawa",
             "nostr": "\u00fdok"
         },
@@ -83,7 +83,7 @@
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
             "int_select": null,
-            "int_prefix": null
+            "int_prefix": "993"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -105,7 +105,11 @@
                 "\u015eenbe",
                 "\u00ddek\u015fenbe"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u00ddan",
                 "Few",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

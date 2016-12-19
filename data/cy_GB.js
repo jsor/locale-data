@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
-            "country_name": "Cymru",
+            "country_name": "Y Deyrnas Unedig",
             "country_post": null,
             "country_ab2": "GB",
             "country_ab3": "GBR",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[iItTyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1iItTyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": "ie",
             "nostr": "na"
         },
@@ -105,7 +105,11 @@
                 "Gwener",
                 "Sadwrn"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "Ion",
                 "Chw",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

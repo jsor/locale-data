@@ -7,7 +7,7 @@
     'country_ab2' => 'TW',
     'country_ab3' => 'TWN',
     'country_num' => 158,
-    'country_car' => NULL,
+    'country_car' => 'RC',
     'country_isbn' => '957',
     'lang_name' => 'Bân-lâm-gú, Hō-ló-oē',
     'lang_ab' => NULL,
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[sS].*',
-    'noexpr' => '^[mM].*',
+    'yesexpr' => '^[+1yYsS]',
+    'noexpr' => '^[-0nNmM]',
     'yesstr' => 'Sī',
     'nostr' => 'M̄-Sī',
   ),
@@ -99,7 +99,12 @@
       5 => 'pài-gō͘',
       6 => 'pài-la̍k',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => '1g',

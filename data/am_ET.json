@@ -17,13 +17,13 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY].*",
-        "noexpr": "^[nN].*",
-        "yesstr": null,
-        "nostr": null
+        "yesexpr": "^[+1yY]",
+        "noexpr": "^[-0nN]",
+        "yesstr": "\u12a0\u12ce\u1295",
+        "nostr": "\u12a0\u12ed"
     },
     "LC_MONETARY": {
-        "currency_symbol": "$",
+        "currency_symbol": "Br",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
         "mon_grouping": [
@@ -94,7 +94,11 @@
             "\u12d3\u122d\u1265",
             "\u1245\u12f3\u121c"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u1303\u1295\u12e9",
             "\u134c\u1265\u1229",

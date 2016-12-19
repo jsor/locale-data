@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%z%c%T%s%b%e%r'
-    country_name: null
+    country_name: بھارت
     country_post: null
     country_ab2: IN
     country_ab3: IND
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ہyY].*'
-    noexpr: '^[نnN].*'
+    yesexpr: '^[+1ہyY]'
+    noexpr: '^[-0نnN]'
     yesstr: ہاں
     nostr: نہیں
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [اتوار, پیر, منگل, بدھ, جمعرات, جمعہ, سنیچر]
     day: [اتوار, پیر, منگل, بدھ, جمعرات, جمعہ, سنیچر]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [جنوری, فروری, مارچ, اپریل, مئی, جون, جولائی, اگست, ستمبر, اكتوبر, نومبر, دسمبر]
     mon: [جنوری, فروری, مارچ, اپریل, مئی, جون, جولائی, اگست, ستمبر, اكتوبر, نومبر, دسمبر]
     d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'

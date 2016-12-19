@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "Malaysia",
             "country_post": null,
             "country_ab2": "MY",
             "country_ab3": "MYS",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY]",
-            "noexpr": "^[tT]",
-            "yesstr": "Ya",
-            "nostr": "Tidak"
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0tTnN]",
+            "yesstr": "ya",
+            "nostr": "tidak"
         },
         "LC_MONETARY": {
             "currency_symbol": "RM",
@@ -99,7 +99,11 @@
                 "Jumaat",
                 "Sabtu"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Feb",
@@ -142,7 +146,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

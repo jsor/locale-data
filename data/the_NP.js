@@ -17,7 +17,7 @@
             "country_ab2": "NP",
             "country_ab3": "NPL",
             "country_num": 524,
-            "country_car": null,
+            "country_car": "NEP",
             "country_isbn": null,
             "lang_name": null,
             "lang_ab": null,
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
@@ -47,7 +47,7 @@
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
-            "int_curr_symbol": "INR ",
+            "int_curr_symbol": "NPR ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -77,7 +77,7 @@
             "tel_int_fmt": "+%c ;%a ;%l",
             "tel_dom_fmt": null,
             "int_select": null,
-            "int_prefix": "91"
+            "int_prefix": "977"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -99,7 +99,11 @@
                 "\u0936\u0941\u0915\u094d\u0930\u092c\u093e\u0930 ",
                 "\u0936\u0928\u093f\u092c\u093e\u0930 "
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u091c\u0928\u0935\u0930\u0940",
                 "\u092b\u093c\u0930\u0935\u0930\u0940",
@@ -142,7 +146,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
+            "first_weekday": null,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0422\u0442Yy].*",
-            "noexpr": "^[\u0423\u0443Nn].*",
+            "yesexpr": "^[+1\u0422\u0442Yy]",
+            "noexpr": "^[-0\u0423\u0443Nn]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u0422\u0415\u04a4",
+            "currency_symbol": "\u20bd",
             "mon_decimal_point": ".",
             "mon_thousands_sep": "\u00a0",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "\u041a\u0443\u0433\u0430\u0440\u043d\u044f",
                 "\u0428\u0443\u043c\u0430\u0442\u043a\u0435\u0447\u0435"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u0428\u0440\u043a",
                 "\u041f\u0433\u0436",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

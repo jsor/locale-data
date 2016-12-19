@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[1yYāĀäÄaA].*',
-    'noexpr' => '^[0nNkK].*',
+    'yesexpr' => '^[+1yYāĀäÄaA]',
+    'noexpr' => '^[-0nNkK]',
     'yesstr' => 'āe',
     'nostr' => 'kāore',
   ),
@@ -107,7 +107,12 @@
       5 => 'Paraire',
       6 => 'Hātarei',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Kohi',

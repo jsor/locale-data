@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0414\u0434DdYy]",
-            "noexpr": "^[\u041d\u043dNn]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1\u0414\u0434DdYy]",
+            "noexpr": "^[-0\u041d\u043dNn]",
+            "yesstr": "\u0434\u0430",
+            "nostr": "\u043d\u0435"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -83,10 +83,10 @@
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": "%A %l",
             "int_select": "99",
-            "int_prefix": "381"
+            "int_prefix": "382"
         },
         "LC_TIME": {
-            "date_fmt": "%a, %e. %b %Y.  %H:%M:%S %Z\n",
+            "date_fmt": "%a, %e. %b %Y.  %H:%M:%S %Z",
             "abday": [
                 "\u043d\u0435\u0434",
                 "\u043f\u043e\u043d",
@@ -108,7 +108,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "\u0458\u0430\u043d",
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

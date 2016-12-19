@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[نyY].*'
-    noexpr: '^[لnN].*'
+    yesexpr: '^[+1نyY]'
+    noexpr: '^[-0لnN]'
     yesstr: نعم
     nostr: لا
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [آرتوارُ, سومرُ, منگلُ, ٻُڌرُ, وسپت, جُمو, ڇنڇر]
     day: [آرتوارُ, سومرُ, منگلُ, ٻُڌرُ, وسپت, جُمو, ڇنڇر]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [جنوري, فبروري, مارچ, اپريل, مي, جون, جولاءِ, آگسٽ, سيپٽيمبر, آڪٽوبر, نومبر, ڊسمبر]
     mon: [جنوري, فبروري, مارچ, اپريل, مي, جون, جولاءِ, آگسٽ, سيپٽيمبر, آڪٽوبر, نومبر, ڊسمبر]
     d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'

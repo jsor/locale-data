@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE]",
-            "noexpr": "^[nNhH]",
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNhH]",
             "yesstr": null,
             "nostr": null
         },
@@ -105,7 +105,11 @@
                 "lwesiHlanu",
                 "uMgqibelo"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Mqu",
                 "Mdu",

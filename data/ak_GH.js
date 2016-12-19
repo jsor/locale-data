@@ -17,7 +17,7 @@
             "country_ab2": "GH",
             "country_ab3": "GHA",
             "country_num": 288,
-            "country_car": null,
+            "country_car": "GH",
             "country_isbn": 9964,
             "lang_name": "Akan",
             "lang_ab": "ak",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[dDnN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0dDnN]",
             "yesstr": "Yiw",
             "nostr": "Daabi"
         },
@@ -102,7 +102,7 @@
             "week": [
                 7,
                 19971130,
-                7
+                1
             ],
             "abmon": [
                 "S-\u0186",
@@ -146,8 +146,8 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
-            "first_workday": 2,
+            "first_weekday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

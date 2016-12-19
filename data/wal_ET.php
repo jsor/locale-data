@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '$',
+    'currency_symbol' => 'Br',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'አርባ',
       6 => 'ቄራ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ጃንዩ',

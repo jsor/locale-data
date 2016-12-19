@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYeE].*',
-    'noexpr' => '^[nNaA].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYeE]',
+    'noexpr' => '^[-0nNaA]',
+    'yesstr' => 'Ee',
+    'nostr' => 'Awe',
   ),
   'LC_MONETARY' => 
   array (
@@ -40,7 +40,7 @@
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'ZMK ',
+    'int_curr_symbol' => 'ZMW ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -103,7 +103,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -150,8 +150,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
-    'first_workday' => 2,
+    'first_weekday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

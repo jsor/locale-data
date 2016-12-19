@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[نyY].*',
-    'noexpr' => '^[لnN].*',
+    'yesexpr' => '^[+1نyY]',
+    'noexpr' => '^[-0لnN]',
     'yesstr' => 'نعم',
     'nostr' => 'لا',
   ),
@@ -99,7 +99,12 @@
       5 => 'جُمو',
       6 => 'ڇنڇر',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'جنوري',

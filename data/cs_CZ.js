@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[aAyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1aAyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": "ano",
             "nostr": "ne"
         },
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

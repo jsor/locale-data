@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'República Dominicana',
     'country_post' => NULL,
     'country_ab2' => 'DO',
     'country_ab3' => 'DOM',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[sSyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Si',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1sSyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'sí',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '$',
+    'currency_symbol' => 'RD$',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => '011',
-    'int_prefix' => '1809',
+    'int_prefix' => '1',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'viernes',
       6 => 'sábado',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ene',

@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z',
-    'country_name' => 'O\'zbekistan',
+    'country_name' => 'Oʻzbekiston',
     'country_post' => 'UZ" % ??',
     'country_ab2' => 'UZ',
     'country_ab3' => 'UZB',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[YyHh].*',
-    'noexpr' => '^[JjNn].*',
-    'yesstr' => 'Ha',
-    'nostr' => 'Yo\'q',
+    'yesexpr' => '^[+1ҲҳHh]',
+    'noexpr' => '^[-0ЙйNnYyJj]',
+    'yesstr' => 'ha',
+    'nostr' => 'yo‘q',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'so\'m',
+    'currency_symbol' => 'soʻm',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => '27',
+    'int_prefix' => '998',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Juma',
       6 => 'Shanba',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Yan',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

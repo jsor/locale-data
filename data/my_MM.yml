@@ -4,8 +4,8 @@ LC_ADDRESS:
     country_post: Myanmar
     country_ab2: MM
     country_ab3: null
-    country_num: null
-    country_car: BA
+    country_num: 104
+    country_car: MYA
     country_isbn: null
     lang_name: ဗမာ
     lang_ab: my
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYဟ].*'
-    noexpr: '^[nNမ].*'
+    yesexpr: '^[+1yYဟ]'
+    noexpr: '^[-0nNမ]'
     yesstr: ဟုတ်တယ်
     nostr: မဟုတ်ဘူး
 LC_MONETARY:
-    currency_symbol: Ks
+    currency_symbol: K
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [နွေ, လာ, ဂါ, ဟူး, တေး, သော, နေ]
     day: [တနင်္ဂနွေ, တနင်္လာ, အင်္ဂါ, ဗုဒ္ဓဟူး, ကြာသပတေး, သောကြာ, စနေ]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ဇန်, ဖေ, မတ်, ဧပြီ, မေ, ဇွန်, ဇူ, ဩ, စက်, အောက်, နို, ဒီ]
     mon: [ဇန်နဝါရီ, ဖေဖော်ဝါရီ, မတ်, ဧပြီ, မေ, ဇွန်, ဇူလိုင်, ဩဂုတ်, စက်တင်ဘာ, အောက်တိုဘာ, နိုဝင်ဘာ, ဒီဇင်ဘာ]
     d_t_fmt: '%OC%Oy %b %Od %A %OI:%OM:%OS %Op %Z'

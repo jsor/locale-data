@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Indonesia",
             "country_post": null,
             "country_ab2": "ID",
             "country_ab3": "IDN",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[tTnN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0tTnN]",
+            "yesstr": "ya",
+            "nostr": "tidak"
         },
         "LC_MONETARY": {
             "currency_symbol": "Rp",
@@ -105,10 +105,14 @@
                 "Jumat",
                 "Sabtu"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
-                "Peb",
+                "Feb",
                 "Mar",
                 "Apr",
                 "Mei",
@@ -122,7 +126,7 @@
             ],
             "mon": [
                 "Januari",
-                "Pebruari",
+                "Februari",
                 "Maret",
                 "April",
                 "Mei",

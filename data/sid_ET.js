@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "$",
+            "currency_symbol": "Br",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "Arbe",
                 "Qidaame"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Feb",

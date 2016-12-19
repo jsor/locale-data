@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Norge',
     'country_post' => NULL,
     'country_ab2' => 'NO',
     'country_ab3' => 'NOR',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[JjYy].*',
-    'noexpr' => '^[Nn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1JjYy]',
+    'noexpr' => '^[-0Nn]',
+    'yesstr' => 'ja',
+    'nostr' => 'nei',
   ),
   'LC_MONETARY' => 
   array (
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

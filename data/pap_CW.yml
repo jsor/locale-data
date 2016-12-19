@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[jJyY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1jJyY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
-    currency_symbol: f
+    currency_symbol: ƒ
     mon_decimal_point: ','
     mon_thousands_sep: ' '
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [do, lu, ma, we, ra, bi, sa]
     day: [Djadomingo, Djaluna, Djamars, Djawebs, Djarason, Djabierne, Djasabra]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Yan, Feb, Mar, Apr, Mei, Yün, Yül, Oug, Sèp, Okt, Nov, Des]
     mon: [Yanüari, Febrüari, Mart, Aprel, Mei, Yüni, Yüli, Ougùstùs, Sèptèmber, Oktober, Novèmber, Desèmber]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ҲҳYy].*',
-    'noexpr' => '^[ЙйNn].*',
-    'yesstr' => 'Ҳа',
-    'nostr' => 'Йўқ',
+    'yesexpr' => '^[+1ҲҳHh]',
+    'noexpr' => '^[-0ЙйNnYyJj]',
+    'yesstr' => 'ҳа',
+    'nostr' => 'йўқ',
   ),
   'LC_MONETARY' => 
   array (
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => '27',
+    'int_prefix' => '998',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Жума',
       6 => 'Шанба',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Янв',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[wWoOyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1wWoOyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": "Wi",
             "nostr": "Non"
         },
@@ -102,7 +102,7 @@
             "week": [
                 7,
                 19971130,
-                7
+                1
             ],
             "abmon": [
                 "jan",
@@ -146,8 +146,8 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
-            "first_workday": 2,
+            "first_weekday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

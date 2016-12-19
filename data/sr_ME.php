@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ДдDdYy]',
-    'noexpr' => '^[НнNn]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1ДдDdYy]',
+    'noexpr' => '^[-0НнNn]',
+    'yesstr' => 'да',
+    'nostr' => 'не',
   ),
   'LC_MONETARY' => 
   array (
@@ -82,12 +82,11 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => '%A %l',
     'int_select' => '99',
-    'int_prefix' => '381',
+    'int_prefix' => '382',
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a, %e. %b %Y.  %H:%M:%S %Z
-',
+    'date_fmt' => '%a, %e. %b %Y.  %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'нед',
@@ -112,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -160,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

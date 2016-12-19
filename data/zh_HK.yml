@@ -5,7 +5,7 @@ LC_ADDRESS:
     country_ab2: HK
     country_ab3: HKG
     country_num: 344
-    country_car: null
+    country_car: HK
     country_isbn: null
     lang_name: null
     lang_ab: zh
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY是]'
-    noexpr: '^[nN不否]'
+    yesexpr: '^[+1yY是]'
+    noexpr: '^[-0nN不否]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [日, 一, 二, 三, 四, 五, 六]
     day: [星期日, 星期一, 星期二, 星期三, 星期四, 星期五, 星期六]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
     mon: [一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
     d_t_fmt: '%Y年%m月%d日 %A %H:%M:%S'

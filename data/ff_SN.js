@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE].*",
-            "noexpr": "^[nNaA].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNaA]",
+            "yesstr": "Eey",
+            "nostr": "Alaa"
         },
         "LC_MONETARY": {
             "currency_symbol": "CFA",
@@ -101,7 +101,7 @@
             ],
             "week": [
                 7,
-                19971129,
+                19971130,
                 1
             ],
             "abmon": [
@@ -146,7 +146,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

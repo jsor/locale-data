@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[hH].*'
-    noexpr: '^[ýÝnN].*'
+    yesexpr: '^[+1hH]'
+    noexpr: '^[-0ýÝnN]'
     yesstr: hawa
     nostr: ýok
 LC_MONETARY:
@@ -58,12 +58,12 @@ LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
     int_select: null
-    int_prefix: null
+    int_prefix: '993'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Duş, Siş, Çar, Pen, Ann, Şen, Ýek]
     day: [Duşenbe, Sişenbe, Çarşenbe, Penşenbe, Anna, Şenbe, Ýekşenbe]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Ýan, Few, Mar, Apr, Maý, Iýn, Iýl, Awg, Sen, Okt, Noý, Dek]
     mon: [Ýanwar, Fewral, Mart, Aprel, Maý, Iýun, Iýul, Awgust, Sentýabr, Oktýabr, Noýabr, Dekabr]
     d_t_fmt: '%d.%m.%Y %T'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

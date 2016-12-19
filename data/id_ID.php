@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Indonesia',
     'country_post' => NULL,
     'country_ab2' => 'ID',
     'country_ab3' => 'IDN',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[tTnN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0tTnN]',
+    'yesstr' => 'ya',
+    'nostr' => 'tidak',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,11 +107,16 @@
       5 => 'Jumat',
       6 => 'Sabtu',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
-      1 => 'Peb',
+      1 => 'Feb',
       2 => 'Mar',
       3 => 'Apr',
       4 => 'Mei',
@@ -126,7 +131,7 @@
     'mon' => 
     array (
       0 => 'Januari',
-      1 => 'Pebruari',
+      1 => 'Februari',
       2 => 'Maret',
       3 => 'April',
       4 => 'Mei',

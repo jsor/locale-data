@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Puerto Rico',
     'country_post' => NULL,
     'country_ab2' => 'PR',
     'country_ab3' => 'PRI',
     'country_num' => 630,
-    'country_car' => NULL,
+    'country_car' => 'PR',
     'country_isbn' => NULL,
     'lang_name' => 'Español',
     'lang_ab' => 'es',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[sSyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Si',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1sSyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'sí',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => '1787',
+    'int_prefix' => '1',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'viernes',
       6 => 'sábado',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ene',

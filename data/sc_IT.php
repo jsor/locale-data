@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[sSjJoOyY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1sSjJoOyY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

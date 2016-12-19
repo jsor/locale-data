@@ -4,10 +4,10 @@
     'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
     'country_name' => 'កម្ពុជា',
     'country_post' => NULL,
-    'country_ab2' => 'LA',
-    'country_ab3' => 'LAO',
-    'country_num' => 418,
-    'country_car' => 'LAO',
+    'country_ab2' => 'KH',
+    'country_ab3' => 'KHM',
+    'country_num' => 116,
+    'country_car' => 'KH',
     'country_isbn' => NULL,
     'lang_name' => 'ភាសាខ្មែរ',
     'lang_ab' => 'km',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY]([eE][sS])?',
-    'noexpr' => '^[nN][oO]?',
-    'yesstr' => 'yes:YES:y:Y',
-    'nostr' => 'no:NO:n:N',
+    'yesexpr' => '^[+1yY]([eE][sS])?',
+    'noexpr' => '^[-0nN][oO]?',
+    'yesstr' => 'បាទ/ចាស​៖ y',
+    'nostr' => 'ទេ​៖ n',
   ),
   'LC_MONETARY' => 
   array (
@@ -78,7 +78,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => '(%A)%l',
     'int_select' => '001',
-    'int_prefix' => '856',
+    'int_prefix' => '855',
   ),
   'LC_TIME' => 
   array (
@@ -103,7 +103,12 @@
       5 => 'ថ្ងៃ​សុក្រ',
       6 => 'ថ្ងៃ​សៅរ៍',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => '១',

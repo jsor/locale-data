@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '[yYiIaA].*'
-    noexpr: '[nNqQ].*'
+    yesexpr: '^[+1yYiIaA]'
+    noexpr: '^[-0nNqQ]'
     yesstr: aa
     nostr: qañaa
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Min, Sav, Ila, Qit, Sis, Tal, Maq]
     day: [Minġuiqsioiq, Savałłiq, Ilaqtchiioiq, Qitchiioiq, Sisamiioiq, Tallimmiioiq, Maqinġuoiq]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Sñt, Sñs, Pan, Qil, Sup, Iġñ, Itc, Tiñ, Ami, Sik, Nip, Siq]
     mon: [Siqiññaatchiaq, Siqiññaasrugruk, Paniqsiqsiivik, 'Qilġich Tatqiat', Suppivik, Iġñivik, Itchavik, Tiññivik, Amiġaiqsivik, Sikkuvik, Nippivik, Siqiñġiḷaq]
     d_t_fmt: '%a %d %b %Y %r %Z'

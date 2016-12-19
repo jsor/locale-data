@@ -1,11 +1,11 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Botswana
     country_post: null
     country_ab2: BW
     country_ab3: BWA
     country_num: 72
-    country_car: RB
+    country_car: BW
     country_isbn: null
     lang_name: English
     lang_ab: en
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY]'
-    noexpr: '^[nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
+    yesstr: 'yes'
+    nostr: 'no'
 LC_MONETARY:
-    currency_symbol: Pu
+    currency_symbol: P
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
     day: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
     mon: [January, February, March, April, May, June, July, August, September, October, November, December]
     d_t_fmt: '%a %d %b %Y %T %Z'

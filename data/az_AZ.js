@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "???",
-            "country_name": null,
+            "country_name": "Az\u0259rbaycan",
             "country_post": null,
             "country_ab2": "AZ",
             "country_ab3": "AZE",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[Bb].*",
-            "noexpr": "^[YyNn].*",
+            "yesexpr": "^[+1Bb]",
+            "noexpr": "^[-0YyNn]",
             "yesstr": "b\u0259li",
             "nostr": "yox"
         },
         "LC_MONETARY": {
-            "currency_symbol": "man.",
+            "currency_symbol": "\u20bc",
             "mon_decimal_point": ".",
             "mon_thousands_sep": " ",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "c\u00fcm\u0259",
                 "\u015f\u0259nb\u0259"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Yan",
                 "Fev",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

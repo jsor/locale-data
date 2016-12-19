@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[oOsSyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1oOsSyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
@@ -99,7 +99,11 @@
                 "divendres",
                 "disabte"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "gen",
                 "feb",
@@ -143,7 +147,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

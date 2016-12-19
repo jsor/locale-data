@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[TtYy].*'
-    noexpr: '^[Nn].*'
+    yesexpr: '^[+1TtYy]'
+    noexpr: '^[-0Nn]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Nia, Pan, Aŭt, Sie, Čać, Pia, Sub]
     day: [Niadziela, Paniadziełak, Aŭtorak, Sierada, Čaćvier, Piatnica, Subota]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Stu, Lut, Sak, Kra, Tra, Čer, Lip, Žni, Vie, Kas, Lis, Śni]
     mon: [Studzień, Luty, Sakavik, Krasavik, Travień, Červień, Lipień, Žnivień, Vierasień, Kastryčnik, Listapad, Śniežań]
     d_t_fmt: '%a %d %b %Y %T'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

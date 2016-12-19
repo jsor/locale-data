@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[nNyY].*",
-            "noexpr": "^[hHlL].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1nNyY]",
+            "noexpr": "^[-0hHlL]",
+            "yesstr": "Ndiyo",
+            "nostr": "Hapana"
         },
         "LC_MONETARY": {
             "currency_symbol": "TSh",
@@ -105,7 +105,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "Jan",
@@ -150,7 +150,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

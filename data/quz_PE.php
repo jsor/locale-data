@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[aAsSyY].*',
-    'noexpr' => '^[mMnN].*',
+    'yesexpr' => '^[+1aAsSyY]',
+    'noexpr' => '^[-0mMnN]',
     'yesstr' => 'Arí',
     'nostr' => 'Manan',
   ),
@@ -111,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 7,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -158,8 +158,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
-    'first_workday' => 2,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

@@ -1,7 +1,7 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%z%c%T%s%b%e%r",
-        "country_name": "Vi\u1ec7t nam",
+        "country_name": "Vi\u1ec7t Nam",
         "country_post": null,
         "country_ab2": "VN",
         "country_ab3": "VNM",
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[1yYcC].*",
-        "noexpr": "^[0nNkK].*",
+        "yesexpr": "^[+1yYcC]",
+        "noexpr": "^[-0nNkK]",
         "yesstr": "C\u00f3",
         "nostr": "Kh\u00f4ng"
     },
@@ -94,7 +94,11 @@
             "Th\u1ee9 s\u00e1u",
             "Th\u1ee9 b\u1ea3y"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "Th01",
             "Th02",
@@ -137,7 +141,7 @@
         "era_d_fmt": null,
         "era_t_fmt": null,
         "alt_digits": null,
-        "first_weekday": null,
+        "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
         "timezone": null

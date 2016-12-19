@@ -17,7 +17,7 @@
             "country_ab2": "HK",
             "country_ab3": "HKG",
             "country_num": 344,
-            "country_car": null,
+            "country_car": "HK",
             "country_isbn": null,
             "lang_name": null,
             "lang_ab": "zh",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY\u662f]",
-            "noexpr": "^[nN\u4e0d\u5426]",
+            "yesexpr": "^[+1yY\u662f]",
+            "noexpr": "^[-0nN\u4e0d\u5426]",
             "yesstr": null,
             "nostr": null
         },
@@ -99,7 +99,11 @@
                 "\u661f\u671f\u4e94",
                 "\u661f\u671f\u516d"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "1\u6708",
                 "2\u6708",

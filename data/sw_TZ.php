@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[nNyY].*',
-    'noexpr' => '^[hHlL].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1nNyY]',
+    'noexpr' => '^[-0hHlL]',
+    'yesstr' => 'Ndiyo',
+    'nostr' => 'Hapana',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -155,7 +155,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

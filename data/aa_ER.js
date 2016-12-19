@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[mnMN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0mnMN]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "$",
+            "currency_symbol": "Nfk",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "Gumqata",
                 "Sabti"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Qun",
                 "Nah",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

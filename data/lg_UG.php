@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY]',
-    'noexpr' => '^[nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'Ye',
+    'nostr' => 'Nedda',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '/-',
+    'currency_symbol' => 'USh',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'Lwakutaano',
       6 => 'Lwamukaaga',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

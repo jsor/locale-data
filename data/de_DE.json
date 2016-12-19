@@ -17,10 +17,10 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[jJyY].*",
-        "noexpr": "^[nN].*",
-        "yesstr": null,
-        "nostr": null
+        "yesexpr": "^[+1jJyY]",
+        "noexpr": "^[-0nN]",
+        "yesstr": "ja",
+        "nostr": "nein"
     },
     "LC_MONETARY": {
         "currency_symbol": "\u20ac",
@@ -142,7 +142,7 @@
         "era_t_fmt": null,
         "alt_digits": null,
         "first_weekday": 2,
-        "first_workday": 2,
+        "first_workday": null,
         "cal_direction": null,
         "timezone": null
     }

@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Macedonia',
+    'country_name' => 'Македонија',
     'country_post' => 'MK',
     'country_ab2' => 'MK',
     'country_ab3' => 'MKD',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ДдDdYy1].*',
-    'noexpr' => '^[НнNn0].*',
+    'yesexpr' => '^[+1ДдDdYy]',
+    'noexpr' => '^[-0НнNn]',
     'yesstr' => 'да',
     'nostr' => 'не',
   ),
@@ -111,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

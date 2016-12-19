@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N'
-    country_name: 'די פֿאראײניקטע שטאַטן'
+    country_name: 'פֿאַראייניגטע שטאַטן'
     country_post: USA
     country_ab2: US
     country_ab3: USA
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[Yyי].*'
-    noexpr: '^[Nnנק].*'
+    yesexpr: '^[+1Yyי]'
+    noexpr: '^[-0Nnנק]'
     yesstr: יאָ
     nostr: קײן
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: ['זונ''', 'מאָנ''', 'דינ''', 'מיט''', 'דאָנ''', 'פֿרײַ''', שבת]
     day: [זונטיק, מאָנטיק, דינסטיק, מיטװאָך, דאָנערשטיק, פֿרײַטיק, שבת]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [יאַנ, פֿעב, מאַר, אַפּר, 'מײַ ', יונ, יול, אױג, סעפּ, אָקט, נאָװ, דעצ]
     mon: [יאַנואַר, פֿעברואַר, מאַרץ, אַפּריל, מײַ, יוני, יולי, אױגוסט, סעפּטעמבער, אָקטאָבער, נאָװעמבער, דעצעמבער]
     d_t_fmt: '%Z %H:%M:%S %Y %b %d %a'

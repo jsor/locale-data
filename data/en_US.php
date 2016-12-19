@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T, %S %z%N%c%N',
-    'country_name' => 'USA',
+    'country_name' => 'United States',
     'country_post' => 'USA',
     'country_ab2' => 'US',
     'country_ab3' => 'USA',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'yes',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
@@ -111,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 7,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -158,8 +158,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
-    'first_workday' => 2,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

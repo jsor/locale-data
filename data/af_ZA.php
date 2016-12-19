@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[jJyY]',
-    'noexpr' => '^[nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1jJyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'ja',
+    'nostr' => 'nee',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Vrydag',
       6 => 'Saterdag',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',

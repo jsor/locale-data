@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '[yYsS].*',
-    'noexpr' => '[nN].*',
+    'yesexpr' => '^[+1yYsS]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -107,7 +107,12 @@
       5 => 'ᐅᓪᓗᕈᓘᑐᐃᓇᖅ',
       6 => 'ᓯᕙᑖᕕᒃ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ᔮᓄ',

@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[KkYy].*",
-            "noexpr": "^[EeNn].*",
-            "yesstr": "Kyll\u00e4",
-            "nostr": "Ei"
+            "yesexpr": "^[+1KkYy]",
+            "noexpr": "^[-0EeNn]",
+            "yesstr": "kyll\u00e4",
+            "nostr": "ei"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

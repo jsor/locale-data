@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY]',
-    'noexpr' => '^[nNaA]',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nNaA]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -107,7 +107,12 @@
       5 => 'Lesihlanu',
       6 => 'uMgcibelo',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Bhi',

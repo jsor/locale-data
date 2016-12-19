@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Indonesia
     country_post: null
     country_ab2: ID
     country_ab3: IDN
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[tTnN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0tTnN]'
+    yesstr: ya
+    nostr: tidak
 LC_MONETARY:
     currency_symbol: Rp
     mon_decimal_point: ','
@@ -63,9 +63,9 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Min, Sen, Sel, Rab, Kam, Jum, Sab]
     day: [Minggu, Senin, Selasa, Rabu, Kamis, Jumat, Sabtu]
-    week: null
-    abmon: [Jan, Peb, Mar, Apr, Mei, Jun, Jul, Agu, Sep, Okt, Nov, Des]
-    mon: [Januari, Pebruari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember]
+    week: [7, 19971130, 1]
+    abmon: [Jan, Feb, Mar, Apr, Mei, Jun, Jul, Agu, Sep, Okt, Nov, Des]
+    mon: [Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember]
     d_t_fmt: '%a %d %b %Y %r %Z'
     d_fmt: '%d/%m/%y'
     t_fmt: '%T'

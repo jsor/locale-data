@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYช]',
-    'noexpr' => '^[nNม]',
+    'yesexpr' => '^[+1yYช]',
+    'noexpr' => '^[-0nNม]',
     'yesstr' => 'ใช่',
     'nostr' => 'ไม่ใช่',
   ),
@@ -99,7 +99,12 @@
       5 => 'ศุกร์',
       6 => 'เสาร์',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ม.ค.',

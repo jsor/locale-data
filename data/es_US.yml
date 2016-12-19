@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%a%N%f%N%d%N%b%N%h %s %e %r%N%T, %S %z%N%c%N'
-    country_name: USA
+    country_name: 'Estados Unidos'
     country_post: USA
     country_ab2: US
     country_ab3: USA
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[sSyY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1sSyY]'
+    noexpr: '^[-0nN]'
+    yesstr: sí
+    nostr: 'no'
 LC_MONETARY:
     currency_symbol: $
     mon_decimal_point: .
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [dom, lun, mar, mié, jue, vie, sáb]
     day: [domingo, lunes, martes, miércoles, jueves, viernes, sábado]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic]
     mon: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
     d_t_fmt: '%a %d %b %Y %T %Z'

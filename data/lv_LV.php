@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Latvija',
     'country_post' => NULL,
     'country_ab2' => 'LV',
     'country_ab3' => 'LVA',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[JjYy].*',
-    'noexpr' => '^[Nn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1JjYy]',
+    'noexpr' => '^[-0Nn]',
+    'yesstr' => 'jā',
+    'nostr' => 'nē',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'Ls',
+    'currency_symbol' => '€',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -44,7 +44,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 3,
     'n_sign_posn' => 3,
-    'int_curr_symbol' => 'LVL ',
+    'int_curr_symbol' => 'EUR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -107,7 +107,12 @@
       5 => 'piektdiena',
       6 => 'sestdiena',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'jan',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

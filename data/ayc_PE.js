@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[uUsSyY].*",
-            "noexpr": "^[jJnN].*",
+            "yesexpr": "^[+1uUsSyY]",
+            "noexpr": "^[-0jJnN]",
             "yesstr": "Ukhamawa",
             "nostr": "Janiwa"
         },
@@ -108,7 +108,7 @@
             "week": [
                 7,
                 19971130,
-                7
+                1
             ],
             "abmon": [
                 "ini",
@@ -152,8 +152,8 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
-            "first_workday": 2,
+            "first_weekday": null,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

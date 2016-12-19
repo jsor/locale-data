@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N",
-            "country_name": null,
+            "country_name": "Pilipinas",
             "country_post": null,
             "country_ab2": "PH",
             "country_ab3": "PHL",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "[oOyY].*",
-            "noexpr": "[hHnN].*",
+            "yesexpr": "^[+1oOyY]",
+            "noexpr": "^[-0hHnN]",
             "yesstr": "oo",
             "nostr": "hindi"
         },
         "LC_MONETARY": {
-            "currency_symbol": "PhP",
+            "currency_symbol": "\u20b1",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -80,10 +80,10 @@
             "width": 216
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c (%a) %l",
-            "tel_dom_fmt": "(%a) %l",
-            "int_select": "11",
-            "int_prefix": "1"
+            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_dom_fmt": null,
+            "int_select": null,
+            "int_prefix": "63"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -105,7 +105,11 @@
                 "Biyernes",
                 "Sabado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Ene",
                 "Peb",

@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z'
-    country_name: 'O''zbekistan'
+    country_name: Oʻzbekiston
     country_post: 'UZ" % ??'
     country_ab2: UZ
     country_ab3: UZB
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[YyHh].*'
-    noexpr: '^[JjNn].*'
-    yesstr: Ha
-    nostr: 'Yo''q'
+    yesexpr: '^[+1ҲҳHh]'
+    noexpr: '^[-0ЙйNnYyJj]'
+    yesstr: ha
+    nostr: yo‘q
 LC_MONETARY:
-    currency_symbol: 'so''m'
+    currency_symbol: soʻm
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
@@ -58,12 +58,12 @@ LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
     int_select: null
-    int_prefix: '27'
+    int_prefix: '998'
 LC_TIME:
     date_fmt: '%d %B, %Y yil, %A'
     abday: [Yak, Du, Se, Cho, Pay, Ju, Sha]
     day: [Yakshanba, Dushanba, Seshanba, Chorshanba, Payshanba, Juma, Shanba]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Yan, Fev, Mar, Apr, May, Iyn, Iyl, Avg, Sen, Okt, Noy, Dek]
     mon: [Yanvar, Fevral, Mart, Aprel, May, Iyun, Iyul, Avgust, Sentyabr, Oktyabr, Noyabr, Dekabr]
     d_t_fmt: '%T, %d %B, %Y yil, %A'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

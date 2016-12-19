@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
-            "country_name": "\u05d3\u05d9 \u05e4\u05bf\u05d0\u05e8\u05d0\u05f2\u05e0\u05d9\u05e7\u05d8\u05e2 \u05e9\u05d8\u05d0\u05b7\u05d8\u05df",
+            "country_name": "\u05e4\u05bf\u05d0\u05b7\u05e8\u05d0\u05d9\u05d9\u05e0\u05d9\u05d2\u05d8\u05e2 \u05e9\u05d8\u05d0\u05b7\u05d8\u05df",
             "country_post": "USA",
             "country_ab2": "US",
             "country_ab3": "USA",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[Yy\u05d9].*",
-            "noexpr": "^[Nn\u05e0\u05e7].*",
+            "yesexpr": "^[+1Yy\u05d9]",
+            "noexpr": "^[-0Nn\u05e0\u05e7]",
             "yesstr": "\u05d9\u05d0\u05b8",
             "nostr": "\u05e7\u05f2\u05df"
         },
@@ -105,7 +105,11 @@
                 "\u05e4\u05bf\u05e8\u05f2\u05b7\u05d8\u05d9\u05e7",
                 "\u05e9\u05d1\u05ea"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u05d9\u05d0\u05b7\u05e0",
                 "\u05e4\u05bf\u05e2\u05d1",

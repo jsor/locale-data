@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Portugal",
             "country_post": null,
             "country_ab2": "PT",
             "country_ab3": "PRT",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[SsyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1SsyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "sim",
+            "nostr": "n\u00e3o"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -88,51 +88,55 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "Dom",
-                "Seg",
-                "Ter",
-                "Qua",
-                "Qui",
-                "Sex",
-                "S\u00e1b"
+                "dom",
+                "seg",
+                "ter",
+                "qua",
+                "qui",
+                "sex",
+                "s\u00e1b"
             ],
             "day": [
-                "Domingo",
-                "Segunda",
-                "Ter\u00e7a",
-                "Quarta",
-                "Quinta",
-                "Sexta",
-                "S\u00e1bado"
+                "domingo",
+                "segunda",
+                "ter\u00e7a",
+                "quarta",
+                "quinta",
+                "sexta",
+                "s\u00e1bado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
-                "Jan",
-                "Fev",
-                "Mar",
-                "Abr",
-                "Mai",
-                "Jun",
-                "Jul",
-                "Ago",
-                "Set",
-                "Out",
-                "Nov",
-                "Dez"
+                "jan",
+                "fev",
+                "mar",
+                "abr",
+                "mai",
+                "jun",
+                "jul",
+                "ago",
+                "set",
+                "out",
+                "nov",
+                "dez"
             ],
             "mon": [
-                "Janeiro",
-                "Fevereiro",
-                "Mar\u00e7o",
-                "Abril",
-                "Maio",
-                "Junho",
-                "Julho",
-                "Agosto",
-                "Setembro",
-                "Outubro",
-                "Novembro",
-                "Dezembro"
+                "janeiro",
+                "fevereiro",
+                "mar\u00e7o",
+                "abril",
+                "maio",
+                "junho",
+                "julho",
+                "agosto",
+                "setembro",
+                "outubro",
+                "novembro",
+                "dezembro"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
             "d_fmt": "%d-%m-%Y",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

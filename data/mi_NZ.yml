@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[1yYāĀäÄaA].*'
-    noexpr: '^[0nNkK].*'
+    yesexpr: '^[+1yYāĀäÄaA]'
+    noexpr: '^[-0nNkK]'
     yesstr: āe
     nostr: kāore
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Ta, Ma, Tū, We, Tāi, Pa, Hā]
     day: [Rātapu, Mane, Tūrei, Wenerei, Tāite, Paraire, Hātarei]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Kohi, Hui, Pou, Pae, Hara, Pipi, Hōngoi, Here, Mahu, Whi-nu, Whi-ra, Haki]
     mon: [Kohi-tātea, Hui-tanguru, Poutū-te-rangi, Paenga-whāwhā, Haratua, Pipiri, Hōngoingoi, Here-turi-kōkā, Mahuru, Whiringa-ā-nuku, Whiringa-ā-rangi, Hakihea]
     d_t_fmt: 'Te %A, te %d o %B, %Y %T %Z'

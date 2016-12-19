@@ -1,7 +1,7 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N",
-        "country_name": null,
+        "country_name": "\u0a2a\u0a3e\u0a15\u0a3f\u0a38\u0a24\u0a3e\u0a28",
         "country_post": null,
         "country_ab2": "PK",
         "country_ab3": "PAK",
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY\u0647\u0628f].*",
-        "noexpr": "^[nN\u0646o].*",
+        "yesexpr": "^[+1yY\u0647\u0628f]",
+        "noexpr": "^[-0nN\u0646o]",
         "yesstr": "\u0628\u0644\u0643\u0644",
         "nostr": "\u0646\u0647\u064a\u06ba"
     },
@@ -94,7 +94,11 @@
             "\u062c\u0645\u0639\u0647",
             "\u0647\u0641\u062a\u0647"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u062c\u0646\u0648\u0631\u064a",
             "\u0641\u0631\u0648\u0631\u064a",

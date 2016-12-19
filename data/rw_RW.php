@@ -6,7 +6,7 @@
     'country_post' => NULL,
     'country_ab2' => 'RW',
     'country_ab3' => 'RWA',
-    'country_num' => NULL,
+    'country_num' => 646,
     'country_car' => 'RWA',
     'country_isbn' => NULL,
     'lang_name' => 'Kinyarwanda',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY]',
-    'noexpr' => '^[nNoO]',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nNoO]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'Frw',
+    'currency_symbol' => 'FRw',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 
@@ -103,7 +103,12 @@
       5 => 'Kuwa gatanu',
       6 => 'Kuwa gatandatu',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Mut',
@@ -149,7 +154,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Hrvatska",
             "country_post": null,
             "country_ab2": "HR",
             "country_ab3": "HRV",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[dDyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1dDyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "da",
+            "nostr": "ne"
         },
         "LC_MONETARY": {
             "currency_symbol": "Kn",
@@ -105,7 +105,11 @@
                 "Petak",
                 "Subota"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Sij",
                 "Vel",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

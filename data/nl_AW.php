@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Aruba',
     'country_post' => NULL,
     'country_ab2' => 'AW',
     'country_ab3' => 'ABW',
     'country_num' => 533,
-    'country_car' => NULL,
+    'country_car' => 'AUA',
     'country_isbn' => NULL,
     'lang_name' => 'Nederlands',
     'lang_ab' => 'nl',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[jJyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1jJyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'ja',
+    'nostr' => 'nee',
   ),
   'LC_MONETARY' => 
   array (
@@ -74,8 +74,8 @@
   ),
   'LC_PAPER' => 
   array (
-    'height' => 279,
-    'width' => 216,
+    'height' => 297,
+    'width' => 210,
   ),
   'LC_TELEPHONE' => 
   array (
@@ -111,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

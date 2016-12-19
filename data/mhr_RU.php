@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ТтYy].*',
-    'noexpr' => '^[УуNn].*',
+    'yesexpr' => '^[+1ТтYy]',
+    'noexpr' => '^[-0УуNn]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'ТЕҤ',
+    'currency_symbol' => '₽',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'Кугарня',
       6 => 'Шуматкече',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Шрк',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

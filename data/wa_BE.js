@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[oOyYaAwW].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1oOyYaAwW]",
+            "noexpr": "^[-0nN]",
             "yesstr": "Oyi",
             "nostr": "Neni"
         },
@@ -105,7 +105,11 @@
                 "v\u00e9nrdi",
                 "semdi"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "dja",
                 "fev",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

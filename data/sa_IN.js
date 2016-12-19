@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[aAyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1aAyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
@@ -99,7 +99,11 @@
                 "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0938\u0930",
                 "\u0936\u0928\u093f\u0935\u093e\u0938\u0930:"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u091c\u0928\u0935\u0930\u0940",
                 "\u092b\u093c\u0930\u0935\u0930\u0940",

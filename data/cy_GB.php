@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
-    'country_name' => 'Cymru',
+    'country_name' => 'Y Deyrnas Unedig',
     'country_post' => NULL,
     'country_ab2' => 'GB',
     'country_ab3' => 'GBR',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[iItTyY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1iItTyY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => 'ie',
     'nostr' => 'na',
   ),
@@ -107,7 +107,12 @@
       5 => 'Gwener',
       6 => 'Sadwrn',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 4,
+    ),
     'abmon' => 
     array (
       0 => 'Ion',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

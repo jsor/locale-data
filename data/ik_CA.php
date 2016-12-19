@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '[yYiIaA].*',
-    'noexpr' => '[nNqQ].*',
+    'yesexpr' => '^[+1yYiIaA]',
+    'noexpr' => '^[-0nNqQ]',
     'yesstr' => 'aa',
     'nostr' => 'qañaa',
   ),
@@ -107,7 +107,12 @@
       5 => 'Tallimmiioiq',
       6 => 'Maqinġuoiq',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Sñt',

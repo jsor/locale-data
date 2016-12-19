@@ -20,7 +20,7 @@
             "country_car": "E",
             "country_isbn": null,
             "lang_name": "aragon\u00e9s",
-            "lang_ab": null,
+            "lang_ab": "an",
             "lang_term": null,
             "lang_lib": null
         },
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[sSyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1sSyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
@@ -105,7 +105,11 @@
                 "biernes",
                 "sabado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "chi",
                 "fre",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

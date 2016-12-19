@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE].*",
-            "noexpr": "^[nNaA].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNaA]",
+            "yesstr": "Ee",
+            "nostr": "Awe"
         },
         "LC_MONETARY": {
             "currency_symbol": "K",
@@ -47,7 +47,7 @@
             "n_sep_by_space": 0,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
-            "int_curr_symbol": "ZMK ",
+            "int_curr_symbol": "ZMW ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -105,7 +105,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "Jan",
@@ -150,7 +150,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

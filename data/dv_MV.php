@@ -6,8 +6,8 @@
     'country_post' => NULL,
     'country_ab2' => NULL,
     'country_ab3' => NULL,
-    'country_num' => NULL,
-    'country_car' => NULL,
+    'country_num' => 462,
+    'country_car' => 'MV',
     'country_isbn' => NULL,
     'lang_name' => NULL,
     'lang_ab' => 'dv',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -107,7 +107,12 @@
       5 => 'ހުކުރު',
       6 => 'ހޮނިހިރު',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ޖެނުއަރީ',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 6,
     'first_workday' => NULL,
     'cal_direction' => 3,
     'timezone' => NULL,

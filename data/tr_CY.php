@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Northern Cyprus',
+    'country_name' => 'Kıbrıs',
     'country_post' => 'TR',
-    'country_ab2' => 'TR',
-    'country_ab3' => 'TUR',
-    'country_num' => 792,
-    'country_car' => 'TR',
+    'country_ab2' => 'CY',
+    'country_ab3' => 'CYP',
+    'country_num' => 196,
+    'country_car' => 'CY',
     'country_isbn' => 975,
     'lang_name' => 'Turkish',
     'lang_ab' => 'tr',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYeE]',
-    'noexpr' => '^[nNhH]',
+    'yesexpr' => '^[+1yYeE]',
+    'noexpr' => '^[-0nNhH]',
     'yesstr' => 'evet',
     'nostr' => 'hayır',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'TL',
+    'currency_symbol' => '₺',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 
@@ -82,7 +82,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
-    'int_prefix' => '90',
+    'int_prefix' => '357',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Cuma',
       6 => 'Cumartesi',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Oca',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Brasil
     country_post: null
     country_ab2: BR
     country_ab3: BRA
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[SsyY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1SsyY]'
+    noexpr: '^[-0nN]'
+    yesstr: sim
+    nostr: não
 LC_MONETARY:
     currency_symbol: R$
     mon_decimal_point: ','
@@ -61,10 +61,10 @@ LC_TELEPHONE:
     int_prefix: '55'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Dom, Seg, Ter, Qua, Qui, Sex, Sáb]
+    abday: [dom, seg, ter, qua, qui, sex, sáb]
     day: [domingo, segunda, terça, quarta, quinta, sexta, sábado]
-    week: null
-    abmon: [Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez]
+    week: [7, 19971130, 1]
+    abmon: [jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez]
     mon: [janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro]
     d_t_fmt: '%a %d %b %Y %T %Z'
     d_fmt: '%d-%m-%Y'

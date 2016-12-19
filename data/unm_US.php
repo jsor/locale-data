@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[kKmM].*',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0kKmM]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -109,7 +109,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -156,8 +156,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
-    'first_workday' => 2,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

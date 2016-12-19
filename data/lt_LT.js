@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Lietuva",
             "country_post": null,
             "country_ab2": "LT",
             "country_ab3": "LTU",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[TtYy].*",
-            "noexpr": "^[Nn].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1TtYy]",
+            "noexpr": "^[-0Nn]",
+            "yesstr": "taip",
+            "nostr": "ne"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -105,7 +105,11 @@
                 "Penktadienis",
                 "\u0160e\u0161tadienis"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "Sau",
                 "Vas",
@@ -135,7 +139,7 @@
                 "gruod\u017eio"
             ],
             "d_t_fmt": "%Y m. %B %d d. %T",
-            "d_fmt": "%Y.%m.%d",
+            "d_fmt": "%Y-%m-%d",
             "t_fmt": "%T",
             "am_pm": [
                 "",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

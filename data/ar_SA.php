@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'المملكة العربية السعودية',
     'country_post' => NULL,
     'country_ab2' => 'SA',
     'country_ab3' => 'SAU',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[نyY].*',
-    'noexpr' => '^[لnN].*',
+    'yesexpr' => '^[+1نyY]',
+    'noexpr' => '^[-0لnN]',
     'yesstr' => 'نعم',
     'nostr' => 'لا',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'ريال',
+    'currency_symbol' => 'ر.س',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => '',
     'mon_grouping' => -1,
@@ -99,7 +99,12 @@
       5 => 0,
       6 => 0,
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
@@ -146,7 +151,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'first_workday' => 1,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

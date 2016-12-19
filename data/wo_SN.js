@@ -14,9 +14,9 @@
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
             "country_name": null,
             "country_post": null,
-            "country_ab2": "MG",
-            "country_ab3": "MDG",
-            "country_num": 450,
+            "country_ab2": "SN",
+            "country_ab3": "SEN",
+            "country_num": 686,
             "country_car": "SN",
             "country_isbn": null,
             "lang_name": null,
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[wWyY].*",
-            "noexpr": "^[dDnN].*",
+            "yesexpr": "^[+1wWyY]",
+            "noexpr": "^[-0dDnN]",
             "yesstr": null,
             "nostr": null
         },
@@ -105,7 +105,11 @@
                 "ajjuma",
                 "gaawu"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "san",
                 "fee",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

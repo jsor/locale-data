@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "\u05d9\u05e9\u05e8\u05d0\u05dc",
             "country_post": null,
             "country_ab2": "IL",
             "country_ab3": "ISR",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[Yy\u05db].*",
-            "noexpr": "^[Nn\u05dc].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1Yy\u05db]",
+            "noexpr": "^[-0Nn\u05dc]",
+            "yesstr": "\u05db\u05df",
+            "nostr": "\u05dc\u05d0"
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u05e9\u05d7",
+            "currency_symbol": "\u20aa",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "\u05e9\u05d9\u05e9\u05d9",
                 "\u05e9\u05d1\u05ea"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u05d9\u05e0\u05d5",
                 "\u05e4\u05d1\u05e8",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": null,
-            "first_workday": null,
+            "first_workday": 1,
             "cal_direction": null,
             "timezone": null
         }

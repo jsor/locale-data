@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%c%T%s%h%N%b%e%r%N%f%N%d%N%a",
-            "country_name": "\u9999\u6e2f",
+            "country_name": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b\u9999\u6e2f\u7279\u5225\u884c\u653f\u5340",
             "country_post": null,
             "country_ab2": "HK",
             "country_ab3": "HKG",
             "country_num": 344,
-            "country_car": null,
+            "country_car": "HK",
             "country_isbn": "962",
             "lang_name": "\u7cb5\u8a9e",
             "lang_ab": null,
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY]",
-            "noexpr": "^[nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "\u4fc2",
+            "nostr": "\u5514\u4fc2"
         },
         "LC_MONETARY": {
             "currency_symbol": "HK$",
@@ -99,7 +99,11 @@
                 "\u661f\u671f\u4e94",
                 "\u661f\u671f\u516d"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "1\u6708",
                 "2\u6708",
@@ -142,7 +146,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 1,
+            "first_weekday": null,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

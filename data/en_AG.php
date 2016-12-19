@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Antigua & Barbuda',
     'country_post' => NULL,
     'country_ab2' => 'AG',
     'country_ab3' => 'ATG',
     'country_num' => 28,
-    'country_car' => NULL,
+    'country_car' => 'AG',
     'country_isbn' => NULL,
     'lang_name' => 'English',
     'lang_ab' => 'en',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'yes',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
@@ -74,8 +74,8 @@
   ),
   'LC_PAPER' => 
   array (
-    'height' => 279,
-    'width' => 216,
+    'height' => 297,
+    'width' => 210,
   ),
   'LC_TELEPHONE' => 
   array (
@@ -111,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -158,8 +158,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

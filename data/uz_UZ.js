@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%C%N%T%N%s %h%N%f%N%b%N%d%N%e %r%N%a%N%z",
-            "country_name": "O'zbekistan",
+            "country_name": "O\u02bbzbekiston",
             "country_post": "UZ\" % ??",
             "country_ab2": "UZ",
             "country_ab3": "UZB",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[YyHh].*",
-            "noexpr": "^[JjNn].*",
-            "yesstr": "Ha",
-            "nostr": "Yo'q"
+            "yesexpr": "^[+1\u04b2\u04b3Hh]",
+            "noexpr": "^[-0\u0419\u0439NnYyJj]",
+            "yesstr": "ha",
+            "nostr": "yo\u2018q"
         },
         "LC_MONETARY": {
-            "currency_symbol": "so'm",
+            "currency_symbol": "so\u02bbm",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -83,7 +83,7 @@
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
             "int_select": null,
-            "int_prefix": "27"
+            "int_prefix": "998"
         },
         "LC_TIME": {
             "date_fmt": "%d %B, %Y yil, %A",
@@ -105,7 +105,11 @@
                 "Juma",
                 "Shanba"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Yan",
                 "Fev",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

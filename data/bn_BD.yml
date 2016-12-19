@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[হ্যাঁyY]'
-    noexpr: '^[নাnN]'
+    yesexpr: '^[+1হ্যাঁyY]'
+    noexpr: '^[-0নাnN]'
     yesstr: হ্যাঁ
     nostr: না
 LC_MONETARY:
@@ -58,12 +58,12 @@ LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: '%a %l'
     int_select: '00'
-    int_prefix: '88'
+    int_prefix: '880'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [রবি, 0, মঙ্গল, বুধ, বৃহঃ, শুক্র, শনি]
     day: [রবিবার, সোমবার, মঙ্গলবার, বুধবার, বৃহস্পতিবার, শুক্রবার, শনিবার]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [জানু, ফেব্রু, মার্চ, এপ্রি, মে, জুন, জুল, আগ, সেপ্টে, অক্টো, নভে, ডিসে]
     mon: [জানুয়ারি, ফেব্রুয়ারি, মার্চ, এপ্রিল, মে, জুন, জুলাই, আগস্ট, সেপ্টেম্বর, অক্টোবর, নভেম্বর, ডিসেম্বর]
     d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 6
     first_workday: null
     cal_direction: null
     timezone: null

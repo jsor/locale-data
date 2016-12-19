@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'yes',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'PhP',
+    'currency_symbol' => '₱',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -79,10 +79,10 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c (%a) %l',
-    'tel_dom_fmt' => '(%a) %l',
-    'int_select' => '11',
-    'int_prefix' => '1',
+    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_dom_fmt' => NULL,
+    'int_select' => NULL,
+    'int_prefix' => '63',
   ),
   'LC_TIME' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Biyernes',
       6 => 'Sabado',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Ene',

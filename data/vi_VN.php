@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => 'Việt nam',
+    'country_name' => 'Việt Nam',
     'country_post' => NULL,
     'country_ab2' => 'VN',
     'country_ab3' => 'VNM',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[1yYcC].*',
-    'noexpr' => '^[0nNkK].*',
+    'yesexpr' => '^[+1yYcC]',
+    'noexpr' => '^[-0nNkK]',
     'yesstr' => 'Có',
     'nostr' => 'Không',
   ),
@@ -107,7 +107,12 @@
       5 => 'Thứ sáu',
       6 => 'Thứ bảy',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Th01',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

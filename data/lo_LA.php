@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYມ]',
-    'noexpr' => '^[nNບ]',
+    'yesexpr' => '^[+1yYມ]',
+    'noexpr' => '^[-0nNບ]',
     'yesstr' => 'ແມ່ນ',
     'nostr' => 'ບໍ່ແມ່ນ',
   ),
@@ -103,7 +103,12 @@
       5 => 'ສຸກ',
       6 => 'ເສົາ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ມ.ກ.',

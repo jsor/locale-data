@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Belgique',
     'country_post' => NULL,
     'country_ab2' => 'BE',
     'country_ab3' => 'BEL',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[oOjJyY1].*',
-    'noexpr' => '^[nN0].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1oOjJyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'oui',
+    'nostr' => 'non',
   ),
   'LC_MONETARY' => 
   array (
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

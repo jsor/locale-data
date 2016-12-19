@@ -5,7 +5,7 @@ LC_ADDRESS:
     country_ab2: TW
     country_ab3: TWN
     country_num: 158
-    country_car: null
+    country_car: RC
     country_isbn: '957'
     lang_name: 'Bân-lâm-gú, Hō-ló-oē'
     lang_ab: null
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[sS].*'
-    noexpr: '^[mM].*'
+    yesexpr: '^[+1yYsS]'
+    noexpr: '^[-0nNmM]'
     yesstr: Sī
     nostr: M̄-Sī
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%Y %b %d (%a) %H:%M:%S %Z'
     abday: [lp, p1, p2, p3, p4, p5, p6]
     day: [lé-pài-ji̍t, pài-it, pài-jī, pài-saⁿ, pài-sì, pài-gō͘, pài-la̍k]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [1g, 2g, 3g, 4g, 5g, 6g, 7g, 8g, 9g, 10g, 11g, 12g]
     mon: [1goe̍h, 2goe̍h, 3goe̍h, 4goe̍h, 5goe̍h, 6goe̍h, 7goe̍h, 8goe̍h, 9goe̍h, 10goe̍h, 11goe̍h, 12goe̍h]
     d_t_fmt: '%Y %b %d (%a) %H:%M:%S %Z'

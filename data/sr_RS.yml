@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ДдDdYy]'
-    noexpr: '^[НнNn]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1ДдDdYy]'
+    noexpr: '^[-0НнNn]'
+    yesstr: да
+    nostr: не
 LC_MONETARY:
     currency_symbol: дин
     mon_decimal_point: ','
@@ -60,10 +60,10 @@ LC_TELEPHONE:
     int_select: '99'
     int_prefix: '381'
 LC_TIME:
-    date_fmt: "%a, %e. %b %Y.  %H:%M:%S %Z\n"
+    date_fmt: '%a, %e. %b %Y.  %H:%M:%S %Z'
     abday: [нед, пон, уто, сре, чет, пет, суб]
     day: [недеља, понедељак, уторак, среда, четвртак, петак, субота]
-    week: [7, 19971130, 4]
+    week: [7, 19971130, 1]
     abmon: [јан, феб, мар, апр, мај, јун, јул, авг, сеп, окт, нов, дец]
     mon: [јануар, фебруар, март, април, мај, јун, јул, август, септембар, октобар, новембар, децембар]
     d_t_fmt: '%A, %d. %B %Y. %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

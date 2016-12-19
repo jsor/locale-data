@@ -17,10 +17,10 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY\u0c05].*",
-        "noexpr": "^[nN\u0c15].*",
-        "yesstr": "\u0c05\u0c35\u0c28\u0c41",
-        "nostr": "\u0c15\u0c3e\u0c26\u0c41"
+        "yesexpr": "^[+1yY\u0c05]",
+        "noexpr": "^[-0nN\u0c15]",
+        "yesstr": "\u0c05\u0c35\u0c41\u0c28\u0c41",
+        "nostr": "\u0c35\u0c26\u0c4d\u0c26\u0c41"
     },
     "LC_MONETARY": {
         "currency_symbol": "\u20b9",
@@ -94,7 +94,11 @@
             "\u0c36\u0c41\u0c15\u0c4d\u0c30\u0c35\u0c3e\u0c30\u0c02",
             "\u0c36\u0c28\u0c3f\u0c35\u0c3e\u0c30\u0c02"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u0c1c\u0c28\u0c35\u0c30\u0c3f",
             "\u0c2b\u0c3f\u0c2c\u0c4d\u0c30\u0c35\u0c30\u0c3f",

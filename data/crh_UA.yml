@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYeE]'
-    noexpr: '^[nNhH]'
+    yesexpr: '^[+1yYeE]'
+    noexpr: '^[-0nNhH]'
     yesstr: ebet
     nostr: hayır
 LC_MONETARY:
-    currency_symbol: gr
+    currency_symbol: ₴
     mon_decimal_point: .
     mon_thousands_sep: ' '
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Baz, Ber, Sal, Çar, Caq, Cum, Cer]
     day: [Bazar, Bazarertesi, Salı, Çarşembe, Cumaaqşamı, Cuma, Cumaertesi]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Yan, Fev, Mar, Apr, May, İyn, İyl, Avg, Sen, Okt, Noy, Dek]
     mon: [Yanvar, Fevral, Mart, Aprel, Mayıs, İyun, İyul, Avgust, Sentâbr, Oktâbr, Noyabr, Dekabr]
     d_t_fmt: '%a %d %b %Y %T'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

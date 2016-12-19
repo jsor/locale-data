@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'ශ්‍රී ලංකාව',
     'country_post' => NULL,
     'country_ab2' => 'LK',
     'country_ab3' => 'LKA',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ඔYy]',
-    'noexpr' => '^[නNn]',
+    'yesexpr' => '^[+1ඔYy]',
+    'noexpr' => '^[-0නNn]',
     'yesstr' => 'ඔව්',
     'nostr' => 'නැත',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '₨',
+    'currency_symbol' => 'රු',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
@@ -99,7 +99,12 @@
       5 => 'සිකුරාදා',
       6 => 'සෙනසුරාදා',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ජන',
@@ -145,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

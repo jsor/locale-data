@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYeE].*',
-    'noexpr' => '^[nNaA].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYeE]',
+    'noexpr' => '^[-0nNaA]',
+    'yesstr' => 'Eey',
+    'nostr' => 'Alaa',
   ),
   'LC_MONETARY' => 
   array (
@@ -102,7 +102,7 @@
     'week' => 
     array (
       0 => 7,
-      1 => 19971129,
+      1 => 19971130,
       2 => 1,
     ),
     'abmon' => 
@@ -150,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

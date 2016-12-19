@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Nederlân
     country_post: null
     country_ab2: NL
     country_ab3: NLD
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[jJyY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1jJyY]'
+    noexpr: '^[-0nN]'
+    yesstr: ja
+    nostr: nee
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sn, Mo, Ti, Wo, To, Fr, Sn]
     day: [Snein, Moandei, Tiisdei, Woansdei, Tongersdei, Freed, Sneon]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [Jan, Feb, Maa, Apr, Maa, Jun, Jul, Aug, Sep, Okt, Nov, Des]
     mon: [Janaris, Febrewaris, Maart, April, Maaie, Juny, July, Augustus, Septimber, Oktober, Novimber, Desimber]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

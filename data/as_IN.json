@@ -1,11 +1,11 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%z%c%T%s%b%e%r",
-        "country_name": null,
+        "country_name": "\u09ad\u09be\u09f0\u09a4",
         "country_post": null,
         "country_ab2": null,
         "country_ab3": null,
-        "country_num": null,
+        "country_num": 356,
         "country_car": "IND",
         "country_isbn": null,
         "lang_name": "\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be",
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY\u09b9].*",
-        "noexpr": "^[nN\u09a8].*",
+        "yesexpr": "^[+1yY\u09b9]",
+        "noexpr": "^[-0nN\u09a8]",
         "yesstr": "\u09b9\u09df",
         "nostr": "\u09a8\u09b9\u09df"
     },
@@ -94,7 +94,11 @@
             "\u09b6\u09c1\u0995\u09cd\u09f0\u09ac\u09be\u09f0",
             "\u09b6\u09a8\u09bf\u09ac\u09be\u09f0"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u099c\u09be\u09a8\u09c1\u09f1\u09be\u09f0\u09c0",
             "\u09ab\u09c7\u09ac\u09cd\u09f0\u09c1\u09f1\u09be\u09f0\u09c0",

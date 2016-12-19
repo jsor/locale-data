@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N',
-    'country_name' => '中华人民共和国',
+    'country_name' => 'جۇڭگو',
     'country_post' => NULL,
     'country_ab2' => 'CN',
     'country_ab3' => 'CHN',
     'country_num' => 156,
-    'country_car' => NULL,
+    'country_car' => 'CHN',
     'country_isbn' => '7',
     'lang_name' => NULL,
     'lang_ab' => 'ug',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'ھەئە',
+    'nostr' => 'ياق',
   ),
   'LC_MONETARY' => 
   array (
@@ -99,7 +99,12 @@
       5 => 'جۈمە',
       6 => 'شەنبە',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'قەھرىتان',

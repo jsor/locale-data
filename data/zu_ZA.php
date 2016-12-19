@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Mzansi Afrika',
+    'country_name' => 'i-South Africa',
     'country_post' => 'ZA',
     'country_ab2' => 'ZA',
     'country_ab3' => 'ZAF',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY]',
-    'noexpr' => '^[nNcC]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nNcC]',
+    'yesstr' => 'yebo',
+    'nostr' => 'cha',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'uLwesihlanu',
       6 => 'uMgqibelo',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Mas',

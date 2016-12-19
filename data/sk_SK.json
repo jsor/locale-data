@@ -1,7 +1,7 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
+        "country_name": "Slovensko",
         "country_post": null,
         "country_ab2": "SK",
         "country_ab3": "SVK",
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[aA\u00e1\u00c1yY].*",
-        "noexpr": "^[nN].*",
+        "yesexpr": "^[+1aA\u00e1\u00c1yY]",
+        "noexpr": "^[-0nN]",
         "yesstr": "\u00e1no",
         "nostr": "nie"
     },
@@ -142,7 +142,7 @@
         "era_t_fmt": null,
         "alt_digits": null,
         "first_weekday": 2,
-        "first_workday": 2,
+        "first_workday": null,
         "cal_direction": null,
         "timezone": null
     }

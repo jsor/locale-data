@@ -1,11 +1,11 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
+        "country_name": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
         "country_post": null,
-        "country_ab2": "KY",
-        "country_ab3": "KYR",
-        "country_num": null,
+        "country_ab2": "KG",
+        "country_ab3": "KGZ",
+        "country_num": 417,
         "country_car": "KS",
         "country_isbn": null,
         "lang_name": "\u041a\u044b\u0440\u0433\u044b\u0437\u0447\u0430",
@@ -17,10 +17,10 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[\u041e\u043eYy].*",
-        "noexpr": "^[\u0416\u0436Nn].*",
-        "yesstr": "\u041e\u043e\u0431\u0430",
-        "nostr": "\u0416\u043e\u043a"
+        "yesexpr": "^[+1\u041e\u043eYy]",
+        "noexpr": "^[-0\u0416\u0436Nn]",
+        "yesstr": "\u043e\u043e\u0431\u0430",
+        "nostr": "\u0436\u043e\u043a"
     },
     "LC_MONETARY": {
         "currency_symbol": "\u0441\u043e\u043c",
@@ -94,7 +94,11 @@
             "\u0436\u0443\u043c\u0430",
             "\u0438\u0448\u0435\u043c\u0431\u0438"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u044f\u043d\u0432",
             "\u0444\u0435\u0432",
@@ -137,7 +141,7 @@
         "era_d_fmt": null,
         "era_t_fmt": null,
         "alt_digits": null,
-        "first_weekday": null,
+        "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
         "timezone": null

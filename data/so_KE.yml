@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
+    yesstr: haa
+    nostr: maya
 LC_MONETARY:
     currency_symbol: Ksh
     mon_decimal_point: .
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%A, %B %e, %r %Z %Y'
     abday: [Axa, Isn, Sal, Arb, Kha, Jim, Sab]
     day: [Axad, Isniin, Salaaso, Arbaco, Khamiis, Jimco, Sabti]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Kob, Lab, Sad, Afr, Sha, Lix, Tod, Sid, Sag, Tob, KIT, LIT]
     mon: ['Bisha Koobaad', 'Bisha Labaad', 'Bisha Saddexaad', 'Bisha Afraad', 'Bisha Shanaad', 'Bisha Lixaad', 'Bisha Todobaad', 'Bisha Sideedaad', 'Bisha Sagaalaad', 'Bisha Tobnaad', 'Bisha Kow iyo Tobnaad', 'Bisha Laba iyo Tobnaad']
     d_t_fmt: '%A, %B %e, %Y %r %Z'

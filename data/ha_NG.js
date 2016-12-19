@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Nigeria",
+            "country_name": "Najeriya",
             "country_post": null,
             "country_ab2": "NG",
             "country_ab3": "NGA",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[TtiIYy].*",
-            "noexpr": "^[bBaAnN].*",
+            "yesexpr": "^[+1TtiIYy]",
+            "noexpr": "^[-0bBaAnN]",
             "yesstr": "Toh",
             "nostr": "Babu"
         },
@@ -105,7 +105,11 @@
                 "Juma'a",
                 "Asabar"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Fab",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

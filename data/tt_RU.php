@@ -6,7 +6,7 @@
     'country_post' => NULL,
     'country_ab2' => NULL,
     'country_ab3' => NULL,
-    'country_num' => NULL,
+    'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
     'lang_name' => NULL,
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ДдYy].*',
-    'noexpr' => '^[НнNn].*',
+    'yesexpr' => '^[+1ДдYy]',
+    'noexpr' => '^[-0НнNn]',
     'yesstr' => 'Әйе',
     'nostr' => 'Юк',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'руб',
+    'currency_symbol' => '₽',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'Җомга',
       6 => 'Шимбә',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Янв',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

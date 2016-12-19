@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYبf].*',
-    'noexpr' => '^[nNخنo].*',
+    'yesexpr' => '^[+1yYبf]',
+    'noexpr' => '^[-0nNخنo]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'افغانۍ',
+    'currency_symbol' => '؋',
     'mon_decimal_point' => '٫',
     'mon_thousands_sep' => '٬',
     'mon_grouping' => 3,
@@ -99,7 +99,12 @@
       5 => 'جمعه',
       6 => 'شنبه',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'جنو',

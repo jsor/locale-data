@@ -8,14 +8,14 @@ LC_ADDRESS:
     country_car: E
     country_isbn: null
     lang_name: aragonés
-    lang_ab: null
+    lang_ab: an
     lang_term: null
     lang_lib: null
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[sSyY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1sSyY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [dom, lun, mar, mie, chu, bie, sab]
     day: [domingo, luns, martes, miecols, chuebes, biernes, sabado]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [chi, fre, mar, abr, may, chn, chl, ago, set, oct, nob, abi]
     mon: [chinero, frebero, marzo, abril, mayo, chunio, chulio, agosto, setiembre, octubre, nobiembre, abiento]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

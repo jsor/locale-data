@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[nNyY].*'
-    noexpr: '^[hHlL].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1nNyY]'
+    noexpr: '^[-0hHlL]'
+    yesstr: Ndiyo
+    nostr: Hapana
 LC_MONETARY:
     currency_symbol: Ksh
     mon_decimal_point: .
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [J2, J3, J4, J5, Alh, Ij, J1]
     day: [Jumapili, Jumatatu, Jumanne, Jumatano, Alhamisi, Ijumaa, Jumamosi]
-    week: [7, 19971130, 4]
+    week: [7, 19971130, 1]
     abmon: [Jan, Feb, Mac, Apr, Mei, Jun, Jul, Ago, Sep, Okt, Nov, Des]
     mon: [Januari, Februari, Machi, Aprili, Mei, Juni, Julai, Agosti, Septemba, Oktoba, Novemba, Desemba]
     d_t_fmt: '%e %B %Y %I:%M:%S %p %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: 2
-    first_workday: 2
+    first_weekday: null
+    first_workday: null
     cal_direction: null
     timezone: null

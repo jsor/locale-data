@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Yes",
-            "nostr": "No"
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "yes",
+            "nostr": "no"
         },
         "LC_MONETARY": {
-            "currency_symbol": "PhP",
+            "currency_symbol": "\u20b1",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -80,10 +80,10 @@
             "width": 216
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c (%a) %l",
-            "tel_dom_fmt": "(%a) %l",
-            "int_select": "11",
-            "int_prefix": "1"
+            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_dom_fmt": null,
+            "int_select": null,
+            "int_prefix": "63"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -105,7 +105,11 @@
                 "Biyernes",
                 "Sabado"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Ene",
                 "Peb",

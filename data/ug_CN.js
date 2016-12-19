@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N",
-            "country_name": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
+            "country_name": "\u062c\u06c7\u06ad\u06af\u0648",
             "country_post": null,
             "country_ab2": "CN",
             "country_ab3": "CHN",
             "country_num": 156,
-            "country_car": null,
+            "country_car": "CHN",
             "country_isbn": "7",
             "lang_name": null,
             "lang_ab": "ug",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Yes",
-            "nostr": "No"
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "\u06be\u06d5\u0626\u06d5",
+            "nostr": "\u064a\u0627\u0642"
         },
         "LC_MONETARY": {
             "currency_symbol": "\uffe5",
@@ -99,7 +99,11 @@
                 "\u062c\u06c8\u0645\u06d5",
                 "\u0634\u06d5\u0646\u0628\u06d5"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u0642\u06d5\u06be\u0631\u0649\u062a\u0627\u0646",
                 "\u06be\u06c7\u062a",

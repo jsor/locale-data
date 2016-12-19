@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^([Yy+]|[Тт][Аа][Кк]?)$'
-    noexpr: '^([Nn-]|[Нн][Іі])$'
+    yesexpr: '^([+1Yy]|[Тт][Аа][Кк]?)$'
+    noexpr: '^([-0Nn]|[Нн][Іі])$'
     yesstr: так
     nostr: ні
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%A, %-d %Om %Y %X %z'
     abday: [нд, 0, 0, 0, 0, 0, 0]
     day: [неділя, 0, 0, 0, 0, 0, 0]
-    week: [7, 19971130, 4]
+    week: [7, 19971130, 1]
     abmon: [січ, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     mon: [січень, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     d_t_fmt: '%a, %d-%b-%Y %X %z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: ['0', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: 2
     timezone: null

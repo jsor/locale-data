@@ -7,7 +7,7 @@
     'country_ab2' => 'TW',
     'country_ab3' => 'TWN',
     'country_num' => 158,
-    'country_car' => NULL,
+    'country_car' => 'RC',
     'country_isbn' => 957,
     'lang_name' => '漢語文言',
     'lang_ab' => NULL,
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY是]',
-    'noexpr' => '^[nN非]',
+    'yesexpr' => '^[+1yY是]',
+    'noexpr' => '^[-0nN非]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -99,7 +99,12 @@
       5 => '週五',
       6 => '週六',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => ' 一 ',

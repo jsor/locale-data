@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Antigua & Barbuda",
             "country_post": null,
             "country_ab2": "AG",
             "country_ab3": "ATG",
             "country_num": 28,
-            "country_car": null,
+            "country_car": "AG",
             "country_isbn": null,
             "lang_name": "English",
             "lang_ab": "en",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "yes",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "$",
@@ -76,8 +76,8 @@
             ]
         },
         "LC_PAPER": {
-            "height": 279,
-            "width": 216
+            "height": 297,
+            "width": 210
         },
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
@@ -108,7 +108,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "Jan",
@@ -152,8 +152,8 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 2,
-            "first_workday": 2,
+            "first_weekday": null,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

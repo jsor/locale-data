@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[sSqQyY].*'
-    noexpr: '^[nNaA].*'
+    yesexpr: '^[+1sSqQyY]'
+    noexpr: '^[-0nNaA]'
     yesstr: quema
     nostr: ahmo
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [teo, cei, ome, yei, nau, mac, chi]
     day: [teoilhuitl, ceilhuitl, omeilhuitl, yeilhuitl, nahuilhuitl, macuililhuitl, chicuaceilhuitl]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic]
     mon: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
     d_t_fmt: '%a %d %b %Y %T %Z'

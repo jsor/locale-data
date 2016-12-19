@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Belgique",
             "country_post": null,
             "country_ab2": "BE",
             "country_ab3": "BEL",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[oOjJyY1].*",
-            "noexpr": "^[nN0].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1oOjJyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "oui",
+            "nostr": "non"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

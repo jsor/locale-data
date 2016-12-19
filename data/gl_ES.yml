@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: España
     country_post: null
     country_ab2: ES
     country_ab3: ESP
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[sSyY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1sSyY]'
+    noexpr: '^[-0nN]'
+    yesstr: si
+    nostr: non
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Dom, Lun, Mar, Mér, Xov, Ven, Sáb]
     day: [Domingo, Luns, Martes, Mércores, Xoves, Venres, Sábado]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [Xan, Feb, Mar, Abr, Mai, Xuñ, Xul, Ago, Set, Out, Nov, Dec]
     mon: [Xaneiro, Febreiro, Marzo, Abril, Maio, Xuño, Xullo, Agosto, Setembro, Outubro, Novembro, Decembro]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

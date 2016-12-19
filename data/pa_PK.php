@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'ਪਾਕਿਸਤਾਨ',
     'country_post' => NULL,
     'country_ab2' => 'PK',
     'country_ab3' => 'PAK',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYهبf].*',
-    'noexpr' => '^[nNنo].*',
+    'yesexpr' => '^[+1yYهبf]',
+    'noexpr' => '^[-0nNنo]',
     'yesstr' => 'بلكل',
     'nostr' => 'نهيں',
   ),
@@ -107,7 +107,12 @@
       5 => 'جمعه',
       6 => 'هفته',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'جنوري',

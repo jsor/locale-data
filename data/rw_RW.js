@@ -16,7 +16,7 @@
             "country_post": null,
             "country_ab2": "RW",
             "country_ab3": "RWA",
-            "country_num": null,
+            "country_num": 646,
             "country_car": "RWA",
             "country_isbn": null,
             "lang_name": "Kinyarwanda",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY]",
-            "noexpr": "^[nNoO]",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nNoO]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "Frw",
+            "currency_symbol": "FRw",
             "mon_decimal_point": ",",
             "mon_thousands_sep": ".",
             "mon_grouping": [
@@ -102,7 +102,11 @@
                 "Kuwa gatanu",
                 "Kuwa gatandatu"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Mut",
                 "Gas",
@@ -145,7 +149,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

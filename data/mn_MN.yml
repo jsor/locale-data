@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: Mongolia
+    country_name: Монгол
     country_post: MN
     country_ab2: MN
     country_ab3: MNG
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[тТyY].*'
-    noexpr: '^[үҮnN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1тТyY]'
+    noexpr: '^[-0үҮnN]'
+    yesstr: тийм
+    nostr: үгүй
 LC_MONETARY:
     currency_symbol: ₮
     mon_decimal_point: .
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%Z %Y оны %B %e, %a %H:%M:%S'
     abday: [Ня, Да, Мя, Лх, Пү, Ба, Бя]
     day: [Ням, Даваа, Мягмар, Лхагва, Пүрэв, Баасан, Бямба]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Хул, Үхэ, Бар, Туу, Луу, Мог, Мор, Хон, Бич, Тах, Нох, Гах]
     mon: ['Хулгана сарын', 'Үхэр сарын', 'Бар сарын', 'Туулай сарын', 'Луу сарын', 'Могой сарын', 'Морь сарын', 'Хонь сарын', 'Бич сарын', 'Тахиа сарын', 'Нохой сарын', 'Гахай сарын']
     d_t_fmt: '%Y %b %d, %a %T'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

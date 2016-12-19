@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => 'རྒྱ་གར',
+    'country_name' => 'རྒྱ་གར་',
     'country_post' => NULL,
     'country_ab2' => 'IN',
     'country_ab3' => 'IND',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ཨYy].*',
-    'noexpr' => '^[མNn].*',
-    'yesstr' => 'ཨིན',
-    'nostr' => 'མེན',
+    'yesexpr' => '^[+1ཨYy]',
+    'noexpr' => '^[-0མNn]',
+    'yesstr' => 'ཡིན།',
+    'nostr' => 'མིན།',
   ),
   'LC_MONETARY' => 
   array (
@@ -99,7 +99,12 @@
       5 => 'གཟའ་པ་སངས་',
       6 => 'གཟའ་སྤེན་ཕ་',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ཟླ་༡',

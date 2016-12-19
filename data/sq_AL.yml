@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%z%c%T%s%b%e%r'
-    country_name: null
+    country_name: Shqipëri
     country_post: null
     country_ab2: AL
     country_ab3: ALB
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYpP].*'
-    noexpr: '^[nNjJ].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yYpP]'
+    noexpr: '^[-0nNjJ]'
+    yesstr: po
+    nostr: jo
 LC_MONETARY:
-    currency_symbol: Lek
+    currency_symbol: L
     mon_decimal_point: ','
     mon_thousands_sep: .
     mon_grouping: 3
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: ['Die ', 'Hën ', 'Mar ', 'Mër ', 'Enj ', 'Pre ', 'Sht ']
     day: ['e diel ', 'e hënë ', 'e martë ', 'e mërkurë ', 'e enjte ', 'e premte ', 'e shtunë ']
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Jan, Shk, Mar, Pri, Maj, Qer, Kor, Gsh, Sht, Tet, Nën, Dhj]
     mon: [janar, shkurt, mars, prill, maj, qershor, korrik, gusht, shtator, tetor, nëntor, dhjetor]
     d_t_fmt: '%Y-%b-%d %I.%M.%S.%p %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

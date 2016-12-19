@@ -6,8 +6,8 @@
     'country_post' => 'Myanmar',
     'country_ab2' => 'MM',
     'country_ab3' => NULL,
-    'country_num' => NULL,
-    'country_car' => 'BA',
+    'country_num' => 104,
+    'country_car' => 'MYA',
     'country_isbn' => NULL,
     'lang_name' => 'ဗမာ',
     'lang_ab' => 'my',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYဟ].*',
-    'noexpr' => '^[nNမ].*',
+    'yesexpr' => '^[+1yYဟ]',
+    'noexpr' => '^[-0nNမ]',
     'yesstr' => 'ဟုတ်တယ်',
     'nostr' => 'မဟုတ်ဘူး',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'Ks',
+    'currency_symbol' => 'K',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'သောကြာ',
       6 => 'စနေ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ဇန်',

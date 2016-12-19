@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Aruba",
             "country_post": null,
             "country_ab2": "AW",
             "country_ab3": "ABW",
             "country_num": 533,
-            "country_car": null,
+            "country_car": "AUA",
             "country_isbn": null,
             "lang_name": "Nederlands",
             "lang_ab": "nl",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[jJyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1jJyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "ja",
+            "nostr": "nee"
         },
         "LC_MONETARY": {
             "currency_symbol": "Afl.",
@@ -76,8 +76,8 @@
             ]
         },
         "LC_PAPER": {
-            "height": 279,
-            "width": 216
+            "height": 297,
+            "width": 210
         },
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
@@ -108,7 +108,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "jan",
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

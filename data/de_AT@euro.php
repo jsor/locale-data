@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Österreich',
     'country_post' => NULL,
     'country_ab2' => 'AT',
     'country_ab3' => 'AUT',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[jJyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1jJyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'ja',
+    'nostr' => 'nein',
   ),
   'LC_MONETARY' => 
   array (
@@ -57,10 +57,10 @@
   array (
     'name_fmt' => '%d%t%g%t%m%t%f',
     'name_gen' => NULL,
-    'name_mr' => NULL,
-    'name_mrs' => NULL,
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'name_mr' => 'Herr',
+    'name_mrs' => 'Frau',
+    'name_miss' => 'Fräulein',
+    'name_ms' => 'Frau',
   ),
   'LC_NUMERIC' => 
   array (
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

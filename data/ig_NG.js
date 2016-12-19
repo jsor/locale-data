@@ -28,9 +28,9 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[EeIiYy].*",
-            "noexpr": "^[0MmNn].*",
-            "yesstr": "Ee",
+            "yesexpr": "^[+1EeIiYy]",
+            "noexpr": "^[-0MmNn]",
+            "yesstr": "Eye",
             "nostr": "Mba"
         },
         "LC_MONETARY": {
@@ -105,7 +105,11 @@
                 "fra\u1ecbde",
                 "sat\u1ecdde"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "jen",
                 "feb",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

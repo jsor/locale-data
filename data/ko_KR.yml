@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: 대한민국
     country_post: null
     country_ab2: KR
     country_ab3: KOR
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY예]'
-    noexpr: '^[nN아]'
-    yesstr: null
-    nostr: 아니오
+    yesexpr: '^[+1yY예]'
+    noexpr: '^[-0nN아]'
+    yesstr: 예
+    nostr: 아니요
 LC_MONETARY:
-    currency_symbol: ￦
+    currency_symbol: ₩
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%Y. %m. %d. (%a) %H:%M:%S %Z'
     abday: [일, 월, 화, 수, 목, 금, 토]
     day: [일요일, 월요일, 화요일, 수요일, 목요일, 금요일, 토요일]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [' 1월', ' 2월', ' 3월', ' 4월', ' 5월', ' 6월', ' 7월', ' 8월', ' 9월', 10월, 11월, 12월]
     mon: [1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월]
     d_t_fmt: '%x (%a) %r'

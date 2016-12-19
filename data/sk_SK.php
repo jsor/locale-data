@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Slovensko',
     'country_post' => NULL,
     'country_ab2' => 'SK',
     'country_ab3' => 'SVK',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[aAáÁyY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1aAáÁyY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => 'áno',
     'nostr' => 'nie',
   ),
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

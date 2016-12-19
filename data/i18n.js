@@ -74,7 +74,7 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c +a +l",
+            "tel_int_fmt": "+%c %a%t%l",
             "tel_dom_fmt": null,
             "int_select": null,
             "int_prefix": null

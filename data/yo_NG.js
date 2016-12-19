@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Nigeria",
+            "country_name": "Or\u00edl\u1eb9\u0301\u00e8de N\u00e0\u00ecj\u00edr\u00ed\u00e0",
             "country_post": null,
             "country_ab2": "NG",
             "country_ab3": "NGA",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[EeyY].*",
-            "noexpr": "^[rROoKkNn].*",
-            "yesstr": "B\u1eb9\u0301\u1eb9\u0300 ni",
-            "nostr": "B\u1eb9\u0301\u1eb9\u0300 k\u1ecd\u0301"
+            "yesexpr": "^[+1EeyYNn]",
+            "noexpr": "^[-0rROoKk]",
+            "yesstr": "B\u1eb9\u0301\u1eb9\u0300ni",
+            "nostr": "B\u1eb9\u0301\u1eb9\u0300k\u1ecd\u0301"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20a6",
@@ -105,7 +105,11 @@
                 "\u1eb8\u0300t\u00ec",
                 "\u00c0b\u00e1m\u1eb9\u0301ta"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "JAN",
                 "FEB",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

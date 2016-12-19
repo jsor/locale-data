@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYoO].*'
-    noexpr: '^[nN].*'
-    yesstr: 'Yes'
-    nostr: 'No'
+    yesexpr: '^[+1yYoO]'
+    noexpr: '^[-0nN]'
+    yesstr: 'yes'
+    nostr: 'no'
 LC_MONETARY:
     currency_symbol: $
     mon_decimal_point: .
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sxe, Spe, Sel, Ske, Sme, Sts, Stq]
     day: [Sxetspesq̓t, Spetkesq̓t, Selesq̓t, Skellesq̓t, Smesesq̓t, Stselkstesq̓t, Stqmekstesq̓t]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Kwe, Tsi, Sqe, Éwt, Ell, Tsp, Tqw, Ct̓é, Qel, Wél, U7l, Tet]
     mon: [Pellkwet̓min, Pelctsipwen̓ten, Pellsqépts, Peslléwten, Pell7ell7é7llqten, Pelltspéntsk, Pelltqwelq̓wél̓t, Pellct̓éxel̓cten, Pesqelqlélten, Pesllwélsten, Pellc7ell7é7llcwten̓, Pelltetétq̓em]
     d_t_fmt: '%a %d %b %Y %r %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: 1
+    first_weekday: null
     first_workday: null
     cal_direction: null
     timezone: null

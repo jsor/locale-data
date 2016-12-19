@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "Hong Kong SAR China",
             "country_post": null,
             "country_ab2": "HK",
             "country_ab3": "HKG",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY]",
-            "noexpr": "^[nN]",
-            "yesstr": "Yes",
-            "nostr": "No"
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "yes",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "HK$",
@@ -77,7 +77,7 @@
             "tel_int_fmt": "+%c ;%a ;%l",
             "tel_dom_fmt": null,
             "int_select": null,
-            "int_prefix": null
+            "int_prefix": "852"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -99,7 +99,11 @@
                 "Friday",
                 "Saturday"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Feb",

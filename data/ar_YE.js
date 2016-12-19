@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u0627\u0644\u064a\u0645\u0646",
             "country_post": null,
             "country_ab2": "YE",
             "country_ab3": "YEM",
             "country_num": 887,
-            "country_car": null,
+            "country_car": "YAR",
             "country_isbn": null,
             "lang_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
             "lang_ab": "ar",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0646yY].*",
-            "noexpr": "^[\u0644nN].*",
+            "yesexpr": "^[+1\u0646yY]",
+            "noexpr": "^[-0\u0644nN]",
             "yesstr": "\u0646\u0639\u0645",
             "nostr": "\u0644\u0627"
         },
@@ -99,7 +99,11 @@
                 "\u0627\u0644\u062c\u0645\u0639\u0629",
                 "\u0627\u0644\u0633\u0628\u062a"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u064a\u0646\u0627",
                 "\u0641\u0628\u0631",
@@ -143,7 +147,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": null,
-            "first_workday": null,
+            "first_workday": 1,
             "cal_direction": null,
             "timezone": null
         }

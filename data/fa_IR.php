@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYآبHf].*',
-    'noexpr' => '^[nNخنok].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYآبHf]',
+    'noexpr' => '^[-0nNخنok]',
+    'yesstr' => 'بله',
+    'nostr' => 'نه',
   ),
   'LC_MONETARY' => 
   array (
@@ -99,7 +99,12 @@
       5 => 'جمعه',
       6 => 'شنبه',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ژانویه',

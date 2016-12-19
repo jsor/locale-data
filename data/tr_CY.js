@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Northern Cyprus",
+            "country_name": "K\u0131br\u0131s",
             "country_post": "TR",
-            "country_ab2": "TR",
-            "country_ab3": "TUR",
-            "country_num": 792,
-            "country_car": "TR",
+            "country_ab2": "CY",
+            "country_ab3": "CYP",
+            "country_num": 196,
+            "country_car": "CY",
             "country_isbn": 975,
             "lang_name": "Turkish",
             "lang_ab": "tr",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE]",
-            "noexpr": "^[nNhH]",
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNhH]",
             "yesstr": "evet",
             "nostr": "hay\u0131r"
         },
         "LC_MONETARY": {
-            "currency_symbol": "TL",
+            "currency_symbol": "\u20ba",
             "mon_decimal_point": ",",
             "mon_thousands_sep": ".",
             "mon_grouping": [
@@ -83,7 +83,7 @@
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
             "int_select": "00",
-            "int_prefix": "90"
+            "int_prefix": "357"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -105,7 +105,11 @@
                 "Cuma",
                 "Cumartesi"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Oca",
                 "\u015eub",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

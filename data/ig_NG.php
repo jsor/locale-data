@@ -20,9 +20,9 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[EeIiYy].*',
-    'noexpr' => '^[0MmNn].*',
-    'yesstr' => 'Ee',
+    'yesexpr' => '^[+1EeIiYy]',
+    'noexpr' => '^[-0MmNn]',
+    'yesstr' => 'Eye',
     'nostr' => 'Mba',
   ),
   'LC_MONETARY' => 
@@ -107,7 +107,12 @@
       5 => 'fraịde',
       6 => 'satọde',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'jen',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

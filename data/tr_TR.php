@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Turkey',
+    'country_name' => 'Türkiye',
     'country_post' => 'TR',
     'country_ab2' => 'TR',
     'country_ab3' => 'TUR',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYeE]',
-    'noexpr' => '^[nNhH]',
+    'yesexpr' => '^[+1yYeE]',
+    'noexpr' => '^[-0nNhH]',
     'yesstr' => 'evet',
     'nostr' => 'hayır',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'TL',
+    'currency_symbol' => '₺',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'Cuma',
       6 => 'Cumartesi',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Oca',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%S%N%c%N",
-            "country_name": "Breatainn Mh\u00f2r",
+            "country_name": "An R\u00ecoghachd Aonaichte",
             "country_post": null,
             "country_ab2": "GB",
             "country_ab3": "GBR",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[tTyY].*",
-            "noexpr": "^[cCnN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1tTyY]",
+            "noexpr": "^[-0cCnN]",
+            "yesstr": "tha",
+            "nostr": "chan eil"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u00a3",
@@ -105,7 +105,11 @@
                 "DihAoine",
                 "DiSathairne"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "Faoi",
                 "Gearr",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

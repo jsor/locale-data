@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: België
     country_post: null
     country_ab2: BE
     country_ab3: BEL
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[jJyY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1jJyY]'
+    noexpr: '^[-0nN]'
+    yesstr: ja
+    nostr: nee
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [zo, ma, di, wo, do, vr, za]
     day: [zondag, maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [jan, feb, mrt, apr, mei, jun, jul, aug, sep, okt, nov, dec]
     mon: [januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

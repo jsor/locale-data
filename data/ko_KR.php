@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => '대한민국',
     'country_post' => NULL,
     'country_ab2' => 'KR',
     'country_ab3' => 'KOR',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY예]',
-    'noexpr' => '^[nN아]',
-    'yesstr' => NULL,
-    'nostr' => '아니오',
+    'yesexpr' => '^[+1yY예]',
+    'noexpr' => '^[-0nN아]',
+    'yesstr' => '예',
+    'nostr' => '아니요',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '￦',
+    'currency_symbol' => '₩',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => '금요일',
       6 => '토요일',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => ' 1월',

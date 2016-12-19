@@ -1,7 +1,7 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%z%c%T%s%b%e%r",
-        "country_name": null,
+        "country_name": "\u092d\u093e\u0930\u0924",
         "country_post": null,
         "country_ab2": "IN",
         "country_ab3": "IND",
@@ -17,13 +17,13 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY].*",
-        "noexpr": "^[nN].*",
+        "yesexpr": "^[+1yY]",
+        "noexpr": "^[-0nN]",
         "yesstr": null,
         "nostr": null
     },
     "LC_MONETARY": {
-        "currency_symbol": "\u0930\u0941",
+        "currency_symbol": "\u20b9",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
         "mon_grouping": 3,
@@ -88,7 +88,11 @@
             "\u091c\u0941\u092e\u094b",
             "\u091b\u0902\u091b\u0938"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "\u091c\u0928\u0935\u0930\u0940",
             "\u092b\u092c\u0930\u0935\u0930\u0940",

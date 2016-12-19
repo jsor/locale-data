@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[DdYy].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1DdYy]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "da",
+            "nostr": "nu"
         },
         "LC_MONETARY": {
             "currency_symbol": "Lei",
@@ -99,13 +99,17 @@
             "day": [
                 "duminic\u0103",
                 "luni",
-                "mar\u0163i",
+                "mar\u021bi",
                 "miercuri",
                 "joi",
                 "vineri",
                 "s\u00e2mb\u0103t\u0103"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "ian",
                 "feb",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

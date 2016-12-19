@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[DdYy].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1DdYy]'
+    noexpr: '^[-0nN]'
+    yesstr: da
+    nostr: nu
 LC_MONETARY:
     currency_symbol: Lei
     mon_decimal_point: ','
@@ -62,8 +62,8 @@ LC_TELEPHONE:
 LC_TIME:
     date_fmt: '%A %-e %B %Y, %H:%M:%S %z'
     abday: [Du, Lu, Ma, Mi, Jo, Vi, Sb]
-    day: [duminică, luni, marţi, miercuri, joi, vineri, sâmbătă]
-    week: null
+    day: [duminică, luni, marți, miercuri, joi, vineri, sâmbătă]
+    week: [7, 19971130, 1]
     abmon: [ian, feb, mar, apr, mai, iun, iul, aug, sep, oct, nov, dec]
     mon: [ianuarie, februarie, martie, aprilie, mai, iunie, iulie, august, septembrie, octombrie, noiembrie, decembrie]
     d_t_fmt: '%a %d %b %Y %T %z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[JjYy].*",
-            "noexpr": "^[EeNn].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1JjYy]",
+            "noexpr": "^[-0EeNn]",
+            "yesstr": "jah",
+            "nostr": "ei"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -44,9 +44,9 @@
             "positive_sign": "",
             "negative_sign": "-",
             "frac_digits": 2,
-            "p_cs_precedes": 1,
+            "p_cs_precedes": 0,
             "p_sep_by_space": 1,
-            "n_cs_precedes": 1,
+            "n_cs_precedes": 0,
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

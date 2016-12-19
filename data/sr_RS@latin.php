@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Srbija i Crna Gora',
+    'country_name' => 'Srbija',
     'country_post' => 'SRB',
     'country_ab2' => 'RS',
     'country_ab3' => 'SRB',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[dDyY]',
-    'noexpr' => '^[nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1dDyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'da',
+    'nostr' => 'ne',
   ),
   'LC_MONETARY' => 
   array (
@@ -86,8 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a, %e. %b %Y.  %H:%M:%S %Z
-',
+    'date_fmt' => '%a, %e. %b %Y.  %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'ned',
@@ -112,7 +111,7 @@
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -160,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

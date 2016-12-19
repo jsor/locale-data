@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Slovenija
     country_post: null
     country_ab2: SI
     country_ab3: SVN
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[YyJj].*'
-    noexpr: '^[Nn].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1YyJj]'
+    noexpr: '^[-0Nn]'
+    yesstr: da
+    nostr: ne
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ned, pon, tor, sre, čet, pet, sob]
     day: [nedelja, ponedeljek, torek, sreda, četrtek, petek, sobota]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [jan, feb, mar, apr, maj, jun, jul, avg, sep, okt, nov, dec]
     mon: [januar, februar, marec, april, maj, junij, julij, avgust, september, oktober, november, december]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

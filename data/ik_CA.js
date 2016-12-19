@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "[yYiIaA].*",
-            "noexpr": "[nNqQ].*",
+            "yesexpr": "^[+1yYiIaA]",
+            "noexpr": "^[-0nNqQ]",
             "yesstr": "aa",
             "nostr": "qa\u00f1aa"
         },
@@ -105,7 +105,11 @@
                 "Tallimmiioiq",
                 "Maqin\u0121uoiq"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "S\u00f1t",
                 "S\u00f1s",

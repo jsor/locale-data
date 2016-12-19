@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
-            "country_post": null,
-            "country_ab2": null,
-            "country_ab3": null,
-            "country_num": null,
+            "country_name": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+            "country_post": "KAZ",
+            "country_ab2": "KZ",
+            "country_ab3": "KAZ",
+            "country_num": 398,
             "country_car": "KZ",
-            "country_isbn": null,
-            "lang_name": null,
+            "country_isbn": "978-601",
+            "lang_name": "\u049b\u0430\u0437\u0430\u049b \u0442\u0456\u043b\u0456",
             "lang_ab": "kk",
             "lang_term": "kaz",
             "lang_lib": "kaz"
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0418\u0438Yy].*",
-            "noexpr": "^[\u0416\u0436Nn].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1\u0418\u0438Yy]",
+            "noexpr": "^[-0\u0416\u0436Nn]",
+            "yesstr": "\u0438\u04d9",
+            "nostr": "\u0436\u043e\u049b"
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u0442\u0433",
-            "mon_decimal_point": ".",
-            "mon_thousands_sep": " ",
+            "currency_symbol": "\u20b8",
+            "mon_decimal_point": ",",
+            "mon_thousands_sep": "\u00a0",
             "mon_grouping": [
                 3,
                 3
@@ -45,19 +45,19 @@
             "negative_sign": "-",
             "frac_digits": 2,
             "p_cs_precedes": 0,
-            "p_sep_by_space": 1,
+            "p_sep_by_space": 2,
             "n_cs_precedes": 0,
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
             "int_curr_symbol": "KZT ",
             "int_frac_digits": 2,
-            "int_p_cs_precedes": null,
-            "int_p_sep_by_space": null,
-            "int_n_cs_precedes": null,
-            "int_n_sep_by_space": null,
-            "int_p_sign_posn": null,
-            "int_n_sign_posn": null
+            "int_p_cs_precedes": 1,
+            "int_p_sep_by_space": 2,
+            "int_n_cs_precedes": 1,
+            "int_n_sep_by_space": 1,
+            "int_p_sign_posn": 4,
+            "int_n_sign_posn": 4
         },
         "LC_NAME": {
             "name_fmt": "%d%t%g%t%m%t%f",
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": ".",
+            "thousands_sep": "\u00a0",
             "grouping": [
                 3,
                 3
@@ -81,8 +81,8 @@
         },
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
-            "tel_dom_fmt": null,
-            "int_select": null,
+            "tel_dom_fmt": "(%A) %l",
+            "int_select": "8~10",
             "int_prefix": "7"
         },
         "LC_TIME": {
@@ -94,7 +94,7 @@
                 "\u0421\u0440",
                 "\u0411\u0441",
                 "\u0416\u043c",
-                "\u0421\u043d"
+                "\u0421\u0431"
             ],
             "day": [
                 "\u0416\u0435\u043a\u0441\u0435\u043d\u0431\u0456",
@@ -105,7 +105,11 @@
                 "\u0416\u04b1\u043c\u0430",
                 "\u0421\u0435\u043d\u0431\u0456"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u049a\u0430\u04a3",
                 "\u0410\u049b\u043f",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

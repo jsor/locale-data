@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Norga',
     'country_post' => NULL,
     'country_ab2' => 'NO',
     'country_ab3' => 'NOR',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[JjYy].*',
-    'noexpr' => '^[Ii].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1JjYy]',
+    'noexpr' => '^[-0IiNn]',
+    'yesstr' => 'jo',
+    'nostr' => 'ii',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => ' ru',
+    'currency_symbol' => 'kr',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'bearjadat',
       6 => 'lávvardat',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 4,
+    ),
     'abmon' => 
     array (
       0 => 'ođđj',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

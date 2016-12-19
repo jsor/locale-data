@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yY].*",
-        "noexpr": "^[kKmM].*",
+        "yesexpr": "^[+1yY]",
+        "noexpr": "^[-0kKmM]",
         "yesstr": null,
         "nostr": null
     },
@@ -96,7 +96,7 @@
         "week": [
             7,
             19971130,
-            4
+            1
         ],
         "abmon": [
             "eni",
@@ -140,8 +140,8 @@
         "era_d_fmt": null,
         "era_t_fmt": null,
         "alt_digits": null,
-        "first_weekday": 1,
-        "first_workday": 2,
+        "first_weekday": null,
+        "first_workday": null,
         "cal_direction": null,
         "timezone": null
     }

@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY]'
-    noexpr: '^[nN]'
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
     yesstr: 'Yes'
     nostr: 'No'
 LC_MONETARY:
@@ -58,12 +58,12 @@ LC_TELEPHONE:
     tel_int_fmt: '+%c ;%a ;%l'
     tel_dom_fmt: null
     int_select: null
-    int_prefix: null
+    int_prefix: '65'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [星期日, 星期一, 星期二, 星期三, 星期四, 星期五, 星期六]
     day: [星期日, 星期一, 星期二, 星期三, 星期四, 星期五, 星期六]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
     mon: [一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
     d_t_fmt: '%Y年%m月%d日 %H时%M分%S秒 %Z'

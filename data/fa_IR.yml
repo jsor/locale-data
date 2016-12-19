@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYآبHf].*'
-    noexpr: '^[nNخنok].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yYآبHf]'
+    noexpr: '^[-0nNخنok]'
+    yesstr: بله
+    nostr: نه
 LC_MONETARY:
     currency_symbol: ریال
     mon_decimal_point: ٫
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '‫%A %Oe %B %Oy، ساعت %OH:%OM:%OS (%Z)‬'
     abday: [یکشنبه, دوشنبه, سه‌شنبه, چهارشنبه, پنجشنبه, جمعه, شنبه]
     day: [یکشنبه, دوشنبه, سه‌شنبه, چهارشنبه, پنجشنبه, جمعه, شنبه]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ژانویه, فوریه, مارس, آوریل, مه, ژوئن, ژوئیه, اوت, سپتامبر, اكتبر, نوامبر, دسامبر]
     mon: [ژانویه, فوریه, مارس, آوریل, مه, ژوئن, ژوئیه, اوت, سپتامبر, اكتبر, نوامبر, دسامبر]
     d_t_fmt: '‫%A %Oe %B %Oy، %OH:%OM:%OS‬'

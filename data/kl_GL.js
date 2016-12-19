@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Kalaallit Nunaat",
             "country_post": null,
             "country_ab2": "GL",
             "country_ab3": "GRL",
             "country_num": 304,
-            "country_car": "GRO",
+            "country_car": "KN",
             "country_isbn": null,
             "lang_name": "Kalaallisut",
             "lang_ab": "kl",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[JjYyAa].*",
-            "noexpr": "^[Nn].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1JjYyAa]",
+            "noexpr": "^[-0Nn]",
+            "yesstr": "aap",
+            "nostr": "naagga"
         },
         "LC_MONETARY": {
             "currency_symbol": "kr.",
@@ -105,7 +105,11 @@
                 "tallimanngorneq",
                 "arfininngorneq"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "jan",
                 "feb",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

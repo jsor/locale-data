@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYبf].*'
-    noexpr: '^[nNخنo].*'
+    yesexpr: '^[+1yYبf]'
+    noexpr: '^[-0nNخنo]'
     yesstr: null
     nostr: null
 LC_MONETARY:
-    currency_symbol: افغانۍ
+    currency_symbol: ؋
     mon_decimal_point: ٫
     mon_thousands_sep: ٬
     mon_grouping: 3
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ی., د., س., چ., پ., ج., ش.]
     day: [یکشنبه, دوشنبه, سه‌شنبه, چارشنبه, پنجشنبه, جمعه, شنبه]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [جنو, فبر, مار, اپر, مـې, جون, جول, اګس, سپت, اکت, نوم, دسم]
     mon: [جنوري, فبروري, مارچ, اپریل, مې, جون, جولاي, اګست, سپتمبر, اکتوبر, نومبر, دسمبر]
     d_t_fmt: '%A د %Y د %B %e، %Z %H:%M:%S'

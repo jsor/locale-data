@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ҲҳYy].*'
-    noexpr: '^[ЙйNn].*'
-    yesstr: Ҳа
-    nostr: Йўқ
+    yesexpr: '^[+1ҲҳHh]'
+    noexpr: '^[-0ЙйNnYyJj]'
+    yesstr: ҳа
+    nostr: йўқ
 LC_MONETARY:
     currency_symbol: сўм
     mon_decimal_point: .
@@ -58,12 +58,12 @@ LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
     int_select: null
-    int_prefix: '27'
+    int_prefix: '998'
 LC_TIME:
     date_fmt: '%d %B, %Y йил, %A'
     abday: [Якш, Душ, Сеш, Чор, Пай, Жум, Шан]
     day: [Якшанба, Душанба, Сешанба, Чоршанба, Пайшанба, Жума, Шанба]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Янв, Фев, Мар, Апр, Май, Июн, Июл, Авг, Сен, Окт, Ноя, Дек]
     mon: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
     d_t_fmt: '%T, %d %B, %Y йил, %A'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Nigeria',
+    'country_name' => 'Najeriya',
     'country_post' => NULL,
     'country_ab2' => 'NG',
     'country_ab3' => 'NGA',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[TtiIYy].*',
-    'noexpr' => '^[bBaAnN].*',
+    'yesexpr' => '^[+1TtiIYy]',
+    'noexpr' => '^[-0bBaAnN]',
     'yesstr' => 'Toh',
     'nostr' => 'Babu',
   ),
@@ -107,7 +107,12 @@
       5 => 'Juma\'a',
       6 => 'Asabar',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

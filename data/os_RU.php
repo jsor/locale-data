@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Уӕрӕсе',
     'country_post' => NULL,
     'country_ab2' => 'RU',
     'country_ab3' => 'RUS',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[УдYy].*',
-    'noexpr' => '^[унNn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1УдYy]',
+    'noexpr' => '^[-0унNn]',
+    'yesstr' => 'уойы',
+    'nostr' => 'нӕйы',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'сом',
+    'currency_symbol' => '₽',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'Майрæмбон',
       6 => 'Сабат',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Янв',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

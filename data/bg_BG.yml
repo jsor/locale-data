@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%sN%h, %e, %r%N%z %T%N%c%N'
-    country_name: Bulgaria
+    country_name: България
     country_post: BG
     country_ab2: BG
     country_ab3: BGR
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдDdYyOo].*'
-    noexpr: '^[-0НнNnKk].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1ДдDdYyOo]'
+    noexpr: '^[-0НнNnKk]'
+    yesstr: да
+    nostr: не
 LC_MONETARY:
-    currency_symbol: лв
+    currency_symbol: лв.
     mon_decimal_point: ','
     mon_thousands_sep: "\_"
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [нд, пн, вт, ср, чт, пт, сб]
     day: [неделя, понеделник, вторник, сряда, четвъртък, петък, събота]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [яну, фев, мар, апр, май, юни, юли, авг, сеп, окт, ное, дек]
     mon: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
     d_t_fmt: '%x (%a) %X %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

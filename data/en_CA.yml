@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Canada
     country_post: null
     country_ab2: CA
     country_ab3: CAN
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYoO].*'
-    noexpr: '^[nN].*'
-    yesstr: 'Yes'
-    nostr: 'No'
+    yesexpr: '^[+1yYoO]'
+    noexpr: '^[-0nN]'
+    yesstr: 'yes'
+    nostr: 'no'
 LC_MONETARY:
     currency_symbol: $
     mon_decimal_point: .
@@ -63,11 +63,11 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
     day: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
     mon: [January, February, March, April, May, June, July, August, September, October, November, December]
     d_t_fmt: '%a %d %b %Y %r %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%Y-%m-%d'
     t_fmt: '%r'
     am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'

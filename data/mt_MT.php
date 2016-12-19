@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'Malta',
     'country_post' => NULL,
     'country_ab2' => 'MT',
     'country_ab3' => 'MLT',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^(Yes|[yY])',
-    'noexpr' => '^(No|[nN])',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^(Yes|[+1yY])',
+    'noexpr' => '^(No|[-0nN])',
+    'yesstr' => 'iva',
+    'nostr' => 'le',
   ),
   'LC_MONETARY' => 
   array (
@@ -74,7 +74,7 @@
     'tel_int_fmt' => '+%c ;%a ;%l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => NULL,
+    'int_prefix' => '356',
   ),
   'LC_TIME' => 
   array (
@@ -99,7 +99,12 @@
       5 => 'il-Ġimgħa',
       6 => 'is-Sibt',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
@@ -145,8 +150,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_weekday' => NULL,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

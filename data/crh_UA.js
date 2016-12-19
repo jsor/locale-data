@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE]",
-            "noexpr": "^[nNhH]",
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNhH]",
             "yesstr": "ebet",
             "nostr": "hay\u0131r"
         },
         "LC_MONETARY": {
-            "currency_symbol": "gr",
+            "currency_symbol": "\u20b4",
             "mon_decimal_point": ".",
             "mon_thousands_sep": " ",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "Cuma",
                 "Cumaertesi"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Yan",
                 "Fev",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

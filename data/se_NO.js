@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Norga",
             "country_post": null,
             "country_ab2": "NO",
             "country_ab3": "NOR",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[JjYy].*",
-            "noexpr": "^[Ii].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1JjYy]",
+            "noexpr": "^[-0IiNn]",
+            "yesstr": "jo",
+            "nostr": "ii"
         },
         "LC_MONETARY": {
-            "currency_symbol": " ru",
+            "currency_symbol": "kr",
             "mon_decimal_point": ",",
             "mon_thousands_sep": ".",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "bearjadat",
                 "l\u00e1vvardat"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                4
+            ],
             "abmon": [
                 "o\u0111\u0111j",
                 "guov",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

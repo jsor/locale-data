@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY]'
-    noexpr: '^[nN]'
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %-e %H:%M:%S %Z %Y'
     abday: [Son, Mma, Bed, Rar, Ne, Hla, Moq]
     day: [Sontaha, Mantaha, Labobedi, Laboraro, Labone, Labohlano, Moqebelo]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Phe, Hla, TlH, Mme, Mot, Jan, Upu, Pha, Leo, Mph, Pud, Tsh]
     mon: [Pherekgong, Hlakola, Tlhakubele, Mmese, Motsheanong, Phupjane, Phupu, Phato, Leotse, Mphalane, Pudungwana, Tshitwe]
     d_t_fmt: '%a %-e %b %Y %T %Z'

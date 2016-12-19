@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Macedonia",
+            "country_name": "Maqedoni",
             "country_post": "MK",
             "country_ab2": "MK",
             "country_ab3": "MKD",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYpP].*",
-            "noexpr": "^[nNjJ].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yYpP]",
+            "noexpr": "^[-0nNjJ]",
+            "yesstr": "po",
+            "nostr": "jo"
         },
         "LC_MONETARY": {
             "currency_symbol": "den",
@@ -102,7 +102,11 @@
                 "e premte ",
                 "e shtun\u00eb "
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Shk",
@@ -145,7 +149,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

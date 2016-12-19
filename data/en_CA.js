@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Canada",
             "country_post": null,
             "country_ab2": "CA",
             "country_ab3": "CAN",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYoO].*",
-            "noexpr": "^[nN].*",
-            "yesstr": "Yes",
-            "nostr": "No"
+            "yesexpr": "^[+1yYoO]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "yes",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "$",
@@ -105,7 +105,11 @@
                 "Friday",
                 "Saturday"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Feb",
@@ -135,7 +139,7 @@
                 "December"
             ],
             "d_t_fmt": "%a %d %b %Y %r %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%Y-%m-%d",
             "t_fmt": "%r",
             "am_pm": [
                 "AM",

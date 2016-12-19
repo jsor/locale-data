@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Latvija",
             "country_post": null,
             "country_ab2": "LV",
             "country_ab3": "LVA",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[JjYy].*",
-            "noexpr": "^[Nn].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1JjYy]",
+            "noexpr": "^[-0Nn]",
+            "yesstr": "j\u0101",
+            "nostr": "n\u0113"
         },
         "LC_MONETARY": {
-            "currency_symbol": "Ls",
+            "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
             "mon_thousands_sep": "\u00a0",
             "mon_grouping": [
@@ -50,7 +50,7 @@
             "n_sep_by_space": 1,
             "p_sign_posn": 3,
             "n_sign_posn": 3,
-            "int_curr_symbol": "LVL ",
+            "int_curr_symbol": "EUR ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -105,7 +105,11 @@
                 "piektdiena",
                 "sestdiena"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "jan",
                 "feb",
@@ -149,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

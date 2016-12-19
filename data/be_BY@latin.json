@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[TtYy].*",
-        "noexpr": "^[Nn].*",
+        "yesexpr": "^[+1TtYy]",
+        "noexpr": "^[-0Nn]",
         "yesstr": null,
         "nostr": null
     },
@@ -94,7 +94,11 @@
             "Piatnica",
             "Subota"
         ],
-        "week": null,
+        "week": [
+            7,
+            19971130,
+            1
+        ],
         "abmon": [
             "Stu",
             "Lut",
@@ -137,7 +141,7 @@
         "era_d_fmt": null,
         "era_t_fmt": null,
         "alt_digits": null,
-        "first_weekday": null,
+        "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
         "timezone": null

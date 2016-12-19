@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[eEdDyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1eEdDyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": "er\u00ea",
             "nostr": "n\u00e2"
         },
         "LC_MONETARY": {
-            "currency_symbol": "TL",
+            "currency_symbol": "\u20ba",
             "mon_decimal_point": ",",
             "mon_thousands_sep": ".",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "\u00een\u00ee",
                 "sept"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u00c7il",
                 "Sib",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

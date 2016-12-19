@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[hHyY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1hHyY]'
+    noexpr: '^[-0nN]'
     yesstr: haj
     nostr: ně
 LC_MONETARY:
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[DdYy].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1DdYy]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'da',
+    'nostr' => 'nu',
   ),
   'LC_MONETARY' => 
   array (
@@ -101,13 +101,18 @@
     array (
       0 => 'duminică',
       1 => 'luni',
-      2 => 'marţi',
+      2 => 'marți',
       3 => 'miercuri',
       4 => 'joi',
       5 => 'vineri',
       6 => 'sâmbătă',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ian',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

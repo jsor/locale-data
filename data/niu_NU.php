@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ēĒyY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1ēĒyY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => 'Talia',
     'nostr' => 'Nakai',
   ),
@@ -107,7 +107,12 @@
       5 => 'Aho Falaile',
       6 => 'Aho Faiumu',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Ian',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

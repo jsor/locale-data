@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0113\u0112yY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1\u0113\u0112yY]",
+            "noexpr": "^[-0nN]",
             "yesstr": "Talia",
             "nostr": "Nakai"
         },
@@ -105,7 +105,11 @@
                 "Aho Falaile",
                 "Aho Faiumu"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Ian",
                 "Fep",

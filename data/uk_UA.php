@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^([Yy+]|[Тт][Аа][Кк]?)$',
-    'noexpr' => '^([Nn-]|[Нн][Іі])$',
+    'yesexpr' => '^([+1Yy]|[Тт][Аа][Кк]?)$',
+    'noexpr' => '^([-0Nn]|[Нн][Іі])$',
     'yesstr' => 'так',
     'nostr' => 'ні',
   ),
@@ -113,7 +113,7 @@ bsp (0xA0)',
     array (
       0 => 7,
       1 => 19971130,
-      2 => 4,
+      2 => 1,
     ),
     'abmon' => 
     array (
@@ -176,7 +176,7 @@ bsp (0xA0)',
       12 => 0,
     ),
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => 2,
     'timezone' => NULL,
   ),

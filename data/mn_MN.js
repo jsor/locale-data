@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Mongolia",
+            "country_name": "\u041c\u043e\u043d\u0433\u043e\u043b",
             "country_post": "MN",
             "country_ab2": "MN",
             "country_ab3": "MNG",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0442\u0422yY].*",
-            "noexpr": "^[\u04af\u04aenN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1\u0442\u0422yY]",
+            "noexpr": "^[-0\u04af\u04aenN]",
+            "yesstr": "\u0442\u0438\u0439\u043c",
+            "nostr": "\u04af\u0433\u04af\u0439"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ae",
@@ -105,7 +105,11 @@
                 "\u0411\u0430\u0430\u0441\u0430\u043d",
                 "\u0411\u044f\u043c\u0431\u0430"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u0425\u0443\u043b",
                 "\u04ae\u0445\u044d",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

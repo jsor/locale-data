@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Lietuva',
     'country_post' => NULL,
     'country_ab2' => 'LT',
     'country_ab3' => 'LTU',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[TtYy].*',
-    'noexpr' => '^[Nn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1TtYy]',
+    'noexpr' => '^[-0Nn]',
+    'yesstr' => 'taip',
+    'nostr' => 'ne',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Penktadienis',
       6 => 'Šeštadienis',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 4,
+    ),
     'abmon' => 
     array (
       0 => 'Sau',
@@ -139,7 +144,7 @@
       11 => 'gruodžio',
     ),
     'd_t_fmt' => '%Y m. %B %d d. %T',
-    'd_fmt' => '%Y.%m.%d',
+    'd_fmt' => '%Y-%m-%d',
     't_fmt' => '%T',
     'am_pm' => 
     array (
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%sN%h, %e, %r%N%z %T%N%c%N',
-    'country_name' => 'Bulgaria',
+    'country_name' => 'България',
     'country_post' => 'BG',
     'country_ab2' => 'BG',
     'country_ab3' => 'BGR',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ДдDdYyOo].*',
-    'noexpr' => '^[-0НнNnKk].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1ДдDdYyOo]',
+    'noexpr' => '^[-0НнNnKk]',
+    'yesstr' => 'да',
+    'nostr' => 'не',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'лв',
+    'currency_symbol' => 'лв.',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => ' ',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'петък',
       6 => 'събота',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 4,
+    ),
     'abmon' => 
     array (
       0 => 'яну',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

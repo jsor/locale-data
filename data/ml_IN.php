@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'ഇന്ത്യ',
     'country_post' => NULL,
     'country_ab2' => 'IN',
     'country_ab3' => 'IND',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[അതെyY]',
-    'noexpr' => '^[അല്ലnN]',
+    'yesexpr' => '^[+1അതെyY]',
+    'noexpr' => '^[-0അല്ലnN]',
     'yesstr' => 'അതെ',
     'nostr' => 'അല്ല',
   ),
@@ -107,7 +107,12 @@
       5 => 'വെള്ളി',
       6 => 'ശനി',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ജനു',

@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'Shqipëri',
     'country_post' => NULL,
     'country_ab2' => 'AL',
     'country_ab3' => 'ALB',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYpP].*',
-    'noexpr' => '^[nNjJ].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYpP]',
+    'noexpr' => '^[-0nNjJ]',
+    'yesstr' => 'po',
+    'nostr' => 'jo',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'Lek',
+    'currency_symbol' => 'L',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 3,
@@ -99,7 +99,12 @@
       5 => 'e premte ',
       6 => 'e shtunë ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
@@ -145,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

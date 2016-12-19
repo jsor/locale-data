@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[Bb].*',
-    'noexpr' => '^[YyNn].*',
+    'yesexpr' => '^[+1Bb]',
+    'noexpr' => '^[-0YyNn]',
     'yesstr' => 'bəli',
     'nostr' => 'yox',
   ),
@@ -99,7 +99,12 @@
       5 => 'beşinci gün',
       6 => 'altıncı gün',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Yan',
@@ -145,8 +150,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'first_weekday' => 7,
+    'first_workday' => 1,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

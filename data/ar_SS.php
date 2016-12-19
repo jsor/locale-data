@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'جنوب السودان',
     'country_post' => NULL,
     'country_ab2' => 'SS',
     'country_ab3' => 'SSD',
     'country_num' => 728,
-    'country_car' => NULL,
+    'country_car' => 'SUD',
     'country_isbn' => NULL,
     'lang_name' => 'العربية',
     'lang_ab' => 'ar',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[نyY].*',
-    'noexpr' => '^[لnN].*',
+    'yesexpr' => '^[+1نyY]',
+    'noexpr' => '^[-0لnN]',
     'yesstr' => 'نعم',
     'nostr' => 'لا',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'ج.س.',
+    'currency_symbol' => '£',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 3,
@@ -40,7 +40,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 2,
-    'int_curr_symbol' => 'SDG ',
+    'int_curr_symbol' => 'SSP ',
     'int_frac_digits' => 3,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -74,7 +74,7 @@
     'tel_int_fmt' => '+%c ;%a ;%l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => '249',
+    'int_prefix' => '211',
   ),
   'LC_TIME' => 
   array (
@@ -99,7 +99,12 @@
       5 => 'الجمعة',
       6 => 'السبت',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ينا',
@@ -145,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

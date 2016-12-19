@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yYeE]",
-            "noexpr": "^[nNaA]",
+            "yesexpr": "^[+1yYeE]",
+            "noexpr": "^[-0nNaA]",
             "yesstr": null,
             "nostr": null
         },
@@ -105,7 +105,11 @@
                 "Labohlano",
                 "Mokibelo"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Feb",

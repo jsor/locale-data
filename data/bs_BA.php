@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Bosna i Hercegovina',
     'country_post' => NULL,
     'country_ab2' => 'BA',
     'country_ab3' => 'BIH',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[dDyY]*.',
-    'noexpr' => '^[nN]*.',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1dDyY]*.',
+    'noexpr' => '^[-0nN]*.',
+    'yesstr' => 'da',
+    'nostr' => 'ne',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'Petak',
       6 => 'Subota',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'Jan',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

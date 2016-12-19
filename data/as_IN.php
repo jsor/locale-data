@@ -2,11 +2,11 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'ভাৰত',
     'country_post' => NULL,
     'country_ab2' => NULL,
     'country_ab3' => NULL,
-    'country_num' => NULL,
+    'country_num' => 356,
     'country_car' => 'IND',
     'country_isbn' => NULL,
     'lang_name' => 'অসমীয়া',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYহ].*',
-    'noexpr' => '^[nNন].*',
+    'yesexpr' => '^[+1yYহ]',
+    'noexpr' => '^[-0nNন]',
     'yesstr' => 'হয়',
     'nostr' => 'নহয়',
   ),
@@ -107,7 +107,12 @@
       5 => 'শুক্ৰবাৰ',
       6 => 'শনিবাৰ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'জানুৱাৰী',

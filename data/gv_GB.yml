@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: 'Rywvaneth Unys'
     country_post: null
     country_ab2: GB
     country_ab3: GBR
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Jed, Jel, Jem, Jerc, Jerd, Jeh, Jes]
     day: [Jedoonee, Jelhein, Jemayrt, Jercean, Jerdein, Jeheiney, Jesarn]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [J-guer, T-arree, Mayrnt, Avrril, Boaldyn, M-souree, J-souree, Luanistyn, M-fouyir, J-fouyir, M.Houney, M.Nollick]
     mon: [Jerrey-geuree, Toshiaght-arree, Mayrnt, Averil, Boaldyn, Mean-souree, Jerrey-souree, Luanistyn, Mean-fouyir, Jerrey-fouyir, 'Mee Houney', 'Mee ny Nollick']
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

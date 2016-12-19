@@ -17,7 +17,7 @@
             "country_ab2": "DJ",
             "country_ab3": "DJI",
             "country_num": 262,
-            "country_car": null,
+            "country_car": "DJI",
             "country_isbn": null,
             "lang_name": "Qafar",
             "lang_ab": "aa",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[oOyY].*",
-            "noexpr": "^[mnMN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0mnMN]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "$",
+            "currency_symbol": "Fdj",
             "mon_decimal_point": ".",
             "mon_thousands_sep": " ",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "Gumqata",
                 "Sabti"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "qun",
                 "nah",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 7,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

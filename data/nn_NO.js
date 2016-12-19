@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Noreg",
             "country_post": null,
             "country_ab2": "NO",
             "country_ab3": "NOR",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[JjYy].*",
-            "noexpr": "^[Nn].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1JjYy]",
+            "noexpr": "^[-0Nn]",
+            "yesstr": "ja",
+            "nostr": "nei"
         },
         "LC_MONETARY": {
             "currency_symbol": "kr",
@@ -150,7 +150,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

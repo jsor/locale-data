@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%c%T%s%h%N%b%e%r%N%f%N%d%N%a',
-    'country_name' => '香港',
+    'country_name' => '中華人民共和國香港特別行政區',
     'country_post' => NULL,
     'country_ab2' => 'HK',
     'country_ab3' => 'HKG',
     'country_num' => 344,
-    'country_car' => NULL,
+    'country_car' => 'HK',
     'country_isbn' => '962',
     'lang_name' => '粵語',
     'lang_ab' => NULL,
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY]',
-    'noexpr' => '^[nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => '係',
+    'nostr' => '唔係',
   ),
   'LC_MONETARY' => 
   array (
@@ -99,7 +99,12 @@
       5 => '星期五',
       6 => '星期六',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => '1月',
@@ -145,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
+    'first_weekday' => NULL,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

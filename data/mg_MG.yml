@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Madagasikara
     country_post: null
     country_ab2: MG
     country_ab3: MDG
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[eEyY].*'
-    noexpr: '^[tTnN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1eEyY]'
+    noexpr: '^[-0tTnN]'
+    yesstr: Eny
+    nostr: Tsia
 LC_MONETARY:
-    currency_symbol: AR
+    currency_symbol: Ar
     mon_decimal_point: ','
     mon_thousands_sep: ' '
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [lhd, lts, tlt, lrb, lkm, zom, sab]
     day: [alahady, alatsinainy, talata, alarobia, alakamisy, zoma, sabotsy]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [jan, feb, mar, apr, mey, jon, jol, aog, sep, okt, nov, des]
     mon: [janoary, febroary, martsa, aprily, mey, jona, jolay, aogositra, septambra, oktobra, novambra, desambra]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

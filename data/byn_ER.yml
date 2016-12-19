@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
-    currency_symbol: $
+    currency_symbol: Nfk
     mon_decimal_point: .
     mon_thousands_sep: ','
     mon_grouping: [3, 3]
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%A፡ %B %e ግርጋ %r %Z %Y ኣድ'
     abday: [ሰ/ቅ, ሰኑ, ሰሊጝ, ለጓ, ኣምድ, ኣርብ, ሰ/ሽ]
     day: ['ሰንበር ቅዳዅ', ሰኑ, ሰሊጝ, 'ለጓ ወሪ ለብዋ', ኣምድ, ኣርብ, 'ሰንበር ሽጓዅ']
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ልደት, ካብኽ, ክብላ, ፋጅኺ, ክቢቅ, ም/ት, ኰር, ማርያ, ያኸኒ, መተሉ, ም/ም, ተሕሳ]
     mon: [ልደትሪ, ካብኽብቲ, ክብላ, ፋጅኺሪ, ክቢቅሪ, 'ምኪኤል ትጓ̅ኒሪ', ኰርኩ, 'ማርያም ትሪ', 'ያኸኒ መሳቅለሪ', መተሉ, 'ምኪኤል መሽወሪ', ተሕሳስሪ]
     d_t_fmt: '%A፡ %B %e ግርጋ %Y %r %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: null
+    first_weekday: 2
     first_workday: null
     cal_direction: null
     timezone: null

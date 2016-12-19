@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYມ]'
-    noexpr: '^[nNບ]'
+    yesexpr: '^[+1yYມ]'
+    noexpr: '^[-0nNບ]'
     yesstr: ແມ່ນ
     nostr: ບໍ່ແມ່ນ
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %e %b %Ey %H:%M:%S %Z'
     abday: [ອາ., ຈ., ຄ., ພ., ພຫ., ສ., ສ.]
     day: [ອາທິດ, ຈັນ, ອັງຄານ, ພຸດ, ພະຫັດ, ສຸກ, ເສົາ]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [ມ.ກ., ກ.ພ., ມ.ນ., ມ.ສ., ພ.ພ., ມິ.ຖ., ກ.ລ., ສ.ຫ., ກ.ຍ., ຕ.ລ., ພ.ຈ., ທ.ວ.]
     mon: [ມັງກອນ, ກຸມຟາ, ມີນາ, ເມສາ, ພຶດສະພາ, ມິຖຸນາ, ກໍລະກົດ, ສິງຫາ, ກັນຍາ, ຕຸລາ, ພະຈິກ, ທັນວາ]
     d_t_fmt: '%a %e %b %Ey, %H:%M:%S'

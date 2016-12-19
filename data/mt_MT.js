@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "Malta",
             "country_post": null,
             "country_ab2": "MT",
             "country_ab3": "MLT",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^(Yes|[yY])",
-            "noexpr": "^(No|[nN])",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^(Yes|[+1yY])",
+            "noexpr": "^(No|[-0nN])",
+            "yesstr": "iva",
+            "nostr": "le"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -77,7 +77,7 @@
             "tel_int_fmt": "+%c ;%a ;%l",
             "tel_dom_fmt": null,
             "int_select": null,
-            "int_prefix": null
+            "int_prefix": "356"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -99,7 +99,11 @@
                 "il-\u0120img\u0127a",
                 "is-Sibt"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Fra",
@@ -142,8 +146,8 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": 2,
-            "first_workday": 2,
+            "first_weekday": null,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

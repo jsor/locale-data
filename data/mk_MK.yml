@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: Macedonia
+    country_name: Македонија
     country_post: MK
     country_ab2: MK
     country_ab3: MKD
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ДдDdYy1].*'
-    noexpr: '^[НнNn0].*'
+    yesexpr: '^[+1ДдDdYy]'
+    noexpr: '^[-0НнNn]'
     yesstr: да
     nostr: не
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a, %d %b %H:%M:%S %Z %Y'
     abday: [нед, пон, вто, сре, чет, пет, саб]
     day: [недела, понеделник, вторник, среда, четврток, петок, сабота]
-    week: [7, 19971130, 4]
+    week: [7, 19971130, 1]
     abmon: [јан, фев, мар, апр, мај, јун, јул, авг, сеп, окт, ное, дек]
     mon: [јануари, февруари, март, април, мај, јуни, јули, август, септември, октомври, ноември, декември]
     d_t_fmt: '%a, %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[JjYy].*',
-    'noexpr' => '^[EeNn].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1JjYy]',
+    'noexpr' => '^[-0EeNn]',
+    'yesstr' => 'jah',
+    'nostr' => 'ei',
   ),
   'LC_MONETARY' => 
   array (
@@ -38,9 +38,9 @@
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
-    'p_cs_precedes' => 1,
+    'p_cs_precedes' => 0,
     'p_sep_by_space' => 1,
-    'n_cs_precedes' => 1,
+    'n_cs_precedes' => 0,
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

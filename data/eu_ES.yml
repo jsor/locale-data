@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Espainia
     country_post: null
     country_ab2: ES
     country_ab3: ESP
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[bBsSyY].*'
-    noexpr: '^[eEnN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1bBsSyY]'
+    noexpr: '^[-0eEnN]'
+    yesstr: bai
+    nostr: ez
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ig., al., ar., az., og., or., lr.]
     day: [igandea, astelehena, asteartea, asteazkena, osteguna, ostirala, larunbata]
-    week: null
+    week: [7, 19971130, 4]
     abmon: [urt, ots, mar, api, mai, eka, uzt, abu, ira, urr, aza, abe]
     mon: [urtarrila, otsaila, martxoa, apirila, maiatza, ekaina, uztaila, abuztua, iraila, urria, azaroa, abendua]
     d_t_fmt: '%y-%m-%d %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

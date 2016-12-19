@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Latvija
     country_post: null
     country_ab2: LV
     country_ab3: LVA
@@ -14,12 +14,12 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[JjYy].*'
-    noexpr: '^[Nn].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1JjYy]'
+    noexpr: '^[-0Nn]'
+    yesstr: jā
+    nostr: nē
 LC_MONETARY:
-    currency_symbol: Ls
+    currency_symbol: €
     mon_decimal_point: ','
     mon_thousands_sep: "\_"
     mon_grouping: [3, 3]
@@ -32,7 +32,7 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 3
     n_sign_posn: 3
-    int_curr_symbol: 'LVL '
+    int_curr_symbol: 'EUR '
     int_frac_digits: 2
     int_p_cs_precedes: null
     int_p_sep_by_space: null
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sv, "P\_", "O\_", "T\_", "C\_", Pk, "S\_"]
     day: [svētdiena, pirmdiena, otrdiena, trešdiena, ceturtdiena, piektdiena, sestdiena]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [jan, feb, mar, apr, mai, jūn, jūl, aug, sep, okt, nov, dec]
     mon: [janvāris, februāris, marts, aprīlis, maijs, jūnijs, jūlijs, augusts, septembris, oktobris, novembris, decembris]
     d_t_fmt: '%A, %Y. gada %e. %B, plkst. %H un %M'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

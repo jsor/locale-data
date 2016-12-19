@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[sSqQyY].*",
-            "noexpr": "^[nNaA].*",
+            "yesexpr": "^[+1sSqQyY]",
+            "noexpr": "^[-0nNaA]",
             "yesstr": "quema",
             "nostr": "ahmo"
         },
@@ -105,7 +105,11 @@
                 "macuililhuitl",
                 "chicuaceilhuitl"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "ene",
                 "feb",

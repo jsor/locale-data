@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N',
-    'country_name' => 'འབྲུག།',
+    'country_name' => 'འབྲུག',
     'country_post' => NULL,
     'country_ab2' => 'BT',
-    'country_ab3' => 'BHU',
-    'country_num' => NULL,
-    'country_car' => NULL,
+    'country_ab3' => 'BTN',
+    'country_num' => 64,
+    'country_car' => 'BHT',
     'country_isbn' => NULL,
     'lang_name' => '(རྫོང་ཁ',
     'lang_ab' => 'dz',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[ཨYy].*',
-    'noexpr' => '^[མNn].*',
-    'yesstr' => 'ཨིན',
-    'nostr' => 'མེན',
+    'yesexpr' => '^[+1ཨYy]',
+    'noexpr' => '^[-0མNn]',
+    'yesstr' => 'ཨིན་',
+    'nostr' => 'མེན་',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'དངུལ་ཀྲམ་',
+    'currency_symbol' => 'Nu.',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -83,7 +83,7 @@
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => NULL,
+    'int_prefix' => '975',
   ),
   'LC_TIME' => 
   array (
@@ -108,7 +108,12 @@
       5 => 'གཟའ་སྤེན་ཕ་',
       6 => 'གཟའ་ཉི་མ་',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ཟླ་༡',

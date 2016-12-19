@@ -1,6 +1,6 @@
 LC_ADDRESS:
-    postal_fmt: '%z%c%T%s%b%e%r'
-    country_name: null
+    postal_fmt: '%f%N%h%s%N%T'
+    country_name: नेपाल
     country_post: null
     country_ab2: NP
     country_ab3: NPL
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[nN].*'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
+    yesstr: हो
+    nostr: होइन
 LC_MONETARY:
     currency_symbol: रू
     mon_decimal_point: .
@@ -32,7 +32,7 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
-    int_curr_symbol: 'INR '
+    int_curr_symbol: 'NPR '
     int_frac_digits: 2
     int_p_cs_precedes: null
     int_p_sep_by_space: null
@@ -41,12 +41,12 @@ LC_MONETARY:
     int_p_sign_posn: null
     int_n_sign_posn: null
 LC_NAME:
-    name_fmt: '%p%t%f%t%g'
-    name_gen: ''
-    name_mr: Mr.
-    name_mrs: Mrs.
-    name_miss: Miss.
-    name_ms: Ms.
+    name_fmt: '%p%t%g%t%m%t%f'
+    name_gen: ज्यू
+    name_mr: श्रीमान्
+    name_mrs: श्रीमती
+    name_miss: सुश्री
+    name_ms: null
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ','
@@ -55,22 +55,22 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c ;%a ;%l'
+    tel_int_fmt: '+%c %a%t%l'
     tel_dom_fmt: null
     int_select: null
-    int_prefix: '91'
+    int_prefix: '977'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: ['आइत ', 'सोम ', 'मंगल ', 'बुध ', 'बिहि ', 'शुक्र ', 'शनि ']
-    day: ['आइतबार ', 'सोमबार ', 'मंगलबार ', 'बुधबार ', 'बिहिबार ', 'शुक्रबार ', 'शनिबार ']
-    week: null
-    abmon: [जनवरी, फ़रवरी, मार्च, अप्रेल, मई, जून, जुलाई, अगस्त, सितम्बर, अक्टूबर, नवम्बर, दिसम्बर]
-    mon: [जनवरी, फ़रवरी, मार्च, अप्रेल, मई, जून, जुलाई, अगस्त, सितम्बर, अक्टूबर, नवम्बर, दिसम्बर]
-    d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'
-    d_fmt: '%A %d %b %Y'
-    t_fmt: '%I:%M:%S  %Z'
+    abday: ['आइत ', 'सोम ', 'मङ्गल ', 'बुध ', 'बिही ', 'शुक्र ', 'शनि ']
+    day: ['आइतबार ', 'सोमबार ', 'मङ्गलबार ', 'बुधबार ', 'बिहीबार ', 'शुक्रबार ', 'शनिबार ']
+    week: [7, 19971130, 1]
+    abmon: [जन, फेब, मार्च, अप्रि, मे, जून, जुला, अग, सेप्ट, अक्ट, नोभे, डिसे]
+    mon: [जनवरी, फेब्रुअरी, मार्च, अप्रिल, मे, जून, जुलाई, अगस्त, सेप्टेम्बर, अक्टोबर, नोभेम्बर, डिसेम्बर]
+    d_t_fmt: '%Y %B %d %I:%M:%S %p'
+    d_fmt: '%Y %B %d %A'
+    t_fmt: '%H:%M:%S'
     am_pm: [पूर्वाह्न, अपराह्न]
-    t_fmt_ampm: '%I:%M:%S %p %Z'
+    t_fmt_ampm: '%I:%M:%S %p'
     era: null
     era_year: null
     era_d_t_fmt: null

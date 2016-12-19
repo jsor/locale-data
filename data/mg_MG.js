@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Madagasikara",
             "country_post": null,
             "country_ab2": "MG",
             "country_ab3": "MDG",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[eEyY].*",
-            "noexpr": "^[tTnN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1eEyY]",
+            "noexpr": "^[-0tTnN]",
+            "yesstr": "Eny",
+            "nostr": "Tsia"
         },
         "LC_MONETARY": {
-            "currency_symbol": "AR",
+            "currency_symbol": "Ar",
             "mon_decimal_point": ",",
             "mon_thousands_sep": " ",
             "mon_grouping": [
@@ -105,7 +105,11 @@
                 "zoma",
                 "sabotsy"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "jan",
                 "feb",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

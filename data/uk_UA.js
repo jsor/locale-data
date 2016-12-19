@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^([Yy+]|[\u0422\u0442][\u0410\u0430][\u041a\u043a]?)$",
-            "noexpr": "^([Nn-]|[\u041d\u043d][\u0406\u0456])$",
+            "yesexpr": "^([+1Yy]|[\u0422\u0442][\u0410\u0430][\u041a\u043a]?)$",
+            "noexpr": "^([-0Nn]|[\u041d\u043d][\u0406\u0456])$",
             "yesstr": "\u0442\u0430\u043a",
             "nostr": "\u043d\u0456"
         },
@@ -108,7 +108,7 @@
             "week": [
                 7,
                 19971130,
-                4
+                1
             ],
             "abmon": [
                 "\u0441\u0456\u0447",
@@ -167,7 +167,7 @@
                 0
             ],
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": 2,
             "timezone": null
         }

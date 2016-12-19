@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N'
-    country_name: null
+    country_name: ਪਾਕਿਸਤਾਨ
     country_post: null
     country_ab2: PK
     country_ab3: PAK
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYهبf].*'
-    noexpr: '^[nNنo].*'
+    yesexpr: '^[+1yYهبf]'
+    noexpr: '^[-0nNنo]'
     yesstr: بلكل
     nostr: نهيں
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [اتوار, پير, منگل, بدھ, جمعرات, جمعه, هفته]
     day: [اتوار, پير, منگل, بدھ, جمعرات, جمعه, هفته]
-    week: null
+    week: [7, 19971130, 1]
     abmon: [جنوري, فروري, مارچ, اپريل, مٓی, جون, جولاي, اگست, ستمبر, اكتوبر, نومبر, دسمبر]
     mon: [جنوري, فروري, مارچ, اپريل, مٓی, جون, جولاي, اگست, ستمبر, اكتوبر, نومبر, دسمبر]
     d_t_fmt: 'و %H:%M:%S %Z ت %d %B %Y'

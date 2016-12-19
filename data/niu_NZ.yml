@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[ēĒyY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1ēĒyY]'
+    noexpr: '^[-0nN]'
     yesstr: Talia
     nostr: Nakai
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Tapu, Gofua, Ua, Lotu, Tuloto, Falaile, Faiumu]
     day: ['Aho Tapu', 'Aho Gofua', 'Aho Ua', 'Aho Lotu', 'Aho Tuloto', 'Aho Falaile', 'Aho Faiumu']
-    week: null
+    week: [7, 19971130, 1]
     abmon: [Ian, Fep, Mas, Ape, Me, Iun, Iul, Aok, Sep, Oke, Nov, Tes]
     mon: [Ianuali, Fepuali, Masi, Apelila, Me, Iuni, Iulai, Aokuso, Sepetema, Oketopa, Novema, Tesemo]
     d_t_fmt: '%a %d %b %Y %T %Z'

@@ -7,7 +7,7 @@
     'country_ab2' => 'NP',
     'country_ab3' => 'NPL',
     'country_num' => 524,
-    'country_car' => NULL,
+    'country_car' => 'NEP',
     'country_isbn' => NULL,
     'lang_name' => NULL,
     'lang_ab' => NULL,
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yY].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1yY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -40,7 +40,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'INR ',
+    'int_curr_symbol' => 'NPR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -74,7 +74,7 @@
     'tel_int_fmt' => '+%c ;%a ;%l',
     'tel_dom_fmt' => NULL,
     'int_select' => NULL,
-    'int_prefix' => '91',
+    'int_prefix' => '977',
   ),
   'LC_TIME' => 
   array (
@@ -99,7 +99,12 @@
       5 => 'शुक्रबार ',
       6 => 'शनिबार ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'जनवरी',
@@ -145,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => 1,
+    'first_weekday' => NULL,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

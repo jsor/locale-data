@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[oOyYaAwW].*',
-    'noexpr' => '^[nN].*',
+    'yesexpr' => '^[+1oOyYaAwW]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => 'Oyi',
     'nostr' => 'Neni',
   ),
@@ -107,7 +107,12 @@
       5 => 'vénrdi',
       6 => 'semdi',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 4,
+    ),
     'abmon' => 
     array (
       0 => 'dja',
@@ -154,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

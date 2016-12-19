@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[KkYy].*',
-    'noexpr' => '^[EeNn].*',
-    'yesstr' => 'Kyllä',
-    'nostr' => 'Ei',
+    'yesexpr' => '^[+1KkYy]',
+    'noexpr' => '^[-0EeNn]',
+    'yesstr' => 'kyllä',
+    'nostr' => 'ei',
   ),
   'LC_MONETARY' => 
   array (
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

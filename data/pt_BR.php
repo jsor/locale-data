@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Brasil',
     'country_post' => NULL,
     'country_ab2' => 'BR',
     'country_ab3' => 'BRA',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[SsyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1SsyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'sim',
+    'nostr' => 'não',
   ),
   'LC_MONETARY' => 
   array (
@@ -89,13 +89,13 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => 'Dom',
-      1 => 'Seg',
-      2 => 'Ter',
-      3 => 'Qua',
-      4 => 'Qui',
-      5 => 'Sex',
-      6 => 'Sáb',
+      0 => 'dom',
+      1 => 'seg',
+      2 => 'ter',
+      3 => 'qua',
+      4 => 'qui',
+      5 => 'sex',
+      6 => 'sáb',
     ),
     'day' => 
     array (
@@ -107,21 +107,26 @@
       5 => 'sexta',
       6 => 'sábado',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
-      0 => 'Jan',
-      1 => 'Fev',
-      2 => 'Mar',
-      3 => 'Abr',
-      4 => 'Mai',
-      5 => 'Jun',
-      6 => 'Jul',
-      7 => 'Ago',
-      8 => 'Set',
-      9 => 'Out',
-      10 => 'Nov',
-      11 => 'Dez',
+      0 => 'jan',
+      1 => 'fev',
+      2 => 'mar',
+      3 => 'abr',
+      4 => 'mai',
+      5 => 'jun',
+      6 => 'jul',
+      7 => 'ago',
+      8 => 'set',
+      9 => 'out',
+      10 => 'nov',
+      11 => 'dez',
     ),
     'mon' => 
     array (

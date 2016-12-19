@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Schweiz",
             "country_post": null,
             "country_ab2": "CH",
             "country_ab3": "CHE",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[jJyY].*",
-            "noexpr": "^[nN].*",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1jJyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "ja",
+            "nostr": "nein"
         },
         "LC_MONETARY": {
-            "currency_symbol": "Fr.",
+            "currency_symbol": "CHF",
             "mon_decimal_point": ".",
             "mon_thousands_sep": "'",
             "mon_grouping": [
@@ -62,10 +62,10 @@
         "LC_NAME": {
             "name_fmt": "%d%t%g%t%m%t%f",
             "name_gen": null,
-            "name_mr": null,
-            "name_mrs": null,
-            "name_miss": null,
-            "name_ms": null
+            "name_mr": "Herr",
+            "name_mrs": "Frau",
+            "name_miss": "Fr\u00e4ulein",
+            "name_ms": "Frau"
         },
         "LC_NUMERIC": {
             "decimal_point": ".",
@@ -153,7 +153,7 @@
             "era_t_fmt": null,
             "alt_digits": null,
             "first_weekday": 2,
-            "first_workday": 2,
+            "first_workday": null,
             "cal_direction": null,
             "timezone": null
         }

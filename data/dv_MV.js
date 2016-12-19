@@ -16,8 +16,8 @@
             "country_post": null,
             "country_ab2": null,
             "country_ab3": null,
-            "country_num": null,
-            "country_car": null,
+            "country_num": 462,
+            "country_car": "MV",
             "country_isbn": null,
             "lang_name": null,
             "lang_ab": "dv",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[yY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1yY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
@@ -105,7 +105,11 @@
                 "\u0780\u07aa\u0786\u07aa\u0783\u07aa",
                 "\u0780\u07ae\u0782\u07a8\u0780\u07a8\u0783\u07aa"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u0796\u07ac\u0782\u07aa\u0787\u07a6\u0783\u07a9",
                 "\u078a\u07ac\u0784\u07b0\u0783\u07aa\u0787\u07a6\u0783\u07a9",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 6,
             "first_workday": null,
             "cal_direction": 3,
             "timezone": null

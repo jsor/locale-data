@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^(ऑह|[yY])',
-    'noexpr' => '^(ना|[nN])',
+    'yesexpr' => '^(ऑह|[+1yY])',
+    'noexpr' => '^(ना|[-0nN])',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -99,7 +99,12 @@
       5 => 'शुक्करबार ',
       6 => 'श्नीचरबार ',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'जनवरी',

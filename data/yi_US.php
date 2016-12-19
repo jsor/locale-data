@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
-    'country_name' => 'די פֿאראײניקטע שטאַטן',
+    'country_name' => 'פֿאַראייניגטע שטאַטן',
     'country_post' => 'USA',
     'country_ab2' => 'US',
     'country_ab3' => 'USA',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[Yyי].*',
-    'noexpr' => '^[Nnנק].*',
+    'yesexpr' => '^[+1Yyי]',
+    'noexpr' => '^[-0Nnנק]',
     'yesstr' => 'יאָ',
     'nostr' => 'קײן',
   ),
@@ -107,7 +107,12 @@
       5 => 'פֿרײַטיק',
       6 => 'שבת',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'יאַנ',

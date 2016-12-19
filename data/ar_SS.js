@@ -12,12 +12,12 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u062c\u0646\u0648\u0628 \u0627\u0644\u0633\u0648\u062f\u0627\u0646",
             "country_post": null,
             "country_ab2": "SS",
             "country_ab3": "SSD",
             "country_num": 728,
-            "country_car": null,
+            "country_car": "SUD",
             "country_isbn": null,
             "lang_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
             "lang_ab": "ar",
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[\u0646yY].*",
-            "noexpr": "^[\u0644nN].*",
+            "yesexpr": "^[+1\u0646yY]",
+            "noexpr": "^[-0\u0644nN]",
             "yesstr": "\u0646\u0639\u0645",
             "nostr": "\u0644\u0627"
         },
         "LC_MONETARY": {
-            "currency_symbol": "\u062c.\u0633.",
+            "currency_symbol": "\u00a3",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": 3,
@@ -47,7 +47,7 @@
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 2,
-            "int_curr_symbol": "SDG ",
+            "int_curr_symbol": "SSP ",
             "int_frac_digits": 3,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -77,7 +77,7 @@
             "tel_int_fmt": "+%c ;%a ;%l",
             "tel_dom_fmt": null,
             "int_select": null,
-            "int_prefix": "249"
+            "int_prefix": "211"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -99,7 +99,11 @@
                 "\u0627\u0644\u062c\u0645\u0639\u0629",
                 "\u0627\u0644\u0633\u0628\u062a"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "\u064a\u0646\u0627",
                 "\u0641\u0628\u0631",
@@ -142,7 +146,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

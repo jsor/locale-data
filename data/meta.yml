@@ -55,6 +55,7 @@ locales:
     - ca_FR
     - ca_IT
     - ce_RU
+    - chr_US
     - cmn_TW
     - crh_UA
     - cs_CZ
@@ -69,6 +70,8 @@ locales:
     - de_CH
     - de_DE
     - de_DE@euro
+    - de_IT
+    - de_LI
     - de_LU
     - de_LU@euro
     - doi_IN
@@ -86,6 +89,7 @@ locales:
     - en_HK
     - en_IE
     - en_IE@euro
+    - en_IL
     - en_IN
     - en_NG
     - en_NZ
@@ -95,6 +99,7 @@ locales:
     - en_ZA
     - en_ZM
     - en_ZW
+    - eo
     - es_AR
     - es_BO
     - es_CL
@@ -168,7 +173,6 @@ locales:
     - it_IT
     - it_IT@euro
     - iu_CA
-    - iw_IL
     - ja_JP
     - ka_GE
     - kk_KZ
@@ -187,6 +191,7 @@ locales:
     - li_BE
     - li_NL
     - lij_IT
+    - ln_CD
     - lo_LA
     - lt_LT
     - lv_LV
@@ -228,7 +233,6 @@ locales:
     - os_RU
     - pa_IN
     - pa_PK
-    - pap_AN
     - pap_AW
     - pap_CW
     - pl_PL
@@ -248,6 +252,7 @@ locales:
     - sd_IN
     - sd_IN@devanagari
     - se_NO
+    - sgs_LT
     - shs_CA
     - si_LK
     - sid_ET

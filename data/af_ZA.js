@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[jJyY]",
-            "noexpr": "^[nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1jJyY]",
+            "noexpr": "^[-0nN]",
+            "yesstr": "ja",
+            "nostr": "nee"
         },
         "LC_MONETARY": {
             "currency_symbol": "R",
@@ -105,7 +105,11 @@
                 "Vrydag",
                 "Saterdag"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Jan",
                 "Feb",

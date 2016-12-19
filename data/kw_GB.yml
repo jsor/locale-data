@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: 'Rywvaneth Unys'
     country_post: null
     country_ab2: GB
     country_ab3: GBR
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[eEyY].*'
-    noexpr: '^[nN].*'
+    yesexpr: '^[+1eEyY]'
+    noexpr: '^[-0nN]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sul, Lun, Mth, Mhr, Yow, Gwe, Sad]
     day: ['De Sul', 'De Lun', 'De Merth', 'De Merher', 'De Yow', 'De Gwener', 'De Sadorn']
-    week: null
+    week: [7, 19971130, 4]
     abmon: [Gen, Whe>, Mer, Ebr, Me, Evn, Gor, Est, Gwn, Hed, Du, Kev]
     mon: ['Mys Genver', 'Mys Whevrel', 'Mys Merth', 'Mys Ebrel', 'Mys Me', 'Mys Evan', 'Mys Gortheren', 'Mye Est', 'Mys Gwyngala', 'Mys Hedra', 'Mys Du', 'Mys Kevardhu']
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -78,6 +78,6 @@ LC_TIME:
     era_t_fmt: null
     alt_digits: null
     first_weekday: 2
-    first_workday: 2
+    first_workday: null
     cal_direction: null
     timezone: null

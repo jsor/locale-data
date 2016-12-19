@@ -1,0 +1,83 @@
+LC_ADDRESS:
+    postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
+    country_name: 'Repibiki demokratiki ya Kongó'
+    country_post: CD
+    country_ab2: CD
+    country_ab3: COD
+    country_num: 180
+    country_car: CGO
+    country_isbn: 2
+    lang_name: lingála
+    lang_ab: ln
+    lang_term: lin
+    lang_lib: lin
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[yYiIɛƐ]'
+    noexpr: '^[nNtT]'
+    yesstr: Íyo
+    nostr: Tɛ̂
+LC_MONETARY:
+    currency_symbol: FC
+    mon_decimal_point: ','
+    mon_thousands_sep: .
+    mon_grouping: 3
+    positive_sign: ''
+    negative_sign: '-'
+    frac_digits: 2
+    p_cs_precedes: 0
+    p_sep_by_space: 1
+    n_cs_precedes: 0
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+    int_curr_symbol: 'CDF '
+    int_frac_digits: 2
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f%m'
+    name_gen: Mbɔ́tɛ
+    name_mr: Tatá
+    name_mrs: Mamá
+    name_miss: Mamá
+    name_ms: 'Mamá '
+LC_NUMERIC:
+    decimal_point: ','
+    thousands_sep: ''
+    grouping: 3
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a%t%l'
+    tel_dom_fmt: '%a %l'
+    int_select: '00'
+    int_prefix: '243'
+LC_TIME:
+    date_fmt: '%A %-e %B %Y, %H:%M:%S (UTC%z)'
+    abday: [m1., m2., m3., m4., m5., m6., m7.]
+    day: [Lomíngo, 'Mosálá mɔ̌kɔ́', 'Misálá míbalé', 'Misálá mísáto', 'Misálá mínei', 'Misálá mítáno', Mpɔ́sɔ]
+    week: [7, 19971130, 1]
+    abmon: [sánzá1., sánzá2., sánzá3., sánzá4., sánzá5., sánzá6., sánzá7., sánzá8., sánzá9., sánz10., sánzá11., sánzá12.]
+    mon: [Yanwáli, Febwáli, Mársi, Apríli, Máyí, Yúni, Yúli, Augústo, Sɛtɛ́mbɛ, ɔkɔtɔ́bɛ, Novɛ́mbɛ, Dɛsɛ́mbɛ]
+    d_t_fmt: '%a %d %b %Y %T %Z'
+    d_fmt: '%d/%m/%Y'
+    t_fmt: '%T'
+    am_pm: ['', '']
+    t_fmt_ampm: ''
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
+    first_weekday: 2
+    first_workday: null
+    cal_direction: null
+    timezone: null

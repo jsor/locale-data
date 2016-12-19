@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => '日本',
     'country_post' => NULL,
     'country_ab2' => 'JP',
     'country_ab3' => 'JPN',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^([yYｙＹ]|はい|ハイ)',
-    'noexpr' => '^([nNｎＮ]|いいえ|イイエ)',
+    'yesexpr' => '^([+1yYｙＹ]|はい|ハイ)',
+    'noexpr' => '^([-0nNｎＮ]|いいえ|イイエ)',
     'yesstr' => 'はい',
     'nostr' => 'いいえ',
   ),
@@ -99,7 +99,12 @@
       5 => '金曜日',
       6 => '土曜日',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => ' 1月',

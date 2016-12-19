@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'المغرب',
     'country_post' => NULL,
     'country_ab2' => 'MA',
     'country_ab3' => 'MAR',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[نyY].*',
-    'noexpr' => '^[لnN].*',
+    'yesexpr' => '^[+1نyY]',
+    'noexpr' => '^[-0لnN]',
     'yesstr' => 'نعم',
     'nostr' => 'لا',
   ),
@@ -99,7 +99,12 @@
       5 => 'الجمعة',
       6 => 'السبت',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'ينا',
@@ -145,8 +150,8 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
-    'first_workday' => NULL,
+    'first_weekday' => 7,
+    'first_workday' => 1,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

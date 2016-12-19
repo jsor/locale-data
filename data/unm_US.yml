@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yY].*'
-    noexpr: '^[kKmM].*'
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0kKmM]'
     yesstr: null
     nostr: null
 LC_MONETARY:
@@ -63,7 +63,7 @@ LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ken, man, tus, lel, tas, pel, sat]
     day: [kentuwei, manteke, tusteke, lelai, tasteke, pelaiteke, sateteke]
-    week: [7, 19971130, 4]
+    week: [7, 19971130, 1]
     abmon: [eni, chk, xam, kwe, tai, nip, lai, win, tah, puk, kun, mux]
     mon: [enikwsi, chkwali, xamokhwite, kwetayoxe, tainipen, kichinipen, lainipen, winaminke, kichitahkok, puksit, wini, muxkotae]
     d_t_fmt: '%a %d %b %Y %T %Z'
@@ -77,7 +77,7 @@ LC_TIME:
     era_d_fmt: null
     era_t_fmt: null
     alt_digits: null
-    first_weekday: 1
-    first_workday: 2
+    first_weekday: null
+    first_workday: null
     cal_direction: null
     timezone: null

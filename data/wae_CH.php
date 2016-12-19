@@ -2,12 +2,12 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Switzerland',
+    'country_name' => 'Schwiz',
     'country_post' => 'DH',
     'country_ab2' => 'CH',
     'country_ab3' => 'CHE',
     'country_num' => 756,
-    'country_car' => 'DH',
+    'country_car' => 'CH',
     'country_isbn' => 3,
     'lang_name' => 'Walser',
     'lang_ab' => '',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[jJyY].*',
-    'noexpr' => '^[nN].*',
-    'yesstr' => 'Ja',
-    'nostr' => 'Nei',
+    'yesexpr' => '^[+1jJyY]',
+    'noexpr' => '^[-0nN]',
+    'yesstr' => 'ja',
+    'nostr' => 'nei',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'Fr.',
+    'currency_symbol' => 'CHF',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => '\'',
     'mon_grouping' => 
@@ -159,7 +159,7 @@
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
     'first_weekday' => 2,
-    'first_workday' => 2,
+    'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
   ),

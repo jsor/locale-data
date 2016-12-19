@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[yYఅ].*',
-    'noexpr' => '^[nNక].*',
-    'yesstr' => 'అవను',
-    'nostr' => 'కాదు',
+    'yesexpr' => '^[+1yYఅ]',
+    'noexpr' => '^[-0nNక]',
+    'yesstr' => 'అవును',
+    'nostr' => 'వద్దు',
   ),
   'LC_MONETARY' => 
   array (
@@ -107,7 +107,12 @@
       5 => 'శుక్రవారం',
       6 => 'శనివారం',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'జనవరి',

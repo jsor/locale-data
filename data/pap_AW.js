@@ -17,7 +17,7 @@
             "country_ab2": "AW",
             "country_ab3": "ABW",
             "country_num": 533,
-            "country_car": "",
+            "country_car": "AUA",
             "country_isbn": "",
             "lang_name": "Papiamento",
             "lang_ab": null,
@@ -28,13 +28,13 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[jJyY].*",
-            "noexpr": "^[nN].*",
+            "yesexpr": "^[+1jJyY]",
+            "noexpr": "^[-0nN]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
-            "currency_symbol": "f",
+            "currency_symbol": "\u0192",
             "mon_decimal_point": ",",
             "mon_thousands_sep": " ",
             "mon_grouping": [
@@ -50,7 +50,7 @@
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 2,
-            "int_curr_symbol": "ANG ",
+            "int_curr_symbol": "AWG ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -83,7 +83,7 @@
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
             "int_select": "00",
-            "int_prefix": "599"
+            "int_prefix": "297"
         },
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
@@ -105,7 +105,11 @@
                 "Djabierne",
                 "Djasabra"
             ],
-            "week": null,
+            "week": [
+                7,
+                19971130,
+                1
+            ],
             "abmon": [
                 "Yan",
                 "Feb",
@@ -148,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

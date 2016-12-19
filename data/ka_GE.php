@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'საქართველო',
     'country_post' => NULL,
     'country_ab2' => 'GE',
     'country_ab3' => 'GEO',
@@ -20,14 +20,14 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[1yYkKxXხ].*',
-    'noexpr' => '^[0nNaAა].*',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYkKxXხ]',
+    'noexpr' => '^[-0nNaAა]',
+    'yesstr' => 'კი',
+    'nostr' => 'არა',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'ლ',
+    'currency_symbol' => '₾',
     'mon_decimal_point' => ',',
     'mon_thousands_sep' => '.',
     'mon_grouping' => 
@@ -107,7 +107,12 @@
       5 => 'პარასკევი',
       6 => 'შაბათი',
     ),
-    'week' => NULL,
+    'week' => 
+    array (
+      0 => 7,
+      1 => 19971130,
+      2 => 1,
+    ),
     'abmon' => 
     array (
       0 => 'იან',
@@ -153,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
