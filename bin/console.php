@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+namespace Jsor\LocaleData;
+
 require __DIR__.'/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
@@ -9,14 +11,18 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Yaml\Yaml;
 
+class CopyFrom
+{
+    public $locale;
+
+    public function __construct($locale)
+    {
+        $this->locale = $locale;
+    }
+}
+
 function parse($path, $locale)
 {
-    static $cache;
-
-    if (isset($cache[$locale])) {
-        return $cache[$locale];
-    }
-
     $lines = file($path.'/'.$locale);
 
     $commentChar = '#';
@@ -89,14 +95,12 @@ function parse($path, $locale)
         list($key, $value) = $parts;
 
         if ('copy' === $key) {
-            $copyFrom = parse($path, trim($value, '""'));
-
-            $data[$currentCategory] = isset($copyFrom[$currentCategory]) ? $copyFrom[$currentCategory] : array();
+            $data[$currentCategory] = new CopyFrom(trim($value, '""'));
             continue;
         }
 
         if (false !== strpos($value, ';')) {
-            $value = array_map('value', explode(';', $value));
+            $value = array_map(__NAMESPACE__.'\\value', explode(';', $value));
         } else {
             $value = value($value);
         }
@@ -108,7 +112,7 @@ function parse($path, $locale)
         return;
     }
 
-    return $cache[$locale] = $data;
+    return $data;
 }
 
 function value($value)
@@ -189,6 +193,28 @@ function store($name, array $data)
     );
 }
 
+function processCategory(array $localeData, $locale, $category)
+{
+    $data = $localeData[$locale][$category];
+
+    if ($data instanceof CopyFrom) {
+        $data = processCategory($localeData, $data->locale, $category);
+    }
+
+    return $data;
+}
+
+function process(array $localeData, $locale)
+{
+    $data = array();
+
+    foreach (array_keys($localeData[$locale]) as $category) {
+        $data[$category] = processCategory($localeData, $locale, $category);
+    }
+
+    return $data;
+}
+
 $console = new Application('LocaleData', '1.1.2');
 $console
     ->register('generate')
@@ -209,11 +235,12 @@ $console
             return '.' !== $path[0];
         });
 
-        $availableLocales = array();
         $root = include __DIR__.'/data_root.php';
 
+        $localeData = array();
+
         foreach ($locales as $locale) {
-            $output->write('Processing locale <comment>'.$locale.'</comment>...');
+            $output->write('Parsing locale <comment>'.$locale.'</comment>...');
 
             $data = parse($path, $locale);
 
@@ -222,11 +249,19 @@ $console
                 continue;
             }
 
+            $localeData[$locale] = $data;
+
+            $output->writeln('<info>Done</info>.');
+        }
+
+        foreach (array_keys($localeData) as $locale) {
+            $output->write('Storing locale <comment>'.$locale.'</comment>...');
+
+            $data = process($localeData, $locale);
+
             $filled = array_replace_recursive($root, $data);
 
             store($locale, $filled);
-
-            $availableLocales[] = $locale;
 
             $output->writeln('<info>Done</info>.');
         }
@@ -240,7 +275,7 @@ $console
         $output->write('Storing meta file...');
 
         $meta = array(
-            'locales' => $availableLocales
+            'locales' => array_keys($localeData)
         );
 
         store('meta', $meta);
