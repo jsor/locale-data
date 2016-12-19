@@ -215,7 +215,7 @@ function process(array $localeData, $locale)
     return $data;
 }
 
-$console = new Application('LocaleData', '1.1.2');
+$console = new Application('LocaleData', '1.2.0');
 $console
     ->register('generate')
     ->setDefinition([
