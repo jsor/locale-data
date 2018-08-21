@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 20
     country_car: AND
     country_isbn: null
-    lang_name: català
+    lang_name: 'català'
     lang_ab: ca
     lang_term: cat
     lang_lib: cat
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: ''
+    thousands_sep: .
     grouping: [0, 0]
 LC_PAPER:
     height: 297
@@ -57,19 +57,19 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '376'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [dg, dl, dt, dc, dj, dv, ds]
+    abday: [dg., dl., dt., dc., dj., dv., ds.]
     day: [diumenge, dilluns, dimarts, dimecres, dijous, divendres, dissabte]
     week: [7, 19971130, 4]
-    abmon: [gen, feb, mar, abr, mai, jun, jul, ago, set, oct, nov, des]
-    mon: [gener, febrer, març, abril, maig, juny, juliol, agost, setembre, octubre, novembre, desembre]
-    d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    abmon: ['de gen.', 'de febr.', 'de març', d’abr., 'de maig', 'de juny', 'de jul.', d’ag., 'de set.', d’oct., 'de nov.', 'de des.']
+    mon: ['de gener', 'de febrer', 'de març', d’abril, 'de maig', 'de juny', 'de juliol', d’agost, 'de setembre', d’octubre, 'de novembre', 'de desembre']
+    d_t_fmt: '%A, %-d %B de %Y, %T %Z'
+    d_fmt: '%-d//%-m//%y'
     t_fmt: '%T'
-    am_pm: ['', '']
+    am_pm: ['a. m.', 'p. m.']
     t_fmt_ampm: ''
     era: null
     era_year: null
@@ -81,3 +81,5 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    ab_alt_mon: [gen., febr., març, abr., maig, juny, jul., ag., set., oct., nov., des.]
+    alt_mon: [gener, febrer, març, abril, maig, juny, juliol, agost, setembre, octubre, novembre, desembre]

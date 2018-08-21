@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Beljike",
+            "country_name": "Beldjike",
             "country_post": "B",
             "country_ab2": "BE",
             "country_ab3": "BEL",
@@ -125,21 +125,21 @@
                 "dec"
             ],
             "mon": [
-                "djanv\u00ee",
-                "fevr\u00ee",
-                "m\u00e5ss",
-                "avri",
-                "may",
-                "djun",
-                "djulete",
-                "awousse",
-                "setimbe",
-                "oct\u00f4be",
-                "n\u00f4vimbe",
-                "decimbe"
+                "di djanv\u00ee",
+                "di fevr\u00ee",
+                "di m\u00e5ss",
+                "d\u2019\u00a0avri",
+                "di may",
+                "di djun",
+                "di djulete",
+                "d\u2019\u00a0awousse",
+                "di setimbe",
+                "d\u2019\u00a0oct\u00f4be",
+                "di n\u00f4vimbe",
+                "di decimbe"
             ],
-            "d_t_fmt": "Li %A %d di %B %Y %T %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_t_fmt": "Li %A %d %B %Y %T %Z",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [
                 "AM",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "djanv\u00ee",
+                "fevr\u00ee",
+                "m\u00e5ss",
+                "avri",
+                "may",
+                "djun",
+                "djulete",
+                "awousse",
+                "setimbe",
+                "oct\u00f4be",
+                "n\u00f4vimbe",
+                "decimbe"
+            ]
         }
     };
 }));

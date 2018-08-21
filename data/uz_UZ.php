@@ -9,7 +9,7 @@
     'country_num' => 860,
     'country_car' => 'UZ',
     'country_isbn' => NULL,
-    'lang_name' => 'O\'zbek',
+    'lang_name' => 'o‘zbek',
     'lang_ab' => 'uz',
     'lang_term' => 'uzb',
     'lang_lib' => 'uzb',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ҲҳHh]',
-    'noexpr' => '^[-0ЙйNnYyJj]',
+    'yesexpr' => '^[+1hHҲҳ]',
+    'noexpr' => '^[-0nNyYjJЙй]',
     'yesstr' => 'ha',
     'nostr' => 'yo‘q',
   ),
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '998',
   ),
   'LC_TIME' => 
@@ -138,13 +138,13 @@
       5 => 'Iyun',
       6 => 'Iyul',
       7 => 'Avgust',
-      8 => 'Sentyabr',
-      9 => 'Oktyabr',
+      8 => 'Sentabr',
+      9 => 'Oktabr',
       10 => 'Noyabr',
       11 => 'Dekabr',
     ),
     'd_t_fmt' => '%T, %d %B, %Y yil, %A',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

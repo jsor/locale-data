@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Senegaal',
     'country_post' => NULL,
     'country_ab2' => 'SN',
     'country_ab3' => 'SEN',
@@ -22,14 +22,14 @@
   array (
     'yesexpr' => '^[+1wWyY]',
     'noexpr' => '^[-0dDnN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'waaw',
+    'nostr' => 'déedet',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => 'CFA',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

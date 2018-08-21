@@ -14,14 +14,14 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ТтYy]'
-    noexpr: '^[-0УуNn]'
+    yesexpr: '^[+1yYТт]'
+    noexpr: '^[-0nNУу]'
     yesstr: null
     nostr: null
 LC_MONETARY:
     currency_symbol: ₽
     mon_decimal_point: .
-    mon_thousands_sep: "\_"
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: "\_"
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297
@@ -61,8 +61,8 @@ LC_TELEPHONE:
     int_prefix: '7'
 LC_TIME:
     date_fmt: '%A %Y %B %d %H:%M:%S %Z'
-    abday: [Ршр, Шчм, Кжм, Вгч, Изр, Кгр, Шмт]
-    day: [Рушарня, Шочмо, Кушкыжмо, Вӱргече, Изарня, Кугарня, Шуматкече]
+    abday: ['Ршр', Шчм, Кжм, Вгч, Изр, Кгр, Шмт]
+    day: ['Рушарня', Шочмо, Кушкыжмо, Вӱргече, Изарня, Кугарня, Шуматкече]
     week: [7, 19971130, 1]
     abmon: [Шрк, Пгж, Ӱрн, Вшр, Ага, Пдш, Срм, Срл, Идм, Шыж, Клм, Тел]
     mon: [Шорыкйол, Пургыж, Ӱярня, Вӱдшор, Ага, Пеледыш, Сӱрем, Сорла, Идым, Шыжа, Кылме, Теле]

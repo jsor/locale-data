@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
+    'yesexpr' => '^([+1yY]|ᎥᎥ)',
+    'noexpr' => '^([-0nN]|ᎥᏝ)',
     'yesstr' => 'ᎥᎥ',
     'nostr' => 'ᎥᏝ',
   ),
@@ -144,7 +144,7 @@
       11 => 'ᎥᏍᎩᏱ',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%m/%d/%Y',
+    'd_fmt' => '%m//%d//%Y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

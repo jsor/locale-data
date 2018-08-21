@@ -9,7 +9,7 @@
     'country_num' => 826,
     'country_car' => 'GB',
     'country_isbn' => NULL,
-    'lang_name' => 'y Ghaelg',
+    'lang_name' => 'Gaelg',
     'lang_ab' => 'gv',
     'lang_term' => 'glv',
     'lang_lib' => 'glv',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '44',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'Mee ny Nollick',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

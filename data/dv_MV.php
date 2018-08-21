@@ -2,10 +2,10 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'ދިވެހިރާއްޖެ',
     'country_post' => NULL,
-    'country_ab2' => NULL,
-    'country_ab3' => NULL,
+    'country_ab2' => 'MV',
+    'country_ab3' => 'MDV',
     'country_num' => 462,
     'country_car' => 'MV',
     'country_isbn' => NULL,
@@ -144,7 +144,7 @@
       11 => 'ޑިސެންބަރ',
     ),
     'd_t_fmt' => '%Z %H:%M:%S %Y %b %d %a',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (

@@ -79,9 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '63',
   ),
   'LC_TIME' => 
@@ -123,7 +128,7 @@
       5 => 'Hun',
       6 => 'Hul',
       7 => 'Ago',
-      8 => 'Sep',
+      8 => 'Set',
       9 => 'Okt',
       10 => 'Nob',
       11 => 'Dis',
@@ -138,13 +143,13 @@
       5 => 'Hunyo',
       6 => 'Hulyo',
       7 => 'Agosto',
-      8 => 'Septiyembre',
+      8 => 'Setyembre',
       9 => 'Oktubre',
-      10 => 'Nobiyembre',
+      10 => 'Nobyembre',
       11 => 'Disyembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%m/%d/%y',
+    'd_fmt' => '%m//%d//%y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

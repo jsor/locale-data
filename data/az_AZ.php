@@ -9,7 +9,7 @@
     'country_num' => 31,
     'country_car' => 'AZ',
     'country_isbn' => NULL,
-    'lang_name' => 'Azərbaycanca',
+    'lang_name' => 'azərbaycan dili',
     'lang_ab' => 'az',
     'lang_term' => 'aze',
     'lang_lib' => 'aze',
@@ -20,16 +20,16 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1Bb]',
+    'yesexpr' => '^[+1bBhH]',
     'noexpr' => '^[-0YyNn]',
-    'yesstr' => 'bəli',
+    'yesstr' => 'hə',
     'nostr' => 'yox',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => '₼',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -79,9 +79,9 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '???',
+    'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => '8~10',
+    'int_select' => '00',
     'int_prefix' => '994',
   ),
   'LC_TIME' => 

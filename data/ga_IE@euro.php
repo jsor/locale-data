@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '353',
   ),
   'LC_TIME' => 

@@ -8,8 +8,8 @@
     'country_ab3' => 'CHN',
     'country_num' => 156,
     'country_car' => 'CHN',
-    'country_isbn' => '7',
-    'lang_name' => 'པོད་སྐད་',
+    'country_isbn' => 7,
+    'lang_name' => 'བོད་སྐད་',
     'lang_ab' => 'bo',
     'lang_term' => 'bod',
     'lang_lib' => 'tib',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ཨYy]',
-    'noexpr' => '^[-0མNn]',
+    'yesexpr' => '^[+1yYཨ]',
+    'noexpr' => '^[-0nNམ]',
     'yesstr' => 'ཡིན།',
     'nostr' => 'མིན།',
   ),

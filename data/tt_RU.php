@@ -2,10 +2,10 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '???',
-    'country_name' => NULL,
+    'country_name' => 'Русия',
     'country_post' => NULL,
-    'country_ab2' => NULL,
-    'country_ab3' => NULL,
+    'country_ab2' => 'RU',
+    'country_ab3' => 'RUS',
     'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
@@ -20,16 +20,16 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ДдYy]',
-    'noexpr' => '^[-0НнNn]',
-    'yesstr' => 'Әйе',
-    'nostr' => 'Юк',
+    'yesexpr' => '^[+1yYәӘ]',
+    'noexpr' => '^[-0nNюЮ]',
+    'yesstr' => 'әйе',
+    'nostr' => 'юк',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => '₽',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,

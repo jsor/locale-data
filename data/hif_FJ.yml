@@ -1,0 +1,83 @@
+LC_ADDRESS:
+    postal_fmt: '%a%N%h%t%s%N%N%T%c'
+    country_name: Fiji
+    country_post: ''
+    country_ab2: FJ
+    country_ab3: FJI
+    country_num: 242
+    country_car: FJI
+    country_isbn: null
+    lang_name: 'Fiji Baat'
+    lang_ab: ''
+    lang_term: hif
+    lang_lib: ''
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[+1hHyY]'
+    noexpr: '^[-0nN]'
+    yesstr: Haan
+    nostr: Nahi
+LC_MONETARY:
+    currency_symbol: FJ$
+    mon_decimal_point: .
+    mon_thousands_sep: ','
+    mon_grouping: 3
+    positive_sign: ''
+    negative_sign: '-'
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 1
+    n_cs_precedes: 1
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+    int_curr_symbol: 'FJD '
+    int_frac_digits: 2
+    int_p_cs_precedes: null
+    int_p_sep_by_space: 1
+    int_n_cs_precedes: null
+    int_n_sep_by_space: 1
+    int_p_sign_posn: null
+    int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%p%t%f%t%g'
+    name_gen: ''
+    name_mr: Shree
+    name_mrs: Shreematee
+    name_miss: Kumaaree
+    name_ms: Sushree
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: 3
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %l'
+    tel_dom_fmt: null
+    int_select: '00'
+    int_prefix: '679'
+LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    abday: [Ravi, Som, Mangal, Budh, Guru, Shukra, Shani]
+    day: [Ravivar, Somvar, Mangalvar, Budhvar, Guruvar, Shukravar, Shanivar]
+    week: null
+    abmon: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    mon: [January, February, March, April, May, June, July, August, September, October, November, December]
+    d_t_fmt: '%A %d %b %Y %I:%M:%S %Z'
+    d_fmt: '%A %d %b %Y'
+    t_fmt: '%I:%M:%S %Z'
+    am_pm: [Purvahan, Aparaahna]
+    t_fmt_ampm: '%I:%M:%S %p %Z'
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
+    first_weekday: null
+    first_workday: null
+    cal_direction: null
+    timezone: null

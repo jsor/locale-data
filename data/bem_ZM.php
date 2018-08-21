@@ -9,7 +9,7 @@
     'country_num' => 894,
     'country_car' => 'Z',
     'country_isbn' => NULL,
-    'lang_name' => 'iciBemba',
+    'lang_name' => 'Ichibemba',
     'lang_ab' => NULL,
     'lang_term' => 'bem',
     'lang_lib' => 'bem',
@@ -109,16 +109,16 @@
     array (
       0 => 'Jan',
       1 => 'Feb',
-      2 => 'Mar',
-      3 => 'Apr',
-      4 => 'May',
+      2 => 'Mac',
+      3 => 'Epr',
+      4 => 'Mei',
       5 => 'Jun',
-      6 => 'July',
-      7 => 'Aug',
+      6 => 'Jul',
+      7 => 'Oga',
       8 => 'Sep',
-      9 => 'Oct',
+      9 => 'Okt',
       10 => 'Nov',
-      11 => 'Dec',
+      11 => 'Dis',
     ),
     'mon' => 
     array (
@@ -136,7 +136,7 @@
       11 => 'Disemba',
     ),
     'd_t_fmt' => '%a %d %b %Y %R %Z',
-    'd_fmt' => '%m/%d/%Y',
+    'd_fmt' => '%m//%d//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

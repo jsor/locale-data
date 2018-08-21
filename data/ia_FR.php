@@ -2,13 +2,13 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s%t%h%t%e%t%r%N%z%t%T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Francia',
     'country_post' => 'F',
     'country_ab2' => 'FR',
     'country_ab3' => 'FRA',
     'country_num' => 250,
     'country_car' => 'F',
-    'country_isbn' => 2,
+    'country_isbn' => '979-10',
     'lang_name' => 'Interlingua',
     'lang_ab' => 'ia',
     'lang_term' => 'ina',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
@@ -61,7 +61,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 3,
   ),
   'LC_PAPER' => 

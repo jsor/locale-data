@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]",
-            "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1iIyY]",
+            "noexpr": "^[-0eEnN]",
+            "yesstr": "Ina",
+            "nostr": "Ee"
         },
         "LC_MONETARY": {
             "currency_symbol": "R",
@@ -139,7 +139,7 @@
                 "N'wendzamhala"
             ],
             "d_t_fmt": "%a %-e %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

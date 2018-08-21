@@ -19,7 +19,7 @@
             "country_num": 807,
             "country_car": "MK",
             "country_isbn": "9989",
-            "lang_name": "\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\/\u0438 \u0458\u0430\u0437\u0438\u043a",
+            "lang_name": "\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438",
             "lang_ab": "mk",
             "lang_term": "mkd",
             "lang_lib": "mac"
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0414\u0434DdYy]",
-            "noexpr": "^[-0\u041d\u043dNn]",
+            "yesexpr": "^[+1yY\u0414\u0434dD]",
+            "noexpr": "^[-0nN\u041d\u043d]",
             "yesstr": "\u0434\u0430",
             "nostr": "\u043d\u0435"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u0434\u0435\u043d",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": " ",
+            "thousands_sep": "\u202f",
             "grouping": [
                 3,
                 3

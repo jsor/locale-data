@@ -7,21 +7,21 @@ LC_ADDRESS:
     country_num: 112
     country_car: BY
     country_isbn: null
-    lang_name: 'беларуская мова'
+    lang_name: беларуская
     lang_ab: be
     lang_term: bel
     lang_lib: bel
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ТтYy]'
-    noexpr: '^[-0НнNn]'
+    yesexpr: '^[+1yYТт]'
+    noexpr: '^[-0nNНн]'
     yesstr: так
     nostr: не
 LC_MONETARY:
     currency_symbol: руб
     mon_decimal_point: .
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -64,8 +64,8 @@ LC_TIME:
     abday: [Няд, Пан, Аўт, Срд, Чцв, Пят, Суб]
     day: [Нядзеля, Панядзелак, Аўторак, Серада, Чацвер, Пятніца, Субота]
     week: [7, 19971130, 1]
-    abmon: [Стд, Лют, Сак, Крс, Тра, Чэр, Ліп, Жнв, Врс, Кст, Ліс, Снж]
-    mon: [Студзень, Люты, Сакавік, Красавік, Травень, Чэрвень, Ліпень, Жнівень, Верасень, Кастрычнік, Лістапад, Снежань]
+    abmon: [сту, лют, сак, кра, мая, чэр, ліп, жні, вер, кас, ліс, сне]
+    mon: [студзеня, лютага, сакавіка, красавіка, мая, чэрвеня, ліпеня, жніўня, верасня, кастрычніка, лістапада, снежня]
     d_t_fmt: '%a %d %b %Y %T'
     d_fmt: '%d.%m.%Y'
     t_fmt: '%T'
@@ -81,3 +81,5 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    alt_mon: [студзень, люты, сакавік, красавік, май, чэрвень, ліпень, жнівень, верасень, кастрычнік, лістапад, снежань]
+    ab_alt_mon: [сту, лют, сак, кра, май, чэр, ліп, жні, вер, кас, ліс, сне]

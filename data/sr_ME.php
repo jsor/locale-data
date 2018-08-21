@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ДдDdYy]',
-    'noexpr' => '^[-0НнNn]',
+    'yesexpr' => '^[+1yYdDДд]',
+    'noexpr' => '^[-0nNНн]',
     'yesstr' => 'да',
     'nostr' => 'не',
   ),

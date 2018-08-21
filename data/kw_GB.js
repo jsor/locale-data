@@ -19,7 +19,7 @@
             "country_num": 826,
             "country_car": "GB",
             "country_isbn": null,
-            "lang_name": "Kernowek",
+            "lang_name": "kernewek",
             "lang_ab": "kw",
             "lang_term": "cor",
             "lang_lib": "cor"
@@ -30,8 +30,8 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1eEyY]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "ea",
+            "nostr": "na"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u00a3",
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "44"
         },
         "LC_TIME": {
@@ -112,11 +112,11 @@
             ],
             "abmon": [
                 "Gen",
-                "Whe>",
-                "Mer",
+                "Hwe",
+                "Meu",
                 "Ebr",
                 "Me",
-                "Evn",
+                "Met",
                 "Gor",
                 "Est",
                 "Gwn",
@@ -125,21 +125,21 @@
                 "Kev"
             ],
             "mon": [
-                "Mys Genver",
-                "Mys Whevrel",
-                "Mys Merth",
-                "Mys Ebrel",
-                "Mys Me",
-                "Mys Evan",
-                "Mys Gortheren",
-                "Mye Est",
-                "Mys Gwyngala",
-                "Mys Hedra",
-                "Mys Du",
-                "Mys Kevardhu"
+                "mis Genver",
+                "mis Hwevrer",
+                "mis Meurth",
+                "mis Ebrel",
+                "mis Me",
+                "mis Metheven",
+                "mis Gortheren",
+                "mis Est",
+                "mis Gwynngala",
+                "mis Hedra",
+                "mis Du",
+                "mis Kevardhu"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

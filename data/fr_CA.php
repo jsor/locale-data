@@ -9,7 +9,7 @@
     'country_num' => 124,
     'country_car' => 'CDN',
     'country_isbn' => NULL,
-    'lang_name' => 'Français',
+    'lang_name' => 'français',
     'lang_ab' => 'fr',
     'lang_term' => 'fra',
     'lang_lib' => 'fre',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '$',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 3,
   ),
   'LC_PAPER' => 

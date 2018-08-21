@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1Yy\u05d9]",
-        "noexpr": "^[-0Nn\u05e0\u05e7]",
+        "yesexpr": "^[+1yY\u05d9]",
+        "noexpr": "^[-0nN\u05e0\u05e7]",
         "yesstr": "\u05d9\u05d0\u05b8",
         "nostr": "\u05e7\u05f2\u05df"
     },
@@ -116,19 +116,19 @@
         "mon": [
             "\u05d9\u05d0\u05b7\u05e0\u05d5\u05d0\u05b7\u05e8",
             "\u05e4\u05bf\u05e2\u05d1\u05e8\u05d5\u05d0\u05b7\u05e8",
-            "\u05de\u05d0\u05b7\u05e8\u05e5",
+            "\u05de\u05e2\u05e8\u05e5",
             "\u05d0\u05b7\u05e4\u05bc\u05e8\u05d9\u05dc",
-            "\u05de\u05f2\u05b7",
+            "\u05de\u05d9\u05d9",
             "\u05d9\u05d5\u05e0\u05d9",
             "\u05d9\u05d5\u05dc\u05d9",
-            "\u05d0\u05f1\u05d2\u05d5\u05e1\u05d8",
+            "\u05d0\u05d5\u05d9\u05d2\u05d5\u05e1\u05d8",
             "\u05e1\u05e2\u05e4\u05bc\u05d8\u05e2\u05de\u05d1\u05e2\u05e8",
-            "\u05d0\u05b8\u05e7\u05d8\u05d0\u05b8\u05d1\u05e2\u05e8",
-            "\u05e0\u05d0\u05b8\u05f0\u05e2\u05de\u05d1\u05e2\u05e8",
+            "\u05d0\u05e7\u05d8\u05d0\u05d1\u05e2\u05e8",
+            "\u05e0\u05d0\u05d5\u05d5\u05e2\u05de\u05d1\u05e2\u05e8",
             "\u05d3\u05e2\u05e6\u05e2\u05de\u05d1\u05e2\u05e8"
         ],
         "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
-        "d_fmt": "%d\/%m\/%y",
+        "d_fmt": "%d\/\/%m\/\/%y",
         "t_fmt": "%H:%M:%S",
         "am_pm": [
             "AM",

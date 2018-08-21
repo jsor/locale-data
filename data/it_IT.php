@@ -8,8 +8,8 @@
     'country_ab3' => 'ITA',
     'country_num' => 380,
     'country_car' => 'I',
-    'country_isbn' => NULL,
-    'lang_name' => 'Italiano',
+    'country_isbn' => '978-88,979-12',
+    'lang_name' => 'italiano',
     'lang_ab' => 'it',
     'lang_term' => 'ita',
     'lang_lib' => 'ita',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '39',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'dicembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

@@ -1,12 +1,12 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
     country_name: Србија
-    country_post: SRB
+    country_post: RS
     country_ab2: RS
     country_ab3: SRB
     country_num: 688
     country_car: SRB
-    country_isbn: '86'
+    country_isbn: 86
     lang_name: српски
     lang_ab: sr
     lang_term: srp
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдDdYy]'
-    noexpr: '^[-0НнNn]'
+    yesexpr: '^[+1yYdDДд]'
+    noexpr: '^[-0nNНн]'
     yesstr: да
     nostr: не
 LC_MONETARY:

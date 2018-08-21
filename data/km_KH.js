@@ -19,7 +19,7 @@
             "country_num": 116,
             "country_car": "KH",
             "country_isbn": null,
-            "lang_name": "\u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a",
+            "lang_name": "\u1781\u17d2\u1798\u17c2\u179a",
             "lang_ab": "km",
             "lang_term": "khm",
             "lang_lib": "khm"
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]([eE][sS])?",
-            "noexpr": "^[-0nN][oO]?",
-            "yesstr": "\u1794\u17b6\u1791\/\u1785\u17b6\u179f\u200b\u17d6 y",
-            "nostr": "\u1791\u17c1\u200b\u17d6 n"
+            "yesexpr": "^[+1yY\u1794]",
+            "noexpr": "^[-0nN\u1791]",
+            "yesstr": "\u1794\u17b6\u1791\/\u1785\u17b6\u179f",
+            "nostr": "\u1791\u17c1"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u17db",
@@ -62,8 +62,8 @@
         "LC_NAME": {
             "name_fmt": "%d%t%g%t%m%t%f",
             "name_gen": null,
-            "name_mr": "\u0e97.",
-            "name_mrs": "\u0e99.",
+            "name_mr": null,
+            "name_mrs": null,
             "name_miss": null,
             "name_ms": null
         },
@@ -124,7 +124,7 @@
             "mon": [
                 "\u1798\u1780\u179a\u17b6",
                 "\u1780\u17bb\u1798\u17d2\u1797\u17c8",
-                "\u1798\u17b7\u1793\u17b6",
+                "\u1798\u17b8\u1793\u17b6",
                 "\u1798\u17c1\u179f\u17b6",
                 "\u17a7\u179f\u1797\u17b6",
                 "\u1798\u17b7\u1790\u17bb\u1793\u17b6",
@@ -135,7 +135,7 @@
                 "\u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6",
                 "\u1792\u17d2\u1793\u17bc"
             ],
-            "d_t_fmt": "%A \u1790\u17d2\u1784\u17c3 %e \u1781\u17c2 %B \u1786\u17d2\u1793\u17b6\u17c6  %Y, %H \u1798\u17c9\u17c4\u1784 m \u1793\u17b6\u1791\u17b8 %S \u179c\u17b7\u1793\u17b6\u1791\u17b8\u200b",
+            "d_t_fmt": "%A \u1790\u17d2\u1784\u17c3 %e \u1781\u17c2 %B \u1786\u17d2\u1793\u17b6\u17c6 %Y, %H \u1798\u17c9\u17c4\u1784 m \u1793\u17b6\u1791\u17b8 %S \u179c\u17b7\u1793\u17b6\u1791\u17b8\u200b",
             "d_fmt": "%e %B %Y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [
@@ -149,7 +149,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 1,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

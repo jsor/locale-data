@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u09b9\u09cd\u09af\u09be\u0981yY]",
-        "noexpr": "^[-0\u09a8\u09benN]",
+        "yesexpr": "^[+1yY\u09b9]",
+        "noexpr": "^[-0nN\u09a8]",
         "yesstr": "\u09b9\u09cd\u09af\u09be\u0981",
         "nostr": "\u09a8\u09be"
     },
@@ -27,16 +27,16 @@
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
         "mon_grouping": [
-            2,
-            3
+            3,
+            2
         ],
         "positive_sign": "",
         "negative_sign": "-",
         "frac_digits": 2,
         "p_cs_precedes": 1,
-        "p_sep_by_space": 1,
+        "p_sep_by_space": 0,
         "n_cs_precedes": 1,
-        "n_sep_by_space": 1,
+        "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
         "int_curr_symbol": "INR ",
@@ -69,7 +69,11 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c ;%a ;%l",
+        "tel_int_fmt": [
+            "+%c ",
+            0,
+            0
+        ],
         "tel_dom_fmt": null,
         "int_select": "00",
         "int_prefix": "91"
@@ -100,8 +104,8 @@
             1
         ],
         "abmon": [
-            "\u099c\u09be\u09a8\u09c1\u09df\u09be\u09b0\u09bf",
-            "\u09ab\u09c7\u09ac\u09cd\u09b0\u09c1\u09df\u09be\u09b0\u09bf",
+            "\u099c\u09be\u09a8\u09c1",
+            "\u09ab\u09c7\u09ac",
             "\u09ae\u09be\u09b0\u09cd\u099a",
             "\u098f\u09aa\u09cd\u09b0\u09bf\u09b2",
             "\u09ae\u09c7",
@@ -114,8 +118,8 @@
             "\u09a1\u09bf\u09b8\u09c7\u09ae\u09cd\u09ac\u09b0"
         ],
         "mon": [
-            "\u099c\u09be\u09a8\u09c1\u09df\u09be\u09b0\u09bf",
-            "\u09ab\u09c7\u09ac\u09cd\u09b0\u09c1\u09df\u09be\u09b0\u09bf",
+            "\u099c\u09be\u09a8\u09c1\u09af\u09bc\u09be\u09b0\u09c0",
+            "\u09ab\u09c7\u09ac\u09cd\u09b0\u09c1\u09af\u09bc\u09be\u09b0\u09c0",
             "\u09ae\u09be\u09b0\u09cd\u099a",
             "\u098f\u09aa\u09cd\u09b0\u09bf\u09b2",
             "\u09ae\u09c7",

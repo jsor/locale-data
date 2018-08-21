@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Aotearoa",
             "country_post": null,
             "country_ab2": "NZ",
             "country_ab3": "NZL",
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "64"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "Hakihea"
             ],
             "d_t_fmt": "Te %A, te %d o %B, %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

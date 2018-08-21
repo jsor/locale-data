@@ -79,7 +79,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": "%a%l",
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "250"
         },
         "LC_TIME": {

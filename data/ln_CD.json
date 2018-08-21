@@ -17,7 +17,7 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[yYiI\u025b\u0190]",
+        "yesexpr": "^[yYiI\u00ed\u00cd]",
         "noexpr": "^[nNtT]",
         "yesstr": "\u00cdyo",
         "nostr": "T\u025b\u0302"
@@ -51,7 +51,7 @@
         "name_mr": "Tat\u00e1",
         "name_mrs": "Mam\u00e1",
         "name_miss": "Mam\u00e1",
-        "name_ms": "Mam\u00e1 "
+        "name_ms": "Mam\u00e1"
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
@@ -94,35 +94,35 @@
             1
         ],
         "abmon": [
-            "s\u00e1nz\u00e11.",
-            "s\u00e1nz\u00e12.",
-            "s\u00e1nz\u00e13.",
-            "s\u00e1nz\u00e14.",
-            "s\u00e1nz\u00e15.",
-            "s\u00e1nz\u00e16.",
-            "s\u00e1nz\u00e17.",
-            "s\u00e1nz\u00e18.",
-            "s\u00e1nz\u00e19.",
-            "s\u00e1nz10.",
-            "s\u00e1nz\u00e111.",
-            "s\u00e1nz\u00e112."
+            "yan",
+            "fbl",
+            "msi",
+            "apl",
+            "mai",
+            "yun",
+            "yul",
+            "agt",
+            "stb",
+            "\u0254tb",
+            "nvb",
+            "dsb"
         ],
         "mon": [
-            "Yanw\u00e1li",
-            "Febw\u00e1li",
-            "M\u00e1rsi",
-            "Apr\u00edli",
-            "M\u00e1y\u00ed",
-            "Y\u00fani",
-            "Y\u00fali",
-            "Aug\u00fasto",
-            "S\u025bt\u025b\u0301mb\u025b",
-            "\u0254k\u0254t\u0254\u0301b\u025b",
-            "Nov\u025b\u0301mb\u025b",
-            "D\u025bs\u025b\u0301mb\u025b"
+            "s\u00e1nz\u00e1 ya yambo",
+            "s\u00e1nz\u00e1 ya m\u00edbal\u00e9",
+            "s\u00e1nz\u00e1 ya m\u00eds\u00e1to",
+            "s\u00e1nz\u00e1 ya m\u00ednei",
+            "s\u00e1nz\u00e1 ya m\u00edt\u00e1no",
+            "s\u00e1nz\u00e1 ya mot\u00f3b\u00e1",
+            "s\u00e1nz\u00e1 ya nsambo",
+            "s\u00e1nz\u00e1 ya mwambe",
+            "s\u00e1nz\u00e1 ya libwa",
+            "s\u00e1nz\u00e1 ya z\u00f3mi",
+            "s\u00e1nz\u00e1 ya z\u00f3mi na m\u0254\u030ck\u0254\u0301",
+            "s\u00e1nz\u00e1 ya z\u00f3mi na m\u00edbal\u00e9"
         ],
         "d_t_fmt": "%a %d %b %Y %T %Z",
-        "d_fmt": "%d\/%m\/%Y",
+        "d_fmt": "%d\/\/%m\/\/%Y",
         "t_fmt": "%T",
         "am_pm": [
             "",

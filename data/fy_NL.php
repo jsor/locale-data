@@ -9,7 +9,7 @@
     'country_num' => 528,
     'country_car' => 'NL',
     'country_isbn' => NULL,
-    'lang_name' => 'Frysk',
+    'lang_name' => 'West-Frysk',
     'lang_ab' => 'fy',
     'lang_term' => 'fry',
     'lang_lib' => 'fry',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '31',
   ),
   'LC_TIME' => 
@@ -117,9 +117,9 @@
     array (
       0 => 'Jan',
       1 => 'Feb',
-      2 => 'Maa',
+      2 => 'Mrt',
       3 => 'Apr',
-      4 => 'Maa',
+      4 => 'Mai',
       5 => 'Jun',
       6 => 'Jul',
       7 => 'Aug',
@@ -130,7 +130,7 @@
     ),
     'mon' => 
     array (
-      0 => 'Janaris',
+      0 => 'Jannewaris',
       1 => 'Febrewaris',
       2 => 'Maart',
       3 => 'April',

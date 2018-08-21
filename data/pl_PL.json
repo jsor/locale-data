@@ -25,11 +25,8 @@
     "LC_MONETARY": {
         "currency_symbol": "z\u0142",
         "mon_decimal_point": ",",
-        "mon_thousands_sep": ".",
-        "mon_grouping": [
-            3,
-            3
-        ],
+        "mon_thousands_sep": "\u202f",
+        "mon_grouping": 3,
         "positive_sign": "",
         "negative_sign": "-",
         "frac_digits": 2,
@@ -58,11 +55,8 @@
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
-        "thousands_sep": "",
-        "grouping": [
-            0,
-            0
-        ]
+        "thousands_sep": "\u202f",
+        "grouping": 3
     },
     "LC_PAPER": {
         "height": 297,
@@ -71,7 +65,7 @@
     "LC_TELEPHONE": {
         "tel_int_fmt": "+%c %a %l",
         "tel_dom_fmt": null,
-        "int_select": null,
+        "int_select": "00",
         "int_prefix": "48"
     },
     "LC_TIME": {
@@ -114,18 +108,18 @@
             "gru"
         ],
         "mon": [
-            "stycze\u0144",
-            "luty",
-            "marzec",
-            "kwiecie\u0144",
-            "maj",
-            "czerwiec",
-            "lipiec",
-            "sierpie\u0144",
-            "wrzesie\u0144",
-            "pa\u017adziernik",
-            "listopad",
-            "grudzie\u0144"
+            "stycznia",
+            "lutego",
+            "marca",
+            "kwietnia",
+            "maja",
+            "czerwca",
+            "lipca",
+            "sierpnia",
+            "wrze\u015bnia",
+            "pa\u017adziernika",
+            "listopada",
+            "grudnia"
         ],
         "d_t_fmt": "%a, %-d %b %Y, %T",
         "d_fmt": "%d.%m.%Y",
@@ -144,6 +138,20 @@
         "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
-        "timezone": null
+        "timezone": null,
+        "alt_mon": [
+            "stycze\u0144",
+            "luty",
+            "marzec",
+            "kwiecie\u0144",
+            "maj",
+            "czerwiec",
+            "lipiec",
+            "sierpie\u0144",
+            "wrzesie\u0144",
+            "pa\u017adziernik",
+            "listopad",
+            "grudzie\u0144"
+        ]
     }
 }

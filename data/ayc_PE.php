@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Piruw',
     'country_post' => NULL,
     'country_ab2' => 'PE',
     'country_ab3' => 'PER',
@@ -27,7 +27,7 @@
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'S/',
+    'currency_symbol' => 'S//',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '51',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'risimri',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

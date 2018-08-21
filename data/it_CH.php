@@ -9,7 +9,7 @@
     'country_num' => 756,
     'country_car' => 'CH',
     'country_isbn' => NULL,
-    'lang_name' => 'Italiano',
+    'lang_name' => 'italiano',
     'lang_ab' => 'it',
     'lang_term' => 'ita',
     'lang_lib' => 'ita',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '41',
   ),
   'LC_TIME' => 

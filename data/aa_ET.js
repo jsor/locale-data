@@ -30,8 +30,8 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1yY]",
             "noexpr": "^[-0mnMN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "Yeey",
+            "nostr": "Maleey"
         },
         "LC_MONETARY": {
             "currency_symbol": "Br",
@@ -139,7 +139,7 @@
                 "Kaxxa Garablu"
             ],
             "d_t_fmt": "%A, %B %e, %Y %r %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%l:%M:%S",
             "am_pm": [
                 "saaku",

@@ -74,7 +74,11 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
             "int_select": "00",
             "int_prefix": "355"
@@ -82,22 +86,22 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "Die ",
-                "H\u00ebn ",
-                "Mar ",
-                "M\u00ebr ",
-                "Enj ",
-                "Pre ",
-                "Sht "
+                "Die",
+                "H\u00ebn",
+                "Mar",
+                "M\u00ebr",
+                "Enj",
+                "Pre",
+                "Sht"
             ],
             "day": [
-                "e diel ",
-                "e h\u00ebn\u00eb ",
-                "e mart\u00eb ",
-                "e m\u00ebrkur\u00eb ",
-                "e enjte ",
-                "e premte ",
-                "e shtun\u00eb "
+                "e diel",
+                "e h\u00ebn\u00eb",
+                "e mart\u00eb",
+                "e m\u00ebrkur\u00eb",
+                "e enjte",
+                "e premte",
+                "e shtun\u00eb"
             ],
             "week": [
                 7,

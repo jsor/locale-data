@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1iIyY]'
+    noexpr: '^[-0eEnN]'
+    yesstr: Ina
+    nostr: Ee
 LC_MONETARY:
     currency_symbol: R
     mon_decimal_point: .
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Sun, Yan, Kul, Dzi, Mud, Kho, Maw, Mha, Ndz, Nhl, Huk, 'N''w']
     mon: [Sunguti, Nyenyenyani, Nyenyankulu, Dzivamisoko, Mudyaxihi, Khotavuxika, Mawuwani, Mhawuri, Ndzhati, Nhlangula, Hukuri, 'N''wendzamhala']
     d_t_fmt: '%a %-e %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

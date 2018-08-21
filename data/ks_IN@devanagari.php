@@ -20,24 +20,28 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYइ]',
+    'noexpr' => '^[-0nNन]',
+    'yesstr' => 'इंन',
+    'nostr' => 'न',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => '₹',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
-    'mon_grouping' => 3,
+    'mon_grouping' => 
+    array (
+      0 => 3,
+      1 => 2,
+    ),
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
-    'p_sep_by_space' => 1,
+    'p_sep_by_space' => 0,
     'n_cs_precedes' => 1,
-    'n_sep_by_space' => 1,
+    'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
     'int_curr_symbol' => 'INR ',
@@ -71,7 +75,12 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '91',
@@ -81,23 +90,23 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => 'आथ्',
-      1 => 'चन्दर्',
-      2 => 'बोम्',
-      3 => 'बोघ',
-      4 => 'ब्रस््',
-      5 => 'जुम',
-      6 => 'बट',
+      0 => 'आथ ',
+      1 => 'चॅ़दुर',
+      2 => 'बोम',
+      3 => 'ब्वद',
+      4 => 'ब्रस',
+      5 => 'शोकुर',
+      6 => 'बटु',
     ),
     'day' => 
     array (
-      0 => 'आथ्वार्',
-      1 => 'चन्द्रवार्',
-      2 => 'बोम्वार्',
-      3 => 'बोघवार्',
-      4 => 'ब्रस्वार्',
-      5 => 'जुमाह्',
-      6 => 'बटवार्',
+      0 => 'आथवार',
+      1 => 'चॅ़दुरवार',
+      2 => 'बोमवार',
+      3 => 'ब्वदवार',
+      4 => 'ब्रसवार',
+      5 => 'शोकुरवार',
+      6 => 'बटुवार',
     ),
     'week' => 
     array (

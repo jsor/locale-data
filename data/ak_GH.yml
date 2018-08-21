@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [S-Ɔ, K-Ɔ, E-Ɔ, E-O, E-K, O-A, A-K, D-Ɔ, F-Ɛ, Ɔ-A, Ɔ-O, M-Ɔ]
     mon: [Sanda-Ɔpɛpɔn, Kwakwar-Ɔgyefuo, Ebɔw-Ɔbenem, Ebɔbira-Oforisuo, 'Esusow Aketseaba-Kɔtɔnimba', Obirade-Ayɛwohomumu, Ayɛwoho-Kitawonsa, Difuu-Ɔsandaa, Fankwa-Ɛbɔ, Ɔbɛsɛ-Ahinime, Ɔberɛfɛw-Obubuo, Mumu-Ɔpɛnimba]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%Y/%m/%d'
+    d_fmt: '%Y//%m//%d'
     t_fmt: '%r'
     am_pm: [AN, EW]
     t_fmt_ampm: '%I:%M:%S %p'

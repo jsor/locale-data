@@ -8,8 +8,8 @@
     'country_ab3' => 'FRA',
     'country_num' => 250,
     'country_car' => 'F',
-    'country_isbn' => NULL,
-    'lang_name' => 'Brezhoneg',
+    'country_isbn' => '979-10',
+    'lang_name' => 'brezhoneg',
     'lang_ab' => 'br',
     'lang_term' => 'bre',
     'lang_lib' => 'bre',
@@ -21,15 +21,15 @@
   'LC_MESSAGES' => 
   array (
     'yesexpr' => '^[+1oOyY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'noexpr' => '^[-0kKnN]',
+    'yesstr' => 'ya',
+    'nostr' => 'ket',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
@@ -61,7 +61,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 3,
   ),
   'LC_PAPER' => 
@@ -94,7 +94,7 @@
       0 => 'sul',
       1 => 'lun',
       2 => 'meurzh',
-      3 => 'merc\'her',
+      3 => 'mercʼher',
       4 => 'yaou',
       5 => 'gwener',
       6 => 'sadorn',
@@ -108,11 +108,11 @@
     'abmon' => 
     array (
       0 => 'Gen ',
-      1 => 'C\'hw',
+      1 => 'Cʼhw',
       2 => 'Meu ',
       3 => 'Ebr ',
       4 => 'Mae ',
-      5 => 'Eve ',
+      5 => 'Mezh',
       6 => 'Gou ',
       7 => 'Eos ',
       8 => 'Gwe ',
@@ -123,7 +123,7 @@
     'mon' => 
     array (
       0 => 'Genver',
-      1 => 'C\'hwevrer',
+      1 => 'Cʼhwevrer',
       2 => 'Meurzh',
       3 => 'Ebrel',
       4 => 'Mae',
@@ -135,7 +135,7 @@
       10 => 'Du',
       11 => 'Kerzu',
     ),
-    'd_t_fmt' => 'D\'ar %A %d a viz %B %Y',
+    'd_t_fmt' => 'Dʼar %A %d a viz %B %Y',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

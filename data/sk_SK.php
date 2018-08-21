@@ -9,7 +9,7 @@
     'country_num' => 703,
     'country_car' => 'SK',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'slovenčina',
     'lang_ab' => 'sk',
     'lang_term' => 'slk',
     'lang_lib' => 'slo',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '421',
   ),
   'LC_TIME' => 

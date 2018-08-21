@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1እyY]'
+    noexpr: '^[-0ነnN]'
+    yesstr: እወ
+    nostr: ነኖእ
 LC_MONETARY:
     currency_symbol: Br
     mon_decimal_point: .
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
     mon: [January, February, March, April, May, June, July, August, September, October, November, December]
     d_t_fmt: '%A, %B %e, %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: [soodo, hawwaro]
     t_fmt_ampm: '%X %p'

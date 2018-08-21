@@ -3,12 +3,12 @@
   array (
     'postal_fmt' => '%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N',
     'country_name' => '中華民國',
-    'country_post' => NULL,
+    'country_post' => 'TW',
     'country_ab2' => 'TW',
     'country_ab3' => 'TWN',
     'country_num' => 158,
     'country_car' => 'RC',
-    'country_isbn' => '957',
+    'country_isbn' => 957,
     'lang_name' => '中文',
     'lang_ab' => 'zh',
     'lang_term' => 'zho',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY是]',
-    'noexpr' => '^[-0nN不否]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYｙＹ是]',
+    'noexpr' => '^[-0nNｎＮ不否]',
+    'yesstr' => '是',
+    'nostr' => '不是',
   ),
   'LC_MONETARY' => 
   array (
@@ -135,8 +135,8 @@
       10 => '十一月',
       11 => '十二月',
     ),
-    'd_t_fmt' => '西元%Y年%m月%d日 (%A) %H時%M分%S秒',
-    'd_fmt' => '西元%Y年%m月%d日',
+    'd_t_fmt' => '西元%Y年%m月%d日 (%A) %H時d_fmt	"西元%Y年%m月%d日',
+    'd_fmt' => '%m/%d/%y',
     't_fmt' => '%H時%M分%S秒',
     'am_pm' => 
     array (

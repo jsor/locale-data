@@ -18,7 +18,7 @@
             "country_ab3": "IRN",
             "country_num": 364,
             "country_car": "IR",
-            "country_isbn": "964",
+            "country_isbn": 964,
             "lang_name": "\u0641\u0627\u0631\u0633\u06cc",
             "lang_ab": "fa",
             "lang_term": "fas",
@@ -80,7 +80,11 @@
             "int_prefix": "98"
         },
         "LC_TIME": {
-            "date_fmt": "\u202b%A %Oe %B %Oy\u060c \u0633\u0627\u0639\u062a %OH:%OM:%OS (%Z)\u202c",
+            "date_fmt": [
+                "\u202b%A %Oe %B %Oy\u060c \u0633\u0627\u0639\u062a week 7",
+                19971130,
+                1
+            ],
             "abday": [
                 "\u06cc\u06a9\u0634\u0646\u0628\u0647",
                 "\u062f\u0648\u0634\u0646\u0628\u0647",
@@ -99,11 +103,7 @@
                 "\u062c\u0645\u0639\u0647",
                 "\u0634\u0646\u0628\u0647"
             ],
-            "week": [
-                7,
-                19971130,
-                1
-            ],
+            "week": null,
             "abmon": [
                 "\u0698\u0627\u0646\u0648\u06cc\u0647",
                 "\u0641\u0648\u0631\u06cc\u0647",
@@ -133,7 +133,7 @@
                 "\u062f\u0633\u0627\u0645\u0628\u0631"
             ],
             "d_t_fmt": "\u202b%A %Oe %B %Oy\u060c %OH:%OM:%OS\u202c",
-            "d_fmt": "%Oy\/%Om\/%Od",
+            "d_fmt": "%Oy\/\/%Om\/\/%Od",
             "t_fmt": "%OH:%OM:%OS",
             "am_pm": [
                 "",

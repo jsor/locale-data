@@ -17,7 +17,7 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1yYkKxX\u10ee]",
+        "yesexpr": "^[+1yYkKxX\u10d9]",
         "noexpr": "^[-0nNaA\u10d0]",
         "yesstr": "\u10d9\u10d8",
         "nostr": "\u10d0\u10e0\u10d0"
@@ -128,7 +128,7 @@
             "\u10d3\u10d4\u10d9\u10d4\u10db\u10d1\u10d4\u10e0\u10d8"
         ],
         "d_t_fmt": "%Y \u10ec\u10da\u10d8\u10e1 %d %B, %T %Z",
-        "d_fmt": "%m\/%d\/%Y",
+        "d_fmt": "%m\/\/%d\/\/%Y",
         "t_fmt": "%T",
         "am_pm": [
             "",

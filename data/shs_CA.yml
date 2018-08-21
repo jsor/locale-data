@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Kwe, Tsi, Sqe, Éwt, Ell, Tsp, Tqw, Ct̓é, Qel, Wél, U7l, Tet]
     mon: [Pellkwet̓min, Pelctsipwen̓ten, Pellsqépts, Peslléwten, Pell7ell7é7llqten, Pelltspéntsk, Pelltqwelq̓wél̓t, Pellct̓éxel̓cten, Pesqelqlélten, Pesllwélsten, Pellc7ell7é7llcwten̓, Pelltetétq̓em]
     d_t_fmt: '%a %d %b %Y %r %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%r'
     am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'

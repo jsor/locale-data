@@ -19,7 +19,7 @@
             "country_num": 32,
             "country_car": "RA",
             "country_isbn": null,
-            "lang_name": "Espa\u00f1ol",
+            "lang_name": "espa\u00f1ol",
             "lang_ab": "es",
             "lang_term": "spa",
             "lang_lib": "spa"
@@ -139,7 +139,7 @@
                 "diciembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

@@ -12,13 +12,13 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Fran\u00e7a",
             "country_post": "F",
             "country_ab2": "FR",
             "country_ab3": "FRA",
             "country_num": 250,
             "country_car": "F",
-            "country_isbn": "2",
+            "country_isbn": "979-10",
             "lang_name": "Occitan",
             "lang_ab": "oc",
             "lang_term": "oci",
@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": 3,
             "positive_sign": "",
             "negative_sign": "-",
@@ -59,14 +59,14 @@
         "LC_NAME": {
             "name_fmt": "%d%t%g%t%m%t%f",
             "name_gen": null,
-            "name_mr": null,
-            "name_mrs": null,
+            "name_mr": "En",
+            "name_mrs": "Na",
             "name_miss": null,
             "name_ms": null
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": " ",
+            "thousands_sep": "\u202f",
             "grouping": 3
         },
         "LC_PAPER": {
@@ -82,22 +82,22 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "dim",
-                "lun",
-                "mar",
-                "mec",
-                "j\u00f2u",
-                "ven",
-                "sab"
+                "dg.",
+                "dl.",
+                "dm.",
+                "dc.",
+                "dj.",
+                "dv.",
+                "ds."
             ],
             "day": [
                 "dimenge",
                 "diluns",
                 "dimars",
-                "dimecres",
+                "dim\u00e8cres",
                 "dij\u00f3us",
                 "divendres",
-                "disabte"
+                "dissabte"
             ],
             "week": [
                 7,
@@ -105,35 +105,35 @@
                 4
             ],
             "abmon": [
-                "gen",
-                "feb",
-                "mar",
-                "abr",
-                "mai",
-                "jun",
-                "jul",
-                "ago",
-                "set",
-                "oct",
-                "nov",
-                "dec"
-            ],
-            "mon": [
-                "geni\u00e8r",
-                "febri\u00e8r",
+                "gen.",
+                "febr.",
                 "mar\u00e7",
-                "abrial",
+                "abr.",
                 "mai",
                 "junh",
-                "julhet",
-                "agost",
-                "setembre",
-                "octobre",
-                "novembre",
-                "decembre"
+                "jul.",
+                "ago.",
+                "set.",
+                "oct.",
+                "nov.",
+                "dec."
+            ],
+            "mon": [
+                "de geni\u00e8r",
+                "de febri\u00e8r",
+                "de mar\u00e7",
+                "d\u2019abrial",
+                "de mai",
+                "de junh",
+                "de julhet",
+                "d\u2019agost",
+                "de setembre",
+                "d\u2019oct\u00f2bre",
+                "de novembre",
+                "de decembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d.%m.%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",
@@ -149,7 +149,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "geni\u00e8r",
+                "febri\u00e8r",
+                "mar\u00e7",
+                "abrial",
+                "mai",
+                "junh",
+                "julhet",
+                "agost",
+                "setembre",
+                "oct\u00f2bre",
+                "novembre",
+                "decembre"
+            ]
         }
     };
 }));

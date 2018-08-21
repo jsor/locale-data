@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '$',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
@@ -61,7 +61,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => '.',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 2,
@@ -142,7 +142,7 @@
       11 => 'muxkotae',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

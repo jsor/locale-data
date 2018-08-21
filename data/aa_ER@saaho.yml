@@ -16,8 +16,8 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[+1yY]'
     noexpr: '^[-0mnMN]'
-    yesstr: null
-    nostr: null
+    yesstr: Yeey
+    nostr: Maleey
 LC_MONETARY:
     currency_symbol: Nfk
     mon_decimal_point: .
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Qun, Nah, Cig, Agd, Cax, Qas, Qad, Leq, Way, Dit, Xim, Kax]
     mon: ['Qunxa Garablu', 'Naharsi Kudo', 'Ciggilta Kudo', 'Agda Baxisso', 'Caxah Alsa', 'Qasa Dirri', 'Qado Dirri', Leqeeni, Waysu, Diteli, Ximoli, 'Kaxxa Garablu']
     d_t_fmt: '%A, %B %e, %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: [saaku, carra]
     t_fmt_ampm: '%X %p'

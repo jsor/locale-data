@@ -9,7 +9,7 @@
     'country_num' => 356,
     'country_car' => 'IND',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'اردو',
     'lang_ab' => 'ur',
     'lang_term' => 'urd',
     'lang_lib' => 'urd',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ہyY]',
-    'noexpr' => '^[-0نnN]',
+    'yesexpr' => '^[+1yYہ]',
+    'noexpr' => '^[-0nNن]',
     'yesstr' => 'ہاں',
     'nostr' => 'نہیں',
   ),
@@ -39,9 +39,9 @@
     'negative_sign' => '-',
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
-    'p_sep_by_space' => 1,
+    'p_sep_by_space' => 0,
     'n_cs_precedes' => 1,
-    'n_sep_by_space' => 1,
+    'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
     'int_curr_symbol' => 'INR ',
@@ -75,7 +75,12 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '91',
@@ -120,7 +125,7 @@
       6 => 'جولائی',
       7 => 'اگست',
       8 => 'ستمبر',
-      9 => 'اكتوبر',
+      9 => 'اکتوبر',
       10 => 'نومبر',
       11 => 'دسمبر',
     ),
@@ -135,7 +140,7 @@
       6 => 'جولائی',
       7 => 'اگست',
       8 => 'ستمبر',
-      9 => 'اكتوبر',
+      9 => 'اکتوبر',
       10 => 'نومبر',
       11 => 'دسمبر',
     ),

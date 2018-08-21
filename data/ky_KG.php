@@ -9,7 +9,7 @@
     'country_num' => 417,
     'country_car' => 'KS',
     'country_isbn' => NULL,
-    'lang_name' => 'Кыргызча',
+    'lang_name' => 'кыргызча',
     'lang_ab' => 'ky',
     'lang_term' => 'kir',
     'lang_lib' => 'kir',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ОоYy]',
-    'noexpr' => '^[-0ЖжNn]',
+    'yesexpr' => '^[+1yYОо]',
+    'noexpr' => '^[-0nNЖж]',
     'yesstr' => 'ооба',
     'nostr' => 'жок',
   ),
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'сом',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '996',
   ),
   'LC_TIME' => 

@@ -71,7 +71,12 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '20',

@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Phe, Hla, TlH, Mme, Mot, Jan, Upu, Pha, Leo, Mph, Pud, Tsh]
     mon: [Pherekgong, Hlakola, Tlhakubele, Mmese, Motsheanong, Phupjane, Phupu, Phato, Leotse, Mphalane, Pudungwana, Tshitwe]
     d_t_fmt: '%a %-e %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

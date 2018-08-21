@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1eEyY]'
+    noexpr: '^[-0mMnN]'
+    yesstr: eeyyee
+    nostr: miti
 LC_MONETARY:
     currency_symbol: Br
     mon_decimal_point: .
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Ama, Gur, Bit, Elb, Cam, Wax, Ado, Hag, Ful, Onk, Sad, Mud]
     mon: [Amajjii, Guraandhala, Bitooteessa, Elba, Caamsa, Waxabajjii, Adooleessa, Hagayya, Fuulbana, Onkololeessa, Sadaasa, Muddee]
     d_t_fmt: '%A, %B %e, %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: [WD, WB]
     t_fmt_ampm: '%X %p'

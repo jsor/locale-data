@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "g",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": 3,
             "positive_sign": "",
             "negative_sign": "-",
@@ -66,7 +66,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": " ",
+            "thousands_sep": "\u202f",
             "grouping": 3
         },
         "LC_PAPER": {
@@ -83,7 +83,7 @@
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
                 "dim",
-                "len ",
+                "len",
                 "mad",
                 "m\u00e8k",
                 "jed",
@@ -92,7 +92,7 @@
             ],
             "day": [
                 "dimanch",
-                "lendi ",
+                "lendi",
                 "madi",
                 "m\u00e8kredi",
                 "jedi",
@@ -133,7 +133,7 @@
                 "desanm"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

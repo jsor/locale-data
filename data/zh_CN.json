@@ -7,7 +7,7 @@
         "country_ab3": "CHN",
         "country_num": 156,
         "country_car": "CHN",
-        "country_isbn": "7",
+        "country_isbn": 7,
         "lang_name": "\u4e2d\u6587",
         "lang_ab": "zh",
         "lang_term": "zho",
@@ -17,10 +17,10 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1yY\u662f]",
-        "noexpr": "^[-0nN\u4e0d\u5426]",
-        "yesstr": null,
-        "nostr": null
+        "yesexpr": "^[+1yY\uff59\uff39\u662f]",
+        "noexpr": "^[-0nN\uff4e\uff2e\u4e0d\u5426]",
+        "yesstr": "\u662f",
+        "nostr": "\u4e0d\u662f"
     },
     "LC_MONETARY": {
         "currency_symbol": "\uffe5",

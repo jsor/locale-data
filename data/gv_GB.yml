@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 826
     country_car: GB
     country_isbn: null
-    lang_name: 'y Ghaelg'
+    lang_name: Gaelg
     lang_ab: gv
     lang_term: glv
     lang_lib: glv
@@ -57,7 +57,7 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '44'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [J-guer, T-arree, Mayrnt, Avrril, Boaldyn, M-souree, J-souree, Luanistyn, M-fouyir, J-fouyir, M.Houney, M.Nollick]
     mon: [Jerrey-geuree, Toshiaght-arree, Mayrnt, Averil, Boaldyn, Mean-souree, Jerrey-souree, Luanistyn, Mean-fouyir, Jerrey-fouyir, 'Mee Houney', 'Mee ny Nollick']
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

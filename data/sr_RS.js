@@ -13,12 +13,12 @@
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
             "country_name": "\u0421\u0440\u0431\u0438\u0458\u0430",
-            "country_post": "SRB",
+            "country_post": "RS",
             "country_ab2": "RS",
             "country_ab3": "SRB",
             "country_num": 688,
             "country_car": "SRB",
-            "country_isbn": "86",
+            "country_isbn": 86,
             "lang_name": "\u0441\u0440\u043f\u0441\u043a\u0438",
             "lang_ab": "sr",
             "lang_term": "srp",
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0414\u0434DdYy]",
-            "noexpr": "^[-0\u041d\u043dNn]",
+            "yesexpr": "^[+1yYdD\u0414\u0434]",
+            "noexpr": "^[-0nN\u041d\u043d]",
             "yesstr": "\u0434\u0430",
             "nostr": "\u043d\u0435"
         },

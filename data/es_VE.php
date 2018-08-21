@@ -9,7 +9,7 @@
     'country_num' => 862,
     'country_car' => 'YV',
     'country_isbn' => NULL,
-    'lang_name' => 'Español',
+    'lang_name' => 'español',
     'lang_ab' => 'es',
     'lang_term' => 'spa',
     'lang_lib' => 'spa',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '58',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'diciembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

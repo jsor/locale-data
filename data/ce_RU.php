@@ -9,7 +9,7 @@
     'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
-    'lang_name' => 'нохчийн мотт',
+    'lang_name' => 'нохчийн',
     'lang_ab' => 'ce',
     'lang_term' => 'che',
     'lang_lib' => NULL,
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ДдYy]',
-    'noexpr' => '^[-0МмNn]',
+    'yesexpr' => '^[+1yYДд]',
+    'noexpr' => '^[-0nNМм]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '₽',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -89,23 +89,23 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => 'КI',
+      0 => 'КӀ',
       1 => 'Ор',
-      2 => 'Ши ',
-      3 => 'Кх ',
-      4 => 'Еа ',
-      5 => 'ПI ',
+      2 => 'Ши',
+      3 => 'Кх',
+      4 => 'Еа',
+      5 => 'ПӀ',
       6 => 'Шо',
     ),
     'day' => 
     array (
-      0 => 'КIиранде ',
-      1 => 'Оршотде ',
-      2 => 'Шинариде ',
-      3 => 'Кхаариде ',
-      4 => 'Еариде ',
-      5 => 'ПIераскаде',
-      6 => 'Шотде',
+      0 => 'КӀиранан де',
+      1 => 'Оршотан де',
+      2 => 'Шинарин де',
+      3 => 'Кхаарин де',
+      4 => 'Еарин де',
+      5 => 'ПӀераскан де',
+      6 => 'Шот де',
     ),
     'week' => 
     array (

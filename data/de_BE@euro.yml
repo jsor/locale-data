@@ -61,7 +61,7 @@ LC_TELEPHONE:
     int_prefix: '32'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Son, Mon, Die, Mit, Don, Fre, Sam]
+    abday: [So, Mo, Di, Mi, Do, Fr, Sa]
     day: [Sonntag, Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag]
     week: [7, 19971130, 4]
     abmon: [Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez]

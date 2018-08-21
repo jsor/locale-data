@@ -9,7 +9,7 @@
     'country_num' => 356,
     'country_car' => 'IND',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'தமிழ்',
     'lang_ab' => 'ta',
     'lang_term' => 'tam',
     'lang_lib' => 'tam',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ஆம்yY]',
-    'noexpr' => '^[-0இல்லைnN]',
+    'yesexpr' => '^[+1yYஆ]',
+    'noexpr' => '^[-0nNஇ]',
     'yesstr' => 'ஆம்',
     'nostr' => 'இல்லை',
   ),
@@ -39,9 +39,9 @@
     'negative_sign' => '-',
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
-    'p_sep_by_space' => 1,
+    'p_sep_by_space' => 0,
     'n_cs_precedes' => 1,
-    'n_sep_by_space' => 1,
+    'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
     'int_curr_symbol' => 'INR ',
@@ -57,9 +57,9 @@
   array (
     'name_fmt' => '%p%t%f%t%g',
     'name_gen' => '',
-    'name_mr' => 'திரு ',
-    'name_mrs' => 'திருமதி ',
-    'name_miss' => 'செல்வி ',
+    'name_mr' => 'திரு',
+    'name_mrs' => 'திருமதி',
+    'name_miss' => 'செல்வி',
     'name_ms' => 'Ms.',
   ),
   'LC_NUMERIC' => 
@@ -79,7 +79,12 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '91',
@@ -115,18 +120,18 @@
     ),
     'abmon' => 
     array (
-      0 => 'ஜன',
-      1 => 'பிப்',
-      2 => 'மார்',
-      3 => 'ஏப்',
+      0 => 'ஜன.',
+      1 => 'பிப்.',
+      2 => 'மார்.',
+      3 => 'ஏப்.',
       4 => 'மே',
       5 => 'ஜூன்',
       6 => 'ஜூலை',
-      7 => 'ஆக',
-      8 => 'செப்',
-      9 => 'அக்',
-      10 => 'நவ',
-      11 => 'டிச',
+      7 => 'ஆக.',
+      8 => 'செப்.',
+      9 => 'அக்.',
+      10 => 'நவ.',
+      11 => 'டிச.',
     ),
     'mon' => 
     array (

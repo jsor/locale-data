@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]",
-            "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY\u12a5]",
+            "noexpr": "^[-0nN\u1290]",
+            "yesstr": "\u12a5\u12c8",
+            "nostr": "\u1290\u1296\u12a5"
         },
         "LC_MONETARY": {
             "currency_symbol": "Nfk",
@@ -63,9 +63,9 @@
             "name_fmt": "%d%t%g%t%m%t%f",
             "name_gen": "",
             "name_mr": "\u12a3\u1276\"             % \"\u12a0\u12ed\u1270\" is informal",
-            "name_mrs": "\u12c8\/\u122e",
-            "name_miss": "\u12c8\/\u122a\u1275",
-            "name_ms": "\u12c8\/\u122a\u1275"
+            "name_mrs": "\u12c8\/\/\u122e",
+            "name_miss": "\u12c8\/\/\u122a\u1275",
+            "name_ms": "\u12c8\/\/\u122a\u1275"
         },
         "LC_NUMERIC": {
             "decimal_point": ".",
@@ -86,7 +86,7 @@
             "int_prefix": "291"
         },
         "LC_TIME": {
-            "date_fmt": "%A\u1365%B\u1361%e\u1361\u1218\u12d3\u120d\u1275\u1361%r\u1361%Z\u1361%Y\u1361\u12d3\/\u121d",
+            "date_fmt": "%A\u1365%B\u1361%e\u1361\u1218\u12d3\u120d\u1275\u1361%r\u1361%Z\u1361%Y\u1361\u12d3\/\/\u121d",
             "abday": [
                 "\u12a5\u1281\u12f5",
                 "\u1230\u1291\u12ed",
@@ -139,7 +139,7 @@
                 "\u1280\u1220\u1220"
             ],
             "d_t_fmt": "%A\u1365%B\u1361%e\u1361\u1218\u12d3\u120d\u1275\u1361%Y\u1361%r\u1361%Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%l:%M:%S",
             "am_pm": [
                 "\u133d\u1263\u1215",

@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 578
     country_car: 'N'
     country_isbn: null
-    lang_name: Davvisámegiella
+    lang_name: davvisámegiella
     lang_ab: se
     lang_term: sme
     lang_lib: sme
@@ -65,7 +65,7 @@ LC_TIME:
     day: [sotnabeaivi, vuossárga, maŋŋebarga, gaskavahkku, duorasdat, bearjadat, lávvardat]
     week: [7, 19971130, 4]
     abmon: [ođđj, guov, njuk, cuoŋ, mies, geas, suoi, borg, čakč, golg, skáb, juov]
-    mon: [ođđajagemánu, guovvamánu, njukčamánu, cuoŋománu, miessemánu, geassemánu, suoidnemánu, borgemánu, čakčamánu, golggotmánu, skábmamánu, juovlamánu]
+    mon: [ođđajagemánnu, guovvamánnu, njukčamánnu, cuoŋománnu, miessemánnu, geassemánnu, suoidnemánnu, borgemánnu, čakčamánnu, golggotmánnu, skábmamánnu, juovlamánnu]
     d_t_fmt: '%a, %b %e. b. %Y %T %Z'
     d_fmt: '%Y-%m-%d'
     t_fmt: '%T'

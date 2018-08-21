@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 858
     country_car: UY
     country_isbn: null
-    lang_name: Español
+    lang_name: español
     lang_ab: es
     lang_term: spa
     lang_lib: spa
@@ -57,17 +57,17 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '598'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [dom, lun, mar, mié, jue, vie, sáb]
     day: [domingo, lunes, martes, miércoles, jueves, viernes, sábado]
     week: [7, 19971130, 1]
-    abmon: [ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic]
-    mon: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+    abmon: [ene, feb, mar, abr, may, jun, jul, ago, set, oct, nov, dic]
+    mon: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, setiembre, octubre, noviembre, diciembre]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

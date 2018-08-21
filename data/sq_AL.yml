@@ -55,14 +55,14 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c ;%a ;%l'
+    tel_int_fmt: ['+%c ', 0, 0]
     tel_dom_fmt: null
     int_select: '00'
     int_prefix: '355'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: ['Die ', 'Hën ', 'Mar ', 'Mër ', 'Enj ', 'Pre ', 'Sht ']
-    day: ['e diel ', 'e hënë ', 'e martë ', 'e mërkurë ', 'e enjte ', 'e premte ', 'e shtunë ']
+    abday: [Die, Hën, Mar, Mër, Enj, Pre, Sht]
+    day: ['e diel', 'e hënë', 'e martë', 'e mërkurë', 'e enjte', 'e premte', 'e shtunë']
     week: [7, 19971130, 1]
     abmon: [Jan, Shk, Mar, Pri, Maj, Qer, Kor, Gsh, Sht, Tet, Nën, Dhj]
     mon: [janar, shkurt, mars, prill, maj, qershor, korrik, gusht, shtator, tetor, nëntor, dhjetor]

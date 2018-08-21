@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => '新加坡',
     'country_post' => NULL,
     'country_ab2' => 'SG',
     'country_ab3' => 'SGP',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => 'Yes',
-    'nostr' => 'No',
+    'yesexpr' => '^[+1yYｙＹ是]',
+    'noexpr' => '^[-0nNｎＮ不否]',
+    'yesstr' => '是',
+    'nostr' => '不是',
   ),
   'LC_MONETARY' => 
   array (
@@ -71,9 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '001',
     'int_prefix' => '65',
   ),
   'LC_TIME' => 
@@ -81,13 +86,13 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => '星期日',
-      1 => '星期一',
-      2 => '星期二',
-      3 => '星期三',
-      4 => '星期四',
-      5 => '星期五',
-      6 => '星期六',
+      0 => '日',
+      1 => '一',
+      2 => '二',
+      3 => '三',
+      4 => '四',
+      5 => '五',
+      6 => '六',
     ),
     'day' => 
     array (

@@ -6,8 +6,8 @@ LC_ADDRESS:
     country_ab3: FRA
     country_num: 250
     country_car: F
-    country_isbn: null
-    lang_name: Brezhoneg
+    country_isbn: 979-10
+    lang_name: brezhoneg
     lang_ab: br
     lang_term: bre
     lang_lib: bre
@@ -15,13 +15,13 @@ LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
     yesexpr: '^[+1oOyY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    noexpr: '^[-0kKnN]'
+    yesstr: ya
+    nostr: ket
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: ' '
+    thousands_sep:  
     grouping: 3
 LC_PAPER:
     height: 297
@@ -62,11 +62,11 @@ LC_TELEPHONE:
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [sul, lun, meu, mer, yao, gwe, sad]
-    day: [sul, lun, meurzh, 'merc''her', yaou, gwener, sadorn]
+    day: [sul, lun, meurzh, mercʼher, yaou, gwener, sadorn]
     week: [7, 19971130, 4]
-    abmon: ['Gen ', 'C''hw', 'Meu ', 'Ebr ', 'Mae ', 'Eve ', 'Gou ', 'Eos ', 'Gwe ', 'Her ', 'Du  ', 'Ker ']
-    mon: [Genver, 'C''hwevrer', Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu]
-    d_t_fmt: 'D''ar %A %d a viz %B %Y'
+    abmon: ['Gen ', Cʼhw, 'Meu ', 'Ebr ', 'Mae ', Mezh, 'Gou ', 'Eos ', 'Gwe ', 'Her ', 'Du  ', 'Ker ']
+    mon: [Genver, Cʼhwevrer, Meurzh, Ebrel, Mae, Mezheven, Gouere, Eost, Gwengolo, Here, Du, Kerzu]
+    d_t_fmt: 'Dʼar %A %d a viz %B %Y'
     d_fmt: '%d.%m.%Y'
     t_fmt: '%T'
     am_pm: [' ', ' ']

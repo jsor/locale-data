@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20bd",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": "\u2002",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3

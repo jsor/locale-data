@@ -7,15 +7,15 @@ LC_ADDRESS:
     country_num: 196
     country_car: CY
     country_isbn: null
-    lang_name: ελληνικά
+    lang_name: Ελληνικά
     lang_ab: el
     lang_term: ell
     lang_lib: gre
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1νΝyY]'
-    noexpr: '^[-0οΟnN]'
+    yesexpr: '^[+1yYνΝ]'
+    noexpr: '^[-0nNοΟόΌ]'
     yesstr: ναι
     nostr: όχι
 LC_MONETARY:
@@ -28,7 +28,7 @@ LC_MONETARY:
     frac_digits: 2
     p_cs_precedes: 0
     p_sep_by_space: 0
-    n_cs_precedes: 1
+    n_cs_precedes: 0
     n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '357'
 LC_TIME:
     date_fmt: '%a %d %b %Y %r %Z'
-    abday: [Κυρ, Δευ, Τρι, Τετ, Πεμ, Παρ, Σαβ]
-    day: [Κυριακή, Δευτέρα, Τρίτη, Τετάρτη, Πέμπτη, Παρασκευή, Σάββατο]
+    abday: ['Κυρ', 'Δευ', Τρι, Τετ, 'Πεμ', 'Παρ', Σαβ]
+    day: ['Κυριακή', 'Δευτέρα', Τρίτη, Τετάρτη, 'Πέμπτη', 'Παρασκευή', Σάββατο]
     week: [7, 19971130, 1]
-    abmon: [Ιαν, Φεβ, Μάρ, Απρ, Μάι, Ιούν, Ιούλ, Αύγ, Σεπ, Οκτ, Νοέ, Δεκ]
-    mon: [Ιανουάριος, Φεβρουάριος, Μάρτιος, Απρίλιος, Μάιος, Ιούνιος, Ιούλιος, Αύγουστος, Σεπτέμβριος, Οκτώβριος, Νοέμβριος, Δεκέμβριος]
+    abmon: [Ιαν, Φεβ, Μαρ, Απρ, Μαΐ, 'Ιουν', 'Ιουλ', 'Αυγ', Σεπ, Οκτ, Νοε, Δεκ]
+    mon: ['Ιανουαρίου', 'Φεβρουαρίου', 'Μαρτίου', 'Απριλίου', 'Μαΐου', 'Ιουνίου', 'Ιουλίου', 'Αυγούστου', 'Σεπτεμβρίου', 'Οκτωβρίου', 'Νοεμβρίου', 'Δεκεμβρίου']
     d_t_fmt: '%a %d %b %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%r'
     am_pm: [πμ, μμ]
     t_fmt_ampm: '%I:%M:%S %p'
@@ -81,3 +81,5 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    ab_alt_mon: [Ιαν, Φεβ, Μάρ, Απρ, Μάι, Ιούν, Ιούλ, Αύγ, Σεπ, Οκτ, Νοέ, Δεκ]
+    alt_mon: ['Ιανουάριος', 'Φεβρουάριος', Μάρτιος, Απρίλιος, Μάιος, Ιούνιος, Ιούλιος, 'Αύγουστος', Σεπτέμβριος, Οκτώβριος, Νοέμβριος, Δεκέμβριος]

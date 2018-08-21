@@ -22,19 +22,15 @@
   array (
     'yesexpr' => '^[+1JjTtYy]',
     'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'jo',
+    'nostr' => 'nié',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => 'zł',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => '.',
-    'mon_grouping' => 
-    array (
-      0 => 3,
-      1 => 3,
-    ),
+    'mon_thousands_sep' => ' ',
+    'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
@@ -65,12 +61,8 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
-    'grouping' => 
-    array (
-      0 => 0,
-      1 => 0,
-    ),
+    'thousands_sep' => ' ',
+    'grouping' => 3,
   ),
   'LC_PAPER' => 
   array (
@@ -81,7 +73,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '48',
   ),
   'LC_TIME' => 
@@ -117,9 +109,9 @@
     array (
       0 => 'stë',
       1 => 0,
-      2 => 'stm',
+      2 => 'str',
       3 => 0,
-      4 => 'môj',
+      4 => 'maj',
       5 => 0,
       6 => 'lëp',
       7 => 0,
@@ -130,18 +122,18 @@
     ),
     'mon' => 
     array (
-      0 => 'stëcznik',
-      1 => 'gromicznik',
-      2 => 'strumiannik',
-      3 => 'łżëkwiôt',
-      4 => 'môj',
-      5 => 'czerwińc',
-      6 => 'lëpinc',
-      7 => 'zélnik',
-      8 => 'séwnik',
-      9 => 'rujan',
-      10 => 'lëstopadnik',
-      11 => 'gòdnik',
+      0 => 'stëcznika',
+      1 => 'gromicznika',
+      2 => 'strëmiannika',
+      3 => 'łżëkwiata',
+      4 => 'maja',
+      5 => 'czerwińca',
+      6 => 'lëpińca',
+      7 => 'zélnika',
+      8 => 'séwnika',
+      9 => 'rujana',
+      10 => 'lëstopadnika',
+      11 => 'gòdnika',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
     'd_fmt' => '%Y-%m-%d',
@@ -162,5 +154,35 @@
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
+    'ab_alt_mon' => 
+    array (
+      0 => 'stë',
+      1 => 0,
+      2 => 'str',
+      3 => 0,
+      4 => 'môj',
+      5 => 0,
+      6 => 'lëp',
+      7 => 0,
+      8 => 'séw',
+      9 => 0,
+      10 => 'lës',
+      11 => 0,
+    ),
+    'alt_mon' => 
+    array (
+      0 => 'stëcznik',
+      1 => 'gromicznik',
+      2 => 'strëmiannik',
+      3 => 'łżëkwiat',
+      4 => 'môj',
+      5 => 'czerwińc',
+      6 => 'lëpińc',
+      7 => 'zélnik',
+      8 => 'séwnik',
+      9 => 'rujan',
+      10 => 'lëstopadnik',
+      11 => 'gòdnik',
+    ),
   ),
 );

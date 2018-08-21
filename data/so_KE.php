@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '%c-%a-%l',
     'tel_dom_fmt' => '%a-%l',
-    'int_select' => NULL,
+    'int_select' => '000',
     'int_prefix' => '254',
   ),
   'LC_TIME' => 
@@ -89,7 +89,7 @@
     'date_fmt' => '%A, %B %e, %r %Z %Y',
     'abday' => 
     array (
-      0 => 'Axa',
+      0 => 'Axd',
       1 => 'Isn',
       2 => 'Sal',
       3 => 'Arb',
@@ -144,7 +144,7 @@
       11 => 'Bisha Laba iyo Tobnaad',
     ),
     'd_t_fmt' => '%A, %B %e, %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (

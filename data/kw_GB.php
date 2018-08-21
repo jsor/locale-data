@@ -9,7 +9,7 @@
     'country_num' => 826,
     'country_car' => 'GB',
     'country_isbn' => NULL,
-    'lang_name' => 'Kernowek',
+    'lang_name' => 'kernewek',
     'lang_ab' => 'kw',
     'lang_term' => 'cor',
     'lang_lib' => 'cor',
@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1eEyY]',
     'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'ea',
+    'nostr' => 'na',
   ),
   'LC_MONETARY' => 
   array (
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '44',
   ),
   'LC_TIME' => 
@@ -116,11 +116,11 @@
     'abmon' => 
     array (
       0 => 'Gen',
-      1 => 'Whe>',
-      2 => 'Mer',
+      1 => 'Hwe',
+      2 => 'Meu',
       3 => 'Ebr',
       4 => 'Me',
-      5 => 'Evn',
+      5 => 'Met',
       6 => 'Gor',
       7 => 'Est',
       8 => 'Gwn',
@@ -130,21 +130,21 @@
     ),
     'mon' => 
     array (
-      0 => 'Mys Genver',
-      1 => 'Mys Whevrel',
-      2 => 'Mys Merth',
-      3 => 'Mys Ebrel',
-      4 => 'Mys Me',
-      5 => 'Mys Evan',
-      6 => 'Mys Gortheren',
-      7 => 'Mye Est',
-      8 => 'Mys Gwyngala',
-      9 => 'Mys Hedra',
-      10 => 'Mys Du',
-      11 => 'Mys Kevardhu',
+      0 => 'mis Genver',
+      1 => 'mis Hwevrer',
+      2 => 'mis Meurth',
+      3 => 'mis Ebrel',
+      4 => 'mis Me',
+      5 => 'mis Metheven',
+      6 => 'mis Gortheren',
+      7 => 'mis Est',
+      8 => 'mis Gwynngala',
+      9 => 'mis Hedra',
+      10 => 'mis Du',
+      11 => 'mis Kevardhu',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

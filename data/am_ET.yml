@@ -7,17 +7,17 @@ LC_ADDRESS:
     country_num: 231
     country_car: ETH
     country_isbn: null
-    lang_name: አማርኛ
+    lang_name: 'አማርኛ'
     lang_ab: am
     lang_term: amh
     lang_lib: amh
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: አዎን
-    nostr: አይ
+    yesexpr: '^([+1yYዎ]|አዎን)'
+    noexpr: '^([-0nNይ]|አይ)'
+    yesstr: 'አዎን'
+    nostr: 'አይ'
 LC_MONETARY:
     currency_symbol: Br
     mon_decimal_point: .
@@ -43,7 +43,7 @@ LC_MONETARY:
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: ''
-    name_mr: አቶ
+    name_mr: 'አቶ'
     name_mrs: ወ/ሮ
     name_miss: ወ/ሪት
     name_ms: ወ/ሪት
@@ -60,14 +60,14 @@ LC_TELEPHONE:
     int_select: '00'
     int_prefix: '251'
 LC_TIME:
-    date_fmt: '%A፣ %B %e ቀን %r %Z %Y ዓ/ም'
-    abday: [እሑድ, 'ሰኞ ', ማክሰ, ረቡዕ, ሐሙስ, ዓርብ, ቅዳሜ]
-    day: [እሑድ, ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, ዓርብ, ቅዳሜ]
+    date_fmt: '%A፣ %B %e ቀን %r %Z %Y ዓ//ም'
+    abday: [እሑድ, 'ሰኞ ', ማክሰ, ረቡዕ, ሐሙስ, ዓርብ, 'ቅዳሜ']
+    day: [እሑድ, ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, ዓርብ, 'ቅዳሜ']
     week: [7, 19971130, 1]
     abmon: [ጃንዩ, ፌብሩ, ማርች, ኤፕረ, 'ሜይ ', 'ጁን ', ጁላይ, ኦገስ, ሴፕቴ, ኦክተ, ኖቬም, ዲሴም]
-    mon: [ጃንዩወሪ, ፌብሩወሪ, ማርች, ኤፕረል, ሜይ, ጁን, ጁላይ, ኦገስት, ሴፕቴምበር, ኦክተውበር, ኖቬምበር, ዲሴምበር]
+    mon: [ጃንዩወሪ, ፌብሩወሪ, ማርች, ኤፕሪል, ሜይ, ጁን, ጁላይ, ኦገስት, 'ሴፕቴምበር', 'ኦክቶበር', 'ኖቬምበር', 'ዲሴምበር']
     d_t_fmt: '%A፣ %B %e ቀን %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: [ጡዋት, ከሰዓት]
     t_fmt_ampm: '%X %p'

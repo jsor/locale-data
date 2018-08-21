@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -88,13 +88,13 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "Son",
-                "Mon",
-                "Die",
-                "Mit",
-                "Don",
-                "Fre",
-                "Sam"
+                "So",
+                "Mo",
+                "Di",
+                "Mi",
+                "Do",
+                "Fr",
+                "Sa"
             ],
             "day": [
                 "Sonntag",

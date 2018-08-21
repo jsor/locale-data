@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Aotearoa',
     'country_post' => NULL,
     'country_ab2' => 'NZ',
     'country_ab3' => 'NZL',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '64',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'Hakihea',
     ),
     'd_t_fmt' => 'Te %A, te %d o %B, %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

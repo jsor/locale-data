@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Pilipinas',
     'country_post' => NULL,
     'country_ab2' => 'PH',
     'country_ab3' => 'PHL',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => 'yes',
-    'nostr' => 'no',
+    'yesexpr' => '^[+1oOyY]',
+    'noexpr' => '^[-0hHnN]',
+    'yesstr' => 'oo',
+    'nostr' => 'hindi',
   ),
   'LC_MONETARY' => 
   array (
@@ -79,9 +79,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '63',
   ),
   'LC_TIME' => 
@@ -144,7 +149,7 @@
       11 => 'Disyembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%m/%d/%y',
+    'd_fmt' => '%m//%d//%y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ТтYy]',
-    'noexpr' => '^[-0УуNn]',
+    'yesexpr' => '^[+1yYТт]',
+    'noexpr' => '^[-0nNУу]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '₽',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,

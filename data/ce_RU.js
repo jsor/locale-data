@@ -19,7 +19,7 @@
             "country_num": 643,
             "country_car": "RUS",
             "country_isbn": null,
-            "lang_name": "\u043d\u043e\u0445\u0447\u0438\u0439\u043d \u043c\u043e\u0442\u0442",
+            "lang_name": "\u043d\u043e\u0445\u0447\u0438\u0439\u043d",
             "lang_ab": "ce",
             "lang_term": "che",
             "lang_lib": null
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0414\u0434Yy]",
-            "noexpr": "^[-0\u041c\u043cNn]",
+            "yesexpr": "^[+1yY\u0414\u0434]",
+            "noexpr": "^[-0nN\u041c\u043c]",
             "yesstr": null,
             "nostr": null
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20bd",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": "\u00a0",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "\u00a0",
+            "thousands_sep": "\u202f",
             "grouping": [
                 3,
                 3
@@ -88,22 +88,22 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "\u041aI",
+                "\u041a\u04c0",
                 "\u041e\u0440",
-                "\u0428\u0438 ",
-                "\u041a\u0445 ",
-                "\u0415\u0430 ",
-                "\u041fI ",
+                "\u0428\u0438",
+                "\u041a\u0445",
+                "\u0415\u0430",
+                "\u041f\u04c0",
                 "\u0428\u043e"
             ],
             "day": [
-                "\u041aI\u0438\u0440\u0430\u043d\u0434\u0435 ",
-                "\u041e\u0440\u0448\u043e\u0442\u0434\u0435 ",
-                "\u0428\u0438\u043d\u0430\u0440\u0438\u0434\u0435 ",
-                "\u041a\u0445\u0430\u0430\u0440\u0438\u0434\u0435 ",
-                "\u0415\u0430\u0440\u0438\u0434\u0435 ",
-                "\u041fI\u0435\u0440\u0430\u0441\u043a\u0430\u0434\u0435",
-                "\u0428\u043e\u0442\u0434\u0435"
+                "\u041a\u04c0\u0438\u0440\u0430\u043d\u0430\u043d \u0434\u0435",
+                "\u041e\u0440\u0448\u043e\u0442\u0430\u043d \u0434\u0435",
+                "\u0428\u0438\u043d\u0430\u0440\u0438\u043d \u0434\u0435",
+                "\u041a\u0445\u0430\u0430\u0440\u0438\u043d \u0434\u0435",
+                "\u0415\u0430\u0440\u0438\u043d \u0434\u0435",
+                "\u041f\u04c0\u0435\u0440\u0430\u0441\u043a\u0430\u043d \u0434\u0435",
+                "\u0428\u043e\u0442 \u0434\u0435"
             ],
             "week": [
                 7,

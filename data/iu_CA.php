@@ -2,8 +2,8 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => NULL,
-    'country_post' => NULL,
+    'country_name' => 'ᑲᓇᑕ',
+    'country_post' => 'CA',
     'country_ab2' => 'CA',
     'country_ab3' => 'CAN',
     'country_num' => 124,
@@ -144,7 +144,7 @@
       11 => 'ᑎᓯᕝᕙ',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%m/%d/%y',
+    'd_fmt' => '%m//%d//%y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

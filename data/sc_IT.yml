@@ -1,12 +1,12 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: 'Itàlia'
     country_post: null
     country_ab2: IT
     country_ab3: ITA
     country_num: 380
     country_car: I
-    country_isbn: null
+    country_isbn: '978-88,979-12'
     lang_name: Sardu
     lang_ab: sc
     lang_term: srd
@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1sSjJoOyY]'
+    yesexpr: '^[+1eEaAsSoOyY]'
     noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesstr: eja
+    nostr: nono
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
@@ -57,15 +57,15 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '39'
 LC_TIME:
-    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Dom, Lun, Mar, Mèr, Jòb, Cen, Sàb]
-    day: [Domìngu, Lunis, Martis, Mèrcuris, Jòbia, Cenàbara, Sàbadu]
+    date_fmt: '%a %e %b %Y %H:%M:%S %Z'
+    abday: [Dom, Lun, Mar, Mèr, Giò, Che, 'Sàb']
+    day: [Domìnigu, Lunis, Martis, Mèrcuris, Giòbia, 'Chenàbura', 'Sàbadu']
     week: [7, 19971130, 4]
-    abmon: [Gen, Fri, Mar, Abr, May, Làm, Arj, Aus, Cab, Lad, Don, Ida]
-    mon: [Gennarju, Friarju, Martzu, Abrili, Mayu, Làmpadas, Arjolas, Austu, Cabudanni, Ladàmini, Donnyasantu, Idas]
+    abmon: [Ghe, Fre, Mar, Abr, Maj, 'Làm', Arg, Aus, Cab, Lad, Onn, Nad]
+    mon: ['Ghennàrgiu', 'Freàrgiu', Martzu, Abrile, Maju, 'Làmpadas', Argiolas//Trìulas, Austu, Cabudanni, 'Santugaine//Ladàmine', Onniasantu//Santandria, Nadale//Idas]
     d_t_fmt: '%a %d %b %Y %T %Z'
     d_fmt: '%d. %m. %y'
     t_fmt: '%T'

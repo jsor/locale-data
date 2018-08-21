@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: Ar
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -64,8 +64,8 @@ LC_TIME:
     abday: [lhd, lts, tlt, lrb, lkm, zom, sab]
     day: [alahady, alatsinainy, talata, alarobia, alakamisy, zoma, sabotsy]
     week: [7, 19971130, 1]
-    abmon: [jan, feb, mar, apr, mey, jon, jol, aog, sep, okt, nov, des]
-    mon: [janoary, febroary, martsa, aprily, mey, jona, jolay, aogositra, septambra, oktobra, novambra, desambra]
+    abmon: [Jan, Feb, Mar, Apr, Mey, Jon, Jol, Aog, Sep, Okt, Nov, Des]
+    mon: [Janoary, Febroary, Martsa, Aprily, Mey, Jona, Jolay, Aogositra, Septambra, Oktobra, Novambra, Desambra]
     d_t_fmt: '%a %d %b %Y %T %Z'
     d_fmt: '%d.%m.%Y'
     t_fmt: '%T'

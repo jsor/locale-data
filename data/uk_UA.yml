@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: 'грн." % hr (hryvnya)'
     mon_decimal_point: ','
-    mon_thousands_sep: "\_\" % \nbsp (0xA0)"
+    mon_thousands_sep: " \" % \nnbsp (0X202F)"
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: 'пані" % pani'
 LC_NUMERIC:
     decimal_point: '," % see LC_MONETARY:mon_decimal_pint'
-    thousands_sep: "\_\" % \nbsp (0xA0)"
+    thousands_sep: " \" % \nnbsp (0X202F)"
     grouping: [3, 3]
 LC_PAPER:
     height: 297
@@ -60,12 +60,12 @@ LC_TELEPHONE:
     int_select: 8~10
     int_prefix: '380'
 LC_TIME:
-    date_fmt: '%A, %-d %Om %Y %X %z'
+    date_fmt: '%A, %-d %B %Y %X %z'
     abday: [нд, 0, 0, 0, 0, 0, 0]
     day: [неділя, 0, 0, 0, 0, 0, 0]
     week: [7, 19971130, 1]
     abmon: [січ, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    mon: [січень, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    mon: [січня, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     d_t_fmt: '%a, %d-%b-%Y %X %z'
     d_fmt: '%d.%m.%y'
     t_fmt: '%T'
@@ -76,8 +76,9 @@ LC_TIME:
     era_d_t_fmt: null
     era_d_fmt: null
     era_t_fmt: null
-    alt_digits: ['0', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    alt_digits: null
     first_weekday: 2
     first_workday: null
     cal_direction: 2
     timezone: null
+    alt_mon: [січень, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

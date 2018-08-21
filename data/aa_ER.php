@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1yY]',
     'noexpr' => '^[-0mnMN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yeey',
+    'nostr' => 'Maleey',
   ),
   'LC_MONETARY' => 
   array (
@@ -144,7 +144,7 @@
       11 => 'Kaxxa Garablu',
     ),
     'd_t_fmt' => '%A, %B %e, %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (

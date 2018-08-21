@@ -20,7 +20,7 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yYkKxXხ]',
+    'yesexpr' => '^[+1yYkKxXკ]',
     'noexpr' => '^[-0nNaAა]',
     'yesstr' => 'კი',
     'nostr' => 'არა',
@@ -144,7 +144,7 @@
       11 => 'დეკემბერი',
     ),
     'd_t_fmt' => '%Y წლის %d %B, %T %Z',
-    'd_fmt' => '%m/%d/%Y',
+    'd_fmt' => '%m//%d//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

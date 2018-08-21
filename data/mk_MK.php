@@ -9,7 +9,7 @@
     'country_num' => 807,
     'country_car' => 'MK',
     'country_isbn' => '9989',
-    'lang_name' => 'македонск/и јазик',
+    'lang_name' => 'македонски',
     'lang_ab' => 'mk',
     'lang_term' => 'mkd',
     'lang_lib' => 'mac',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ДдDdYy]',
-    'noexpr' => '^[-0НнNn]',
+    'yesexpr' => '^[+1yYДдdD]',
+    'noexpr' => '^[-0nNНн]',
     'yesstr' => 'да',
     'nostr' => 'не',
   ),
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'ден',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,

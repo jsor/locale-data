@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1eEyY]',
+    'noexpr' => '^[-0mMnN]',
+    'yesstr' => 'eeyyee',
+    'nostr' => 'miti',
   ),
   'LC_MONETARY' => 
   array (
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '%c-%a-%l',
     'tel_dom_fmt' => '%a-%l',
-    'int_select' => NULL,
+    'int_select' => '000',
     'int_prefix' => '254',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'Muddee',
     ),
     'd_t_fmt' => '%A, %B %e, %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (

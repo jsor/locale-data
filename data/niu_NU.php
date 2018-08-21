@@ -20,7 +20,7 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ēĒyY]',
+    'yesexpr' => '^[+1yYēĒ]',
     'noexpr' => '^[-0nN]',
     'yesstr' => 'Talia',
     'nostr' => 'Nakai',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '683',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'Tesemo',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

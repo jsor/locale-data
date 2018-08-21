@@ -8,7 +8,7 @@
         "country_num": 68,
         "country_car": "BOL",
         "country_isbn": null,
-        "lang_name": "Espa\u00f1ol",
+        "lang_name": "espa\u00f1ol",
         "lang_ab": "es",
         "lang_term": "spa",
         "lang_lib": "spa"
@@ -65,8 +65,8 @@
         ]
     },
     "LC_PAPER": {
-        "height": 297,
-        "width": 210
+        "height": 279,
+        "width": 216
     },
     "LC_TELEPHONE": {
         "tel_int_fmt": "+%c %a %l",
@@ -128,7 +128,7 @@
             "diciembre"
         ],
         "d_t_fmt": "%a %d %b %Y %T %Z",
-        "d_fmt": "%d\/%m\/%y",
+        "d_fmt": "%d\/\/%m\/\/%y",
         "t_fmt": "%T",
         "am_pm": [
             "",

@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'g',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
@@ -61,7 +61,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 3,
   ),
   'LC_PAPER' => 
@@ -82,7 +82,7 @@
     'abday' => 
     array (
       0 => 'dim',
-      1 => 'len ',
+      1 => 'len',
       2 => 'mad',
       3 => 'mèk',
       4 => 'jed',
@@ -92,7 +92,7 @@
     'day' => 
     array (
       0 => 'dimanch',
-      1 => 'lendi ',
+      1 => 'lendi',
       2 => 'madi',
       3 => 'mèkredi',
       4 => 'jedi',
@@ -136,7 +136,7 @@
       11 => 'desanm',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

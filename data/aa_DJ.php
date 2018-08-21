@@ -22,14 +22,14 @@
   array (
     'yesexpr' => '^[+1yY]',
     'noexpr' => '^[-0mnMN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'Yeey',
+    'nostr' => 'Maleey',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => 'Fdj',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

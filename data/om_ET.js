@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]",
-            "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1eEyY]",
+            "noexpr": "^[-0mMnN]",
+            "yesstr": "eeyyee",
+            "nostr": "miti"
         },
         "LC_MONETARY": {
             "currency_symbol": "Br",
@@ -139,7 +139,7 @@
                 "Muddee"
             ],
             "d_t_fmt": "%A, %B %e, %Y %r %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%l:%M:%S",
             "am_pm": [
                 "WD",

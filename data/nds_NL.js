@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Nedderlannen",
             "country_post": null,
             "country_ab2": "NL",
             "country_ab3": "NLD",
@@ -30,13 +30,13 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1jJyY]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "jo",
+            "nostr": "nee"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "31"
         },
         "LC_TIME": {

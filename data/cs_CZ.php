@@ -9,7 +9,7 @@
     'country_num' => 203,
     'country_car' => 'CZ',
     'country_isbn' => NULL,
-    'lang_name' => 'Čeština',
+    'lang_name' => 'čeština',
     'lang_ab' => 'cs',
     'lang_term' => 'ces',
     'lang_lib' => 'cze',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'Kč',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -130,18 +130,18 @@
     ),
     'mon' => 
     array (
-      0 => 'leden',
-      1 => 'únor',
-      2 => 'březen',
-      3 => 'duben',
-      4 => 'květen',
-      5 => 'červen',
-      6 => 'červenec',
-      7 => 'srpen',
+      0 => 'ledna',
+      1 => 'února',
+      2 => 'března',
+      3 => 'dubna',
+      4 => 'května',
+      5 => 'června',
+      6 => 'července',
+      7 => 'srpna',
       8 => 'září',
-      9 => 'říjen',
-      10 => 'listopad',
-      11 => 'prosinec',
+      9 => 'října',
+      10 => 'listopadu',
+      11 => 'prosince',
     ),
     'd_t_fmt' => '%a %-d. %B %Y, %H:%M:%S %Z',
     'd_fmt' => '%-d.%-m.%Y',
@@ -162,5 +162,20 @@
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
+    'alt_mon' => 
+    array (
+      0 => 'leden',
+      1 => 'únor',
+      2 => 'březen',
+      3 => 'duben',
+      4 => 'květen',
+      5 => 'červen',
+      6 => 'červenec',
+      7 => 'srpen',
+      8 => 'září',
+      9 => 'říjen',
+      10 => 'listopad',
+      11 => 'prosinec',
+    ),
   ),
 );

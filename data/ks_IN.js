@@ -19,7 +19,7 @@
             "country_num": 356,
             "country_car": "IND",
             "country_isbn": null,
-            "lang_name": "k\u1ea1\u0304\u0161ur",
+            "lang_name": "\u06a9\u0672\u0634\u064f\u0631",
             "lang_ab": "ks",
             "lang_term": "kas",
             "lang_lib": "kas"
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0622yY]",
-            "noexpr": "^[-0\u0646nN]",
+            "yesexpr": "^[+1yY\u0622]",
+            "noexpr": "^[-0nN\u0646]",
             "yesstr": "\u0622",
             "nostr": "\u0646\u0639"
         },
@@ -37,14 +37,17 @@
             "currency_symbol": "\u20b9",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
-            "mon_grouping": 3,
+            "mon_grouping": [
+                3,
+                2
+            ],
             "positive_sign": "",
             "negative_sign": "-",
             "frac_digits": 2,
             "p_cs_precedes": 1,
-            "p_sep_by_space": 1,
+            "p_sep_by_space": 0,
             "n_cs_precedes": 1,
-            "n_sep_by_space": 1,
+            "n_sep_by_space": 0,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
             "int_curr_symbol": "INR ",
@@ -74,7 +77,11 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
             "int_select": "00",
             "int_prefix": "91"
@@ -105,32 +112,32 @@
                 1
             ],
             "abmon": [
-                "\u062c\u0646\u0648\u0631\u06cc",
-                "\u0641\u0631\u0648\u0631\u06cc",
-                "\u0645\u0627\u0631\u0686",
+                "\u062c\u0646\u0624\u0631\u06cc",
+                "\u0641\u0631\u0624\u0631\u06cc",
+                "\u0645\u0627\u0631\u0655\u0686",
                 "\u0627\u067e\u0631\u06cc\u0644",
-                "\u0645\u0626",
-                "\u062c\u0648\u0646",
-                "\u062c\u064f\u0644\u0626",
+                "\u0645\u06cc\u0654",
+                "\u062c\u0648\u0657\u0646",
+                "\u062c\u0648\u0657\u0644\u0627\u06cc\u06cc",
                 "\u0627\u06af\u0633\u062a",
-                "\u0633\u062a\u0646\u0628\u0631",
-                "\u0627\u06a9\u062a\u0648\u0628\u0631",
-                "\u0646\u0648\u06ba\u0628\u0631",
-                "\u062f\u0633\u0646\u0628\u0631"
+                "\u0633\u062a\u0645\u0628\u0631",
+                "\u0627\u06a9\u062a\u0648\u0657\u0628\u0631",
+                "\u0646\u0648\u0645\u0628\u0631",
+                "\u062f\u0633\u0645\u0628\u0631"
             ],
             "mon": [
-                "\u062c\u0646\u0648\u0631\u06cc",
-                "\u0641\u0631\u0648\u0631\u06cc",
-                "\u0645\u0627\u0631\u0686",
+                "\u062c\u0646\u0624\u0631\u06cc",
+                "\u0641\u0631\u0624\u0631\u06cc",
+                "\u0645\u0627\u0631\u0655\u0686",
                 "\u0627\u067e\u0631\u06cc\u0644",
-                "\u0645\u0626",
-                "\u062c\u0648\u0646",
-                "\u062c\u064f\u0644\u0626",
+                "\u0645\u06cc\u0654",
+                "\u062c\u0648\u0657\u0646",
+                "\u062c\u0648\u0657\u0644\u0627\u06cc\u06cc",
                 "\u0627\u06af\u0633\u062a",
-                "\u0633\u062a\u0646\u0628\u0631",
-                "\u0627\u06a9\u062a\u0648\u0628\u0631",
-                "\u0646\u0648\u06ba\u0628\u0631",
-                "\u062f\u0633\u0646\u0628\u0631"
+                "\u0633\u062a\u0645\u0628\u0631",
+                "\u0627\u06a9\u062a\u0648\u0657\u0628\u0631",
+                "\u0646\u0648\u0645\u0628\u0631",
+                "\u062f\u0633\u0645\u0628\u0631"
             ],
             "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
             "d_fmt": "%A %d %b %Y",

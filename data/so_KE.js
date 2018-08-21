@@ -82,13 +82,13 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "%c-%a-%l",
             "tel_dom_fmt": "%a-%l",
-            "int_select": null,
+            "int_select": "000",
             "int_prefix": "254"
         },
         "LC_TIME": {
             "date_fmt": "%A, %B %e, %r %Z %Y",
             "abday": [
-                "Axa",
+                "Axd",
                 "Isn",
                 "Sal",
                 "Arb",
@@ -139,7 +139,7 @@
                 "Bisha Laba iyo Tobnaad"
             ],
             "d_t_fmt": "%A, %B %e, %Y %r %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%l:%M:%S",
             "am_pm": [
                 "subaxnimo",

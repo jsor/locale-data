@@ -57,7 +57,7 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '41'
 LC_TIME:
     date_fmt: '%a %-d %b %H:%M:%S %Z %Y'
@@ -65,7 +65,7 @@ LC_TIME:
     day: [Suntag, Mäntag, Zischtag, Mittwuch, Frontag, Fritag, Samschtag]
     week: [7, 19971130, 4]
     abmon: [Jen, Hor, Mär, Abr, Mei, Brá, Hei, Öig, Her, Wím, Win, Chr]
-    mon: [Jener, Hornig, Märze, Abrille, Meije, Bráchet, Heiwet, Öigschte, Herbschtmánet, Wímánet, Wintermánet, Chrischtmánet]
+    mon: [Jenner, Hornig, Märze, Abrille, Meije, Bráčet, Heiwet, Öigšte, Herbštmánet, Wímánet, Wintermánet, Chrištmánet]
     d_t_fmt: '%a %d. %b %Y %T %Z'
     d_fmt: '%Y-%m-%d'
     t_fmt: '%T'

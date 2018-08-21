@@ -6,8 +6,8 @@ LC_ADDRESS:
     country_ab3: ITA
     country_num: 380
     country_car: I
-    country_isbn: null
-    lang_name: Furlan
+    country_isbn: '978-88,979-12'
+    lang_name: furlan
     lang_ab: null
     lang_term: fur
     lang_lib: null
@@ -57,15 +57,15 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '39'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Dom, Lun, Mar, Mia, Joi, Vin, Sab]
-    day: [Domenie, Lunis, Martars, Miarcus, Joibe, Vinars, Sabide]
+    abday: [Dom, Lun, Mar, Mie, Joi, Vin, Sab]
+    day: [Domenie, Lunis, Martars, Miercus, Joibe, Vinars, Sabide]
     week: [7, 19971130, 4]
-    abmon: [Zen, Fev, Mar, Avr, Mai, Jug, Lui, Avo, Set, Otu, Nov, Dec]
-    mon: [Zenâr, Fevrâr, Març, Avrîl, Mai, Jugn, Lui, Avost, Setembar, Otubar, Novembar, Decembar]
+    abmon: [Zen, Fev, Mar, Avr, Mai, Jug, Lui, Avo, Set, Otu, Nov, Dic]
+    mon: [Zenâr, Fevrâr, Març, Avrîl, Mai, Jugn, Lui, Avost, Setembar, Otubar, Novembar, Dicembar]
     d_t_fmt: '%a %d %b %Y %T %Z'
     d_fmt: '%d. %m. %y'
     t_fmt: '%T'

@@ -1,14 +1,14 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
+        "country_name": "Bie\u0142aru\u015b",
         "country_post": null,
         "country_ab2": "BY",
         "country_ab3": "BLR",
         "country_num": 112,
         "country_car": "BY",
         "country_isbn": null,
-        "lang_name": "byelaruskaya mova",
+        "lang_name": "bie\u0142aruskaja mova",
         "lang_ab": "be",
         "lang_term": "bel",
         "lang_lib": "bel"
@@ -25,7 +25,7 @@
     "LC_MONETARY": {
         "currency_symbol": "Rub",
         "mon_decimal_point": ".",
-        "mon_thousands_sep": " ",
+        "mon_thousands_sep": "\u202f",
         "mon_grouping": [
             3,
             3
@@ -104,7 +104,7 @@
             "Lut",
             "Sak",
             "Kra",
-            "Tra",
+            "Maj",
             "\u010cer",
             "Lip",
             "\u017dni",
@@ -114,18 +114,18 @@
             "\u015ani"
         ],
         "mon": [
-            "Studzie\u0144",
-            "Luty",
-            "Sakavik",
-            "Krasavik",
-            "Travie\u0144",
-            "\u010cervie\u0144",
-            "Lipie\u0144",
-            "\u017dnivie\u0144",
-            "Vierasie\u0144",
-            "Kastry\u010dnik",
-            "Listapad",
-            "\u015anie\u017ea\u0144"
+            "studzienia",
+            "lutaha",
+            "sakavika",
+            "krasavika",
+            "maja",
+            "\u010dervienia",
+            "lipienia",
+            "\u017eni\u016dnia",
+            "viera\u015bnia",
+            "kastry\u010dnika",
+            "listapada",
+            "\u015bnie\u017enia"
         ],
         "d_t_fmt": "%a %d %b %Y %T",
         "d_fmt": "%d.%m.%Y",
@@ -144,6 +144,20 @@
         "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
-        "timezone": null
+        "timezone": null,
+        "alt_mon": [
+            "Studzie\u0144",
+            "Luty",
+            "Sakavik",
+            "Krasavik",
+            "Maj",
+            "\u010cervie\u0144",
+            "Lipie\u0144",
+            "\u017dnivie\u0144",
+            "Vierasie\u0144",
+            "Kastry\u010dnik",
+            "Listapad",
+            "\u015anie\u017ea\u0144"
+        ]
     }
 }

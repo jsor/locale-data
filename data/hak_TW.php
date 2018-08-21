@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY係]',
-    'noexpr' => '^[-0nN毋]',
+    'yesexpr' => '^[+1yYｙＹ係]',
+    'noexpr' => '^[-0nNｎＮ毋]',
     'yesstr' => NULL,
     'nostr' => NULL,
   ),

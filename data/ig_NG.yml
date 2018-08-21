@@ -64,10 +64,10 @@ LC_TIME:
     abday: [sọn, mọn, tuz, wen, tọs, fra, sat]
     day: [sọnde, mọnde, tuzde, wenzde, tọsde, fraịde, satọde]
     week: [7, 19971130, 1]
-    abmon: [jen, feb, maa, epr, mee, juu, jul, ọgọ, sep, ọkt, nọv, dis]
-    mon: [jenụwarị, febụrụwarị, maachị, epreel, mee, juun, julaị, ọgọstụ, septemba, ọktoba, nọvemba, disemba]
+    abmon: [Jen, Feb, Maa, Epr, Mee, Juu, Jul, Ọgọ, Sep, Ọkt, Nov, Dis]
+    mon: [Jenụwarị, Febrụwarị, Maachị, Eprel, Mee, Juun, Julaị, Ọgọọst, Septemba, Ọktoba, Novemba, Disemba]
     d_t_fmt: '%A, %d %B %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%r'
     am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'

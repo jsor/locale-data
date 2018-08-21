@@ -19,7 +19,7 @@
             "country_num": 756,
             "country_car": "CH",
             "country_isbn": null,
-            "lang_name": "Fran\u00e7ais",
+            "lang_name": "fran\u00e7ais",
             "lang_ab": "fr",
             "lang_term": "fra",
             "lang_lib": "fre"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "41"
         },
         "LC_TIME": {

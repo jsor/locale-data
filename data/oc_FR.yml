@@ -1,12 +1,12 @@
 LC_ADDRESS:
     postal_fmt: '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N'
-    country_name: null
+    country_name: França
     country_post: F
     country_ab2: FR
     country_ab3: FRA
     country_num: 250
     country_car: F
-    country_isbn: '2'
+    country_isbn: 979-10
     lang_name: Occitan
     lang_ab: oc
     lang_term: oci
@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
@@ -43,13 +43,13 @@ LC_MONETARY:
 LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: null
-    name_mr: null
-    name_mrs: null
+    name_mr: En
+    name_mrs: Na
     name_miss: null
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: ' '
+    thousands_sep:  
     grouping: 3
 LC_PAPER:
     height: 297
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '33'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [dim, lun, mar, mec, jòu, ven, sab]
-    day: [dimenge, diluns, dimars, dimecres, dijóus, divendres, disabte]
+    abday: [dg., dl., dm., dc., dj., dv., ds.]
+    day: [dimenge, diluns, dimars, dimècres, dijóus, divendres, dissabte]
     week: [7, 19971130, 4]
-    abmon: [gen, feb, mar, abr, mai, jun, jul, ago, set, oct, nov, dec]
-    mon: [genièr, febrièr, març, abrial, mai, junh, julhet, agost, setembre, octobre, novembre, decembre]
+    abmon: [gen., febr., març, abr., mai, junh, jul., ago., set., oct., nov., dec.]
+    mon: ['de genièr', 'de febrièr', 'de març', d’abrial, 'de mai', 'de junh', 'de julhet', d’agost, 'de setembre', d’octòbre, 'de novembre', 'de decembre']
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d.%m.%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''
@@ -81,3 +81,4 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    alt_mon: [genièr, febrièr, març, abrial, mai, junh, julhet, agost, setembre, octòbre, novembre, decembre]

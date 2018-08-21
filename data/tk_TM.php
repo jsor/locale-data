@@ -9,7 +9,7 @@
     'country_num' => 795,
     'country_car' => 'TM',
     'country_isbn' => NULL,
-    'lang_name' => 'Türkmençe',
+    'lang_name' => 'türkmençe',
     'lang_ab' => 'tk',
     'lang_term' => 'tuk',
     'lang_lib' => 'tuk',
@@ -21,22 +21,22 @@
   'LC_MESSAGES' => 
   array (
     'yesexpr' => '^[+1hH]',
-    'noexpr' => '^[-0ýÝnN]',
+    'noexpr' => '^[-0nNýÝ]',
     'yesstr' => 'hawa',
     'nostr' => 'ýok',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'MANAT" % MANAT',
-    'mon_decimal_point' => '."                             % .',
-    'mon_thousands_sep' => ',"                             % ,',
+    'currency_symbol' => 'MANAT',
+    'mon_decimal_point' => '.',
+    'mon_thousands_sep' => ',',
     'mon_grouping' => 
     array (
       0 => 3,
       1 => 3,
     ),
     'positive_sign' => '',
-    'negative_sign' => '-"                             % -',
+    'negative_sign' => '-',
     'frac_digits' => 2,
     'p_cs_precedes' => 0,
     'p_sep_by_space' => 1,
@@ -44,7 +44,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'TMM "        % TMM',
+    'int_curr_symbol' => 'TMM ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -64,8 +64,8 @@
   ),
   'LC_NUMERIC' => 
   array (
-    'decimal_point' => '." % .',
-    'thousands_sep' => '," % ,',
+    'decimal_point' => '.',
+    'thousands_sep' => ',',
     'grouping' => 
     array (
       0 => 3,
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '8 10',
     'int_prefix' => '993',
   ),
   'LC_TIME' => 

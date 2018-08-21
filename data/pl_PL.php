@@ -29,12 +29,8 @@
   array (
     'currency_symbol' => 'zł',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => '.',
-    'mon_grouping' => 
-    array (
-      0 => 3,
-      1 => 3,
-    ),
+    'mon_thousands_sep' => ' ',
+    'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
@@ -65,12 +61,8 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
-    'grouping' => 
-    array (
-      0 => 0,
-      1 => 0,
-    ),
+    'thousands_sep' => ' ',
+    'grouping' => 3,
   ),
   'LC_PAPER' => 
   array (
@@ -81,7 +73,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '48',
   ),
   'LC_TIME' => 
@@ -130,18 +122,18 @@
     ),
     'mon' => 
     array (
-      0 => 'styczeń',
-      1 => 'luty',
-      2 => 'marzec',
-      3 => 'kwiecień',
-      4 => 'maj',
-      5 => 'czerwiec',
-      6 => 'lipiec',
-      7 => 'sierpień',
-      8 => 'wrzesień',
-      9 => 'październik',
-      10 => 'listopad',
-      11 => 'grudzień',
+      0 => 'stycznia',
+      1 => 'lutego',
+      2 => 'marca',
+      3 => 'kwietnia',
+      4 => 'maja',
+      5 => 'czerwca',
+      6 => 'lipca',
+      7 => 'sierpnia',
+      8 => 'września',
+      9 => 'października',
+      10 => 'listopada',
+      11 => 'grudnia',
     ),
     'd_t_fmt' => '%a, %-d %b %Y, %T',
     'd_fmt' => '%d.%m.%Y',
@@ -162,5 +154,20 @@
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
+    'alt_mon' => 
+    array (
+      0 => 'styczeń',
+      1 => 'luty',
+      2 => 'marzec',
+      3 => 'kwiecień',
+      4 => 'maj',
+      5 => 'czerwiec',
+      6 => 'lipiec',
+      7 => 'sierpień',
+      8 => 'wrzesień',
+      9 => 'październik',
+      10 => 'listopad',
+      11 => 'grudzień',
+    ),
   ),
 );

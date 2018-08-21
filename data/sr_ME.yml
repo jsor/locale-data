@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдDdYy]'
-    noexpr: '^[-0НнNn]'
+    yesexpr: '^[+1yYdDДд]'
+    noexpr: '^[-0nNНн]'
     yesstr: да
     nostr: не
 LC_MONETARY:

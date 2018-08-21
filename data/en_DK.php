@@ -20,7 +20,7 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1JjsSyYoO]',
+    'yesexpr' => '^[+1yYjJsSoO]',
     'noexpr' => '^[-0nN]',
     'yesstr' => 'yes',
     'nostr' => 'no',

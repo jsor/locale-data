@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: $
     mon_decimal_point: .
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: .
-    thousands_sep: ' '
+    thousands_sep:  
     grouping: [2, 2, 2, 3]
 LC_PAPER:
     height: 279
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [eni, chk, xam, kwe, tai, nip, lai, win, tah, puk, kun, mux]
     mon: [enikwsi, chkwali, xamokhwite, kwetayoxe, tainipen, kichinipen, lainipen, winaminke, kichitahkok, puksit, wini, muxkotae]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

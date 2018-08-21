@@ -19,7 +19,7 @@
             "country_num": 604,
             "country_car": "PE",
             "country_isbn": null,
-            "lang_name": "Quechua (Cusco) ",
+            "lang_name": "Quechua (Cusco)",
             "lang_ab": null,
             "lang_term": "quz",
             "lang_lib": "quz"
@@ -34,7 +34,7 @@
             "nostr": "Manan"
         },
         "LC_MONETARY": {
-            "currency_symbol": "S\/",
+            "currency_symbol": "S\/\/",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "51"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "tisiyimri"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%I:%M:%S %p",
             "am_pm": [
                 "AM",

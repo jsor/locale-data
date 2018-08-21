@@ -19,7 +19,7 @@
             "country_num": 795,
             "country_car": "TM",
             "country_isbn": null,
-            "lang_name": "T\u00fcrkmen\u00e7e",
+            "lang_name": "t\u00fcrkmen\u00e7e",
             "lang_ab": "tk",
             "lang_term": "tuk",
             "lang_lib": "tuk"
@@ -29,20 +29,20 @@
         },
         "LC_MESSAGES": {
             "yesexpr": "^[+1hH]",
-            "noexpr": "^[-0\u00fd\u00ddnN]",
+            "noexpr": "^[-0nN\u00fd\u00dd]",
             "yesstr": "hawa",
             "nostr": "\u00fdok"
         },
         "LC_MONETARY": {
-            "currency_symbol": "MANAT\" % MANAT",
-            "mon_decimal_point": ".\"                             % .",
-            "mon_thousands_sep": ",\"                             % ,",
+            "currency_symbol": "MANAT",
+            "mon_decimal_point": ".",
+            "mon_thousands_sep": ",",
             "mon_grouping": [
                 3,
                 3
             ],
             "positive_sign": "",
-            "negative_sign": "-\"                             % -",
+            "negative_sign": "-",
             "frac_digits": 2,
             "p_cs_precedes": 0,
             "p_sep_by_space": 1,
@@ -50,7 +50,7 @@
             "n_sep_by_space": 1,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
-            "int_curr_symbol": "TMM \"        % TMM",
+            "int_curr_symbol": "TMM ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
             "int_p_sep_by_space": null,
@@ -68,8 +68,8 @@
             "name_ms": ""
         },
         "LC_NUMERIC": {
-            "decimal_point": ".\" % .",
-            "thousands_sep": ",\" % ,",
+            "decimal_point": ".",
+            "thousands_sep": ",",
             "grouping": [
                 3,
                 3
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "8\u00a010",
             "int_prefix": "993"
         },
         "LC_TIME": {

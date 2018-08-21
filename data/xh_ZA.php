@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Mzantsi Afrika',
+    'country_name' => 'UMzantsi Afrika',
     'country_post' => 'ZA',
     'country_ab2' => 'ZA',
     'country_ab3' => 'ZAF',
@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1yYeE]',
     'noexpr' => '^[-0nNhH]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'ewe',
+    'nostr' => 'hayi',
   ),
   'LC_MONETARY' => 
   array (
@@ -144,7 +144,7 @@
       11 => 'eyoMnga',
     ),
     'd_t_fmt' => '%a %-e %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

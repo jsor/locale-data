@@ -18,8 +18,8 @@
             "country_ab3": "FRA",
             "country_num": 250,
             "country_car": "F",
-            "country_isbn": null,
-            "lang_name": "Brezhoneg",
+            "country_isbn": "979-10",
+            "lang_name": "brezhoneg",
             "lang_ab": "br",
             "lang_term": "bre",
             "lang_lib": "bre"
@@ -29,14 +29,14 @@
         },
         "LC_MESSAGES": {
             "yesexpr": "^[+1oOyY]",
-            "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "noexpr": "^[-0kKnN]",
+            "yesstr": "ya",
+            "nostr": "ket"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": 3,
             "positive_sign": "",
             "negative_sign": "-",
@@ -66,7 +66,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": " ",
+            "thousands_sep": "\u202f",
             "grouping": 3
         },
         "LC_PAPER": {
@@ -94,7 +94,7 @@
                 "sul",
                 "lun",
                 "meurzh",
-                "merc'her",
+                "merc\u02bcher",
                 "yaou",
                 "gwener",
                 "sadorn"
@@ -106,11 +106,11 @@
             ],
             "abmon": [
                 "Gen ",
-                "C'hw",
+                "C\u02bchw",
                 "Meu ",
                 "Ebr ",
                 "Mae ",
-                "Eve ",
+                "Mezh",
                 "Gou ",
                 "Eos ",
                 "Gwe ",
@@ -120,7 +120,7 @@
             ],
             "mon": [
                 "Genver",
-                "C'hwevrer",
+                "C\u02bchwevrer",
                 "Meurzh",
                 "Ebrel",
                 "Mae",
@@ -132,7 +132,7 @@
                 "Du",
                 "Kerzu"
             ],
-            "d_t_fmt": "D'ar %A %d a viz %B %Y",
+            "d_t_fmt": "D\u02bcar %A %d a viz %B %Y",
             "d_fmt": "%d.%m.%Y",
             "t_fmt": "%T",
             "am_pm": [

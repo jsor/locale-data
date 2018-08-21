@@ -13,12 +13,12 @@
         "LC_ADDRESS": {
             "postal_fmt": "%c%N%T%N%s %h %e %r%N%b%N%d%N%f%N%a%N",
             "country_name": "\u4e2d\u83ef\u6c11\u570b",
-            "country_post": null,
+            "country_post": "TW",
             "country_ab2": "TW",
             "country_ab3": "TWN",
             "country_num": 158,
             "country_car": "RC",
-            "country_isbn": "957",
+            "country_isbn": 957,
             "lang_name": "\u4e2d\u6587",
             "lang_ab": "zh",
             "lang_term": "zho",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY\u662f]",
-            "noexpr": "^[-0nN\u4e0d\u5426]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY\uff59\uff39\u662f]",
+            "noexpr": "^[-0nN\uff4e\uff2e\u4e0d\u5426]",
+            "yesstr": "\u662f",
+            "nostr": "\u4e0d\u662f"
         },
         "LC_MONETARY": {
             "currency_symbol": "NT$",
@@ -132,8 +132,8 @@
                 "\u5341\u4e00\u6708",
                 "\u5341\u4e8c\u6708"
             ],
-            "d_t_fmt": "\u897f\u5143%Y\u5e74%m\u6708%d\u65e5 (%A) %H\u6642%M\u5206%S\u79d2",
-            "d_fmt": "\u897f\u5143%Y\u5e74%m\u6708%d\u65e5",
+            "d_t_fmt": "\u897f\u5143%Y\u5e74%m\u6708%d\u65e5 (%A) %H\u6642d_fmt\t\"\u897f\u5143%Y\u5e74%m\u6708%d\u65e5",
+            "d_fmt": "%m\/%d\/%y",
             "t_fmt": "%H\u6642%M\u5206%S\u79d2",
             "am_pm": [
                 "\u4e0a\u5348",

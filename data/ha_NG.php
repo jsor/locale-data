@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1TtiIYy]',
     'noexpr' => '^[-0bBaAnN]',
-    'yesstr' => 'Toh',
-    'nostr' => 'Babu',
+    'yesstr' => 'i',
+    'nostr' => 'aʼa',
   ),
   'LC_MONETARY' => 
   array (
@@ -118,7 +118,7 @@
       0 => 'Jan',
       1 => 'Fab',
       2 => 'Mar',
-      3 => 'Afr',
+      3 => 'Afi',
       4 => 'May',
       5 => 'Yun',
       6 => 'Yul',
@@ -131,9 +131,9 @@
     'mon' => 
     array (
       0 => 'Janairu',
-      1 => 'Fabrairu',
+      1 => 'Faburairu',
       2 => 'Maris',
-      3 => 'Afrilu',
+      3 => 'Afirilu',
       4 => 'Mayu',
       5 => 'Yuni',
       6 => 'Yuli',
@@ -144,7 +144,7 @@
       11 => 'Disamba',
     ),
     'd_t_fmt' => 'ranar %A, %d ga %B cikin %r %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

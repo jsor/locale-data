@@ -2,13 +2,13 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
-    'country_name' => NULL,
-    'country_post' => NULL,
+    'country_name' => 'Kòrsou',
+    'country_post' => 'CW',
     'country_ab2' => 'CW',
     'country_ab3' => 'CUW',
     'country_num' => 531,
     'country_car' => '',
-    'country_isbn' => '',
+    'country_isbn' => '978-99904',
     'lang_name' => 'Papiamento',
     'lang_ab' => NULL,
     'lang_term' => 'pap',
@@ -20,16 +20,16 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1jJyY]',
+    'yesexpr' => '^[+1sSyY]',
     'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'sí',
+    'nostr' => 'nò',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => 'ƒ',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

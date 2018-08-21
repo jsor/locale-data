@@ -7,7 +7,7 @@
         "country_ab3": "HKG",
         "country_num": 344,
         "country_car": "HK",
-        "country_isbn": "962",
+        "country_isbn": 962,
         "lang_name": "\u7cb5\u8a9e",
         "lang_ab": null,
         "lang_term": "yue",
@@ -63,7 +63,11 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c ;%a ;%l",
+        "tel_int_fmt": [
+            "+%c ",
+            0,
+            0
+        ],
         "tel_dom_fmt": null,
         "int_select": "001",
         "int_prefix": "852"
@@ -108,18 +112,18 @@
             "12\u6708"
         ],
         "mon": [
-            "\u4e00\u6708",
-            "\u4e8c\u6708",
-            "\u4e09\u6708",
-            "\u56db\u6708",
-            "\u4e94\u6708",
-            "\u516d\u6708",
-            "\u4e03\u6708",
-            "\u516b\u6708",
-            "\u4e5d\u6708",
-            "\u5341\u6708",
-            "\u5341\u4e00\u6708",
-            "\u5341\u4e8c\u6708"
+            "1\u6708",
+            "2\u6708",
+            "3\u6708",
+            "4\u6708",
+            "5\u6708",
+            "6\u6708",
+            "7\u6708",
+            "8\u6708",
+            "9\u6708",
+            "10\u6708",
+            "11\u6708",
+            "12\u6708"
         ],
         "d_t_fmt": "%Y\u5e74%m\u6708%d\u65e5 %A %H\u9ede%M\u5206%S\u79d2",
         "d_fmt": "%Y\u5e74%m\u6708%d\u65e5 %A",

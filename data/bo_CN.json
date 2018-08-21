@@ -7,8 +7,8 @@
         "country_ab3": "CHN",
         "country_num": 156,
         "country_car": "CHN",
-        "country_isbn": "7",
-        "lang_name": "\u0f54\u0f7c\u0f51\u0f0b\u0f66\u0f90\u0f51\u0f0b",
+        "country_isbn": 7,
+        "lang_name": "\u0f56\u0f7c\u0f51\u0f0b\u0f66\u0f90\u0f51\u0f0b",
         "lang_ab": "bo",
         "lang_term": "bod",
         "lang_lib": "tib"
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u0f68Yy]",
-        "noexpr": "^[-0\u0f58Nn]",
+        "yesexpr": "^[+1yY\u0f68]",
+        "noexpr": "^[-0nN\u0f58]",
         "yesstr": "\u0f61\u0f72\u0f53\u0f0d",
         "nostr": "\u0f58\u0f72\u0f53\u0f0d"
     },

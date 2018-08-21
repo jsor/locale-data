@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: null
+    country_name: Bèlsj
     country_post: B
     country_ab2: BE
     country_ab3: BEL
@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -61,7 +61,7 @@ LC_TELEPHONE:
     int_prefix: '32'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [zón, mao, dae, goo, dón, vri, zo]
+    abday: [zón, mao, dae, goo, dón, vri, zao]
     day: [zóndig, maondig, daensdig, goonsdig, dónderdig, vriedig, zaoterdig]
     week: [7, 19971130, 4]
     abmon: [jan, fib, mie, epr, mei, jun, jul, aug, sep, okt, nov, des]

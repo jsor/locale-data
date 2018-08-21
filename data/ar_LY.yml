@@ -16,7 +16,7 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[+1نyY]'
     noexpr: '^[-0لnN]'
-    yesstr: نعم
+    yesstr: 'نعم'
     nostr: لا
 LC_MONETARY:
     currency_symbol: د.ل.
@@ -55,21 +55,21 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c ;%a ;%l'
+    tel_int_fmt: ['+%c ', 0, 0]
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '218'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ح, ن, ث, ر, خ, ج, س]
-    day: [الأحد, الاثنين, الثلاثاء, الأربعاء, الخميس, الجمعة, السبت]
+    day: [الأحد, الاثنين, الثلاثاء, الأربعاء, 'الخميس', 'الجمعة', السبت]
     week: [7, 19971130, 1]
-    abmon: [ينا, فبر, مار, أبر, ماي, يون, يول, أغس, سبت, أكت, نوف, ديس]
-    mon: [يناير, فبراير, مارس, أبريل, مايو, يونيو, يوليو, أغسطس, سبتمبر, أكتوبر, نوفمبر, ديسمبر]
+    abmon: [ينا, فبر, 'مار', أبر, 'ماي', يون, يول, أغس, سبت, أكت, نوف, ديس]
+    mon: [يناير, فبراير, 'مارس', أبريل, 'مايو', يونيو, يوليو, أغسطس, 'سبتمبر', أكتوبر, 'نوفمبر', 'ديسمبر']
     d_t_fmt: '%d %b, %Y %Z %I:%M:%S %p'
     d_fmt: '%d %b, %Y'
     t_fmt: '%Z %I:%M:%S '
-    am_pm: [ص, م]
+    am_pm: [ص, 'م']
     t_fmt_ampm: '%Z %I:%M:%S %p'
     era: null
     era_year: null

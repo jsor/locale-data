@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: Fdj
     mon_decimal_point: .
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -61,10 +61,10 @@ LC_TELEPHONE:
     int_prefix: '253'
 LC_TIME:
     date_fmt: '%a %b %e %r %Z %Y'
-    abday: [axa, isn, sal, arb, kha, jim, sab]
+    abday: [Axd, Isn, Tal, Arb, Kha, Jim, Sab]
     day: [Axad, Isniin, Salaaso, Arbaco, Khamiis, Jimco, Sabti]
     week: [7, 19971130, 1]
-    abmon: [kob, lab, sad, afr, sha, lix, tod, sid, sag, tob, kit, lit]
+    abmon: [Kob, Lab, Sad, Afr, Sha, Lix, Tod, Sid, Sag, Tob, KIT, LIT]
     mon: ['Bisha Koobaad', 'Bisha Labaad', 'Bisha Saddexaad', 'Bisha Afraad', 'Bisha Shanaad', 'Bisha Lixaad', 'Bisha Todobaad', 'Bisha Sideedaad', 'Bisha Sagaalaad', 'Bisha Tobnaad', 'Bisha Kow iyo Tobnaad', 'Bisha Laba iyo Tobnaad']
     d_t_fmt: '%a %d %b %Y %r %Z'
     d_fmt: '%d.%m.%Y'

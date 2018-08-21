@@ -19,7 +19,7 @@
             "country_num": 858,
             "country_car": "UY",
             "country_isbn": null,
-            "lang_name": "Espa\u00f1ol",
+            "lang_name": "espa\u00f1ol",
             "lang_ab": "es",
             "lang_term": "spa",
             "lang_lib": "spa"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "598"
         },
         "LC_TIME": {
@@ -119,7 +119,7 @@
                 "jun",
                 "jul",
                 "ago",
-                "sep",
+                "set",
                 "oct",
                 "nov",
                 "dic"
@@ -133,13 +133,13 @@
                 "junio",
                 "julio",
                 "agosto",
-                "septiembre",
+                "setiembre",
                 "octubre",
                 "noviembre",
                 "diciembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

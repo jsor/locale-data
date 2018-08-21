@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Kanada',
     'country_post' => NULL,
     'country_ab2' => 'CA',
     'country_ab3' => 'CAN',
@@ -144,7 +144,7 @@
       11 => 'Siqiñġiḷaq',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

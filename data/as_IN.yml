@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 356
     country_car: IND
     country_isbn: null
-    lang_name: অসমীয়া
+    lang_name: 'অসমীয়া'
     lang_ab: as
     lang_term: asm
     lang_lib: asm
@@ -27,19 +27,19 @@ LC_MONETARY:
     negative_sign: '-'
     frac_digits: 2
     p_cs_precedes: 1
-    p_sep_by_space: 1
+    p_sep_by_space: 0
     n_cs_precedes: 1
-    n_sep_by_space: 1
+    n_sep_by_space: 0
     p_sign_posn: 1
     n_sign_posn: 1
     int_curr_symbol: 'INR '
     int_frac_digits: 2
-    int_p_cs_precedes: 1
-    int_p_sep_by_space: 1
-    int_n_cs_precedes: 1
-    int_n_sep_by_space: 1
-    int_p_sign_posn: 1
-    int_n_sign_posn: 1
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
 LC_NAME:
     name_fmt: '%p%t%f%t%g'
     name_gen: ''
@@ -55,7 +55,7 @@ LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
-    tel_int_fmt: '+%c ;%a ;%l'
+    tel_int_fmt: ['+%c ', 0, 0]
     tel_dom_fmt: null
     int_select: '00'
     int_prefix: '91'
@@ -64,12 +64,12 @@ LC_TIME:
     abday: [দেও, সোম, মঙ্গল, বুধ, বৃহষ্পতি, শুক্ৰ, শনি]
     day: [দেওবাৰ, সোমবাৰ, মঙ্গলবাৰ, বুধবাৰ, বৃহষ্পতিবাৰ, শুক্ৰবাৰ, শনিবাৰ]
     week: [7, 19971130, 1]
-    abmon: [জানুৱাৰী, ফেব্ৰুৱাৰী, মাৰ্চ, এপ্ৰিল, মে, জুন, জুলাই, আগ, চেপ্তেম্বৰ, অক্টোবৰ, নভেম্বৰ, ডিচেম্বৰ]
-    mon: [জানুৱাৰী, ফেব্ৰুৱাৰী, মাৰ্চ, এপ্ৰিল, মে, জুন, জুলাই, আগষ্ট, চেপ্তেম্বৰ, অক্টোবৰ, নভেম্বৰ, ডিচেম্বৰ]
+    abmon: [জানু, ফেব্ৰু, মাৰ্চ, এপ্ৰিল, মে, জুন, জুলাই, আগ, সেপ্ট, 'অক্টো', নভে, ডিসে]
+    mon: [জানুৱাৰী, ফেব্ৰুৱাৰী, মাৰ্চ, এপ্ৰিল, মে, জুন, জুলাই, আগষ্ট, ছেপ্তেম্বৰ, 'অক্টোবৰ', নৱেম্বৰ, ডিচেম্বৰ]
     d_t_fmt: '%e %B, %Y %I.%M.%S %p %Z'
     d_fmt: '%e-%m-%Y'
     t_fmt: '%I.%M.%S %p'
-    am_pm: [পূৰ্ব্বাহ্ন, অপৰাহ্ন]
+    am_pm: [পূৰ্ব্বাহ্ন, 'অপৰাহ্ন']
     t_fmt_ampm: '%I.%M.%S %p'
     era: null
     era_year: null

@@ -30,17 +30,14 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1JjTtYy]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "jo",
+            "nostr": "ni\u00e9"
         },
         "LC_MONETARY": {
             "currency_symbol": "z\u0142",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": ".",
-            "mon_grouping": [
-                3,
-                3
-            ],
+            "mon_thousands_sep": "\u202f",
+            "mon_grouping": 3,
             "positive_sign": "",
             "negative_sign": "-",
             "frac_digits": 2,
@@ -69,11 +66,8 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "",
-            "grouping": [
-                0,
-                0
-            ]
+            "thousands_sep": "\u202f",
+            "grouping": 3
         },
         "LC_PAPER": {
             "height": 297,
@@ -82,7 +76,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "48"
         },
         "LC_TIME": {
@@ -113,9 +107,9 @@
             "abmon": [
                 "st\u00eb",
                 0,
-                "stm",
+                "str",
                 0,
-                "m\u00f4j",
+                "maj",
                 0,
                 "l\u00ebp",
                 0,
@@ -125,18 +119,18 @@
                 0
             ],
             "mon": [
-                "st\u00ebcznik",
-                "gromicznik",
-                "strumiannik",
-                "\u0142\u017c\u00ebkwi\u00f4t",
-                "m\u00f4j",
-                "czerwi\u0144c",
-                "l\u00ebpinc",
-                "z\u00e9lnik",
-                "s\u00e9wnik",
-                "rujan",
-                "l\u00ebstopadnik",
-                "g\u00f2dnik"
+                "st\u00ebcznika",
+                "gromicznika",
+                "str\u00ebmiannika",
+                "\u0142\u017c\u00ebkwiata",
+                "maja",
+                "czerwi\u0144ca",
+                "l\u00ebpi\u0144ca",
+                "z\u00e9lnika",
+                "s\u00e9wnika",
+                "rujana",
+                "l\u00ebstopadnika",
+                "g\u00f2dnika"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
             "d_fmt": "%Y-%m-%d",
@@ -155,7 +149,35 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "ab_alt_mon": [
+                "st\u00eb",
+                0,
+                "str",
+                0,
+                "m\u00f4j",
+                0,
+                "l\u00ebp",
+                0,
+                "s\u00e9w",
+                0,
+                "l\u00ebs",
+                0
+            ],
+            "alt_mon": [
+                "st\u00ebcznik",
+                "gromicznik",
+                "str\u00ebmiannik",
+                "\u0142\u017c\u00ebkwiat",
+                "m\u00f4j",
+                "czerwi\u0144c",
+                "l\u00ebpi\u0144c",
+                "z\u00e9lnik",
+                "s\u00e9wnik",
+                "rujan",
+                "l\u00ebstopadnik",
+                "g\u00f2dnik"
+            ]
         }
     };
 }));

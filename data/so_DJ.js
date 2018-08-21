@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "Fdj",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -88,13 +88,13 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %r %Z %Y",
             "abday": [
-                "axa",
-                "isn",
-                "sal",
-                "arb",
-                "kha",
-                "jim",
-                "sab"
+                "Axd",
+                "Isn",
+                "Tal",
+                "Arb",
+                "Kha",
+                "Jim",
+                "Sab"
             ],
             "day": [
                 "Axad",
@@ -111,18 +111,18 @@
                 1
             ],
             "abmon": [
-                "kob",
-                "lab",
-                "sad",
-                "afr",
-                "sha",
-                "lix",
-                "tod",
-                "sid",
-                "sag",
-                "tob",
-                "kit",
-                "lit"
+                "Kob",
+                "Lab",
+                "Sad",
+                "Afr",
+                "Sha",
+                "Lix",
+                "Tod",
+                "Sid",
+                "Sag",
+                "Tob",
+                "KIT",
+                "LIT"
             ],
             "mon": [
                 "Bisha Koobaad",

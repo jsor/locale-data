@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20b4",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "380"
         },
         "LC_TIME": {

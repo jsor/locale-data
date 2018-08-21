@@ -1,7 +1,7 @@
 LC_ADDRESS:
     postal_fmt: '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N'
-    country_name: null
-    country_post: null
+    country_name: ᑲᓇᑕ
+    country_post: CA
     country_ab2: CA
     country_ab3: CAN
     country_num: 124
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '1'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [ᓈ, ᓇ, ᓕ, ᐱ, ᕿ, ᐅ, ᓯ]
-    day: [ᓈᑦᑎᖑᔭᕐᕕᒃ, ᓇᒡᒐᔾᔭᐅ, ᓇᒡᒐᔾᔭᐅᓕᖅᑭᑦ, ᐱᖓᓲᓕᖅᓯᐅᑦ, ᕿᑎᖅᑰᑦ, ᐅᓪᓗᕈᓘᑐᐃᓇᖅ, ᓯᕙᑖᕕᒃ]
+    abday: [ᓈ, ᓇ, ᓕ, ᐱ, ᕿ, 'ᐅ', ᓯ]
+    day: [ᓈᑦᑎᖑᔭᕐᕕᒃ, 'ᓇᒡᒐᔾᔭᐅ', 'ᓇᒡᒐᔾᔭᐅᓕᖅᑭᑦ', 'ᐱᖓᓲᓕᖅᓯᐅᑦ', 'ᕿᑎᖅᑰᑦ', 'ᐅᓪᓗᕈᓘᑐᐃᓇᖅ', ᓯᕙᑖᕕᒃ]
     week: [7, 19971130, 1]
-    abmon: [ᔮᓄ, ᕕᕗ, ᒪᔅ, ᐃᐳ, ᒪᐃ, ᔪᓂ, ᔪᓚ, ᐊᒋ, ᓯᑎ, ᐊᑦ, ᓄᕕ, ᑎᓯ]
-    mon: [ᔮᓄᐊᓕ, ᕕᕗᐊᓕ, ᒪᔅᓯ, ᐃᐳᓗ, ᒪᐃ, ᔪᓂ, ᔪᓚᐃ, ᐊᒋᓯ, ᓯᑎᕙ, ᐊᑦᑐᕙ, ᓄᕕᕙ, ᑎᓯᕝᕙ]
+    abmon: [ᔮᓄ, ᕕᕗ, 'ᒪᔅ', ᐃᐳ, ᒪᐃ, ᔪᓂ, ᔪᓚ, ᐊᒋ, ᓯᑎ, ᐊᑦ, ᓄᕕ, ᑎᓯ]
+    mon: [ᔮᓄᐊᓕ, ᕕᕗᐊᓕ, 'ᒪᔅᓯ', ᐃᐳᓗ, ᒪᐃ, ᔪᓂ, ᔪᓚᐃ, ᐊᒋᓯ, ᓯᑎᕙ, ᐊᑦᑐᕙ, ᓄᕕᕙ, ᑎᓯᕝᕙ]
     d_t_fmt: '%a %d %b %Y %r %Z'
-    d_fmt: '%m/%d/%y'
+    d_fmt: '%m//%d//%y'
     t_fmt: '%r'
     am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'

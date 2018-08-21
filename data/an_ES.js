@@ -11,18 +11,18 @@
 }(typeof window !== "undefined" ? window : this, function() {
     return {
         "LC_ADDRESS": {
-            "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
-            "country_post": null,
+            "postal_fmt": "%a%N%f%N%d%N%b%N%s %h %e %r%N%z %T, %S%N%c%N",
+            "country_name": "Espanya",
+            "country_post": "E",
             "country_ab2": "ES",
             "country_ab3": "ESP",
             "country_num": 724,
             "country_car": "E",
-            "country_isbn": null,
+            "country_isbn": "978-84",
             "lang_name": "aragon\u00e9s",
             "lang_ab": "an",
-            "lang_term": null,
-            "lang_lib": null
+            "lang_term": "arg",
+            "lang_lib": "arg"
         },
         "LC_MEASUREMENT": {
             "measurement": 1
@@ -30,8 +30,8 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1sSyY]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "s\u00ed",
+            "nostr": "no"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "34"
         },
         "LC_TIME": {
@@ -93,16 +93,16 @@
                 "mar",
                 "mie",
                 "chu",
-                "bie",
+                "vie",
                 "sab"
             ],
             "day": [
                 "domingo",
                 "luns",
                 "martes",
-                "miecols",
-                "chuebes",
-                "biernes",
+                "mierques",
+                "chueves",
+                "viernes",
                 "sabado"
             ],
             "week": [
@@ -112,7 +112,7 @@
             ],
             "abmon": [
                 "chi",
-                "fre",
+                "feb",
                 "mar",
                 "abr",
                 "may",
@@ -121,25 +121,25 @@
                 "ago",
                 "set",
                 "oct",
-                "nob",
-                "abi"
+                "nov",
+                "avi"
             ],
             "mon": [
                 "chinero",
-                "frebero",
+                "febrero",
                 "marzo",
                 "abril",
                 "mayo",
-                "chunio",
-                "chulio",
+                "chunyo",
+                "chuliol",
                 "agosto",
                 "setiembre",
                 "octubre",
-                "nobiembre",
-                "abiento"
+                "noviembre",
+                "aviento"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

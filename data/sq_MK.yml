@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: den
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -61,8 +61,8 @@ LC_TELEPHONE:
     int_prefix: '389'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: ['Die ', 'Hën ', 'Mar ', 'Mër ', 'Enj ', 'Pre ', 'Sht ']
-    day: ['e diel ', 'e hënë ', 'e martë ', 'e mërkurë ', 'e enjte ', 'e premte ', 'e shtunë ']
+    abday: [Die, Hën, Mar, Mër, Enj, Pre, Sht]
+    day: ['e diel', 'e hënë', 'e martë', 'e mërkurë', 'e enjte', 'e premte', 'e shtunë']
     week: [7, 19971130, 1]
     abmon: [Jan, Shk, Mar, Pri, Maj, Qer, Kor, Gsh, Sht, Tet, Nën, Dhj]
     mon: [janar, shkurt, mars, prill, maj, qershor, korrik, gusht, shtator, tetor, nëntor, dhjetor]

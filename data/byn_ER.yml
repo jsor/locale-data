@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yYእ]'
+    noexpr: '^[-0nNነ]'
+    yesstr: እወ
+    nostr: ነኖእ
 LC_MONETARY:
     currency_symbol: Nfk
     mon_decimal_point: .
@@ -44,9 +44,9 @@ LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: ''
     name_mr: 'ኣቶ"             % "አይተ" is informal'
-    name_mrs: ወ/ሮ
-    name_miss: ወ/ሪት
-    name_ms: ወ/ሪት
+    name_mrs: ወ//ሮ
+    name_miss: ወ//ሪት
+    name_ms: ወ//ሪት
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ''
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '291'
 LC_TIME:
     date_fmt: '%A፡ %B %e ግርጋ %r %Z %Y ኣድ'
-    abday: [ሰ/ቅ, ሰኑ, ሰሊጝ, ለጓ, ኣምድ, ኣርብ, ሰ/ሽ]
+    abday: ['ሰ/ቅ', ሰኑ, ሰሊጝ, ለጓ, ኣምድ, ኣርብ, ሰ/ሽ]
     day: ['ሰንበር ቅዳዅ', ሰኑ, ሰሊጝ, 'ለጓ ወሪ ለብዋ', ኣምድ, ኣርብ, 'ሰንበር ሽጓዅ']
     week: [7, 19971130, 1]
-    abmon: [ልደት, ካብኽ, ክብላ, ፋጅኺ, ክቢቅ, ም/ት, ኰር, ማርያ, ያኸኒ, መተሉ, ም/ም, ተሕሳ]
-    mon: [ልደትሪ, ካብኽብቲ, ክብላ, ፋጅኺሪ, ክቢቅሪ, 'ምኪኤል ትጓ̅ኒሪ', ኰርኩ, 'ማርያም ትሪ', 'ያኸኒ መሳቅለሪ', መተሉ, 'ምኪኤል መሽወሪ', ተሕሳስሪ]
+    abmon: [ልደት, ካብኽ, ክብላ, 'ፋጅኺ', 'ክቢቅ', ም/ት, ኰር, ማርያ, ያኸኒ, መተሉ, ም/ም, ተሕሳ]
+    mon: [ልደትሪ, ካብኽብቲ, ክብላ, 'ፋጅኺሪ', 'ክቢቅሪ', 'ምኪኤል ትጓ̅ኒሪ', ኰርኩ, 'ማርያም ትሪ', 'ያኸኒ መሳቅለሪ', መተሉ, 'ምኪኤል መሽወሪ', ተሕሳስሪ]
     d_t_fmt: '%A፡ %B %e ግርጋ %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: ['ፋዱስ ጃብ', 'ፋዱስ ደምቢ']
     t_fmt_ampm: '%X %p'

@@ -9,7 +9,7 @@
     'country_num' => 792,
     'country_car' => 'TR',
     'country_isbn' => 975,
-    'lang_name' => 'Turkish',
+    'lang_name' => 'Türkçe',
     'lang_ab' => 'tr',
     'lang_term' => 'tur',
     'lang_lib' => 'tur',

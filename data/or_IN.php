@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
+    'yesexpr' => '^[+1yYହ]',
+    'noexpr' => '^[-0nNନ]',
     'yesstr' => 'ହଁ',
     'nostr' => 'ନା',
   ),
@@ -39,19 +39,19 @@
     'negative_sign' => '-',
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
-    'p_sep_by_space' => 1,
+    'p_sep_by_space' => 0,
     'n_cs_precedes' => 1,
-    'n_sep_by_space' => 1,
+    'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
     'int_curr_symbol' => 'INR ',
     'int_frac_digits' => 2,
-    'int_p_cs_precedes' => 1,
-    'int_p_sep_by_space' => 1,
-    'int_n_cs_precedes' => 1,
-    'int_n_sep_by_space' => 1,
-    'int_p_sign_posn' => 1,
-    'int_n_sign_posn' => 1,
+    'int_p_cs_precedes' => NULL,
+    'int_p_sep_by_space' => NULL,
+    'int_n_cs_precedes' => NULL,
+    'int_n_sep_by_space' => NULL,
+    'int_p_sign_posn' => NULL,
+    'int_n_sign_posn' => NULL,
   ),
   'LC_NAME' => 
   array (
@@ -79,7 +79,12 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '91',
@@ -115,18 +120,18 @@
     ),
     'abmon' => 
     array (
-      0 => '1',
-      1 => '2',
-      2 => '3',
-      3 => '4',
-      4 => '5',
-      5 => '6',
-      6 => '7',
-      7 => '8',
-      8 => '9',
-      9 => '10',
-      10 => '11',
-      11 => '12',
+      0 => 'ଜାନୁଆରୀ',
+      1 => 'ଫେବୃଆରୀ',
+      2 => 'ମାର୍ଚ୍ଚ',
+      3 => 'ଅପ୍ରେଲ',
+      4 => 'ମଇ',
+      5 => 'ଜୁନ',
+      6 => 'ଜୁଲାଇ',
+      7 => 'ଅଗଷ୍ଟ',
+      8 => 'ସେପ୍ଟେମ୍ବର',
+      9 => 'ଅକ୍ଟୋବର',
+      10 => 'ନଭେମ୍ବର',
+      11 => 'ଡିସେମ୍ବର',
     ),
     'mon' => 
     array (

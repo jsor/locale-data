@@ -19,8 +19,8 @@
     "LC_MESSAGES": {
         "yesexpr": "^[+1TtYy]",
         "noexpr": "^[-0Nn]",
-        "yesstr": "t\u0227\u0304p",
-        "nostr": "ne\u0304"
+        "yesstr": "t\u01e1p",
+        "nostr": "n\u0113"
     },
     "LC_MONETARY": {
         "currency_symbol": "\u20ac",
@@ -71,7 +71,7 @@
     "LC_TELEPHONE": {
         "tel_int_fmt": "+%c %a %l",
         "tel_dom_fmt": null,
-        "int_select": null,
+        "int_select": "00",
         "int_prefix": "370"
     },
     "LC_TIME": {
@@ -91,7 +91,7 @@
             "oterninks",
             "sereda",
             "\u010detvergs",
-            "petni\u0304\u010d\u0117",
+            "petn\u012b\u010d\u0117",
             "sobata"
         ],
         "week": [

@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ඔYy]',
-    'noexpr' => '^[-0නNn]',
+    'yesexpr' => '^[+1yYඔ]',
+    'noexpr' => '^[-0nNන]',
     'yesstr' => 'ඔව්',
     'nostr' => 'නැත',
   ),
@@ -71,8 +71,8 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c (%a) %l',
-    'tel_dom_fmt' => '(%a) %l',
+    'tel_int_fmt' => '+%c (%a)tel_dom_fmt    "(%a) %l',
+    'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '94',
   ),
@@ -125,7 +125,7 @@
       0 => 'ජනවාරි',
       1 => 'පෙබරවාරි',
       2 => 'මාර්තු',
-      3 => 'අප්‍රියෙල්',
+      3 => 'අප්‍රේල්',
       4 => 'මැයි',
       5 => 'ජූනි',
       6 => 'ජූලි',

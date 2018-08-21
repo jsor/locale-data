@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: 'Mzantsi Afrika'
+    country_name: 'UMzantsi Afrika'
     country_post: ZA
     country_ab2: ZA
     country_ab3: ZAF
@@ -16,8 +16,8 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[+1yYeE]'
     noexpr: '^[-0nNhH]'
-    yesstr: null
-    nostr: null
+    yesstr: ewe
+    nostr: hayi
 LC_MONETARY:
     currency_symbol: R
     mon_decimal_point: .
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Mqu, Mdu, Kwi, Tsh, Can, Sil, Kha, Thu, Msi, Dwa, Nka, Mng]
     mon: [eyoMqungu, eyoMdumba, eyoKwindla, uTshazimpuzi, uCanzibe, eyeSilimela, eyeKhala, eyeThupa, eyoMsintsi, eyeDwarha, eyeNkanga, eyoMnga]
     d_t_fmt: '%a %-e %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

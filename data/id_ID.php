@@ -9,7 +9,7 @@
     'country_num' => 360,
     'country_car' => 'RI',
     'country_isbn' => NULL,
-    'lang_name' => 'Bahasa Ind/onesia',
+    'lang_name' => 'Bahasa Indonesia',
     'lang_ab' => 'id',
     'lang_term' => 'ind',
     'lang_lib' => 'ind',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '001,008,007,009',
     'int_prefix' => '62',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'Desember',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

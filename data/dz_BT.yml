@@ -1,21 +1,21 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%r%t%e%t%b%N%h%t%s%N%T%N%S%N%z%c%N'
-    country_name: འབྲུག
+    country_name: 'འབྲུག'
     country_post: null
     country_ab2: BT
     country_ab3: BTN
     country_num: 64
     country_car: BHT
     country_isbn: null
-    lang_name: (རྫོང་ཁ
+    lang_name: རྫོང་ཁ
     lang_ab: dz
     lang_term: dzo
     lang_lib: dzo
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ཨYy]'
-    noexpr: '^[-0མNn]'
+    yesexpr: '^[+1yYཨ]'
+    noexpr: '^[-0nNམ]'
     yesstr: ཨིན་
     nostr: མེན་
 LC_MONETARY:
@@ -57,20 +57,20 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '975'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [ཟླ་, མིར་, ལྷག་, པུར་, སངས་, སྤེན་, ཉི་]
-    day: [གཟའ་ཟླ་བ་, གཟའ་མིག་དམར་, གཟའ་ལྷག་ཕ་, གཟའ་པུར་བུ་, གཟའ་པ་སངས་, གཟའ་སྤེན་ཕ་, གཟའ་ཉི་མ་]
+    day: ['གཟའ་ཟླ་བ་', 'གཟའ་མིག་དམར་', 'གཟའ་ལྷག་ཕ་', 'གཟའ་པུར་བུ་', 'གཟའ་པ་སངས་', 'གཟའ་སྤེན་ཕ་', 'གཟའ་ཉི་མ་']
     week: [7, 19971130, 1]
-    abmon: [ཟླ་༡, ཟླ་༢, ཟླ་༣, ཟླ་༤, ཟླ་༥, ཟླ་༦, ཟླ་༧, ཟླ་༨, ཟླ་༩, ཟླ་༡༠, ཟླ་༡༡, ཟླ་༡༢]
-    mon: [ཟླ་བ་དང་པ་, ཟླ་བ་གཉིས་པ་, ཟླ་བ་གསུམ་པ་, ཟླ་བ་བཞི་པ་, ཟླ་བ་ལྔ་ཕ་, ཟླ་བ་དྲུག་པ་, ཟླ་བ་བདུནཔ་, ཟླ་བ་བརྒྱད་པ་, ཟླ་བ་དགུ་པ་, ཟླ་བ་བཅུ་པ་, ཟླ་བ་བཅུ་གཅིག་པ་, ཟླ་བ་བཅུ་གཉིས་པ་]
+    abmon: [ཟླ་༡, ཟླ་༢, ཟླ་༣, ཟླ་༤, ཟླ་༥, ཟླ་༦, ཟླ་༧, ཟླ་༨, ཟླ་༩, 'ཟླ་༡༠', ཟླ་༡༡, ཟླ་༡༢]
+    mon: [ཟླ་བ་དང་པ་, ཟླ་བ་གཉིས་པ་, ཟླ་བ་གསུམ་པ་, ཟླ་བ་བཞི་པ་, ཟླ་བ་ལྔ་ཕ་, ཟླ་བ་དྲུག་པ་, ཟླ་བ་བདུནཔ་, ཟླ་བ་བརྒྱད་པ་, ཟླ་བ་དགུ་པ་, 'ཟླ་བ་བཅུ་པ་', 'ཟླ་བ་བཅུ་གཅིག་པ་', 'ཟླ་བ་བཅུ་གཉིས་པ་']
     d_t_fmt: པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S
     d_fmt: པསྱི་ལོ%yཟལ%mཚེས%d
-    t_fmt: ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S
-    am_pm: [ངས་ཆ, ཕྱི་ཆ]
-    t_fmt_ampm: 'ཆུ་ཚོད%Iཀསར་མ%Mཀསར་ཆ%S %p'
+    t_fmt: ['ཆུ་ཚོདam_pm   "ངས་ཆ', ཕྱི་ཆ]
+    am_pm: [AM, PM]
+    t_fmt_ampm: 'ཆུ་ཚོདཀསར་ཆ%S %p'
     era: null
     era_year: null
     era_d_t_fmt: null

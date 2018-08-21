@@ -69,9 +69,13 @@
         "width": 216
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c ;%a ;%l",
+        "tel_int_fmt": [
+            "+%c ",
+            0,
+            0
+        ],
         "tel_dom_fmt": null,
-        "int_select": null,
+        "int_select": "00",
         "int_prefix": "63"
     },
     "LC_TIME": {
@@ -108,7 +112,7 @@
             "Hun",
             "Hul",
             "Ago",
-            "Sep",
+            "Set",
             "Okt",
             "Nob",
             "Dis"
@@ -122,13 +126,13 @@
             "Hunyo",
             "Hulyo",
             "Agosto",
-            "Septiyembre",
+            "Setyembre",
             "Oktubre",
-            "Nobiyembre",
+            "Nobyembre",
             "Disyembre"
         ],
         "d_t_fmt": "%a %d %b %Y %r %Z",
-        "d_fmt": "%m\/%d\/%y",
+        "d_fmt": "%m\/\/%d\/\/%y",
         "t_fmt": "%r",
         "am_pm": [
             "N.U.",

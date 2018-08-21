@@ -9,7 +9,7 @@
     'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'ирон',
     'lang_ab' => 'os',
     'lang_term' => 'oss',
     'lang_lib' => 'oss',
@@ -20,16 +20,16 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1УдYy]',
-    'noexpr' => '^[-0унNn]',
+    'yesexpr' => '^[+1yYуУ]',
+    'noexpr' => '^[-0nNнН]',
     'yesstr' => 'уойы',
     'nostr' => 'нӕйы',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => '₽',
-    'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_decimal_point' => ',',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -130,18 +130,18 @@
     ),
     'mon' => 
     array (
-      0 => 'Январь',
-      1 => 'Февраль',
-      2 => 'Мартъи',
-      3 => 'Апрель',
-      4 => 'Май',
-      5 => 'Июнь',
-      6 => 'Июль',
-      7 => 'Август',
-      8 => 'Сентябрь',
-      9 => 'Октябрь',
-      10 => 'Ноябрь',
-      11 => 'Декабрь',
+      0 => 'январы',
+      1 => 'февралы',
+      2 => 'мартъийы',
+      3 => 'апрелы',
+      4 => 'майы',
+      5 => 'июны',
+      6 => 'июлы',
+      7 => 'августы',
+      8 => 'сентябры',
+      9 => 'октябры',
+      10 => 'ноябры',
+      11 => 'декабры',
     ),
     'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d.%m.%Y',
@@ -162,5 +162,20 @@
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
+    'alt_mon' => 
+    array (
+      0 => 'Январь',
+      1 => 'Февраль',
+      2 => 'Мартъи',
+      3 => 'Апрель',
+      4 => 'Май',
+      5 => 'Июнь',
+      6 => 'Июль',
+      7 => 'Август',
+      8 => 'Сентябрь',
+      9 => 'Октябрь',
+      10 => 'Ноябрь',
+      11 => 'Декабрь',
+    ),
   ),
 );

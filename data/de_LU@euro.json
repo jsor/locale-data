@@ -71,19 +71,19 @@
     "LC_TELEPHONE": {
         "tel_int_fmt": "+%c %a %l",
         "tel_dom_fmt": null,
-        "int_select": null,
+        "int_select": "00",
         "int_prefix": "352"
     },
     "LC_TIME": {
         "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
-            "Son",
-            "Mon",
-            "Die",
-            "Mit",
-            "Don",
-            "Fre",
-            "Sam"
+            "So",
+            "Mo",
+            "Di",
+            "Mi",
+            "Do",
+            "Fr",
+            "Sa"
         ],
         "day": [
             "Sonntag",

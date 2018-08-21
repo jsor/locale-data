@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'den',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -85,23 +85,23 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => 'Die ',
-      1 => 'Hën ',
-      2 => 'Mar ',
-      3 => 'Mër ',
-      4 => 'Enj ',
-      5 => 'Pre ',
-      6 => 'Sht ',
+      0 => 'Die',
+      1 => 'Hën',
+      2 => 'Mar',
+      3 => 'Mër',
+      4 => 'Enj',
+      5 => 'Pre',
+      6 => 'Sht',
     ),
     'day' => 
     array (
-      0 => 'e diel ',
-      1 => 'e hënë ',
-      2 => 'e martë ',
-      3 => 'e mërkurë ',
-      4 => 'e enjte ',
-      5 => 'e premte ',
-      6 => 'e shtunë ',
+      0 => 'e diel',
+      1 => 'e hënë',
+      2 => 'e martë',
+      3 => 'e mërkurë',
+      4 => 'e enjte',
+      5 => 'e premte',
+      6 => 'e shtunë',
     ),
     'week' => 
     array (

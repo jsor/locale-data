@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 203
     country_car: CZ
     country_isbn: null
-    lang_name: Čeština
+    lang_name: čeština
     lang_ab: cs
     lang_term: ces
     lang_lib: cze
@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: Kč
     mon_decimal_point: ','
-    mon_thousands_sep: "\_"
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: Paní
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: "\_"
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297
@@ -65,7 +65,7 @@ LC_TIME:
     day: [Neděle, Pondělí, Úterý, Středa, Čtvrtek, Pátek, Sobota]
     week: [7, 19971130, 4]
     abmon: [led, úno, bře, dub, kvě, čen, čec, srp, zář, říj, lis, pro]
-    mon: [leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec]
+    mon: [ledna, února, března, dubna, května, června, července, srpna, září, října, listopadu, prosince]
     d_t_fmt: "%a\_%-d.\_%B\_%Y,\_%H:%M:%S\_%Z"
     d_fmt: '%-d.%-m.%Y'
     t_fmt: '%H:%M:%S'
@@ -81,3 +81,4 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    alt_mon: [leden, únor, březen, duben, květen, červen, červenec, srpen, září, říjen, listopad, prosinec]

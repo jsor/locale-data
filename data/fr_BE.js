@@ -19,7 +19,7 @@
             "country_num": 56,
             "country_car": "B",
             "country_isbn": null,
-            "lang_name": "Fran\u00e7ais",
+            "lang_name": "fran\u00e7ais",
             "lang_ab": "fr",
             "lang_term": "fra",
             "lang_lib": "fre"
@@ -139,7 +139,7 @@
                 "d\u00e9cembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

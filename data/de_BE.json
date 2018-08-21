@@ -77,13 +77,13 @@
     "LC_TIME": {
         "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
-            "Son",
-            "Mon",
-            "Die",
-            "Mit",
-            "Don",
-            "Fre",
-            "Sam"
+            "So",
+            "Mo",
+            "Di",
+            "Mi",
+            "Do",
+            "Fr",
+            "Sa"
         ],
         "day": [
             "Sonntag",

@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'Afl.',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

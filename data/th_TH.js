@@ -133,14 +133,14 @@
                 "\u0e18\u0e31\u0e19\u0e27\u0e32\u0e04\u0e21"
             ],
             "d_t_fmt": "%a %e %b %Ey, %H:%M:%S",
-            "d_fmt": "%d\/%m\/%Ey",
+            "d_fmt": "%d\/\/%m\/\/%Ey",
             "t_fmt": "%H:%M:%S",
             "am_pm": [
                 "AM",
                 "PM"
             ],
             "t_fmt_ampm": "%I:%M:%S %p",
-            "era": "+:1:-543\/01\/01:+*:\u0e1e.\u0e28.:%EC %Ey",
+            "era": "+:1:-543\/\/01\/\/01:+*:\u0e1e.\u0e28.:%EC %Ey",
             "era_year": null,
             "era_d_t_fmt": "\u0e27\u0e31\u0e19%A\u0e17\u0e35\u0e48 %e %B %EC %Ey, %H.%M.%S \u0e19.",
             "era_d_fmt": "%e %b %Ey",

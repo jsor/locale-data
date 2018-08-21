@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 800
     country_car: EAU
     country_isbn: null
-    lang_name: Oluganda
+    lang_name: Luganda
     lang_ab: lg
     lang_term: lug
     lang_lib: lug
@@ -57,17 +57,17 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: '%a %l'
-    int_select: '00'
+    int_select: '000'
     int_prefix: '256'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Sab, Bal, Lw2, Lw3, Lw4, Lw5, Lw6]
     day: [Sabiiti, Balaza, Lwakubiri, Lwakusatu, Lwakuna, Lwakutaano, Lwamukaaga]
     week: [7, 19971130, 1]
-    abmon: [Jan, Feb, Mar, Apu, Maa, Jun, Jul, Agu, Seb, Oki, Nov, Des]
-    mon: [Janwaliyo, Febwaliyo, Marisi, Apuli, Maayi, Juuni, Julaai, Agusito, Sebuttemba, Okitobba, Novemba, Desemba]
+    abmon: [Jan, Feb, Mar, Apu, Maa, Juu, Jul, Agu, Seb, Oki, Nov, Des]
+    mon: [Janwaliyo, Febwaliyo, Marisi, Apuli, Maayi, Juuni, Julaayi, Agusito, Sebuttemba, Okitobba, Novemba, Desemba]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

@@ -5,6 +5,7 @@ locales:
     - aa_ER@saaho
     - aa_ET
     - af_ZA
+    - agr_PE
     - ak_GH
     - am_ET
     - an_ES
@@ -32,6 +33,7 @@ locales:
     - ast_ES
     - ayc_PE
     - az_AZ
+    - az_IR
     - be_BY
     - be_BY@latin
     - bem_ZM
@@ -40,6 +42,8 @@ locales:
     - bg_BG
     - bhb_IN
     - bho_IN
+    - bho_NP
+    - bi_VU
     - bn_BD
     - bn_IN
     - bo_CN
@@ -52,6 +56,7 @@ locales:
     - ca_AD
     - ca_ES
     - ca_ES@euro
+    - ca_ES@valencia
     - ca_FR
     - ca_IT
     - ce_RU
@@ -75,6 +80,7 @@ locales:
     - de_LU
     - de_LU@euro
     - doi_IN
+    - dsb_DE
     - dv_MV
     - dz_BT
     - el_CY
@@ -94,6 +100,7 @@ locales:
     - en_NG
     - en_NZ
     - en_PH
+    - en_SC
     - en_SG
     - en_US
     - en_ZA
@@ -157,6 +164,7 @@ locales:
     - hak_TW
     - he_IL
     - hi_IN
+    - hif_FJ
     - hne_IN
     - hr_HR
     - hsb_DE
@@ -175,6 +183,7 @@ locales:
     - iu_CA
     - ja_JP
     - ka_GE
+    - kab_DZ
     - kk_KZ
     - kl_GL
     - km_KH
@@ -198,9 +207,13 @@ locales:
     - lzh_TW
     - mag_IN
     - mai_IN
+    - mai_NP
+    - mfe_MU
     - mg_MG
     - mhr_RU
     - mi_NZ
+    - miq_NI
+    - mjw_IN
     - mk_MK
     - ml_IN
     - mn_MN
@@ -247,17 +260,20 @@ locales:
     - ru_UA
     - rw_RW
     - sa_IN
+    - sah_RU
     - sat_IN
     - sc_IT
     - sd_IN
     - sd_IN@devanagari
     - se_NO
     - sgs_LT
+    - shn_MM
     - shs_CA
     - si_LK
     - sid_ET
     - sk_SK
     - sl_SI
+    - sm_WS
     - so_DJ
     - so_ET
     - so_KE
@@ -288,6 +304,8 @@ locales:
     - tk_TM
     - tl_PH
     - tn_ZA
+    - to_TO
+    - tpi_PG
     - tr_CY
     - tr_TR
     - ts_ZA
@@ -311,6 +329,7 @@ locales:
     - yi_US
     - yo_NG
     - yue_HK
+    - yuw_PG
     - zh_CN
     - zh_HK
     - zh_SG

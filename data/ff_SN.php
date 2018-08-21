@@ -136,7 +136,7 @@
       11 => 'bowte',
     ),
     'd_t_fmt' => '%a %d %b %Y %R %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%R',
     'am_pm' => 
     array (

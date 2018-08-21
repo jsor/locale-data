@@ -6,8 +6,8 @@ LC_ADDRESS:
     country_ab3: EST
     country_num: 233
     country_car: EST
-    country_isbn: '9985'
-    lang_name: 'eesti keel'
+    country_isbn: '978-9949,978-9985'
+    lang_name: eesti
     lang_ab: et
     lang_term: est
     lang_lib: est
@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
-    mon_thousands_sep: "\_"
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: "\_"
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297

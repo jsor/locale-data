@@ -9,7 +9,7 @@
     'country_num' => 188,
     'country_car' => 'CR',
     'country_isbn' => '9930,9977,9968',
-    'lang_name' => 'Español',
+    'lang_name' => 'español',
     'lang_ab' => 'es',
     'lang_term' => 'spa',
     'lang_lib' => 'spa',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '₡',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -56,7 +56,7 @@
   'LC_NAME' => 
   array (
     'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => 'Sr./Sra.',
+    'name_gen' => 'Sr.//Sra.',
     'name_mr' => 'Sr.',
     'name_mrs' => 'Sra.',
     'name_miss' => 'Srta.',
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -144,7 +144,7 @@
       11 => 'diciembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

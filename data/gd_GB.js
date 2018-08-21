@@ -115,7 +115,7 @@
                 "Gearr",
                 "M\u00e0rt",
                 "Gibl",
-                "Mh\u00e0rt",
+                "C\u00e8it",
                 "\u00d2gmh",
                 "Iuch",
                 "L\u00f9na",
@@ -125,21 +125,21 @@
                 "D\u00f9bh"
             ],
             "mon": [
-                "Am Faoilleach",
-                "An Gearran",
-                "Am M\u00e0rt",
-                "An Giblean",
-                "An C\u00e8itean",
-                "An t-\u00d2gmhios",
-                "An t-Iuchar",
-                "An L\u00f9nastal",
-                "An t-Sultain",
-                "An D\u00e0mhair",
-                "An t-Samhain",
-                "An D\u00f9bhlachd"
+                "dhen Fhaoilleach",
+                "dhen Ghearran",
+                "dhen Mh\u00e0rt",
+                "dhen Ghiblean",
+                "dhen Ch\u00e8itean",
+                "dhen \u00d2gmhios",
+                "dhen Iuchar",
+                "dhen L\u00f9nastal",
+                "dhen t-Sultain",
+                "dhen D\u00e0mhair",
+                "dhen t-Samhain",
+                "dhen D\u00f9bhlachd"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [
                 "m",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "Am Faoilleach",
+                "An Gearran",
+                "Am M\u00e0rt",
+                "An Giblean",
+                "An C\u00e8itean",
+                "An t-\u00d2gmhios",
+                "An t-Iuchar",
+                "An L\u00f9nastal",
+                "An t-Sultain",
+                "An D\u00e0mhair",
+                "An t-Samhain",
+                "An D\u00f9bhlachd"
+            ]
         }
     };
 }));

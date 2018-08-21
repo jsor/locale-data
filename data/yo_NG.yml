@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 566
     country_car: WAN
     country_isbn: 978
-    lang_name: Yorùbá
+    lang_name: 'Èdè Yorùbá'
     lang_ab: yo
     lang_term: yor
     lang_lib: yor
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '234'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [SUN, MON, TUE, WED, THU, FRI, SAT]
-    day: [Àìkú, Ajé, Ìṣẹ́gun, Ọjọ́rú, Ọjọ́bọ̀, Ẹ̀tì, Àbámẹ́ta]
+    abday: [Àìkú, Ajé, Ìsẹ́gun, Ọjọ́rú, Ọjọ́bọ, Ẹtì, Àbámẹ́ta]
+    day: ['Ọjọ́ Àìkú', 'Ọjọ́ Ajé', 'Ọjọ́ Ìsẹ́gun', Ọjọ́rú, Ọjọ́bọ, 'Ọjọ́ Ẹtì', 'Ọjọ́ Àbámẹ́ta']
     week: [7, 19971130, 1]
-    abmon: [JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
-    mon: [Jánúárì, Fẹ́búárì, Máàṣì, Épírì, Méè, Júùnù, Júláì, Ọ́ọ́gọsì, Sẹ̀tẹ̀ńbà, Ọtóbà, Nòfẹ̀ńbà, Dìsẹ̀ńbà]
-    d_t_fmt: 'ọjọ́ %A, %d oṣù %B ọdún %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    abmon: [Ṣẹ́rẹ́, Èrèlè, 'Ẹrẹ̀nà', Ìgbé, Ẹ̀bibi, Òkúdu, Agẹmọ, Ògún, Owewe, 'Ọ̀wàrà', Bélú, Ọ̀pẹ̀]
+    mon: ['Oṣù Ṣẹ́rẹ́', 'Oṣù Èrèlè', 'Oṣù Ẹrẹ̀nà', 'Oṣù Ìgbé', 'Oṣù Ẹ̀bibi', 'Oṣù Òkúdu', 'Oṣù Agẹmọ', 'Oṣù Ògún', 'Oṣù Owewe', 'Oṣù Ọ̀wàrà', 'Oṣù Bélú', 'Oṣù Ọ̀pẹ̀']
+    d_t_fmt: 'ọjọ́ %a, %d oṣù %b ọdún %Y %T %Z'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%r'
     am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %p'

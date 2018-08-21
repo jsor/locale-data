@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1TtYy]',
     'noexpr' => '^[-0Nn]',
-    'yesstr' => 'tǡp',
-    'nostr' => 'nē',
+    'yesstr' => 'tǡp',
+    'nostr' => 'nē',
   ),
   'LC_MONETARY' => 
   array (
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '370',
   ),
   'LC_TIME' => 
@@ -104,7 +104,7 @@
       2 => 'oterninks',
       3 => 'sereda',
       4 => 'četvergs',
-      5 => 'petnīčė',
+      5 => 'petnīčė',
       6 => 'sobata',
     ),
     'week' => 

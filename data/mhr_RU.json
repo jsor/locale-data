@@ -17,15 +17,15 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u0422\u0442Yy]",
-        "noexpr": "^[-0\u0423\u0443Nn]",
+        "yesexpr": "^[+1yY\u0422\u0442]",
+        "noexpr": "^[-0nN\u0423\u0443]",
         "yesstr": null,
         "nostr": null
     },
     "LC_MONETARY": {
         "currency_symbol": "\u20bd",
         "mon_decimal_point": ".",
-        "mon_thousands_sep": "\u00a0",
+        "mon_thousands_sep": "\u202f",
         "mon_grouping": [
             3,
             3
@@ -58,7 +58,7 @@
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
-        "thousands_sep": "\u00a0",
+        "thousands_sep": "\u202f",
         "grouping": [
             3,
             3

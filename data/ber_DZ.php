@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1Bb]',
-    'noexpr' => '^[-0YyNn]',
-    'yesstr' => 'bəli',
-    'nostr' => 'yox',
+    'yesexpr' => '^[+1yYiI]',
+    'noexpr' => '^[-0nNuUaA]',
+    'yesstr' => 'Ih',
+    'nostr' => 'Uhu',
   ),
   'LC_MONETARY' => 
   array (
@@ -71,9 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '213',
   ),
   'LC_TIME' => 

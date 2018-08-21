@@ -19,7 +19,7 @@
             "country_num": 724,
             "country_car": "E",
             "country_isbn": null,
-            "lang_name": "Euskara",
+            "lang_name": "euskara",
             "lang_ab": "eu",
             "lang_term": "eus",
             "lang_lib": "baq"
@@ -69,10 +69,10 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "",
+            "thousands_sep": ".",
             "grouping": [
-                0,
-                0
+                3,
+                3
             ]
         },
         "LC_PAPER": {
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "34"
         },
         "LC_TIME": {

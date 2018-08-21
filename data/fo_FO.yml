@@ -57,7 +57,7 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '298'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [jan, feb, mar, apr, mai, jun, jul, aug, sep, okt, nov, des]
     mon: [januar, februar, mars, apríl, mai, juni, juli, august, september, oktober, november, desember]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m-%Y'
+    d_fmt: '%d//%m-%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

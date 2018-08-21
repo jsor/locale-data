@@ -136,7 +136,7 @@
       11 => 'Mumu-Ɔpɛnimba',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%Y/%m/%d',
+    'd_fmt' => '%Y//%m//%d',
     't_fmt' => '%r',
     'am_pm' => 
     array (

@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0d94Yy]",
-            "noexpr": "^[-0\u0db1Nn]",
+            "yesexpr": "^[+1yY\u0d94]",
+            "noexpr": "^[-0nN\u0db1]",
             "yesstr": "\u0d94\u0dc0\u0dca",
             "nostr": "\u0db1\u0dd0\u0dad"
         },
@@ -74,8 +74,8 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c (%a) %l",
-            "tel_dom_fmt": "(%a) %l",
+            "tel_int_fmt": "+%c (%a)tel_dom_fmt    \"(%a) %l",
+            "tel_dom_fmt": null,
             "int_select": "00",
             "int_prefix": "94"
         },
@@ -122,7 +122,7 @@
                 "\u0da2\u0db1\u0dc0\u0dcf\u0dbb\u0dd2",
                 "\u0db4\u0dd9\u0db6\u0dbb\u0dc0\u0dcf\u0dbb\u0dd2",
                 "\u0db8\u0dcf\u0dbb\u0dca\u0dad\u0dd4",
-                "\u0d85\u0db4\u0dca\u200d\u0dbb\u0dd2\u0dba\u0dd9\u0dbd\u0dca",
+                "\u0d85\u0db4\u0dca\u200d\u0dbb\u0dda\u0dbd\u0dca",
                 "\u0db8\u0dd0\u0dba\u0dd2",
                 "\u0da2\u0dd6\u0db1\u0dd2",
                 "\u0da2\u0dd6\u0dbd\u0dd2",

@@ -9,7 +9,7 @@
     'country_num' => 578,
     'country_car' => 'N',
     'country_isbn' => NULL,
-    'lang_name' => 'Bokmål',
+    'lang_name' => 'norsk bokmål',
     'lang_ab' => 'nb',
     'lang_term' => 'nob',
     'lang_lib' => 'nob',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'kr',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,

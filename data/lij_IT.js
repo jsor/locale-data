@@ -12,13 +12,13 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Italia",
             "country_post": null,
             "country_ab2": "IT",
             "country_ab3": "ITA",
             "country_num": 380,
             "country_car": "I",
-            "country_isbn": null,
+            "country_isbn": "978-88,979-12",
             "lang_name": "L\u00ecgure",
             "lang_ab": null,
             "lang_term": "lij",
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "39"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "dixembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

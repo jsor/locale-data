@@ -140,7 +140,7 @@
       11 => 'Desemba',
     ),
     'd_t_fmt' => '%e %B %Y %I:%M:%S %p %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%I:%M:%S %p',
     'am_pm' => 
     array (

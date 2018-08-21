@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYእ]',
+    'noexpr' => '^[-0nNነ]',
+    'yesstr' => 'እወ',
+    'nostr' => 'ነኖእ',
   ),
   'LC_MONETARY' => 
   array (
@@ -58,9 +58,9 @@
     'name_fmt' => '%d%t%g%t%m%t%f',
     'name_gen' => '',
     'name_mr' => 'ኣቶ"             % "አይተ" is informal',
-    'name_mrs' => 'ወ/ሮ',
-    'name_miss' => 'ወ/ሪት',
-    'name_ms' => 'ወ/ሪት',
+    'name_mrs' => 'ወ//ሮ',
+    'name_miss' => 'ወ//ሪት',
+    'name_ms' => 'ወ//ሪት',
   ),
   'LC_NUMERIC' => 
   array (
@@ -144,7 +144,7 @@
       11 => 'ተሕሳስሪ',
     ),
     'd_t_fmt' => '%A፡ %B %e ግርጋ %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (

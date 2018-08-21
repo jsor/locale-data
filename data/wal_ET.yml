@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1እyY]'
+    noexpr: '^[-0ነnN]'
+    yesstr: እወ
+    nostr: ነኖእ
 LC_MONETARY:
     currency_symbol: Br
     mon_decimal_point: .
@@ -60,14 +60,14 @@ LC_TELEPHONE:
     int_select: '00'
     int_prefix: '251'
 LC_TIME:
-    date_fmt: '%A፣ %B %e ጋላሳ %r %Z %Y ግ/ላ'
-    abday: ['ወጋ ', ሳይኖ, ማቆሳ, አሩዋ, ሃሙሳ, አርባ, 'ቄራ ']
-    day: [ወጋ, ሳይኖ, ማቆሳኛ, አሩዋ, ሃሙሳ, አርባ, ቄራ]
+    date_fmt: '%A፣ %B %e ጋላሳ %r %Z %Y ግ//ላ'
+    abday: ['ወጋ ', ሳይኖ, ማቆሳ, 'አሩዋ', ሃሙሳ, 'አርባ', 'ቄራ ']
+    day: [ወጋ, ሳይኖ, ማቆሳኛ, 'አሩዋ', ሃሙሳ, 'አርባ', ቄራ]
     week: [7, 19971130, 1]
     abmon: [ጃንዩ, ፌብሩ, ማርች, ኤፕረ, 'ሜይ ', 'ጁን ', ጁላይ, ኦገስ, ሴፕቴ, ኦክተ, ኖቬም, ዲሴም]
-    mon: [ጃንዩወሪ, ፌብሩወሪ, ማርች, ኤፕረል, ሜይ, ጁን, ጁላይ, ኦገስት, ሴፕቴምበር, ኦክተውበር, ኖቬምበር, ዲሴምበር]
+    mon: [ጃንዩወሪ, ፌብሩወሪ, ማርች, ኤፕረል, ሜይ, ጁን, ጁላይ, ኦገስት, 'ሴፕቴምበር', 'ኦክተውበር', 'ኖቬምበር', 'ዲሴምበር']
     d_t_fmt: '%A፣ %B %e ጋላሳ %Y %r %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: [ማለዶ, ቃማ]
     t_fmt_ampm: '%X %p'

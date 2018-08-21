@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 795
     country_car: TM
     country_isbn: null
-    lang_name: Türkmençe
+    lang_name: türkmençe
     lang_ab: tk
     lang_term: tuk
     lang_lib: tuk
@@ -15,16 +15,16 @@ LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
     yesexpr: '^[+1hH]'
-    noexpr: '^[-0ýÝnN]'
+    noexpr: '^[-0nNýÝ]'
     yesstr: hawa
     nostr: ýok
 LC_MONETARY:
-    currency_symbol: 'MANAT" % MANAT'
-    mon_decimal_point: '."                             % .'
-    mon_thousands_sep: ',"                             % ,'
+    currency_symbol: MANAT
+    mon_decimal_point: .
+    mon_thousands_sep: ','
     mon_grouping: [3, 3]
     positive_sign: ''
-    negative_sign: '-"                             % -'
+    negative_sign: '-'
     frac_digits: 2
     p_cs_precedes: 0
     p_sep_by_space: 1
@@ -32,7 +32,7 @@ LC_MONETARY:
     n_sep_by_space: 1
     p_sign_posn: 1
     n_sign_posn: 1
-    int_curr_symbol: 'TMM "        % TMM'
+    int_curr_symbol: 'TMM '
     int_frac_digits: 2
     int_p_cs_precedes: null
     int_p_sep_by_space: null
@@ -48,8 +48,8 @@ LC_NAME:
     name_miss: ''
     name_ms: ''
 LC_NUMERIC:
-    decimal_point: '." % .'
-    thousands_sep: '," % ,'
+    decimal_point: .
+    thousands_sep: ','
     grouping: [3, 3]
 LC_PAPER:
     height: 297
@@ -57,7 +57,7 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: "8\_10"
     int_prefix: '993'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'

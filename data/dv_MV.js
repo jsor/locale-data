@@ -12,10 +12,10 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0783\u07a7\u0787\u07b0\u0796\u07ac",
             "country_post": null,
-            "country_ab2": null,
-            "country_ab3": null,
+            "country_ab2": "MV",
+            "country_ab3": "MDV",
             "country_num": 462,
             "country_car": "MV",
             "country_isbn": null,
@@ -139,7 +139,7 @@
                 "\u0791\u07a8\u0790\u07ac\u0782\u07b0\u0784\u07a6\u0783"
             ],
             "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [
                 "\u0789\u0786",

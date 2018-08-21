@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^(Yes|[+1yY])",
-            "noexpr": "^(No|[-0nN])",
+            "yesexpr": "^[+1yYiI]",
+            "noexpr": "^[-0nNlL]",
             "yesstr": "iva",
             "nostr": "le"
         },
@@ -41,12 +41,12 @@
             "positive_sign": "",
             "negative_sign": "-",
             "frac_digits": 2,
-            "p_cs_precedes": 0,
+            "p_cs_precedes": 1,
             "p_sep_by_space": 0,
-            "n_cs_precedes": 0,
+            "n_cs_precedes": 1,
             "n_sep_by_space": 0,
             "p_sign_posn": 1,
-            "n_sign_posn": 0,
+            "n_sign_posn": 1,
             "int_curr_symbol": "EUR ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
@@ -74,9 +74,13 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "356"
         },
         "LC_TIME": {
@@ -130,7 +134,7 @@
                 "Settembru",
                 "Ottubru",
                 "Novembru",
-                "Di\u010bembru "
+                "Di\u010bembru"
             ],
             "d_t_fmt": "%A, %d ta %b, %Y %I:%M:%S %p %Z",
             "d_fmt": "%A, %d ta %b, %Y",

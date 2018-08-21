@@ -16,13 +16,13 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[+1JjTtYy]'
     noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesstr: jo
+    nostr: nié
 LC_MONETARY:
     currency_symbol: zł
     mon_decimal_point: ','
-    mon_thousands_sep: .
-    mon_grouping: [3, 3]
+    mon_thousands_sep:  
+    mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
     frac_digits: 2
@@ -49,23 +49,23 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: ''
-    grouping: [0, 0]
+    thousands_sep:  
+    grouping: 3
 LC_PAPER:
     height: 297
     width: 210
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '48'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [nie, 0, wtó, 0, czw, 0, sob]
-    day: [niedzela, pòniedzôłk, wtórk, strzoda, czwiôrtk, piątk, sobòta]
+    day: [niedzela, pòniedzôłk, wtórk, strzoda, czwiôrtk, 'piątk', sobòta]
     week: [7, 19971130, 4]
-    abmon: [stë, 0, stm, 0, môj, 0, lëp, 0, séw, 0, lës, 0]
-    mon: [stëcznik, gromicznik, strumiannik, łżëkwiôt, môj, czerwińc, lëpinc, zélnik, séwnik, rujan, lëstopadnik, gòdnik]
+    abmon: [stë, 0, str, 0, maj, 0, lëp, 0, séw, 0, lës, 0]
+    mon: [stëcznika, gromicznika, strëmiannika, łżëkwiata, maja, czerwińca, lëpińca, zélnika, séwnika, rujana, lëstopadnika, gòdnika]
     d_t_fmt: '%a %d %b %Y %T %Z'
     d_fmt: '%Y-%m-%d'
     t_fmt: '%T'
@@ -81,3 +81,5 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    ab_alt_mon: [stë, 0, str, 0, môj, 0, lëp, 0, séw, 0, lës, 0]
+    alt_mon: [stëcznik, gromicznik, strëmiannik, łżëkwiat, môj, czerwińc, lëpińc, zélnik, séwnik, rujan, lëstopadnik, gòdnik]

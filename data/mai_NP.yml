@@ -1,0 +1,83 @@
+LC_ADDRESS:
+    postal_fmt: '%f%N%h%s%N%T'
+    country_name: नेपाल
+    country_post: null
+    country_ab2: NP
+    country_ab3: NPL
+    country_num: 524
+    country_car: NEP
+    country_isbn: null
+    lang_name: मैथिली
+    lang_ab: null
+    lang_term: mai
+    lang_lib: mai
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[+1yYह]'
+    noexpr: '^[-0nNन]'
+    yesstr: हाँ
+    nostr: नहीं
+LC_MONETARY:
+    currency_symbol: रू
+    mon_decimal_point: .
+    mon_thousands_sep: ','
+    mon_grouping: 3
+    positive_sign: ''
+    negative_sign: '-'
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 1
+    n_cs_precedes: 1
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+    int_curr_symbol: 'NPR '
+    int_frac_digits: 2
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%p%t%f%t%g'
+    name_gen: ''
+    name_mr: श्रीमान्
+    name_mrs: श्रीमती
+    name_miss: कुमारी
+    name_ms: सुश्री
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: 3
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %a%t%l'
+    tel_dom_fmt: null
+    int_select: '00'
+    int_prefix: '977'
+LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    abday: [रवि, सोम, मंगल, बुध, बृहस्पती, शुक्र, शनी]
+    day: [रविदिन, सोमदिन, मंगलदिन, बुधदिन, बृहस्पतीदिन, शुक्रदिन, शनीदिन]
+    week: [7, 19971130, 1]
+    abmon: [बैसाख, 'जेठ', 'अषाढ़', सावोन, भादो, आसिन, कातिक, 'अगहन', पूस, माघ, फागुन, चैति]
+    mon: [बैसाख, 'जेठ', 'अषाढ़', सावोन, भादो, आसिन, कातिक, 'अगहन', पूस, माघ, फागुन, चैति]
+    d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'
+    d_fmt: '%A %d %b %Y'
+    t_fmt: '%I:%M:%S  %Z'
+    am_pm: [पूर्वाह्न, 'अपराह्न']
+    t_fmt_ampm: '%I:%M:%S %p %Z'
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
+    first_weekday: null
+    first_workday: null
+    cal_direction: null
+    timezone: null

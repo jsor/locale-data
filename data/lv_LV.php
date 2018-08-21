@@ -9,7 +9,7 @@
     'country_num' => 428,
     'country_car' => 'LV',
     'country_isbn' => NULL,
-    'lang_name' => 'latviešu valoda',
+    'lang_name' => 'latviešu',
     'lang_ab' => 'lv',
     'lang_term' => 'lav',
     'lang_lib' => 'lav',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '371',
   ),
   'LC_TIME' => 

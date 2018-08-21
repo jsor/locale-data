@@ -1,6 +1,6 @@
 LC_ADDRESS:
     postal_fmt: '%a%N%f%N%d%N%b%N%h %s %e %r%N%T, %S %z%N%c%N'
-    country_name: ᎠᎹᏰᏟ
+    country_name: 'ᎠᎹᏰᏟ'
     country_post: USA
     country_ab2: US
     country_ab3: USA
@@ -14,8 +14,8 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
+    yesexpr: '^([+1yY]|ᎥᎥ)'
+    noexpr: '^([-0nN]|ᎥᏝ)'
     yesstr: ᎥᎥ
     nostr: ᎥᏝ
 LC_MONETARY:
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '1'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [ᏆᏍᎬ, ᏉᏅᎯ, ᏔᎵᏁ, ᏦᎢᏁ, ᏅᎩᏁ, ᏧᎾᎩ, ᏈᏕᎾ]
-    day: [ᎤᎾᏙᏓᏆᏍᎬ, ᎤᎾᏙᏓᏉᏅᎯ, ᏔᎵᏁᎢᎦ, ᏦᎢᏁᎢᎦ, ᏅᎩᏁᎢᎦ, ᏧᎾᎩᎶᏍᏗ, ᎤᎾᏙᏓᏈᏕᎾ]
+    abday: [ᏆᏍᎬ, 'ᏉᏅᎯ', ᏔᎵᏁ, ᏦᎢᏁ, 'ᏅᎩᏁ', ᏧᎾᎩ, ᏈᏕᎾ]
+    day: [ᎤᎾᏙᏓᏆᏍᎬ, 'ᎤᎾᏙᏓᏉᏅᎯ', ᏔᎵᏁᎢᎦ, ᏦᎢᏁᎢᎦ, 'ᏅᎩᏁᎢᎦ', ᏧᎾᎩᎶᏍᏗ, ᎤᎾᏙᏓᏈᏕᎾ]
     week: [7, 19971130, 1]
-    abmon: [ᎤᏃ, 0, ᎠᏅ, 0, ᎠᏂ, 0, ᎫᏰ, 0, ᏚᎵ, 0, ᏅᏓ, 0]
-    mon: [ᎤᏃᎸᏔᏅ, ᎧᎦᎵ, ᎠᏅᏱ, ᎧᏬᏂ, ᎠᏂᏍᎬᏘ, ᏕᎭᎷᏱ, ᎫᏰᏉᏂ, ᎦᎶᏂ, ᏚᎵᏍᏗ, ᏚᏂᏅᏗ, ᏅᏓᏕᏆ, ᎥᏍᎩᏱ]
+    abmon: [ᎤᏃ, 0, 'ᎠᏅ', 0, 'ᎠᏂ', 0, ᎫᏰ, 0, ᏚᎵ, 0, 'ᏅᏓ', 0]
+    mon: ['ᎤᏃᎸᏔᏅ', ᎧᎦᎵ, 'ᎠᏅᏱ', ᎧᏬᏂ, 'ᎠᏂᏍᎬᏘ', ᏕᎭᎷᏱ, ᎫᏰᏉᏂ, ᎦᎶᏂ, ᏚᎵᏍᏗ, 'ᏚᏂᏅᏗ', 'ᏅᏓᏕᏆ', ᎥᏍᎩᏱ]
     d_t_fmt: '%a %d %b %Y %r %Z'
-    d_fmt: '%m/%d/%Y'
+    d_fmt: '%m//%d//%Y'
     t_fmt: '%r'
     am_pm: [ᏌᎾᎴ, ᏒᎯᏱᎢᏗᏢ]
     t_fmt_ampm: '%I:%M:%S %p'

@@ -19,7 +19,7 @@
             "country_num": 840,
             "country_car": "USA",
             "country_isbn": 0,
-            "lang_name": "Espa\u00f1ol",
+            "lang_name": "espa\u00f1ol",
             "lang_ab": "es",
             "lang_term": "spa",
             "lang_lib": "spa"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "11",
             "int_prefix": "1"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "diciembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

@@ -19,7 +19,7 @@
             "country_num": 440,
             "country_car": "LT",
             "country_isbn": null,
-            "lang_name": "lietuvi\u0173 kalba",
+            "lang_name": "lietuvi\u0173",
             "lang_ab": "lt",
             "lang_term": "lit",
             "lang_lib": "lit"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "370"
         },
         "LC_TIME": {
@@ -111,18 +111,18 @@
                 4
             ],
             "abmon": [
-                "Sau",
-                "Vas",
-                "Kov",
-                "Bal",
-                "Geg",
-                "Bir",
-                "Lie",
-                "Rgp",
-                "Rgs",
-                "Spa",
-                "Lap",
-                "Grd"
+                "saus.",
+                "vas.",
+                "kov.",
+                "bal.",
+                "geg.",
+                "bir\u017e.",
+                "liep.",
+                "rugp.",
+                "rugs.",
+                "spal.",
+                "lapkr.",
+                "gruod."
             ],
             "mon": [
                 "sausio",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "sausis",
+                "vasaris",
+                "kovas",
+                "balandis",
+                "gegu\u017e\u0117",
+                "bir\u017eelis",
+                "liepa",
+                "rugpj\u016btis",
+                "rugs\u0117jis",
+                "spalis",
+                "lapkritis",
+                "gruodis"
+            ]
         }
     };
 }));

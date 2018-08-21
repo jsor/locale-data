@@ -1,18 +1,18 @@
 <?php return array (
   'LC_ADDRESS' => 
   array (
-    'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
-    'country_post' => NULL,
+    'postal_fmt' => '%a%N%f%N%d%N%b%N%s %h %e %r%N%z %T, %S%N%c%N',
+    'country_name' => 'Espanya',
+    'country_post' => 'E',
     'country_ab2' => 'ES',
     'country_ab3' => 'ESP',
     'country_num' => 724,
     'country_car' => 'E',
-    'country_isbn' => NULL,
+    'country_isbn' => '978-84',
     'lang_name' => 'aragonés',
     'lang_ab' => 'an',
-    'lang_term' => NULL,
-    'lang_lib' => NULL,
+    'lang_term' => 'arg',
+    'lang_lib' => 'arg',
   ),
   'LC_MEASUREMENT' => 
   array (
@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1sSyY]',
     'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'sí',
+    'nostr' => 'no',
   ),
   'LC_MONETARY' => 
   array (
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '34',
   ),
   'LC_TIME' => 
@@ -94,7 +94,7 @@
       2 => 'mar',
       3 => 'mie',
       4 => 'chu',
-      5 => 'bie',
+      5 => 'vie',
       6 => 'sab',
     ),
     'day' => 
@@ -102,9 +102,9 @@
       0 => 'domingo',
       1 => 'luns',
       2 => 'martes',
-      3 => 'miecols',
-      4 => 'chuebes',
-      5 => 'biernes',
+      3 => 'mierques',
+      4 => 'chueves',
+      5 => 'viernes',
       6 => 'sabado',
     ),
     'week' => 
@@ -116,7 +116,7 @@
     'abmon' => 
     array (
       0 => 'chi',
-      1 => 'fre',
+      1 => 'feb',
       2 => 'mar',
       3 => 'abr',
       4 => 'may',
@@ -125,26 +125,26 @@
       7 => 'ago',
       8 => 'set',
       9 => 'oct',
-      10 => 'nob',
-      11 => 'abi',
+      10 => 'nov',
+      11 => 'avi',
     ),
     'mon' => 
     array (
       0 => 'chinero',
-      1 => 'frebero',
+      1 => 'febrero',
       2 => 'marzo',
       3 => 'abril',
       4 => 'mayo',
-      5 => 'chunio',
-      6 => 'chulio',
+      5 => 'chunyo',
+      6 => 'chuliol',
       7 => 'agosto',
       8 => 'setiembre',
       9 => 'octubre',
-      10 => 'nobiembre',
-      11 => 'abiento',
+      10 => 'noviembre',
+      11 => 'aviento',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

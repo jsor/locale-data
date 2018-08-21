@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Piruw",
             "country_post": null,
             "country_ab2": "PE",
             "country_ab3": "PER",
@@ -34,7 +34,7 @@
             "nostr": "Janiwa"
         },
         "LC_MONETARY": {
-            "currency_symbol": "S\/",
+            "currency_symbol": "S\/\/",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "51"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "risimri"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "VM",

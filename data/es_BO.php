@@ -9,7 +9,7 @@
     'country_num' => 68,
     'country_car' => 'BOL',
     'country_isbn' => NULL,
-    'lang_name' => 'Español',
+    'lang_name' => 'español',
     'lang_ab' => 'es',
     'lang_term' => 'spa',
     'lang_lib' => 'spa',
@@ -74,8 +74,8 @@
   ),
   'LC_PAPER' => 
   array (
-    'height' => 297,
-    'width' => 210,
+    'height' => 279,
+    'width' => 216,
   ),
   'LC_TELEPHONE' => 
   array (
@@ -144,7 +144,7 @@
       11 => 'diciembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

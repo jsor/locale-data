@@ -20,24 +20,28 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^(Yes|[+1yY])',
-    'noexpr' => '^(No|[-0nN])',
-    'yesstr' => 'होयःहो',
-    'nostr' => 'नाहीःना',
+    'yesexpr' => '^[+1yYह]',
+    'noexpr' => '^[-0nNन]',
+    'yesstr' => 'होय',
+    'nostr' => 'नाही',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => '₹',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
-    'mon_grouping' => 3,
+    'mon_grouping' => 
+    array (
+      0 => 3,
+      1 => 2,
+    ),
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
     'p_cs_precedes' => 1,
-    'p_sep_by_space' => 1,
+    'p_sep_by_space' => 0,
     'n_cs_precedes' => 1,
-    'n_sep_by_space' => 1,
+    'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
     'int_curr_symbol' => 'INR ',
@@ -71,7 +75,12 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '91',
@@ -107,23 +116,23 @@
     ),
     'abmon' => 
     array (
-      0 => 'जानेवारी',
-      1 => 'फेबृवारी',
+      0 => 'जाने',
+      1 => 'फेब्रु',
       2 => 'मार्च',
-      3 => 'एप्रिल',
+      3 => 'एप्रि',
       4 => 'मे',
       5 => 'जून',
       6 => 'जुलै',
-      7 => 'ऑगस्ट',
-      8 => 'सप्टेंबर',
-      9 => 'ऑक्टोबर',
-      10 => 'नोव्हेंबर',
-      11 => 'डिसेंबर',
+      7 => 'ऑग',
+      8 => 'सप्टें',
+      9 => 'ऑक्टो',
+      10 => 'नोव्हें',
+      11 => 'डिसें',
     ),
     'mon' => 
     array (
       0 => 'जानेवारी',
-      1 => 'फेबृवारी',
+      1 => 'फेब्रुवारी',
       2 => 'मार्च',
       3 => 'एप्रिल',
       4 => 'मे',

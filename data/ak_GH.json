@@ -122,7 +122,7 @@
             "Mumu-\u0186p\u025bnimba"
         ],
         "d_t_fmt": "%a %d %b %Y %T %Z",
-        "d_fmt": "%Y\/%m\/%d",
+        "d_fmt": "%Y\/\/%m\/\/%d",
         "t_fmt": "%r",
         "am_pm": [
             "AN",

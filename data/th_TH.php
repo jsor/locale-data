@@ -136,7 +136,7 @@
       11 => 'ธันวาคม',
     ),
     'd_t_fmt' => '%a %e %b %Ey, %H:%M:%S',
-    'd_fmt' => '%d/%m/%Ey',
+    'd_fmt' => '%d//%m//%Ey',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (
@@ -144,7 +144,7 @@
       1 => 'PM',
     ),
     't_fmt_ampm' => '%I:%M:%S %p',
-    'era' => '+:1:-543/01/01:+*:พ.ศ.:%EC %Ey',
+    'era' => '+:1:-543//01//01:+*:พ.ศ.:%EC %Ey',
     'era_year' => NULL,
     'era_d_t_fmt' => 'วัน%Aที่ %e %B %EC %Ey, %H.%M.%S น.',
     'era_d_fmt' => '%e %b %Ey',

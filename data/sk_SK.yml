@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 703
     country_car: SK
     country_isbn: null
-    lang_name: null
+    lang_name: slovenčina
     lang_ab: sk
     lang_term: slk
     lang_lib: slo
@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: €
     mon_decimal_point: ','
-    mon_thousands_sep: "\_"
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: "\_"
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297
@@ -57,12 +57,12 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '421'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Ne, Po, Ut, St, Št, Pi, So]
-    day: [Nedeľa, Pondelok, Utorok, Streda, Štvrtok, Piatok, Sobota]
+    abday: [Ne, Po, Ut, St, 'Št', Pi, So]
+    day: [Nedeľa, Pondelok, Utorok, Streda, 'Štvrtok', Piatok, Sobota]
     week: [7, 19971130, 4]
     abmon: [jan, feb, mar, apr, máj, jún, júl, aug, sep, okt, nov, dec]
     mon: [január, február, marec, apríl, máj, jún, júl, august, september, október, november, december]

@@ -69,7 +69,11 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c ;%a ;%l",
+        "tel_int_fmt": [
+            "+%c ",
+            0,
+            0
+        ],
         "tel_dom_fmt": null,
         "int_select": "00",
         "int_prefix": "92"
@@ -128,7 +132,7 @@
             "\u062f\u0633\u0645\u0628\u0631"
         ],
         "d_t_fmt": "\u0648 %H:%M:%S %Z \u062a %d %B %Y",
-        "d_fmt": "%d\/%m\/%Y",
+        "d_fmt": "%d\/\/%m\/\/%Y",
         "t_fmt": "%H:%M:%S",
         "am_pm": [
             "\u0635",

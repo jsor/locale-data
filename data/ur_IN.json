@@ -8,7 +8,7 @@
         "country_num": 356,
         "country_car": "IND",
         "country_isbn": null,
-        "lang_name": null,
+        "lang_name": "\u0627\u0631\u062f\u0648",
         "lang_ab": "ur",
         "lang_term": "urd",
         "lang_lib": "urd"
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u06c1yY]",
-        "noexpr": "^[-0\u0646nN]",
+        "yesexpr": "^[+1yY\u06c1]",
+        "noexpr": "^[-0nN\u0646]",
         "yesstr": "\u06c1\u0627\u06ba",
         "nostr": "\u0646\u06c1\u06cc\u06ba"
     },
@@ -34,9 +34,9 @@
         "negative_sign": "-",
         "frac_digits": 2,
         "p_cs_precedes": 1,
-        "p_sep_by_space": 1,
+        "p_sep_by_space": 0,
         "n_cs_precedes": 1,
-        "n_sep_by_space": 1,
+        "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
         "int_curr_symbol": "INR ",
@@ -66,7 +66,11 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c ;%a ;%l",
+        "tel_int_fmt": [
+            "+%c ",
+            0,
+            0
+        ],
         "tel_dom_fmt": null,
         "int_select": "00",
         "int_prefix": "91"
@@ -106,7 +110,7 @@
             "\u062c\u0648\u0644\u0627\u0626\u06cc",
             "\u0627\u06af\u0633\u062a",
             "\u0633\u062a\u0645\u0628\u0631",
-            "\u0627\u0643\u062a\u0648\u0628\u0631",
+            "\u0627\u06a9\u062a\u0648\u0628\u0631",
             "\u0646\u0648\u0645\u0628\u0631",
             "\u062f\u0633\u0645\u0628\u0631"
         ],
@@ -120,7 +124,7 @@
             "\u062c\u0648\u0644\u0627\u0626\u06cc",
             "\u0627\u06af\u0633\u062a",
             "\u0633\u062a\u0645\u0628\u0631",
-            "\u0627\u0643\u062a\u0648\u0628\u0631",
+            "\u0627\u06a9\u062a\u0648\u0628\u0631",
             "\u0646\u0648\u0645\u0628\u0631",
             "\u062f\u0633\u0645\u0628\u0631"
         ],

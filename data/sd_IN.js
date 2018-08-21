@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u0680\u0627\u0631\u062a",
             "country_post": null,
             "country_ab2": "IN",
             "country_ab3": "IND",
@@ -37,14 +37,17 @@
             "currency_symbol": "\u20b9",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
-            "mon_grouping": 3,
+            "mon_grouping": [
+                3,
+                2
+            ],
             "positive_sign": "",
             "negative_sign": "-",
             "frac_digits": 2,
             "p_cs_precedes": 1,
-            "p_sep_by_space": 1,
+            "p_sep_by_space": 0,
             "n_cs_precedes": 1,
-            "n_sep_by_space": 1,
+            "n_sep_by_space": 0,
             "p_sign_posn": 1,
             "n_sign_posn": 1,
             "int_curr_symbol": "INR ",
@@ -74,7 +77,11 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
             "int_select": "00",
             "int_prefix": "91"

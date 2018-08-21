@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY是]',
-    'noexpr' => '^[-0nN不否]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYｙＹ是]',
+    'noexpr' => '^[-0nNｎＮ不否]',
+    'yesstr' => '是',
+    'nostr' => '不是',
   ),
   'LC_MONETARY' => 
   array (
@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%Y年 %b %e日 %A %H:%M:%S %Z',
+    'date_fmt' => '%Y年 %b %-d號 %A %H:%M:%S %Z',
     'abday' => 
     array (
       0 => '日',
@@ -99,12 +99,7 @@
       5 => '星期五',
       6 => '星期六',
     ),
-    'week' => 
-    array (
-      0 => 7,
-      1 => 19971130,
-      2 => 1,
-    ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => ' 1月',
@@ -135,8 +130,8 @@
       10 => '十一月',
       11 => '十二月',
     ),
-    'd_t_fmt' => '%Y年%m月%d日 (%A) %H點%M分%S秒',
-    'd_fmt' => '%Y年%m月%d日',
+    'd_t_fmt' => '%Y年%m月%d號 (%A) %H點%M分%S秒',
+    'd_fmt' => '%Y年%m月%d號',
     't_fmt' => '%H點%M分%S秒',
     'am_pm' => 
     array (

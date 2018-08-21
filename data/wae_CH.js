@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "41"
         },
         "LC_TIME": {
@@ -125,18 +125,18 @@
                 "Chr"
             ],
             "mon": [
-                "Jener",
+                "Jenner",
                 "Hornig",
                 "M\u00e4rze",
                 "Abrille",
                 "Meije",
-                "Br\u00e1chet",
+                "Br\u00e1\u010det",
                 "Heiwet",
-                "\u00d6igschte",
-                "Herbschtm\u00e1net",
+                "\u00d6ig\u0161te",
+                "Herb\u0161tm\u00e1net",
                 "W\u00edm\u00e1net",
                 "Winterm\u00e1net",
-                "Chrischtm\u00e1net"
+                "Chri\u0161tm\u00e1net"
             ],
             "d_t_fmt": "%a %d. %b %Y %T %Z",
             "d_fmt": "%Y-%m-%d",

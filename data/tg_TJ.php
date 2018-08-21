@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Тоҷикистон',
     'country_post' => NULL,
     'country_ab2' => 'TJ',
     'country_ab3' => 'TJK',
@@ -20,16 +20,16 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ҲҳХхДдYy]',
-    'noexpr' => '^[-0НнNn]',
-    'yesstr' => 'да',
-    'nostr' => 'нет',
+    'yesexpr' => '^[+1yYҲҳХхДд]',
+    'noexpr' => '^[-0nNНн]',
+    'yesstr' => 'ҳа',
+    'nostr' => 'не',
   ),
   'LC_MONETARY' => 
   array (
     'currency_symbol' => 'руб',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

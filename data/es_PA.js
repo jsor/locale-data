@@ -19,7 +19,7 @@
             "country_num": 591,
             "country_car": "PA",
             "country_isbn": null,
-            "lang_name": "Espa\u00f1ol",
+            "lang_name": "espa\u00f1ol",
             "lang_ab": "es",
             "lang_term": "spa",
             "lang_lib": "spa"
@@ -34,7 +34,7 @@
             "nostr": "no"
         },
         "LC_MONETARY": {
-            "currency_symbol": "B\/.",
+            "currency_symbol": "B\/\/.",
             "mon_decimal_point": ".",
             "mon_thousands_sep": ",",
             "mon_grouping": [
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "507"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "diciembre"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

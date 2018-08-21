@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Jan, Feb, Mat, Apr, Mey, Jun, Jul, Arh, Sep, Okt, Usi, Dis]
     mon: [Janabari, uFeberbari, uMatjhi, u-Apreli, Meyi, Juni, Julayi, Arhostosi, Septemba, Oktoba, Usinyikhaba, Disemba]
     d_t_fmt: '%a %-e %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

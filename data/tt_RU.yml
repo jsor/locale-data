@@ -1,9 +1,9 @@
 LC_ADDRESS:
     postal_fmt: '???'
-    country_name: null
+    country_name: 'Русия'
     country_post: null
-    country_ab2: null
-    country_ab3: null
+    country_ab2: RU
+    country_ab3: RUS
     country_num: 643
     country_car: RUS
     country_isbn: null
@@ -14,14 +14,14 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдYy]'
-    noexpr: '^[-0НнNn]'
-    yesstr: Әйе
-    nostr: Юк
+    yesexpr: '^[+1yYәӘ]'
+    noexpr: '^[-0nNюЮ]'
+    yesstr: әйе
+    nostr: юк
 LC_MONETARY:
     currency_symbol: ₽
     mon_decimal_point: .
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: "\_"
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297

@@ -1,8 +1,8 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
-        "country_name": null,
-        "country_post": null,
+        "country_name": "Aruba",
+        "country_post": "AW",
         "country_ab2": "AW",
         "country_ab3": "ABW",
         "country_num": 533,
@@ -17,15 +17,15 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1jJyY]",
+        "yesexpr": "^[+1sSyY]",
         "noexpr": "^[-0nN]",
-        "yesstr": null,
-        "nostr": null
+        "yesstr": "s\u00ed",
+        "nostr": "n\u00f2"
     },
     "LC_MONETARY": {
         "currency_symbol": "\u0192",
         "mon_decimal_point": ",",
-        "mon_thousands_sep": " ",
+        "mon_thousands_sep": "\u202f",
         "mon_grouping": [
             3,
             3

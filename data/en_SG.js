@@ -74,9 +74,13 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "001",
             "int_prefix": "65"
         },
         "LC_TIME": {
@@ -133,7 +137,7 @@
                 "December"
             ],
             "d_t_fmt": "%a %d %b %Y %r",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "AM",

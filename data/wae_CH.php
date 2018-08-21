@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '41',
   ),
   'LC_TIME' => 
@@ -130,18 +130,18 @@
     ),
     'mon' => 
     array (
-      0 => 'Jener',
+      0 => 'Jenner',
       1 => 'Hornig',
       2 => 'Märze',
       3 => 'Abrille',
       4 => 'Meije',
-      5 => 'Bráchet',
+      5 => 'Bráčet',
       6 => 'Heiwet',
-      7 => 'Öigschte',
-      8 => 'Herbschtmánet',
+      7 => 'Öigšte',
+      8 => 'Herbštmánet',
       9 => 'Wímánet',
       10 => 'Wintermánet',
-      11 => 'Chrischtmánet',
+      11 => 'Chrištmánet',
     ),
     'd_t_fmt' => '%a %d. %b %Y %T %Z',
     'd_fmt' => '%Y-%m-%d',

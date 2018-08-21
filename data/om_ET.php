@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1eEyY]',
+    'noexpr' => '^[-0mMnN]',
+    'yesstr' => 'eeyyee',
+    'nostr' => 'miti',
   ),
   'LC_MONETARY' => 
   array (
@@ -144,7 +144,7 @@
       11 => 'Muddee',
     ),
     'd_t_fmt' => '%A, %B %e, %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (

@@ -7,21 +7,21 @@ LC_ADDRESS:
     country_num: 804
     country_car: UA
     country_isbn: null
-    lang_name: null
+    lang_name: русский
     lang_ab: ru
     lang_term: rus
     lang_lib: rus
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдYy]'
-    noexpr: '^[-0НнNn]'
+    yesexpr: '^[+1yYДд]'
+    noexpr: '^[-0nNНн]'
     yesstr: да
     nostr: нет
 LC_MONETARY:
     currency_symbol: ₴
     mon_decimal_point: .
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -57,15 +57,15 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '380'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [Вск, Пнд, Вто, Срд, Чтв, Птн, Суб]
     day: [Воскресенье, Понедельник, Вторник, Среда, Четверг, Пятница, Суббота]
     week: [7, 19971130, 1]
-    abmon: [Янв, Фев, Мар, Апр, Май, Июн, Июл, Авг, Сен, Окт, Ноя, Дек]
-    mon: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
+    abmon: [янв, фев, мар, апр, мая, июн, июл, авг, сен, окт, ноя, дек]
+    mon: [января, февраля, марта, апреля, мая, июня, июля, августа, сентября, октября, ноября, декабря]
     d_t_fmt: '%a %d %b %Y %T'
     d_fmt: '%d.%m.%Y'
     t_fmt: '%T'
@@ -81,3 +81,5 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    alt_mon: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
+    ab_alt_mon: [Янв, Фев, Мар, Апр, Май, Июн, Июл, Авг, Сен, Окт, Ноя, Дек]

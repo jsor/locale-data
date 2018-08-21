@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Bhi, Van, Vul, Mab, Khk, Nhl, Kho, Ngc, Nyo, Imp, Lwe, Ngo]
     mon: [Bhimbidvwane, iNdlovane, iNdlovulenkhulu, Mabasa, Inkhwenkhweti, iNhlaba, Kholwane, iNgci, iNyoni, Impala, Lweti, iNgongoni]
     d_t_fmt: '%a %-e %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

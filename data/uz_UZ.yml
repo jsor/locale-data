@@ -7,15 +7,15 @@ LC_ADDRESS:
     country_num: 860
     country_car: UZ
     country_isbn: null
-    lang_name: 'O''zbek'
+    lang_name: o‘zbek
     lang_ab: uz
     lang_term: uzb
     lang_lib: uzb
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ҲҳHh]'
-    noexpr: '^[-0ЙйNnYyJj]'
+    yesexpr: '^[+1hHҲҳ]'
+    noexpr: '^[-0nNyYjJЙй]'
     yesstr: ha
     nostr: yo‘q
 LC_MONETARY:
@@ -57,7 +57,7 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '998'
 LC_TIME:
     date_fmt: '%d %B, %Y yil, %A'
@@ -65,9 +65,9 @@ LC_TIME:
     day: [Yakshanba, Dushanba, Seshanba, Chorshanba, Payshanba, Juma, Shanba]
     week: [7, 19971130, 1]
     abmon: [Yan, Fev, Mar, Apr, May, Iyn, Iyl, Avg, Sen, Okt, Noy, Dek]
-    mon: [Yanvar, Fevral, Mart, Aprel, May, Iyun, Iyul, Avgust, Sentyabr, Oktyabr, Noyabr, Dekabr]
+    mon: [Yanvar, Fevral, Mart, Aprel, May, Iyun, Iyul, Avgust, Sentabr, Oktabr, Noyabr, Dekabr]
     d_t_fmt: '%T, %d %B, %Y yil, %A'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

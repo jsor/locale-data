@@ -57,11 +57,11 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '41'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Son, Mon, Die, Mit, Don, Fre, Sam]
+    abday: [So, Mo, Di, Mi, Do, Fr, Sa]
     day: [Sonntag, Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag]
     week: [7, 19971130, 4]
     abmon: [Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez]

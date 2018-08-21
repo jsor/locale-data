@@ -89,13 +89,13 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => 'Son',
-      1 => 'Mon',
-      2 => 'Die',
-      3 => 'Mit',
-      4 => 'Don',
-      5 => 'Fre',
-      6 => 'Sam',
+      0 => 'So',
+      1 => 'Mo',
+      2 => 'Di',
+      3 => 'Mi',
+      4 => 'Do',
+      5 => 'Fr',
+      6 => 'Sa',
     ),
     'day' => 
     array (

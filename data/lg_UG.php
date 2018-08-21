@@ -9,7 +9,7 @@
     'country_num' => 800,
     'country_car' => 'EAU',
     'country_isbn' => NULL,
-    'lang_name' => 'Oluganda',
+    'lang_name' => 'Luganda',
     'lang_ab' => 'lg',
     'lang_term' => 'lug',
     'lang_lib' => 'lug',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => '%a %l',
-    'int_select' => '00',
+    'int_select' => '000',
     'int_prefix' => '256',
   ),
   'LC_TIME' => 
@@ -120,7 +120,7 @@
       2 => 'Mar',
       3 => 'Apu',
       4 => 'Maa',
-      5 => 'Jun',
+      5 => 'Juu',
       6 => 'Jul',
       7 => 'Agu',
       8 => 'Seb',
@@ -136,7 +136,7 @@
       3 => 'Apuli',
       4 => 'Maayi',
       5 => 'Juuni',
-      6 => 'Julaai',
+      6 => 'Julaayi',
       7 => 'Agusito',
       8 => 'Sebuttemba',
       9 => 'Okitobba',
@@ -144,7 +144,7 @@
       11 => 'Desemba',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

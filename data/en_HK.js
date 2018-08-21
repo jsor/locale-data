@@ -74,9 +74,13 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "001",
             "int_prefix": "852"
         },
         "LC_TIME": {

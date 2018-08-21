@@ -12,13 +12,13 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "It\u00e0lia",
             "country_post": null,
             "country_ab2": "IT",
             "country_ab3": "ITA",
             "country_num": 380,
             "country_car": "I",
-            "country_isbn": null,
+            "country_isbn": "978-88,979-12",
             "lang_name": "Sardu",
             "lang_ab": "sc",
             "lang_term": "srd",
@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1sSjJoOyY]",
+            "yesexpr": "^[+1eEaAsSoOyY]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "eja",
+            "nostr": "nono"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
@@ -82,27 +82,27 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "39"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %e %b %Y %H:%M:%S %Z",
             "abday": [
                 "Dom",
                 "Lun",
                 "Mar",
                 "M\u00e8r",
-                "J\u00f2b",
-                "Cen",
+                "Gi\u00f2",
+                "Che",
                 "S\u00e0b"
             ],
             "day": [
-                "Dom\u00ecngu",
+                "Dom\u00ecnigu",
                 "Lunis",
                 "Martis",
                 "M\u00e8rcuris",
-                "J\u00f2bia",
-                "Cen\u00e0bara",
+                "Gi\u00f2bia",
+                "Chen\u00e0bura",
                 "S\u00e0badu"
             ],
             "week": [
@@ -111,32 +111,32 @@
                 4
             ],
             "abmon": [
-                "Gen",
-                "Fri",
+                "Ghe",
+                "Fre",
                 "Mar",
                 "Abr",
-                "May",
+                "Maj",
                 "L\u00e0m",
-                "Arj",
+                "Arg",
                 "Aus",
                 "Cab",
                 "Lad",
-                "Don",
-                "Ida"
+                "Onn",
+                "Nad"
             ],
             "mon": [
-                "Gennarju",
-                "Friarju",
+                "Ghenn\u00e0rgiu",
+                "Fre\u00e0rgiu",
                 "Martzu",
-                "Abrili",
-                "Mayu",
+                "Abrile",
+                "Maju",
                 "L\u00e0mpadas",
-                "Arjolas",
+                "Argiolas\/\/Tr\u00eculas",
                 "Austu",
                 "Cabudanni",
-                "Lad\u00e0mini",
-                "Donnyasantu",
-                "Idas"
+                "Santugaine\/\/Lad\u00e0mine",
+                "Onniasantu\/\/Santandria",
+                "Nadale\/\/Idas"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
             "d_fmt": "%d. %m. %y",

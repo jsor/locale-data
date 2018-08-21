@@ -19,7 +19,7 @@
             "country_num": 417,
             "country_car": "KS",
             "country_isbn": null,
-            "lang_name": "\u041a\u044b\u0440\u0433\u044b\u0437\u0447\u0430",
+            "lang_name": "\u043a\u044b\u0440\u0433\u044b\u0437\u0447\u0430",
             "lang_ab": "ky",
             "lang_term": "kir",
             "lang_lib": "kir"
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u041e\u043eYy]",
-            "noexpr": "^[-0\u0416\u0436Nn]",
+            "yesexpr": "^[+1yY\u041e\u043e]",
+            "noexpr": "^[-0nN\u0416\u0436]",
             "yesstr": "\u043e\u043e\u0431\u0430",
             "nostr": "\u0436\u043e\u043a"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u0441\u043e\u043c",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": " ",
+            "thousands_sep": "\u202f",
             "grouping": [
                 3,
                 3
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "996"
         },
         "LC_TIME": {

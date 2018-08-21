@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 862
     country_car: YV
     country_isbn: null
-    lang_name: Español
+    lang_name: español
     lang_ab: es
     lang_term: spa
     lang_lib: spa
@@ -57,7 +57,7 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '58'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic]
     mon: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%T'
     am_pm: [am, pm]
     t_fmt_ampm: '%I:%M:%S %p'

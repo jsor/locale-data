@@ -9,7 +9,7 @@
     'country_num' => 604,
     'country_car' => 'PE',
     'country_isbn' => NULL,
-    'lang_name' => 'Quechua (Cusco) ',
+    'lang_name' => 'Quechua (Cusco)',
     'lang_ab' => NULL,
     'lang_term' => 'quz',
     'lang_lib' => 'quz',
@@ -27,7 +27,7 @@
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => 'S/',
+    'currency_symbol' => 'S//',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
     'mon_grouping' => 
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '51',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'tisiyimri',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%I:%M:%S %p',
     'am_pm' => 
     array (

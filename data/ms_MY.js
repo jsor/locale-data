@@ -62,7 +62,7 @@
             "name_mr": "Eecik",
             "name_mrs": "Puan",
             "name_miss": "cik",
-            "name_ms": "cik\/Puan"
+            "name_ms": "cik\/\/Puan"
         },
         "LC_NUMERIC": {
             "decimal_point": ".",
@@ -74,9 +74,13 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "60"
         },
         "LC_TIME": {

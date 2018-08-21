@@ -19,7 +19,7 @@
             "country_num": 100,
             "country_car": "BG",
             "country_isbn": 954,
-            "lang_name": "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u0435\u0437\u0438\u043a",
+            "lang_name": "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438",
             "lang_ab": "bg",
             "lang_term": "bul",
             "lang_lib": "bul"
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0414\u0434DdYyOo]",
-            "noexpr": "^[-0\u041d\u043dNnKk]",
+            "yesexpr": "^[+1yYdDoO\u0414\u0434]",
+            "noexpr": "^[-0nNkK\u041d\u043d]",
             "yesstr": "\u0434\u0430",
             "nostr": "\u043d\u0435"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u043b\u0432.",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": "\u00a0",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3

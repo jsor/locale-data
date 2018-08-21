@@ -9,7 +9,7 @@
     'country_num' => 144,
     'country_car' => 'CL',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'தமிழ்',
     'lang_ab' => 'ta',
     'lang_term' => 'tam',
     'lang_lib' => 'tam',
@@ -20,21 +20,17 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ஆம்yY]',
-    'noexpr' => '^[-0இல்லைnN]',
+    'yesexpr' => '^[+1yYஆ]',
+    'noexpr' => '^[-0nNஇ]',
     'yesstr' => 'ஆம்',
     'nostr' => 'இல்லை',
   ),
   'LC_MONETARY' => 
   array (
-    'currency_symbol' => '₹',
+    'currency_symbol' => 'රු',
     'mon_decimal_point' => '.',
     'mon_thousands_sep' => ',',
-    'mon_grouping' => 
-    array (
-      0 => 3,
-      1 => 2,
-    ),
+    'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
@@ -44,7 +40,7 @@
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
-    'int_curr_symbol' => 'INR ',
+    'int_curr_symbol' => 'LKR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
     'int_p_sep_by_space' => NULL,
@@ -57,9 +53,9 @@
   array (
     'name_fmt' => '%p%t%f%t%g',
     'name_gen' => '',
-    'name_mr' => 'திரு ',
-    'name_mrs' => 'திருமதி ',
-    'name_miss' => 'செல்வி ',
+    'name_mr' => 'திரு',
+    'name_mrs' => 'திருமதி',
+    'name_miss' => 'செல்வி',
     'name_ms' => 'Ms.',
   ),
   'LC_NUMERIC' => 
@@ -79,8 +75,8 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c (%a) %l',
-    'tel_dom_fmt' => '(%a) %l',
+    'tel_int_fmt' => '+%c (%a)tel_dom_fmt    "(%a) %l',
+    'tel_dom_fmt' => NULL,
     'int_select' => '00',
     'int_prefix' => '94',
   ),

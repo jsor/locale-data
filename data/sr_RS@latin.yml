@@ -1,12 +1,12 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
     country_name: Srbija
-    country_post: SRB
+    country_post: RS
     country_ab2: RS
     country_ab3: SRB
     country_num: 688
     country_car: SRB
-    country_isbn: '86'
+    country_isbn: 86
     lang_name: srpski
     lang_ab: sr
     lang_term: srp
@@ -65,7 +65,7 @@ LC_TIME:
     day: [nedelja, ponedeljak, utorak, sreda, četvrtak, petak, subota]
     week: [7, 19971130, 1]
     abmon: [jan, feb, mar, apr, maj, jun, jul, avg, sep, okt, nov, dec]
-    mon: [januar, februar, mart, april, maj, juni, juli, avgust, septembar, oktobar, novembar, decembar]
+    mon: [januar, februar, mart, april, maj, jun, jul, avgust, septembar, oktobar, novembar, decembar]
     d_t_fmt: '%A, %d. %B %Y. %T %Z'
     d_fmt: '%d.%m.%Y.'
     t_fmt: '%T'

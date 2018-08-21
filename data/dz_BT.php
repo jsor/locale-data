@@ -9,7 +9,7 @@
     'country_num' => 64,
     'country_car' => 'BHT',
     'country_isbn' => NULL,
-    'lang_name' => '(རྫོང་ཁ',
+    'lang_name' => 'རྫོང་ཁ',
     'lang_ab' => 'dz',
     'lang_term' => 'dzo',
     'lang_lib' => 'dzo',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ཨYy]',
-    'noexpr' => '^[-0མNn]',
+    'yesexpr' => '^[+1yYཨ]',
+    'noexpr' => '^[-0nNམ]',
     'yesstr' => 'ཨིན་',
     'nostr' => 'མེན་',
   ),
@@ -82,7 +82,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '975',
   ),
   'LC_TIME' => 
@@ -146,13 +146,17 @@
     ),
     'd_t_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
     'd_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%d',
-    't_fmt' => 'ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
-    'am_pm' => 
+    't_fmt' => 
     array (
-      0 => 'ངས་ཆ',
+      0 => 'ཆུ་ཚོདam_pm   "ངས་ཆ',
       1 => 'ཕྱི་ཆ',
     ),
-    't_fmt_ampm' => 'ཆུ་ཚོད%Iཀསར་མ%Mཀསར་ཆ%S %p',
+    'am_pm' => 
+    array (
+      0 => 'AM',
+      1 => 'PM',
+    ),
+    't_fmt_ampm' => 'ཆུ་ཚོདཀསར་ཆ%S %p',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

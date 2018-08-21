@@ -19,7 +19,7 @@
             "country_num": 276,
             "country_car": "D",
             "country_isbn": 3,
-            "lang_name": "Hornjoserb\u0161\u0107ina",
+            "lang_name": "hornjoserb\u0161\u0107ina",
             "lang_ab": "",
             "lang_term": "hsb",
             "lang_lib": "hsb"
@@ -125,18 +125,18 @@
                 "Dec"
             ],
             "mon": [
-                "Januar",
-                "Februar",
-                "M\u011brc",
-                "Apryl",
-                "Meja",
-                "Junij",
-                "Julij",
-                "Awgust",
-                "September",
-                "Oktober",
-                "Nowember",
-                "December"
+                "januara",
+                "februara",
+                "m\u011brca",
+                "apryla",
+                "meje",
+                "junija",
+                "julija",
+                "awgusta",
+                "septembra",
+                "oktobra",
+                "nowembra",
+                "decembra"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
             "d_fmt": "%d.%m.%Y",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "Januar",
+                "Februar",
+                "M\u011brc",
+                "Apryl",
+                "Meja",
+                "Junij",
+                "Julij",
+                "Awgust",
+                "September",
+                "Oktober",
+                "Nowember",
+                "December"
+            ]
         }
     };
 }));

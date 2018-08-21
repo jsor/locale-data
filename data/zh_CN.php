@@ -8,7 +8,7 @@
     'country_ab3' => 'CHN',
     'country_num' => 156,
     'country_car' => 'CHN',
-    'country_isbn' => '7',
+    'country_isbn' => 7,
     'lang_name' => '中文',
     'lang_ab' => 'zh',
     'lang_term' => 'zho',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY是]',
-    'noexpr' => '^[-0nN不否]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1yYｙＹ是]',
+    'noexpr' => '^[-0nNｎＮ不否]',
+    'yesstr' => '是',
+    'nostr' => '不是',
   ),
   'LC_MONETARY' => 
   array (

@@ -19,7 +19,7 @@
             "country_num": 860,
             "country_car": "UZ",
             "country_isbn": null,
-            "lang_name": "O'zbek",
+            "lang_name": "o\u2018zbek",
             "lang_ab": "uz",
             "lang_term": "uzb",
             "lang_lib": "uzb"
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u04b2\u04b3Hh]",
-            "noexpr": "^[-0\u0419\u0439NnYyJj]",
+            "yesexpr": "^[+1hH\u04b2\u04b3]",
+            "noexpr": "^[-0nNyYjJ\u0419\u0439]",
             "yesstr": "ha",
             "nostr": "yo\u2018q"
         },
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "998"
         },
         "LC_TIME": {
@@ -133,13 +133,13 @@
                 "Iyun",
                 "Iyul",
                 "Avgust",
-                "Sentyabr",
-                "Oktyabr",
+                "Sentabr",
+                "Oktabr",
                 "Noyabr",
                 "Dekabr"
             ],
             "d_t_fmt": "%T, %d %B, %Y yil, %A",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

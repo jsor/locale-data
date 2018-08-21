@@ -9,7 +9,7 @@
     'country_num' => 56,
     'country_car' => 'B',
     'country_isbn' => NULL,
-    'lang_name' => 'Français',
+    'lang_name' => 'français',
     'lang_ab' => 'fr',
     'lang_term' => 'fra',
     'lang_lib' => 'fre',
@@ -144,7 +144,7 @@
       11 => 'décembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

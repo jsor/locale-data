@@ -8,8 +8,8 @@
     'country_ab3' => 'KOR',
     'country_num' => 410,
     'country_car' => 'ROK',
-    'country_isbn' => NULL,
-    'lang_name' => '한국말',
+    'country_isbn' => '979-11,978-89',
+    'lang_name' => '한국어',
     'lang_ab' => 'ko',
     'lang_term' => 'kor',
     'lang_lib' => 'kor',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY예]',
-    'noexpr' => '^[-0nN아]',
+    'yesexpr' => '^[+1yYｙＹ예]',
+    'noexpr' => '^[-0nNｎＮ아]',
     'yesstr' => '예',
     'nostr' => '아니요',
   ),
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => '(%A) %l',
-    'int_select' => NULL,
+    'int_select' => '001',
     'int_prefix' => '82',
   ),
   'LC_TIME' => 

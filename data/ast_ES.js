@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "34"
         },
         "LC_TIME": {
@@ -125,21 +125,21 @@
                 "avi"
             ],
             "mon": [
-                "xineru",
-                "febreru",
-                "marzu",
-                "abril",
-                "mayu",
-                "xunu",
-                "xunetu",
-                "agostu",
-                "setiembre",
-                "ochobre",
-                "payares",
-                "avientu"
+                "de xineru",
+                "de febreru",
+                "de marzu",
+                "d\u2019abril",
+                "de mayu",
+                "de xunu",
+                "de xunetu",
+                "d\u2019agostu",
+                "de setiembre",
+                "d\u2019ochobre",
+                "de payares",
+                "d\u2019avientu"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "xineru",
+                "febreru",
+                "marzu",
+                "abril",
+                "mayu",
+                "xunu",
+                "xunetu",
+                "agostu",
+                "setiembre",
+                "ochobre",
+                "payares",
+                "avientu"
+            ]
         }
     };
 }));

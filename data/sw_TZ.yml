@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Jan, Feb, Mac, Apr, Mei, Jun, Jul, Ago, Sep, Okt, Nov, Des]
     mon: [Januari, Februari, Machi, Aprili, Mei, Juni, Julai, Agosti, Septemba, Oktoba, Novemba, Desemba]
     d_t_fmt: '%e %B %Y %I:%M:%S %p %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%I:%M:%S %p'
     am_pm: [asubuhi, alasiri]
     t_fmt_ampm: '%I:%M:%S %p'

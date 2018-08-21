@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [Çil, Sib, Ada, Nîs, Gul, Hez, Tîr, Teb, Îlo, Cot, Mij, Kan]
     mon: [Çile, Sibat, Adar, Nîsan, Gulan, Hezîran, Tîrmeh, Tebax, Îlon, Cotmeh, Mijdar, Kanûn]
     d_t_fmt: '%A %d %B %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

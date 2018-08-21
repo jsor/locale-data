@@ -30,8 +30,8 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1TtiIYy]",
             "noexpr": "^[-0bBaAnN]",
-            "yesstr": "Toh",
-            "nostr": "Babu"
+            "yesstr": "i",
+            "nostr": "a\u02bca"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20a6",
@@ -114,7 +114,7 @@
                 "Jan",
                 "Fab",
                 "Mar",
-                "Afr",
+                "Afi",
                 "May",
                 "Yun",
                 "Yul",
@@ -126,9 +126,9 @@
             ],
             "mon": [
                 "Janairu",
-                "Fabrairu",
+                "Faburairu",
                 "Maris",
-                "Afrilu",
+                "Afirilu",
                 "Mayu",
                 "Yuni",
                 "Yuli",
@@ -139,7 +139,7 @@
                 "Disamba"
             ],
             "d_t_fmt": "ranar %A, %d ga %B cikin %r %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [
                 "AM",

@@ -14,7 +14,7 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[yYiIɛƐ]'
+    yesexpr: '^[yYiIíÍ]'
     noexpr: '^[nNtT]'
     yesstr: Íyo
     nostr: Tɛ̂
@@ -46,7 +46,7 @@ LC_NAME:
     name_mr: Tatá
     name_mrs: Mamá
     name_miss: Mamá
-    name_ms: 'Mamá '
+    name_ms: Mamá
 LC_NUMERIC:
     decimal_point: ','
     thousands_sep: ''
@@ -64,10 +64,10 @@ LC_TIME:
     abday: [m1., m2., m3., m4., m5., m6., m7.]
     day: [Lomíngo, 'Mosálá mɔ̌kɔ́', 'Misálá míbalé', 'Misálá mísáto', 'Misálá mínei', 'Misálá mítáno', Mpɔ́sɔ]
     week: [7, 19971130, 1]
-    abmon: [sánzá1., sánzá2., sánzá3., sánzá4., sánzá5., sánzá6., sánzá7., sánzá8., sánzá9., sánz10., sánzá11., sánzá12.]
-    mon: [Yanwáli, Febwáli, Mársi, Apríli, Máyí, Yúni, Yúli, Augústo, Sɛtɛ́mbɛ, ɔkɔtɔ́bɛ, Novɛ́mbɛ, Dɛsɛ́mbɛ]
+    abmon: [yan, fbl, msi, apl, mai, yun, yul, agt, stb, ɔtb, nvb, dsb]
+    mon: ['sánzá ya yambo', 'sánzá ya míbalé', 'sánzá ya mísáto', 'sánzá ya mínei', 'sánzá ya mítáno', 'sánzá ya motóbá', 'sánzá ya nsambo', 'sánzá ya mwambe', 'sánzá ya libwa', 'sánzá ya zómi', 'sánzá ya zómi na mɔ̌kɔ́', 'sánzá ya zómi na míbalé']
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

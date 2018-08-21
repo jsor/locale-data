@@ -18,7 +18,7 @@
             "country_ab3": "ITA",
             "country_num": 380,
             "country_car": "I",
-            "country_isbn": null,
+            "country_isbn": "978-88,979-12",
             "lang_name": "Deutsch",
             "lang_ab": "de",
             "lang_term": "deu",
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "39"
         },
         "LC_TIME": {

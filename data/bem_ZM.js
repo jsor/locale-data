@@ -19,7 +19,7 @@
             "country_num": 894,
             "country_car": "Z",
             "country_isbn": null,
-            "lang_name": "iciBemba",
+            "lang_name": "Ichibemba",
             "lang_ab": null,
             "lang_term": "bem",
             "lang_lib": "bem"
@@ -107,16 +107,16 @@
             "abmon": [
                 "Jan",
                 "Feb",
-                "Mar",
-                "Apr",
-                "May",
+                "Mac",
+                "Epr",
+                "Mei",
                 "Jun",
-                "July",
-                "Aug",
+                "Jul",
+                "Oga",
                 "Sep",
-                "Oct",
+                "Okt",
                 "Nov",
-                "Dec"
+                "Dis"
             ],
             "mon": [
                 "Januari",
@@ -133,7 +133,7 @@
                 "Disemba"
             ],
             "d_t_fmt": "%a %d %b %Y %R %Z",
-            "d_fmt": "%m\/%d\/%Y",
+            "d_fmt": "%m\/\/%d\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "uluchelo",

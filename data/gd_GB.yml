@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 826
     country_car: GB
     country_isbn: 0
-    lang_name: Gàidhlig
+    lang_name: 'Gàidhlig'
     lang_ab: gd
     lang_term: gla
     lang_lib: gla
@@ -62,12 +62,12 @@ LC_TELEPHONE:
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: [DiD, DiL, DiM, DiC, Dia, Dih, DiS]
-    day: [DiDòmhnaich, DiLuain, DiMàirt, DiCiadain, DiarDaoin, DihAoine, DiSathairne]
+    day: [DiDòmhnaich, DiLuain, 'DiMàirt', DiCiadain, DiarDaoin, DihAoine, DiSathairne]
     week: [7, 19971130, 4]
-    abmon: [Faoi, Gearr, Màrt, Gibl, Mhàrt, Ògmh, Iuch, Lùna, Sult, Dàmh, Samh, Dùbh]
-    mon: ['Am Faoilleach', 'An Gearran', 'Am Màrt', 'An Giblean', 'An Cèitean', 'An t-Ògmhios', 'An t-Iuchar', 'An Lùnastal', 'An t-Sultain', 'An Dàmhair', 'An t-Samhain', 'An Dùbhlachd']
+    abmon: [Faoi, Gearr, 'Màrt', Gibl, Cèit, Ògmh, Iuch, Lùna, Sult, 'Dàmh', Samh, Dùbh]
+    mon: ['dhen Fhaoilleach', 'dhen Ghearran', 'dhen Mhàrt', 'dhen Ghiblean', 'dhen Chèitean', 'dhen Ògmhios', 'dhen Iuchar', 'dhen Lùnastal', 'dhen t-Sultain', 'dhen Dàmhair', 'dhen t-Samhain', 'dhen Dùbhlachd']
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%r'
     am_pm: [m, f]
     t_fmt_ampm: ''
@@ -81,3 +81,4 @@ LC_TIME:
     first_workday: null
     cal_direction: null
     timezone: null
+    alt_mon: ['Am Faoilleach', 'An Gearran', 'Am Màrt', 'An Giblean', 'An Cèitean', 'An t-Ògmhios', 'An t-Iuchar', 'An Lùnastal', 'An t-Sultain', 'An Dàmhair', 'An t-Samhain', 'An Dùbhlachd']

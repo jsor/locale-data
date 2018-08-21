@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]',
-    'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesexpr' => '^[+1እyY]',
+    'noexpr' => '^[-0ነnN]',
+    'yesstr' => 'እወ',
+    'nostr' => 'ነኖእ',
   ),
   'LC_MONETARY' => 
   array (
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%A፣ %B %e ጋላሳ %r %Z %Y ግ/ላ',
+    'date_fmt' => '%A፣ %B %e ጋላሳ %r %Z %Y ግ//ላ',
     'abday' => 
     array (
       0 => 'ወጋ ',
@@ -144,7 +144,7 @@
       11 => 'ዲሴምበር',
     ),
     'd_t_fmt' => '%A፣ %B %e ጋላሳ %Y %r %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%l:%M:%S',
     'am_pm' => 
     array (

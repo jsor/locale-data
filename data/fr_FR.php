@@ -8,8 +8,8 @@
     'country_ab3' => 'FRA',
     'country_num' => 250,
     'country_car' => 'F',
-    'country_isbn' => NULL,
-    'lang_name' => 'Français',
+    'country_isbn' => '979-10',
+    'lang_name' => 'français',
     'lang_ab' => 'fr',
     'lang_term' => 'fra',
     'lang_lib' => 'fre',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 3,
     'positive_sign' => '',
     'negative_sign' => '-',
@@ -61,7 +61,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 3,
   ),
   'LC_PAPER' => 
@@ -136,7 +136,7 @@
       11 => 'décembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

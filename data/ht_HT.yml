@@ -21,7 +21,7 @@ LC_MESSAGES:
 LC_MONETARY:
     currency_symbol: g
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: 3
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: ' '
+    thousands_sep:  
     grouping: 3
 LC_PAPER:
     height: 297
@@ -61,13 +61,13 @@ LC_TELEPHONE:
     int_prefix: '509'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [dim, 'len ', mad, mèk, jed, van, sam]
-    day: [dimanch, 'lendi ', madi, mèkredi, jedi, vandredi, samdi]
+    abday: [dim, len, mad, mèk, jed, van, sam]
+    day: [dimanch, lendi, madi, mèkredi, jedi, vandredi, samdi]
     week: [7, 19971130, 1]
     abmon: [jan, fev, mas, avr, me, jen, jiy, out, sep, okt, nov, des]
     mon: [janvye, fevriye, mas, avril, me, jen, jiyè, out, septanm, oktòb, novanm, desanm]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

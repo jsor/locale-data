@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]",
-            "noexpr": "^[-0nN]",
+            "yesexpr": "^([+1yY]|\u13a5\u13a5)",
+            "noexpr": "^([-0nN]|\u13a5\u13dd)",
             "yesstr": "\u13a5\u13a5",
             "nostr": "\u13a5\u13dd"
         },
@@ -139,7 +139,7 @@
                 "\u13a5\u13cd\u13a9\u13f1"
             ],
             "d_t_fmt": "%a %d %b %Y %r %Z",
-            "d_fmt": "%m\/%d\/%Y",
+            "d_fmt": "%m\/\/%d\/\/%Y",
             "t_fmt": "%r",
             "am_pm": [
                 "\u13cc\u13be\u13b4",

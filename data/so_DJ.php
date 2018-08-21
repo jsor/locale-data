@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'Fdj',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -89,13 +89,13 @@
     'date_fmt' => '%a %b %e %r %Z %Y',
     'abday' => 
     array (
-      0 => 'axa',
-      1 => 'isn',
-      2 => 'sal',
-      3 => 'arb',
-      4 => 'kha',
-      5 => 'jim',
-      6 => 'sab',
+      0 => 'Axd',
+      1 => 'Isn',
+      2 => 'Tal',
+      3 => 'Arb',
+      4 => 'Kha',
+      5 => 'Jim',
+      6 => 'Sab',
     ),
     'day' => 
     array (
@@ -115,18 +115,18 @@
     ),
     'abmon' => 
     array (
-      0 => 'kob',
-      1 => 'lab',
-      2 => 'sad',
-      3 => 'afr',
-      4 => 'sha',
-      5 => 'lix',
-      6 => 'tod',
-      7 => 'sid',
-      8 => 'sag',
-      9 => 'tob',
-      10 => 'kit',
-      11 => 'lit',
+      0 => 'Kob',
+      1 => 'Lab',
+      2 => 'Sad',
+      3 => 'Afr',
+      4 => 'Sha',
+      5 => 'Lix',
+      6 => 'Tod',
+      7 => 'Sid',
+      8 => 'Sag',
+      9 => 'Tob',
+      10 => 'KIT',
+      11 => 'LIT',
     ),
     'mon' => 
     array (

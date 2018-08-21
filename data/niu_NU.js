@@ -28,7 +28,7 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0113\u0112yY]",
+            "yesexpr": "^[+1yY\u0113\u0112]",
             "noexpr": "^[-0nN]",
             "yesstr": "Talia",
             "nostr": "Nakai"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "683"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "Tesemo"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "AM",

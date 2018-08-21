@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "D\u00fc\u00fctschland",
             "country_post": "D",
             "country_ab2": "DE",
             "country_ab3": "DEU",
@@ -30,8 +30,8 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1jJyY]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "jo",
+            "nostr": "nee"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",

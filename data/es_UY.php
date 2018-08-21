@@ -9,7 +9,7 @@
     'country_num' => 858,
     'country_car' => 'UY',
     'country_isbn' => NULL,
-    'lang_name' => 'Español',
+    'lang_name' => 'español',
     'lang_ab' => 'es',
     'lang_term' => 'spa',
     'lang_lib' => 'spa',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '598',
   ),
   'LC_TIME' => 
@@ -123,7 +123,7 @@
       5 => 'jun',
       6 => 'jul',
       7 => 'ago',
-      8 => 'sep',
+      8 => 'set',
       9 => 'oct',
       10 => 'nov',
       11 => 'dic',
@@ -138,13 +138,13 @@
       5 => 'junio',
       6 => 'julio',
       7 => 'agosto',
-      8 => 'septiembre',
+      8 => 'setiembre',
       9 => 'octubre',
       10 => 'noviembre',
       11 => 'diciembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

@@ -16,7 +16,7 @@ LC_MEASUREMENT:
 LC_MESSAGES:
     yesexpr: '^[+1نyY]'
     noexpr: '^[-0لnN]'
-    yesstr: نعم
+    yesstr: 'نعم'
     nostr: لا
 LC_MONETARY:
     currency_symbol: ر.س
@@ -57,15 +57,15 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00'
     int_prefix: '966'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [Sun, 0, 0, 0, 0, 0, 0]
+    abday: [ح, 0, 0, 0, 0, 0, 0]
     day: [الأحد, 0, 0, 0, 0, 0, 0]
     week: [7, 19971130, 1]
-    abmon: [Jan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    mon: ['كانون الثاني', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    abmon: [يناير, فبراير, 'مارس', أبريل, 'مايو', يونيو, يوليو, أغسطس, 'سبتمبر', أكتوبر, 'نوفمبر', 'ديسمبر']
+    mon: [يناير, فبراير, 'مارس', أبريل, 'مايو', يونيو, يوليو, أغسطس, 'سبتمبر', أكتوبر, 'نوفمبر', 'ديسمبر']
     d_t_fmt: '%A %e %B %Y  %k:%M:%S'
     d_fmt: '%A %e %B %Y'
     t_fmt: '%k:%M:%S'

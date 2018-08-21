@@ -7,21 +7,21 @@ LC_ADDRESS:
     country_num: 807
     country_car: MK
     country_isbn: '9989'
-    lang_name: 'македонск/и јазик'
+    lang_name: македонски
     lang_ab: mk
     lang_term: mkd
     lang_lib: mac
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдDdYy]'
-    noexpr: '^[-0НнNn]'
+    yesexpr: '^[+1yYДдdD]'
+    noexpr: '^[-0nNНн]'
     yesstr: да
     nostr: не
 LC_MONETARY:
     currency_symbol: ден
     mon_decimal_point: ','
-    mon_thousands_sep: ' '
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: г-ѓа
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: ' '
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297

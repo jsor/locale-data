@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY\u662f]",
-            "noexpr": "^[-0nN\u4e0d\u5426]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY\uff59\uff39\u662f]",
+            "noexpr": "^[-0nN\uff4e\uff2e\u4e0d\u5426]",
+            "yesstr": "\u662f",
+            "nostr": "\u5426"
         },
         "LC_MONETARY": {
             "currency_symbol": "HK$",
@@ -74,7 +74,11 @@
             "width": 210
         },
         "LC_TELEPHONE": {
-            "tel_int_fmt": "+%c ;%a ;%l",
+            "tel_int_fmt": [
+                "+%c ",
+                0,
+                0
+            ],
             "tel_dom_fmt": null,
             "int_select": "001",
             "int_prefix": "852"

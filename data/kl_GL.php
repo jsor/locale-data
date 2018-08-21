@@ -9,7 +9,7 @@
     'country_num' => 304,
     'country_car' => 'KN',
     'country_isbn' => NULL,
-    'lang_name' => 'Kalaallisut',
+    'lang_name' => 'kalaallisut',
     'lang_ab' => 'kl',
     'lang_term' => 'kal',
     'lang_lib' => 'kal',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '299',
   ),
   'LC_TIME' => 

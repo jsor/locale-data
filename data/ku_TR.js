@@ -139,7 +139,7 @@
                 "Kan\u00fbn"
             ],
             "d_t_fmt": "%A %d %B %Y %T %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

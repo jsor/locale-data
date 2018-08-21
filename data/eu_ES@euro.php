@@ -9,7 +9,7 @@
     'country_num' => 724,
     'country_car' => 'E',
     'country_isbn' => NULL,
-    'lang_name' => 'Euskara',
+    'lang_name' => 'euskara',
     'lang_ab' => 'eu',
     'lang_term' => 'eus',
     'lang_lib' => 'baq',
@@ -65,11 +65,11 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
+    'thousands_sep' => '.',
     'grouping' => 
     array (
-      0 => 0,
-      1 => 0,
+      0 => 3,
+      1 => 3,
     ),
   ),
   'LC_PAPER' => 
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '34',
   ),
   'LC_TIME' => 

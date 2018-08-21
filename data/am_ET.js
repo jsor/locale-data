@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]",
-            "noexpr": "^[-0nN]",
+            "yesexpr": "^([+1yY\u12ce]|\u12a0\u12ce\u1295)",
+            "noexpr": "^([-0nN\u12ed]|\u12a0\u12ed)",
             "yesstr": "\u12a0\u12ce\u1295",
             "nostr": "\u12a0\u12ed"
         },
@@ -86,7 +86,7 @@
             "int_prefix": "251"
         },
         "LC_TIME": {
-            "date_fmt": "%A\u1363 %B %e \u1240\u1295 %r %Z %Y \u12d3\/\u121d",
+            "date_fmt": "%A\u1363 %B %e \u1240\u1295 %r %Z %Y \u12d3\/\/\u121d",
             "abday": [
                 "\u12a5\u1211\u12f5",
                 "\u1230\u129e ",
@@ -128,18 +128,18 @@
                 "\u1303\u1295\u12e9\u12c8\u122a",
                 "\u134c\u1265\u1229\u12c8\u122a",
                 "\u121b\u122d\u127d",
-                "\u12a4\u1355\u1228\u120d",
+                "\u12a4\u1355\u122a\u120d",
                 "\u121c\u12ed",
                 "\u1301\u1295",
                 "\u1301\u120b\u12ed",
                 "\u12a6\u1308\u1235\u1275",
                 "\u1234\u1355\u1274\u121d\u1260\u122d",
-                "\u12a6\u12ad\u1270\u12cd\u1260\u122d",
+                "\u12a6\u12ad\u1276\u1260\u122d",
                 "\u1296\u126c\u121d\u1260\u122d",
                 "\u12f2\u1234\u121d\u1260\u122d"
             ],
             "d_t_fmt": "%A\u1363 %B %e \u1240\u1295 %Y %r %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%l:%M:%S",
             "am_pm": [
                 "\u1321\u12cb\u1275",

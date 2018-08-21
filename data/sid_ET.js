@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY]",
-            "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1\u12a5yY]",
+            "noexpr": "^[-0\u1290nN]",
+            "yesstr": "\u12a5\u12c8",
+            "nostr": "\u1290\u1296\u12a5"
         },
         "LC_MONETARY": {
             "currency_symbol": "Br",
@@ -139,7 +139,7 @@
                 "December"
             ],
             "d_t_fmt": "%A, %B %e, %Y %r %Z",
-            "d_fmt": "%d\/%m\/%Y",
+            "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%l:%M:%S",
             "am_pm": [
                 "soodo",

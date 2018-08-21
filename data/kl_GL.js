@@ -19,7 +19,7 @@
             "country_num": 304,
             "country_car": "KN",
             "country_isbn": null,
-            "lang_name": "Kalaallisut",
+            "lang_name": "kalaallisut",
             "lang_ab": "kl",
             "lang_term": "kal",
             "lang_lib": "kal"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "299"
         },
         "LC_TIME": {

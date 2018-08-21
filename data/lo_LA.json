@@ -112,7 +112,7 @@
         ],
         "mon": [
             "\u0ea1\u0eb1\u0e87\u0e81\u0ead\u0e99",
-            "\u0e81\u0eb8\u0ea1\u0e9f\u0eb2",
+            "\u0e81\u0eb8\u0ea1\u0e9e\u0eb2",
             "\u0ea1\u0eb5\u0e99\u0eb2",
             "\u0ec0\u0ea1\u0eaa\u0eb2",
             "\u0e9e\u0eb6\u0e94\u0eaa\u0eb0\u0e9e\u0eb2",
@@ -125,14 +125,14 @@
             "\u0e97\u0eb1\u0e99\u0ea7\u0eb2"
         ],
         "d_t_fmt": "%a %e %b %Ey, %H:%M:%S",
-        "d_fmt": "%d\/%m\/%Ey",
+        "d_fmt": "%d\/\/%m\/\/%Ey",
         "t_fmt": "%H:%M:%S",
         "am_pm": [
             "AM",
             "PM"
         ],
         "t_fmt_ampm": "%I:%M:%S %p",
-        "era": "+:1:-543\/01\/01:+*:\u0e9e.\u0eaa.:%EC %Ey",
+        "era": "+:1:-543\/\/01\/\/01:+*:\u0e9e.\u0eaa.:%EC %Ey",
         "era_year": null,
         "era_d_t_fmt": "\u0ea7\u0eb1\u0e99%A\u0e97\u0eb5\u0ec8 %e %B %EC %Ey, %H.%M.%S \u0e99.",
         "era_d_fmt": "%e %b %Ey",

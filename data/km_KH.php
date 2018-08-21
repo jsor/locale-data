@@ -9,7 +9,7 @@
     'country_num' => 116,
     'country_car' => 'KH',
     'country_isbn' => NULL,
-    'lang_name' => 'ភាសាខ្មែរ',
+    'lang_name' => 'ខ្មែរ',
     'lang_ab' => 'km',
     'lang_term' => 'khm',
     'lang_lib' => 'khm',
@@ -20,10 +20,10 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1yY]([eE][sS])?',
-    'noexpr' => '^[-0nN][oO]?',
-    'yesstr' => 'បាទ/ចាស​៖ y',
-    'nostr' => 'ទេ​៖ n',
+    'yesexpr' => '^[+1yYប]',
+    'noexpr' => '^[-0nNទ]',
+    'yesstr' => 'បាទ/ចាស',
+    'nostr' => 'ទេ',
   ),
   'LC_MONETARY' => 
   array (
@@ -57,8 +57,8 @@
   array (
     'name_fmt' => '%d%t%g%t%m%t%f',
     'name_gen' => NULL,
-    'name_mr' => 'ທ.',
-    'name_mrs' => 'ນ.',
+    'name_mr' => NULL,
+    'name_mrs' => NULL,
     'name_miss' => NULL,
     'name_ms' => NULL,
   ),
@@ -128,7 +128,7 @@
     array (
       0 => 'មករា',
       1 => 'កុម្ភៈ',
-      2 => 'មិនា',
+      2 => 'មីនា',
       3 => 'មេសា',
       4 => 'ឧសភា',
       5 => 'មិថុនា',
@@ -139,7 +139,7 @@
       10 => 'វិច្ឆិកា',
       11 => 'ធ្នូ',
     ),
-    'd_t_fmt' => '%A ថ្ងៃ %e ខែ %B ឆ្នាំ  %Y, %H ម៉ោង m នាទី %S វិនាទី​',
+    'd_t_fmt' => '%A ថ្ងៃ %e ខែ %B ឆ្នាំ %Y, %H ម៉ោង m នាទី %S វិនាទី​',
     'd_fmt' => '%e %B %Y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 
@@ -154,7 +154,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 1,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

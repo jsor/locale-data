@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY]'
-    noexpr: '^[-0nN]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yYእ]'
+    noexpr: '^[-0nNነ]'
+    yesstr: እወ
+    nostr: ነኖእ
 LC_MONETARY:
     currency_symbol: Nfk
     mon_decimal_point: .
@@ -44,9 +44,9 @@ LC_NAME:
     name_fmt: '%d%t%g%t%m%t%f'
     name_gen: ''
     name_mr: 'ኣቶ"             % "አይተ" is informal'
-    name_mrs: ወ/ሮ
-    name_miss: ወ/ሪት
-    name_ms: ወ/ሪት
+    name_mrs: ወ//ሮ
+    name_miss: ወ//ሪት
+    name_ms: ወ//ሪት
 LC_NUMERIC:
     decimal_point: .
     thousands_sep: ''
@@ -60,14 +60,14 @@ LC_TELEPHONE:
     int_select: '00'
     int_prefix: '291'
 LC_TIME:
-    date_fmt: '%A፥%B፡%e፡መዓልት፡%r፡%Z፡%Y፡ዓ/ም'
-    abday: [እኁድ, ሰኑይ, ሠሉስ, ራብዕ, ሐሙስ, ዓርበ, ቀዳሚ]
-    day: [እኁድ, ሰኑይ, ሠሉስ, ራብዕ, ሐሙስ, ዓርበ, ቀዳሚት]
+    date_fmt: '%A፥%B፡%e፡መዓልት፡%r፡%Z፡%Y፡ዓ//ም'
+    abday: [እኁድ, ሰኑይ, 'ሠሉስ', ራብዕ, ሐሙስ, 'ዓርበ', ቀዳሚ]
+    day: [እኁድ, ሰኑይ, 'ሠሉስ', ራብዕ, ሐሙስ, 'ዓርበ', ቀዳሚት]
     week: [7, 19971130, 1]
-    abmon: [ጠሐረ, ከተተ, መገበ, አኀዘ, ግንባ, ሠንየ, ሐመለ, ነሐሰ, ከረመ, ጠቀመ, ኀደረ, ኀሠሠ]
-    mon: [ጠሐረ, ከተተ, መገበ, አኀዘ, ግንባት, ሠንየ, ሐመለ, ነሐሰ, ከረመ, ጠቀመ, ኀደረ, ኀሠሠ]
+    abmon: ['ጠሐረ', ከተተ, 'መገበ', 'አኀዘ', ግንባ, 'ሠንየ', ሐመለ, ነሐሰ, ከረመ, 'ጠቀመ', ኀደረ, 'ኀሠሠ']
+    mon: ['ጠሐረ', ከተተ, 'መገበ', 'አኀዘ', ግንባት, 'ሠንየ', ሐመለ, ነሐሰ, ከረመ, 'ጠቀመ', ኀደረ, 'ኀሠሠ']
     d_t_fmt: '%A፥%B፡%e፡መዓልት፡%Y፡%r፡%Z'
-    d_fmt: '%d/%m/%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%l:%M:%S'
     am_pm: [ጽባሕ, ምሴት]
     t_fmt_ampm: '%X፡%p'

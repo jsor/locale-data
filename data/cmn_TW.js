@@ -28,10 +28,10 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1yY\u662f]",
-            "noexpr": "^[-0nN\u4e0d\u5426]",
-            "yesstr": null,
-            "nostr": null
+            "yesexpr": "^[+1yY\uff59\uff39\u662f]",
+            "noexpr": "^[-0nN\uff4e\uff2e\u4e0d\u5426]",
+            "yesstr": "\u662f",
+            "nostr": "\u4e0d\u662f"
         },
         "LC_MONETARY": {
             "currency_symbol": "NT$",
@@ -80,7 +80,7 @@
             "int_prefix": "886"
         },
         "LC_TIME": {
-            "date_fmt": "%Y\u5e74 %b %e\u65e5 %A %H:%M:%S %Z",
+            "date_fmt": "%Y\u5e74 %b %-d\u865f %A %H:%M:%S %Z",
             "abday": [
                 "\u65e5",
                 "\u4e00",
@@ -99,11 +99,7 @@
                 "\u661f\u671f\u4e94",
                 "\u661f\u671f\u516d"
             ],
-            "week": [
-                7,
-                19971130,
-                1
-            ],
+            "week": null,
             "abmon": [
                 " 1\u6708",
                 " 2\u6708",
@@ -132,8 +128,8 @@
                 "\u5341\u4e00\u6708",
                 "\u5341\u4e8c\u6708"
             ],
-            "d_t_fmt": "%Y\u5e74%m\u6708%d\u65e5 (%A) %H\u9ede%M\u5206%S\u79d2",
-            "d_fmt": "%Y\u5e74%m\u6708%d\u65e5",
+            "d_t_fmt": "%Y\u5e74%m\u6708%d\u865f (%A) %H\u9ede%M\u5206%S\u79d2",
+            "d_fmt": "%Y\u5e74%m\u6708%d\u865f",
             "t_fmt": "%H\u9ede%M\u5206%S\u79d2",
             "am_pm": [
                 "\u4e0a\u5348",

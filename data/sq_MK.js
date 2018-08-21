@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "den",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -85,22 +85,22 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "Die ",
-                "H\u00ebn ",
-                "Mar ",
-                "M\u00ebr ",
-                "Enj ",
-                "Pre ",
-                "Sht "
+                "Die",
+                "H\u00ebn",
+                "Mar",
+                "M\u00ebr",
+                "Enj",
+                "Pre",
+                "Sht"
             ],
             "day": [
-                "e diel ",
-                "e h\u00ebn\u00eb ",
-                "e mart\u00eb ",
-                "e m\u00ebrkur\u00eb ",
-                "e enjte ",
-                "e premte ",
-                "e shtun\u00eb "
+                "e diel",
+                "e h\u00ebn\u00eb",
+                "e mart\u00eb",
+                "e m\u00ebrkur\u00eb",
+                "e enjte",
+                "e premte",
+                "e shtun\u00eb"
             ],
             "week": [
                 7,

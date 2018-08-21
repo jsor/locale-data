@@ -67,7 +67,7 @@ LC_TIME:
     abmon: [jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez]
     mon: [janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro]
     d_t_fmt: '%a %d %b %Y %T %Z'
-    d_fmt: '%d-%m-%Y'
+    d_fmt: '%d//%m//%Y'
     t_fmt: '%T'
     am_pm: ['', '']
     t_fmt_ampm: ''

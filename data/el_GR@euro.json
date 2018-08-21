@@ -8,7 +8,7 @@
         "country_num": 300,
         "country_car": "GR",
         "country_isbn": null,
-        "lang_name": "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+        "lang_name": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
         "lang_ab": "el",
         "lang_term": "ell",
         "lang_lib": "gre"
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u03bd\u039dyY]",
-        "noexpr": "^[-0\u03bf\u039fnN]",
+        "yesexpr": "^[+1yY\u03bd\u039d]",
+        "noexpr": "^[-0nN\u03bf\u039f\u03cc\u038c]",
         "yesstr": "\u03bd\u03b1\u03b9",
         "nostr": "\u03cc\u03c7\u03b9"
     },
@@ -32,7 +32,7 @@
         "frac_digits": 2,
         "p_cs_precedes": 0,
         "p_sep_by_space": 0,
-        "n_cs_precedes": 1,
+        "n_cs_precedes": 0,
         "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
@@ -99,33 +99,33 @@
         "abmon": [
             "\u0399\u03b1\u03bd",
             "\u03a6\u03b5\u03b2",
-            "\u039c\u03ac\u03c1",
+            "\u039c\u03b1\u03c1",
             "\u0391\u03c0\u03c1",
-            "\u039c\u03ac\u03b9",
-            "\u0399\u03bf\u03cd\u03bd",
-            "\u0399\u03bf\u03cd\u03bb",
-            "\u0391\u03cd\u03b3",
+            "\u039c\u03b1\u0390",
+            "\u0399\u03bf\u03c5\u03bd",
+            "\u0399\u03bf\u03c5\u03bb",
+            "\u0391\u03c5\u03b3",
             "\u03a3\u03b5\u03c0",
             "\u039f\u03ba\u03c4",
-            "\u039d\u03bf\u03ad",
+            "\u039d\u03bf\u03b5",
             "\u0394\u03b5\u03ba"
         ],
         "mon": [
-            "\u0399\u03b1\u03bd\u03bf\u03c5\u03ac\u03c1\u03b9\u03bf\u03c2",
-            "\u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03ac\u03c1\u03b9\u03bf\u03c2",
-            "\u039c\u03ac\u03c1\u03c4\u03b9\u03bf\u03c2",
-            "\u0391\u03c0\u03c1\u03af\u03bb\u03b9\u03bf\u03c2",
-            "\u039c\u03ac\u03b9\u03bf\u03c2",
-            "\u0399\u03bf\u03cd\u03bd\u03b9\u03bf\u03c2",
-            "\u0399\u03bf\u03cd\u03bb\u03b9\u03bf\u03c2",
-            "\u0391\u03cd\u03b3\u03bf\u03c5\u03c3\u03c4\u03bf\u03c2",
-            "\u03a3\u03b5\u03c0\u03c4\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf\u03c2",
-            "\u039f\u03ba\u03c4\u03ce\u03b2\u03c1\u03b9\u03bf\u03c2",
-            "\u039d\u03bf\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf\u03c2",
-            "\u0394\u03b5\u03ba\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf\u03c2"
+            "\u0399\u03b1\u03bd\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5",
+            "\u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5",
+            "\u039c\u03b1\u03c1\u03c4\u03af\u03bf\u03c5",
+            "\u0391\u03c0\u03c1\u03b9\u03bb\u03af\u03bf\u03c5",
+            "\u039c\u03b1\u0390\u03bf\u03c5",
+            "\u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5",
+            "\u0399\u03bf\u03c5\u03bb\u03af\u03bf\u03c5",
+            "\u0391\u03c5\u03b3\u03bf\u03cd\u03c3\u03c4\u03bf\u03c5",
+            "\u03a3\u03b5\u03c0\u03c4\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5",
+            "\u039f\u03ba\u03c4\u03c9\u03b2\u03c1\u03af\u03bf\u03c5",
+            "\u039d\u03bf\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5",
+            "\u0394\u03b5\u03ba\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5"
         ],
         "d_t_fmt": "%a %d %b %Y %r %Z",
-        "d_fmt": "%d\/%m\/%Y",
+        "d_fmt": "%d\/\/%m\/\/%Y",
         "t_fmt": "%r",
         "am_pm": [
             "\u03c0\u03bc",
@@ -141,6 +141,34 @@
         "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
-        "timezone": null
+        "timezone": null,
+        "ab_alt_mon": [
+            "\u0399\u03b1\u03bd",
+            "\u03a6\u03b5\u03b2",
+            "\u039c\u03ac\u03c1",
+            "\u0391\u03c0\u03c1",
+            "\u039c\u03ac\u03b9",
+            "\u0399\u03bf\u03cd\u03bd",
+            "\u0399\u03bf\u03cd\u03bb",
+            "\u0391\u03cd\u03b3",
+            "\u03a3\u03b5\u03c0",
+            "\u039f\u03ba\u03c4",
+            "\u039d\u03bf\u03ad",
+            "\u0394\u03b5\u03ba"
+        ],
+        "alt_mon": [
+            "\u0399\u03b1\u03bd\u03bf\u03c5\u03ac\u03c1\u03b9\u03bf\u03c2",
+            "\u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03ac\u03c1\u03b9\u03bf\u03c2",
+            "\u039c\u03ac\u03c1\u03c4\u03b9\u03bf\u03c2",
+            "\u0391\u03c0\u03c1\u03af\u03bb\u03b9\u03bf\u03c2",
+            "\u039c\u03ac\u03b9\u03bf\u03c2",
+            "\u0399\u03bf\u03cd\u03bd\u03b9\u03bf\u03c2",
+            "\u0399\u03bf\u03cd\u03bb\u03b9\u03bf\u03c2",
+            "\u0391\u03cd\u03b3\u03bf\u03c5\u03c3\u03c4\u03bf\u03c2",
+            "\u03a3\u03b5\u03c0\u03c4\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf\u03c2",
+            "\u039f\u03ba\u03c4\u03ce\u03b2\u03c1\u03b9\u03bf\u03c2",
+            "\u039d\u03bf\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf\u03c2",
+            "\u0394\u03b5\u03ba\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf\u03c2"
+        ]
     }
 }

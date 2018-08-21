@@ -2,13 +2,13 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Italia',
     'country_post' => NULL,
     'country_ab2' => 'IT',
     'country_ab3' => 'ITA',
     'country_num' => 380,
     'country_car' => 'I',
-    'country_isbn' => NULL,
+    'country_isbn' => '978-88,979-12',
     'lang_name' => 'Lìgure',
     'lang_ab' => NULL,
     'lang_term' => 'lij',
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '39',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'dixembre',
     ),
     'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d/%m/%Y',
+    'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

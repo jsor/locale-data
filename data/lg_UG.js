@@ -19,7 +19,7 @@
             "country_num": 800,
             "country_car": "EAU",
             "country_isbn": null,
-            "lang_name": "Oluganda",
+            "lang_name": "Luganda",
             "lang_ab": "lg",
             "lang_term": "lug",
             "lang_lib": "lug"
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": "%a %l",
-            "int_select": "00",
+            "int_select": "000",
             "int_prefix": "256"
         },
         "LC_TIME": {
@@ -116,7 +116,7 @@
                 "Mar",
                 "Apu",
                 "Maa",
-                "Jun",
+                "Juu",
                 "Jul",
                 "Agu",
                 "Seb",
@@ -131,7 +131,7 @@
                 "Apuli",
                 "Maayi",
                 "Juuni",
-                "Julaai",
+                "Julaayi",
                 "Agusito",
                 "Sebuttemba",
                 "Okitobba",
@@ -139,7 +139,7 @@
                 "Desemba"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

@@ -19,7 +19,7 @@
             "country_num": 376,
             "country_car": "IL",
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "\u05e2\u05d1\u05e8\u05d9\u05ea",
             "lang_ab": "he",
             "lang_term": "heb",
             "lang_lib": "heb"
@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1Yy\u05db]",
-            "noexpr": "^[-0Nn\u05dc]",
+            "yesexpr": "^[+1yY\u05db]",
+            "noexpr": "^[-0nN\u05dc]",
             "yesstr": "\u05db\u05df",
             "nostr": "\u05dc\u05d0"
         },
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00,012,013,014,018",
             "int_prefix": "972"
         },
         "LC_TIME": {
@@ -139,7 +139,7 @@
                 "\u05d3\u05e6\u05de\u05d1\u05e8"
             ],
             "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
-            "d_fmt": "%d\/%m\/%y",
+            "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [
                 "AM",

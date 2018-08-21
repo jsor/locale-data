@@ -8,7 +8,7 @@
         "country_num": 64,
         "country_car": "BHT",
         "country_isbn": null,
-        "lang_name": "(\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41",
+        "lang_name": "\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41",
         "lang_ab": "dz",
         "lang_term": "dzo",
         "lang_lib": "dzo"
@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u0f68Yy]",
-        "noexpr": "^[-0\u0f58Nn]",
+        "yesexpr": "^[+1yY\u0f68]",
+        "noexpr": "^[-0nN\u0f58]",
         "yesstr": "\u0f68\u0f72\u0f53\u0f0b",
         "nostr": "\u0f58\u0f7a\u0f53\u0f0b"
     },
@@ -72,7 +72,7 @@
     "LC_TELEPHONE": {
         "tel_int_fmt": "+%c %a %l",
         "tel_dom_fmt": null,
-        "int_select": null,
+        "int_select": "00",
         "int_prefix": "975"
     },
     "LC_TIME": {
@@ -130,12 +130,15 @@
         ],
         "d_t_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%H\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S",
         "d_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d",
-        "t_fmt": "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%H\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S",
-        "am_pm": [
-            "\u0f44\u0f66\u0f0b\u0f46",
+        "t_fmt": [
+            "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51am_pm   \"\u0f44\u0f66\u0f0b\u0f46",
             "\u0f55\u0fb1\u0f72\u0f0b\u0f46"
         ],
-        "t_fmt_ampm": "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%I\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S %p",
+        "am_pm": [
+            "AM",
+            "PM"
+        ],
+        "t_fmt_ampm": "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51\u0f40\u0f66\u0f62\u0f0b\u0f46%S %p",
         "era": null,
         "era_year": null,
         "era_d_t_fmt": null,

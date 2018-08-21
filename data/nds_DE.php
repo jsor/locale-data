@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Düütschland',
     'country_post' => 'D',
     'country_ab2' => 'DE',
     'country_ab3' => 'DEU',
@@ -22,8 +22,8 @@
   array (
     'yesexpr' => '^[+1jJyY]',
     'noexpr' => '^[-0nN]',
-    'yesstr' => NULL,
-    'nostr' => NULL,
+    'yesstr' => 'jo',
+    'nostr' => 'nee',
   ),
   'LC_MONETARY' => 
   array (

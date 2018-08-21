@@ -19,7 +19,7 @@
             "country_num": 643,
             "country_car": "RUS",
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "\u0438\u0440\u043e\u043d",
             "lang_ab": "os",
             "lang_term": "oss",
             "lang_lib": "oss"
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0423\u0434Yy]",
-            "noexpr": "^[-0\u0443\u043dNn]",
+            "yesexpr": "^[+1yY\u0443\u0423]",
+            "noexpr": "^[-0nN\u043d\u041d]",
             "yesstr": "\u0443\u043e\u0439\u044b",
             "nostr": "\u043d\u04d5\u0439\u044b"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u20bd",
-            "mon_decimal_point": ".",
-            "mon_thousands_sep": "\u00a0",
+            "mon_decimal_point": ",",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "\u00a0",
+            "thousands_sep": "\u202f",
             "grouping": [
                 3,
                 3
@@ -125,18 +125,18 @@
                 "\u0414\u0435\u043a"
             ],
             "mon": [
-                "\u042f\u043d\u0432\u0430\u0440\u044c",
-                "\u0424\u0435\u0432\u0440\u0430\u043b\u044c",
-                "\u041c\u0430\u0440\u0442\u044a\u0438",
-                "\u0410\u043f\u0440\u0435\u043b\u044c",
-                "\u041c\u0430\u0439",
-                "\u0418\u044e\u043d\u044c",
-                "\u0418\u044e\u043b\u044c",
-                "\u0410\u0432\u0433\u0443\u0441\u0442",
-                "\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c",
-                "\u041e\u043a\u0442\u044f\u0431\u0440\u044c",
-                "\u041d\u043e\u044f\u0431\u0440\u044c",
-                "\u0414\u0435\u043a\u0430\u0431\u0440\u044c"
+                "\u044f\u043d\u0432\u0430\u0440\u044b",
+                "\u0444\u0435\u0432\u0440\u0430\u043b\u044b",
+                "\u043c\u0430\u0440\u0442\u044a\u0438\u0439\u044b",
+                "\u0430\u043f\u0440\u0435\u043b\u044b",
+                "\u043c\u0430\u0439\u044b",
+                "\u0438\u044e\u043d\u044b",
+                "\u0438\u044e\u043b\u044b",
+                "\u0430\u0432\u0433\u0443\u0441\u0442\u044b",
+                "\u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044b",
+                "\u043e\u043a\u0442\u044f\u0431\u0440\u044b",
+                "\u043d\u043e\u044f\u0431\u0440\u044b",
+                "\u0434\u0435\u043a\u0430\u0431\u0440\u044b"
             ],
             "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d.%m.%Y",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "\u042f\u043d\u0432\u0430\u0440\u044c",
+                "\u0424\u0435\u0432\u0440\u0430\u043b\u044c",
+                "\u041c\u0430\u0440\u0442\u044a\u0438",
+                "\u0410\u043f\u0440\u0435\u043b\u044c",
+                "\u041c\u0430\u0439",
+                "\u0418\u044e\u043d\u044c",
+                "\u0418\u044e\u043b\u044c",
+                "\u0410\u0432\u0433\u0443\u0441\u0442",
+                "\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c",
+                "\u041e\u043a\u0442\u044f\u0431\u0440\u044c",
+                "\u041d\u043e\u044f\u0431\u0440\u044c",
+                "\u0414\u0435\u043a\u0430\u0431\u0440\u044c"
+            ]
         }
     };
 }));

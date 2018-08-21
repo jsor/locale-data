@@ -17,8 +17,8 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1yY]",
-        "noexpr": "^[-0nN]",
+        "yesexpr": "^[+1yY\u0a39]",
+        "noexpr": "^[-0nN\u0a28]",
         "yesstr": "\u0a39\u0a3e\u0a02",
         "nostr": "\u0a28\u0a39\u0a40\u0a02"
     },
@@ -26,14 +26,17 @@
         "currency_symbol": "\u20b9",
         "mon_decimal_point": ".",
         "mon_thousands_sep": ",",
-        "mon_grouping": 3,
+        "mon_grouping": [
+            3,
+            2
+        ],
         "positive_sign": "",
         "negative_sign": "-",
         "frac_digits": 2,
         "p_cs_precedes": 1,
-        "p_sep_by_space": 1,
+        "p_sep_by_space": 0,
         "n_cs_precedes": 1,
-        "n_sep_by_space": 1,
+        "n_sep_by_space": 0,
         "p_sign_posn": 1,
         "n_sign_posn": 1,
         "int_curr_symbol": "INR ",
@@ -63,7 +66,11 @@
         "width": 210
     },
     "LC_TELEPHONE": {
-        "tel_int_fmt": "+%c ;%a ;%l",
+        "tel_int_fmt": [
+            "+%c ",
+            0,
+            0
+        ],
         "tel_dom_fmt": null,
         "int_select": "00",
         "int_prefix": "91"
@@ -71,22 +78,22 @@
     "LC_TIME": {
         "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
         "abday": [
-            "\u0a10\u0a24 ",
-            "\u0a38\u0a4b\u0a2e ",
-            "\u0a2e\u0a70\u0a17\u0a32 ",
-            "\u0a2c\u0a41\u0a71\u0a27 ",
-            "\u0a35\u0a40\u0a30 ",
-            "\u0a36\u0a41\u0a71\u0a15\u0a30 ",
-            "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30 "
+            "\u0a10\u0a24",
+            "\u0a38\u0a4b\u0a2e",
+            "\u0a2e\u0a70\u0a17\u0a32",
+            "\u0a2c\u0a41\u0a71\u0a27",
+            "\u0a35\u0a40\u0a30",
+            "\u0a36\u0a41\u0a71\u0a15\u0a30",
+            "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30"
         ],
         "day": [
-            "\u0a10\u0a24\u0a35\u0a3e\u0a30 ",
-            "\u0a38\u0a4b\u0a2e\u0a35\u0a3e\u0a30 ",
-            "\u0a2e\u0a70\u0a17\u0a32\u0a35\u0a3e\u0a30 ",
-            "\u0a2c\u0a41\u0a71\u0a27\u0a35\u0a3e\u0a30 ",
-            "\u0a35\u0a40\u0a30\u0a35\u0a3e\u0a30 ",
-            "\u0a36\u0a41\u0a71\u0a15\u0a30\u0a35\u0a3e\u0a30 ",
-            "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30\u0a35\u0a3e\u0a30 "
+            "\u0a10\u0a24\u0a35\u0a3e\u0a30",
+            "\u0a38\u0a4b\u0a2e\u0a35\u0a3e\u0a30",
+            "\u0a2e\u0a70\u0a17\u0a32\u0a35\u0a3e\u0a30",
+            "\u0a2c\u0a41\u0a71\u0a27\u0a35\u0a3e\u0a30",
+            "\u0a35\u0a40\u0a30\u0a35\u0a3e\u0a30",
+            "\u0a36\u0a41\u0a71\u0a15\u0a30\u0a35\u0a3e\u0a30",
+            "\u0a36\u0a28\u0a3f\u0a71\u0a1a\u0a30\u0a35\u0a3e\u0a30"
         ],
         "week": [
             7,
@@ -94,24 +101,24 @@
             1
         ],
         "abmon": [
-            "\u0a1c\u0a28\u0a35\u0a30\u0a40",
-            "\u0a5e\u0a30\u0a35\u0a30\u0a40",
+            "\u0a1c\u0a28",
+            "\u0a2b\u0a3c\u0a30",
             "\u0a2e\u0a3e\u0a30\u0a1a",
-            "\u0a05\u0a2a\u0a30\u0a48\u0a32",
+            "\u0a05\u0a2a\u0a4d\u0a30\u0a48",
             "\u0a2e\u0a08",
             "\u0a1c\u0a42\u0a28",
-            "\u0a1c\u0a41\u0a32\u0a3e\u0a08",
-            "\u0a05\u0a17\u0a38\u0a24",
-            "\u0a38\u0a24\u0a70\u0a2c\u0a30",
-            "\u0a05\u0a15\u0a24\u0a42\u0a2c\u0a30",
-            "\u0a28\u0a35\u0a70\u0a2c\u0a30",
-            "\u0a26\u0a38\u0a70\u0a2c\u0a30"
+            "\u0a1c\u0a41\u0a32\u0a3e",
+            "\u0a05\u0a17",
+            "\u0a38\u0a24\u0a70",
+            "\u0a05\u0a15\u0a24\u0a42",
+            "\u0a28\u0a35\u0a70",
+            "\u0a26\u0a38\u0a70"
         ],
         "mon": [
             "\u0a1c\u0a28\u0a35\u0a30\u0a40",
-            "\u0a5e\u0a30\u0a35\u0a30\u0a40",
+            "\u0a2b\u0a3c\u0a30\u0a35\u0a30\u0a40",
             "\u0a2e\u0a3e\u0a30\u0a1a",
-            "\u0a05\u0a2a\u0a30\u0a48\u0a32",
+            "\u0a05\u0a2a\u0a4d\u0a30\u0a48\u0a32",
             "\u0a2e\u0a08",
             "\u0a1c\u0a42\u0a28",
             "\u0a1c\u0a41\u0a32\u0a3e\u0a08",

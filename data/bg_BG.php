@@ -9,7 +9,7 @@
     'country_num' => 100,
     'country_car' => 'BG',
     'country_isbn' => 954,
-    'lang_name' => 'български език',
+    'lang_name' => 'български',
     'lang_ab' => 'bg',
     'lang_term' => 'bul',
     'lang_lib' => 'bul',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1ДдDdYyOo]',
-    'noexpr' => '^[-0НнNnKk]',
+    'yesexpr' => '^[+1yYdDoOДд]',
+    'noexpr' => '^[-0nNkKНн]',
     'yesstr' => 'да',
     'nostr' => 'не',
   ),
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'лв.',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

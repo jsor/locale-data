@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^(Yes|[+1yY])',
-    'noexpr' => '^(No|[-0nN])',
+    'yesexpr' => '^[+1yYiI]',
+    'noexpr' => '^[-0nNlL]',
     'yesstr' => 'iva',
     'nostr' => 'le',
   ),
@@ -34,12 +34,12 @@
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
-    'p_cs_precedes' => 0,
+    'p_cs_precedes' => 1,
     'p_sep_by_space' => 0,
-    'n_cs_precedes' => 0,
+    'n_cs_precedes' => 1,
     'n_sep_by_space' => 0,
     'p_sign_posn' => 1,
-    'n_sign_posn' => 0,
+    'n_sign_posn' => 1,
     'int_curr_symbol' => 'EUR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
@@ -71,9 +71,14 @@
   ),
   'LC_TELEPHONE' => 
   array (
-    'tel_int_fmt' => '+%c ;%a ;%l',
+    'tel_int_fmt' => 
+    array (
+      0 => '+%c ',
+      1 => 0,
+      2 => 0,
+    ),
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00',
     'int_prefix' => '356',
   ),
   'LC_TIME' => 
@@ -133,7 +138,7 @@
       8 => 'Settembru',
       9 => 'Ottubru',
       10 => 'Novembru',
-      11 => 'Diċembru ',
+      11 => 'Diċembru',
     ),
     'd_t_fmt' => '%A, %d ta %b, %Y %I:%M:%S %p %Z',
     'd_fmt' => '%A, %d ta %b, %Y',

@@ -7,15 +7,15 @@ LC_ADDRESS:
     country_num: 376
     country_car: IL
     country_isbn: null
-    lang_name: null
+    lang_name: עברית
     lang_ab: he
     lang_term: heb
     lang_lib: heb
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1Yyכ]'
-    noexpr: '^[-0Nnל]'
+    yesexpr: '^[+1yYכ]'
+    noexpr: '^[-0nNל]'
     yesstr: כן
     nostr: לא
 LC_MONETARY:
@@ -57,17 +57,17 @@ LC_PAPER:
 LC_TELEPHONE:
     tel_int_fmt: '+%c %a %l'
     tel_dom_fmt: null
-    int_select: null
+    int_select: '00,012,013,014,018'
     int_prefix: '972'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
     abday: ['א''', 'ב''', 'ג''', 'ד''', 'ה''', 'ו''', 'ש''']
-    day: [ראשון, שני, שלישי, רביעי, חמישי, שישי, שבת]
+    day: [ראשון, 'שני', שלישי, רביעי, חמישי, שישי, שבת]
     week: [7, 19971130, 1]
-    abmon: [ינו, פבר, מרץ, אפר, מאי, יונ, יול, אוג, ספט, אוק, נוב, דצמ]
-    mon: [ינואר, פברואר, מרץ, אפריל, מאי, יוני, יולי, אוגוסט, ספטמבר, אוקטובר, נובמבר, דצמבר]
+    abmon: ['ינו', פבר, מרץ, אפר, מאי, 'יונ', יול, אוג, ספט, אוק, 'נוב', דצמ]
+    mon: ['ינואר', פברואר, מרץ, אפריל, מאי, 'יוני', יולי, אוגוסט, ספטמבר, אוקטובר, 'נובמבר', דצמבר]
     d_t_fmt: '%Z %H:%M:%S %Y %b %d %a'
-    d_fmt: '%d/%m/%y'
+    d_fmt: '%d//%m//%y'
     t_fmt: '%H:%M:%S'
     am_pm: [AM, PM]
     t_fmt_ampm: '%I:%M:%S %P'

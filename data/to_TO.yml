@@ -1,0 +1,83 @@
+LC_ADDRESS:
+    postal_fmt: '%a%b%s%c'
+    country_name: Tonga
+    country_post: ''
+    country_ab2: TO
+    country_ab3: TON
+    country_num: 776
+    country_car: TON
+    country_isbn: null
+    lang_name: "Tonga\n"
+    lang_ab: to
+    lang_term: ton
+    lang_lib: ton
+LC_MEASUREMENT:
+    measurement: 1
+LC_MESSAGES:
+    yesexpr: '^[+1yY]'
+    noexpr: '^[-0nN]'
+    yesstr: ʻIo
+    nostr: ʻIkai
+LC_MONETARY:
+    currency_symbol: T$
+    mon_decimal_point: .
+    mon_thousands_sep: ','
+    mon_grouping: 3
+    positive_sign: ''
+    negative_sign: '-'
+    frac_digits: 2
+    p_cs_precedes: 1
+    p_sep_by_space: 1
+    n_cs_precedes: 1
+    n_sep_by_space: 1
+    p_sign_posn: 1
+    n_sign_posn: 1
+    int_curr_symbol: 'TOP '
+    int_frac_digits: 2
+    int_p_cs_precedes: null
+    int_p_sep_by_space: null
+    int_n_cs_precedes: null
+    int_n_sep_by_space: null
+    int_p_sign_posn: null
+    int_n_sign_posn: null
+LC_NAME:
+    name_fmt: '%d%t%g%t%m%t%f'
+    name_gen: null
+    name_mr: Mr.
+    name_mrs: Mrs.
+    name_miss: Miss.
+    name_ms: Ms.
+LC_NUMERIC:
+    decimal_point: .
+    thousands_sep: ','
+    grouping: 3
+LC_PAPER:
+    height: 297
+    width: 210
+LC_TELEPHONE:
+    tel_int_fmt: '+%c %l'
+    tel_dom_fmt: null
+    int_select: '00'
+    int_prefix: '676'
+LC_TIME:
+    date_fmt: '%a %b %e %H:%M:%S %Z %Y'
+    abday: [Sāp, Mōn, Tūs, Pul, Tuʻa, Fal, Tok]
+    day: [Sāpate, Mōnite, Tūsite, Pulelulu, Tuʻapulelulu, Falaite, Tokonaki]
+    week: null
+    abmon: [Sān, Fēp, Maʻa, ʻEpe, Mē, Sun, Siu, ʻAok, Sep, ʻOka, Nōv, Tīs]
+    mon: [Sānuali, Fēpueli, Maʻasi, ʻEpeleli, Mē, Sune, Siulai, ʻAokosi, Sepitema, ʻOkatopa, Nōvema, Tīsema]
+    d_t_fmt: '%A %d %b %Y %I:%M:%S %p %Z'
+    d_fmt: '%A %d %b %Y'
+    t_fmt: '%I:%M:%S %Z'
+    am_pm: [hengihengi, efiafi]
+    t_fmt_ampm: '%I:%M:%S %p %Z'
+    era: null
+    era_year: null
+    era_d_t_fmt: null
+    era_d_fmt: null
+    era_t_fmt: null
+    alt_digits: null
+    first_weekday: null
+    first_workday: null
+    cal_direction: null
+    timezone: null

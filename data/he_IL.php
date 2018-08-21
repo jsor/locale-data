@@ -9,7 +9,7 @@
     'country_num' => 376,
     'country_car' => 'IL',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'עברית',
     'lang_ab' => 'he',
     'lang_term' => 'heb',
     'lang_lib' => 'heb',
@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1Yyכ]',
-    'noexpr' => '^[-0Nnל]',
+    'yesexpr' => '^[+1yYכ]',
+    'noexpr' => '^[-0nNל]',
     'yesstr' => 'כן',
     'nostr' => 'לא',
   ),
@@ -81,7 +81,7 @@
   array (
     'tel_int_fmt' => '+%c %a %l',
     'tel_dom_fmt' => NULL,
-    'int_select' => NULL,
+    'int_select' => '00,012,013,014,018',
     'int_prefix' => '972',
   ),
   'LC_TIME' => 
@@ -144,7 +144,7 @@
       11 => 'דצמבר',
     ),
     'd_t_fmt' => '%Z %H:%M:%S %Y %b %d %a',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 
     array (

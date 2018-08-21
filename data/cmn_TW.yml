@@ -14,10 +14,10 @@ LC_ADDRESS:
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1yY是]'
-    noexpr: '^[-0nN不否]'
-    yesstr: null
-    nostr: null
+    yesexpr: '^[+1yYｙＹ是]'
+    noexpr: '^[-0nNｎＮ不否]'
+    yesstr: 是
+    nostr: 不是
 LC_MONETARY:
     currency_symbol: NT$
     mon_decimal_point: .
@@ -43,7 +43,7 @@ LC_MONETARY:
 LC_NAME:
     name_fmt: '%f%t%g%t%d'
     name_gen: 君
-    name_mr: 先生
+    name_mr: '先生'
     name_mrs: 夫人
     name_miss: 小姐
     name_ms: 女士
@@ -60,14 +60,14 @@ LC_TELEPHONE:
     int_select: '00'
     int_prefix: '886'
 LC_TIME:
-    date_fmt: '%Y年 %b %e日 %A %H:%M:%S %Z'
-    abday: [日, 一, 二, 三, 四, 五, 六]
-    day: [星期日, 星期一, 星期二, 星期三, 星期四, 星期五, 星期六]
-    week: [7, 19971130, 1]
+    date_fmt: '%Y年 %b %-d號 %A %H:%M:%S %Z'
+    abday: [日, 一, 二, 三, 四, 五, '六']
+    day: [星期日, 星期一, 星期二, 星期三, 星期四, 星期五, '星期六']
+    week: null
     abmon: [' 1月', ' 2月', ' 3月', ' 4月', ' 5月', ' 6月', ' 7月', ' 8月', ' 9月', 10月, 11月, 12月]
-    mon: [一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
-    d_t_fmt: '%Y年%m月%d日 (%A) %H點%M分%S秒'
-    d_fmt: '%Y年%m月%d日'
+    mon: [一月, 二月, 三月, 四月, 五月, '六月', 七月, '八月', 九月, 十月, 十一月, 十二月]
+    d_t_fmt: '%Y年%m月%d號 (%A) %H點%M分%S秒'
+    d_fmt: '%Y年%m月%d號'
     t_fmt: '%H點%M分%S秒'
     am_pm: [上午, 下午]
     t_fmt_ampm: '%p %I點%M分%S秒'

@@ -19,7 +19,7 @@
             "country_num": 528,
             "country_car": "NL",
             "country_isbn": null,
-            "lang_name": "Frysk",
+            "lang_name": "West-Frysk",
             "lang_ab": "fy",
             "lang_term": "fry",
             "lang_lib": "fry"
@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "31"
         },
         "LC_TIME": {
@@ -113,9 +113,9 @@
             "abmon": [
                 "Jan",
                 "Feb",
-                "Maa",
+                "Mrt",
                 "Apr",
-                "Maa",
+                "Mai",
                 "Jun",
                 "Jul",
                 "Aug",
@@ -125,7 +125,7 @@
                 "Des"
             ],
             "mon": [
-                "Janaris",
+                "Jannewaris",
                 "Febrewaris",
                 "Maart",
                 "April",

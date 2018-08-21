@@ -3,7 +3,7 @@
   array (
     'postal_fmt' => '%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N',
     'country_name' => 'Y Deyrnas Unedig',
-    'country_post' => NULL,
+    'country_post' => 'GB',
     'country_ab2' => 'GB',
     'country_ab3' => 'GBR',
     'country_num' => 826,

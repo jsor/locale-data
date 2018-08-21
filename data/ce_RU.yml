@@ -1,27 +1,27 @@
 LC_ADDRESS:
     postal_fmt: '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N'
-    country_name: Росси
+    country_name: 'Росси'
     country_post: null
     country_ab2: RU
     country_ab3: RUS
     country_num: 643
     country_car: RUS
     country_isbn: null
-    lang_name: 'нохчийн мотт'
+    lang_name: 'нохчийн'
     lang_ab: ce
     lang_term: che
     lang_lib: null
 LC_MEASUREMENT:
     measurement: 1
 LC_MESSAGES:
-    yesexpr: '^[+1ДдYy]'
-    noexpr: '^[-0МмNn]'
+    yesexpr: '^[+1yYДд]'
+    noexpr: '^[-0nNМм]'
     yesstr: null
     nostr: null
 LC_MONETARY:
     currency_symbol: ₽
     mon_decimal_point: .
-    mon_thousands_sep: "\_"
+    mon_thousands_sep:  
     mon_grouping: [3, 3]
     positive_sign: ''
     negative_sign: '-'
@@ -49,7 +49,7 @@ LC_NAME:
     name_ms: null
 LC_NUMERIC:
     decimal_point: ','
-    thousands_sep: "\_"
+    thousands_sep:  
     grouping: [3, 3]
 LC_PAPER:
     height: 297
@@ -61,8 +61,8 @@ LC_TELEPHONE:
     int_prefix: '7'
 LC_TIME:
     date_fmt: '%a %b %e %H:%M:%S %Z %Y'
-    abday: [КI, Ор, 'Ши ', 'Кх ', 'Еа ', 'ПI ', Шо]
-    day: ['КIиранде ', 'Оршотде ', 'Шинариде ', 'Кхаариде ', 'Еариде ', ПIераскаде, Шотде]
+    abday: [КӀ, Ор, Ши, 'Кх', Еа, ПӀ, Шо]
+    day: ['КӀиранан де', 'Оршотан де', 'Шинарин де', 'Кхаарин де', 'Еарин де', 'ПӀераскан де', 'Шот де']
     week: [7, 19971130, 1]
     abmon: [янв, фев, мар, апр, май, июн, июл, авг, сен, окт, ноя, дек]
     mon: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]

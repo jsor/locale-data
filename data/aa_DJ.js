@@ -30,13 +30,13 @@
         "LC_MESSAGES": {
             "yesexpr": "^[+1yY]",
             "noexpr": "^[-0mnMN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "Yeey",
+            "nostr": "Maleey"
         },
         "LC_MONETARY": {
             "currency_symbol": "Fdj",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3

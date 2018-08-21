@@ -7,7 +7,7 @@ LC_ADDRESS:
     country_num: 894
     country_car: Z
     country_isbn: null
-    lang_name: iciBemba
+    lang_name: Ichibemba
     lang_ab: null
     lang_term: bem
     lang_lib: bem
@@ -64,10 +64,10 @@ LC_TIME:
     abday: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
     day: ['Pa Mulungu', Palichimo, Palichibuli, Palichitatu, Palichine, Palichisano, Pachibelushi]
     week: [7, 19971130, 1]
-    abmon: [Jan, Feb, Mar, Apr, May, Jun, July, Aug, Sep, Oct, Nov, Dec]
+    abmon: [Jan, Feb, Mac, Epr, Mei, Jun, Jul, Oga, Sep, Okt, Nov, Dis]
     mon: [Januari, Februari, Machi, Epreo, Mei, Juni, Julai, Ogasti, Septemba, Oktoba, Novemba, Disemba]
     d_t_fmt: '%a %d %b %Y %R %Z'
-    d_fmt: '%m/%d/%Y'
+    d_fmt: '%m//%d//%Y'
     t_fmt: '%T'
     am_pm: [uluchelo, akasuba]
     t_fmt_ampm: '%I:%M:%S %p'

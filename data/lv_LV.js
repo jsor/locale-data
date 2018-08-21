@@ -19,7 +19,7 @@
             "country_num": 428,
             "country_car": "LV",
             "country_isbn": null,
-            "lang_name": "latvie\u0161u valoda",
+            "lang_name": "latvie\u0161u",
             "lang_ab": "lv",
             "lang_term": "lav",
             "lang_lib": "lav"
@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": "\u00a0",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "\u00a0",
+            "thousands_sep": "\u202f",
             "grouping": [
                 3,
                 3
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "371"
         },
         "LC_TIME": {

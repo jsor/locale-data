@@ -8,8 +8,8 @@
     'country_ab3' => 'EST',
     'country_num' => 233,
     'country_car' => 'EST',
-    'country_isbn' => '9985',
-    'lang_name' => 'eesti keel',
+    'country_isbn' => '978-9949,978-9985',
+    'lang_name' => 'eesti',
     'lang_ab' => 'et',
     'lang_term' => 'est',
     'lang_lib' => 'est',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -65,7 +65,7 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => ' ',
+    'thousands_sep' => ' ',
     'grouping' => 
     array (
       0 => 3,

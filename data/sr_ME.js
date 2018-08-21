@@ -28,8 +28,8 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1\u0414\u0434DdYy]",
-            "noexpr": "^[-0\u041d\u043dNn]",
+            "yesexpr": "^[+1yYdD\u0414\u0434]",
+            "noexpr": "^[-0nN\u041d\u043d]",
             "yesstr": "\u0434\u0430",
             "nostr": "\u043d\u0435"
         },

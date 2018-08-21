@@ -144,7 +144,7 @@
       11 => 'Pelltetétq̓em',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%d/%m/%y',
+    'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

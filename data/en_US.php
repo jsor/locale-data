@@ -144,7 +144,7 @@
       11 => 'December',
     ),
     'd_t_fmt' => '%a %d %b %Y %r %Z',
-    'd_fmt' => '%m/%d/%Y',
+    'd_fmt' => '%m//%d//%Y',
     't_fmt' => '%r',
     'am_pm' => 
     array (

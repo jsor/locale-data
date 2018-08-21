@@ -8,7 +8,7 @@
     'country_ab3' => 'IRN',
     'country_num' => 364,
     'country_car' => 'IR',
-    'country_isbn' => '964',
+    'country_isbn' => 964,
     'lang_name' => 'فارسی',
     'lang_ab' => 'fa',
     'lang_term' => 'fas',
@@ -78,7 +78,12 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '‫%A %Oe %B %Oy، ساعت %OH:%OM:%OS (%Z)‬',
+    'date_fmt' => 
+    array (
+      0 => '‫%A %Oe %B %Oy، ساعت week 7',
+      1 => 19971130,
+      2 => 1,
+    ),
     'abday' => 
     array (
       0 => 'یکشنبه',
@@ -99,12 +104,7 @@
       5 => 'جمعه',
       6 => 'شنبه',
     ),
-    'week' => 
-    array (
-      0 => 7,
-      1 => 19971130,
-      2 => 1,
-    ),
+    'week' => NULL,
     'abmon' => 
     array (
       0 => 'ژانویه',
@@ -136,7 +136,7 @@
       11 => 'دسامبر',
     ),
     'd_t_fmt' => '‫%A %Oe %B %Oy، %OH:%OM:%OS‬',
-    'd_fmt' => '%Oy/%Om/%Od',
+    'd_fmt' => '%Oy//%Om//%Od',
     't_fmt' => '%OH:%OM:%OS',
     'am_pm' => 
     array (

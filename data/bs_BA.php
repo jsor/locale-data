@@ -20,8 +20,8 @@
   ),
   'LC_MESSAGES' => 
   array (
-    'yesexpr' => '^[+1dDyY]*.',
-    'noexpr' => '^[-0nN]*.',
+    'yesexpr' => '^[+1dDyY]',
+    'noexpr' => '^[-0nN]',
     'yesstr' => 'da',
     'nostr' => 'ne',
   ),
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'KM',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => ' ',
     'mon_grouping' => 
     array (
       0 => 3,

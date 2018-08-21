@@ -12,13 +12,13 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%d%N%f%N%d%N%b%N%s %h 5e %r%N%C%z %T%N%c%N",
-            "country_name": null,
-            "country_post": null,
+            "country_name": "K\u00f2rsou",
+            "country_post": "CW",
             "country_ab2": "CW",
             "country_ab3": "CUW",
             "country_num": 531,
             "country_car": "",
-            "country_isbn": "",
+            "country_isbn": "978-99904",
             "lang_name": "Papiamento",
             "lang_ab": null,
             "lang_term": "pap",
@@ -28,15 +28,15 @@
             "measurement": 1
         },
         "LC_MESSAGES": {
-            "yesexpr": "^[+1jJyY]",
+            "yesexpr": "^[+1sSyY]",
             "noexpr": "^[-0nN]",
-            "yesstr": null,
-            "nostr": null
+            "yesstr": "s\u00ed",
+            "nostr": "n\u00f2"
         },
         "LC_MONETARY": {
             "currency_symbol": "\u0192",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": " ",
+            "mon_thousands_sep": "\u202f",
             "mon_grouping": [
                 3,
                 3

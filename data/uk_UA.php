@@ -29,8 +29,8 @@
   array (
     'currency_symbol' => 'грн." % hr (hryvnya)',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' " % 
-bsp (0xA0)',
+    'mon_thousands_sep' => ' " % 
+nbsp (0X202F)',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -66,8 +66,8 @@ bsp (0xA0)',
   'LC_NUMERIC' => 
   array (
     'decimal_point' => '," % see LC_MONETARY:mon_decimal_pint',
-    'thousands_sep' => ' " % 
-bsp (0xA0)',
+    'thousands_sep' => ' " % 
+nbsp (0X202F)',
     'grouping' => 
     array (
       0 => 3,
@@ -88,7 +88,7 @@ bsp (0xA0)',
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%A, %-d %Om %Y %X %z',
+    'date_fmt' => '%A, %-d %B %Y %X %z',
     'abday' => 
     array (
       0 => 'нд',
@@ -132,7 +132,7 @@ bsp (0xA0)',
     ),
     'mon' => 
     array (
-      0 => 'січень',
+      0 => 'січня',
       1 => 0,
       2 => 0,
       3 => 0,
@@ -159,9 +159,14 @@ bsp (0xA0)',
     'era_d_t_fmt' => NULL,
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
-    'alt_digits' => 
+    'alt_digits' => NULL,
+    'first_weekday' => 2,
+    'first_workday' => NULL,
+    'cal_direction' => 2,
+    'timezone' => NULL,
+    'alt_mon' => 
     array (
-      0 => '0',
+      0 => 'січень',
       1 => 0,
       2 => 0,
       3 => 0,
@@ -173,11 +178,6 @@ bsp (0xA0)',
       9 => 0,
       10 => 0,
       11 => 0,
-      12 => 0,
     ),
-    'first_weekday' => 2,
-    'first_workday' => NULL,
-    'cal_direction' => 2,
-    'timezone' => NULL,
   ),
 );

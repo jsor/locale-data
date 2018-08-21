@@ -17,15 +17,15 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1dDyY]*.",
-        "noexpr": "^[-0nN]*.",
+        "yesexpr": "^[+1dDyY]",
+        "noexpr": "^[-0nN]",
         "yesstr": "da",
         "nostr": "ne"
     },
     "LC_MONETARY": {
         "currency_symbol": "KM",
         "mon_decimal_point": ",",
-        "mon_thousands_sep": " ",
+        "mon_thousands_sep": "\u202f",
         "mon_grouping": [
             3,
             3

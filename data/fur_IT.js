@@ -18,8 +18,8 @@
             "country_ab3": "ITA",
             "country_num": 380,
             "country_car": "I",
-            "country_isbn": null,
-            "lang_name": "Furlan",
+            "country_isbn": "978-88,979-12",
+            "lang_name": "furlan",
             "lang_ab": null,
             "lang_term": "fur",
             "lang_lib": null
@@ -82,7 +82,7 @@
         "LC_TELEPHONE": {
             "tel_int_fmt": "+%c %a %l",
             "tel_dom_fmt": null,
-            "int_select": null,
+            "int_select": "00",
             "int_prefix": "39"
         },
         "LC_TIME": {
@@ -91,7 +91,7 @@
                 "Dom",
                 "Lun",
                 "Mar",
-                "Mia",
+                "Mie",
                 "Joi",
                 "Vin",
                 "Sab"
@@ -100,7 +100,7 @@
                 "Domenie",
                 "Lunis",
                 "Martars",
-                "Miarcus",
+                "Miercus",
                 "Joibe",
                 "Vinars",
                 "Sabide"
@@ -122,7 +122,7 @@
                 "Set",
                 "Otu",
                 "Nov",
-                "Dec"
+                "Dic"
             ],
             "mon": [
                 "Zen\u00e2r",
@@ -136,7 +136,7 @@
                 "Setembar",
                 "Otubar",
                 "Novembar",
-                "Decembar"
+                "Dicembar"
             ],
             "d_t_fmt": "%a %d %b %Y %T %Z",
             "d_fmt": "%d. %m. %y",

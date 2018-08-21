@@ -1,10 +1,10 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "???",
-        "country_name": null,
+        "country_name": "\u0420\u0443\u0441\u0438\u044f",
         "country_post": null,
-        "country_ab2": null,
-        "country_ab3": null,
+        "country_ab2": "RU",
+        "country_ab3": "RUS",
         "country_num": 643,
         "country_car": "RUS",
         "country_isbn": null,
@@ -17,15 +17,15 @@
         "measurement": 1
     },
     "LC_MESSAGES": {
-        "yesexpr": "^[+1\u0414\u0434Yy]",
-        "noexpr": "^[-0\u041d\u043dNn]",
-        "yesstr": "\u04d8\u0439\u0435",
-        "nostr": "\u042e\u043a"
+        "yesexpr": "^[+1yY\u04d9\u04d8]",
+        "noexpr": "^[-0nN\u044e\u042e]",
+        "yesstr": "\u04d9\u0439\u0435",
+        "nostr": "\u044e\u043a"
     },
     "LC_MONETARY": {
         "currency_symbol": "\u20bd",
         "mon_decimal_point": ".",
-        "mon_thousands_sep": " ",
+        "mon_thousands_sep": "\u202f",
         "mon_grouping": [
             3,
             3
@@ -58,7 +58,7 @@
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
-        "thousands_sep": "\u00a0",
+        "thousands_sep": "\u202f",
         "grouping": [
             3,
             3
