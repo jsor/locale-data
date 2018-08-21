@@ -209,7 +209,7 @@ function process(array $localeData, $locale)
     return $data;
 }
 
-$console = new Application('LocaleData', '1.3.0');
+$console = new Application('LocaleData', '2.0.0');
 $console
     ->register('generate')
     ->setDefinition([
