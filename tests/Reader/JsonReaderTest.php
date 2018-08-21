@@ -2,7 +2,9 @@
 
 namespace Jsor\LocaleData\Reader;
 
-class JsonBundleReaderTest extends \PHPUnit_Framework_TestCase
+use Jsor\LocaleData\TestCase;
+
+class JsonReaderTest extends TestCase
 {
     /**
      * @test
