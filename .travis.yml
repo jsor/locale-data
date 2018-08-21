@@ -5,6 +5,7 @@ php:
   - 7.0
   - 7.1
   - 7.2
+  - nightly
 
 matrix:
   include:
@@ -12,26 +13,23 @@ matrix:
       env: dependencies=lowest
     - php: 7.2
       env: dependencies=highest
+  allow_failures:
+    -  php: nightly
   fast_finish: true
 
 cache:
   directories:
-    - vendor
-    - $HOME/.composer/cache
-
-before_install:
-  - composer self-update -q
-  - if [ -n "$GH_TOKEN" ]; then composer config github-oauth.github.com ${GH_TOKEN}; fi;
+    - $HOME/.composer/cache/files
 
 install:
   - if [ -z "$dependencies" ]; then travis_retry composer install --no-interaction; fi;
   - if [ "$dependencies" = "lowest" ]; then travis_retry composer update --prefer-lowest --no-interaction; fi;
   - if [ "$dependencies" = "highest" ]; then travis_retry composer update --no-interaction; fi;
-  - composer show -i
+  - composer show
 
 script:
   - phpunit -v --coverage-text --coverage-clover=./build/logs/clover.xml
 
-after_script:
-  - if [ -f ./build/logs/clover.xml ]; then travis_retry composer require satooshi/php-coveralls:dev-master --no-interaction --update-with-dependencies; fi
-  - if [ -f ./build/logs/clover.xml ]; then php vendor/bin/coveralls -v; fi
+after_success:
+  - if [ -f ./build/logs/clover.xml ]; then wget https://github.com/php-coveralls/php-coveralls/releases/download/v2.1.0/php-coveralls.phar; fi
+  - if [ -f ./build/logs/clover.xml ]; then php ./coveralls.phar -v; fi
