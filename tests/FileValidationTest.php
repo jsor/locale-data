@@ -2,8 +2,6 @@
 
 namespace Jsor\LocaleData;
 
-use Symfony\Component\Yaml\Yaml;
-
 class FileValidationTest extends TestCase
 {
     public function assertFileData($data)
@@ -38,17 +36,6 @@ class FileValidationTest extends TestCase
     public function all_json_files_are_valid($file)
     {
         $data = json_decode(file_get_contents($file), true);
-
-        $this->assertFileData($data);
-    }
-
-    /**
-     * @test
-     * @dataProvider provideYamlFiles
-     */
-    public function all_yaml_files_are_valid($file)
-    {
-        $data = Yaml::parse(file_get_contents($file), true);
 
         $this->assertFileData($data);
     }

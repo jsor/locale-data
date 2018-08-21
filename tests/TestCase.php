@@ -23,11 +23,6 @@ class TestCase extends \PHPUnit_Framework_TestCase
         return $this->provideFiles('json');
     }
 
-    public function provideYamlFiles()
-    {
-        return $this->provideFiles('yml');
-    }
-
     public function provideFiles($type)
     {
         $path = __DIR__.'/../data';

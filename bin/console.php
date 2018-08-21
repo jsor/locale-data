@@ -9,7 +9,6 @@ use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Yaml\Yaml;
 
 class CopyFrom
 {
@@ -185,11 +184,6 @@ function store($name, array $data)
     file_put_contents(
         __DIR__.'/../data/'.$name.'.php',
         '<?php return '.var_export($data, true).';'.PHP_EOL
-    );
-
-    file_put_contents(
-        __DIR__.'/../data/'.$name.'.yml',
-        Yaml::dump($data)
     );
 }
 
