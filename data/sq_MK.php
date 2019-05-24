@@ -82,7 +82,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %-d %b %Y %I:%M:%S.%p %Z',
     'abday' => 
     array (
       0 => 'Die',
@@ -139,15 +139,15 @@
       10 => 'nëntor',
       11 => 'dhjetor',
     ),
-    'd_t_fmt' => '%Y-%b-%d %I.%M.%S.%p %Z',
-    'd_fmt' => '%Y-%b-%d',
-    't_fmt' => '%I.%M.%S. %Z',
+    'd_t_fmt' => '%a %-d %b %Y %I:%M:%S.%p',
+    'd_fmt' => '%-d.%-m.%y',
+    't_fmt' => '%I:%M:%S.%p %Z',
     'am_pm' => 
     array (
       0 => 'PD',
       1 => 'MD',
     ),
-    't_fmt_ampm' => '%I.%M.%S.%p %Z',
+    't_fmt_ampm' => '%I:%M:%S.%p %Z',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

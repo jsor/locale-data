@@ -142,14 +142,14 @@
                 "\u0ba8\u0bb5\u0bae\u0bcd\u0baa\u0bb0\u0bcd",
                 "\u0b9f\u0bbf\u0b9a\u0bae\u0bcd\u0baa\u0bb0\u0bcd"
             ],
-            "d_t_fmt": "%A %d %B %Y %I:%M:%S %p %Z",
-            "d_fmt": "%A %d %B %Y",
-            "t_fmt": "%I:%M:%S  %Z",
+            "d_t_fmt": "%A %d %B %Y %p %I:%M:%S %Z",
+            "d_fmt": "%-d\/\/%-m\/\/%y",
+            "t_fmt": "%p %I:%M:%S %Z",
             "am_pm": [
                 "\u0b95\u0bbe\u0bb2\u0bc8",
                 "\u0bae\u0bbe\u0bb2\u0bc8"
             ],
-            "t_fmt_ampm": "%I:%M:%S %p %Z",
+            "t_fmt_ampm": "%p %I:%M:%S %Z",
             "era": null,
             "era_year": null,
             "era_d_t_fmt": null,

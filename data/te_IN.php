@@ -149,7 +149,7 @@
       11 => 'డిసెంబర్',
     ),
     'd_t_fmt' => '%B %d %A %Y %p%I.%M.%S %Z',
-    'd_fmt' => '%B %d %A %Y',
+    'd_fmt' => '%d-%m-%y',
     't_fmt' => '%p%I.%M.%S %Z',
     'am_pm' => 
     array (

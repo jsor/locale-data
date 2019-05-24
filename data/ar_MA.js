@@ -136,14 +136,14 @@
                 "\u0646\u0648\u0646\u0628\u0631",
                 "\u062f\u062c\u0646\u0628\u0631"
             ],
-            "d_t_fmt": "%d %b, %Y %Z %I:%M:%S %p",
+            "d_t_fmt": "%d %b, %Y %Z %H:%M:%S",
             "d_fmt": "%d %b, %Y",
-            "t_fmt": "%Z %I:%M:%S ",
+            "t_fmt": "%Z %H:%M:%S",
             "am_pm": [
                 "\u0635",
                 "\u0645"
             ],
-            "t_fmt_ampm": "%Z %I:%M:%S %p",
+            "t_fmt_ampm": "",
             "era": null,
             "era_year": null,
             "era_d_t_fmt": null,

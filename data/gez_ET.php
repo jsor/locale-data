@@ -145,13 +145,13 @@
     ),
     'd_t_fmt' => '%A፥%B፡%e፡መዓልት፡%Y፡%r፡%Z',
     'd_fmt' => '%d//%m//%Y',
-    't_fmt' => '%l:%M:%S',
+    't_fmt' => '%l:%M:%S፡%p',
     'am_pm' => 
     array (
       0 => 'ጽባሕ',
       1 => 'ምሴት',
     ),
-    't_fmt_ampm' => '%X፡%p',
+    't_fmt_ampm' => '%l:%M:%S፡%p',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

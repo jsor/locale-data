@@ -136,14 +136,14 @@
                 "Novembru",
                 "Di\u010bembru"
             ],
-            "d_t_fmt": "%A, %d ta %b, %Y %I:%M:%S %p %Z",
+            "d_t_fmt": "%A, %d ta %b, %Y %H:%M:%S %Z",
             "d_fmt": "%A, %d ta %b, %Y",
-            "t_fmt": "%I:%M:%S  %Z",
+            "t_fmt": "%H:%M:%S %Z",
             "am_pm": [
                 "",
                 ""
             ],
-            "t_fmt_ampm": "%I:%M:%S %p %Z",
+            "t_fmt_ampm": "",
             "era": null,
             "era_year": null,
             "era_d_t_fmt": null,

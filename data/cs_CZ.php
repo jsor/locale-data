@@ -151,7 +151,7 @@
       0 => '',
       1 => '',
     ),
-    't_fmt_ampm' => '%I:%M:%S',
+    't_fmt_ampm' => '',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

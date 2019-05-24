@@ -129,12 +129,12 @@
         ],
         "d_t_fmt": "%A\u1363 %B %e \u1240\u1295 %Y %r %Z",
         "d_fmt": "%d\/\/%m\/\/%Y",
-        "t_fmt": "%l:%M:%S",
+        "t_fmt": "%l:%M:%S %p",
         "am_pm": [
             "\u1321\u12cb\u1275",
             "\u12a8\u1230\u12d3\u1275"
         ],
-        "t_fmt_ampm": "%X %p",
+        "t_fmt_ampm": "%l:%M:%S %p",
         "era": null,
         "era_year": null,
         "era_d_t_fmt": null,

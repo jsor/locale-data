@@ -140,12 +140,12 @@
             ],
             "d_t_fmt": "%A, %B %e, %Y %r %Z",
             "d_fmt": "%d\/\/%m\/\/%Y",
-            "t_fmt": "%l:%M:%S",
+            "t_fmt": "%l:%M:%S %p",
             "am_pm": [
                 "WD",
                 "WB"
             ],
-            "t_fmt_ampm": "%X %p",
+            "t_fmt_ampm": "%l:%M:%S %p",
             "era": null,
             "era_year": null,
             "era_d_t_fmt": null,

@@ -142,7 +142,7 @@
     ),
     'd_t_fmt' => '%Y年%m月%d日 %A %H:%M:%S',
     'd_fmt' => '%Y年%m月%d日 %A',
-    't_fmt' => '%I時%M分%S秒 %Z',
+    't_fmt' => '%p %I時%M分%S秒 %Z',
     'am_pm' => 
     array (
       0 => '上午',

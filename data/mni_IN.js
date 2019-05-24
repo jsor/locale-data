@@ -143,8 +143,8 @@
                 "\u09a1\u09bf\u09b8\u09c7\u09ae\u09cd\u09ac\u09b0"
             ],
             "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
-            "d_fmt": "%A %d %b %Y",
-            "t_fmt": "%I:%M:%S  %Z",
+            "d_fmt": "%-d\/\/%-m\/\/%y",
+            "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [
                 "\u098f.\u09ae.",
                 "\u09aa.\u09ae."

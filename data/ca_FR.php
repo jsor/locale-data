@@ -38,9 +38,9 @@
     'positive_sign' => '',
     'negative_sign' => '-',
     'frac_digits' => 2,
-    'p_cs_precedes' => 1,
+    'p_cs_precedes' => 0,
     'p_sep_by_space' => 1,
-    'n_cs_precedes' => 1,
+    'n_cs_precedes' => 0,
     'n_sep_by_space' => 1,
     'p_sign_posn' => 1,
     'n_sign_posn' => 1,
@@ -68,8 +68,8 @@
     'thousands_sep' => '.',
     'grouping' => 
     array (
-      0 => 0,
-      1 => 0,
+      0 => 3,
+      1 => 3,
     ),
   ),
   'LC_PAPER' => 

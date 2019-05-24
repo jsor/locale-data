@@ -127,7 +127,7 @@
         ],
         "d_t_fmt": "%Y\u5e74%m\u6708%d\u65e5 %A %H:%M:%S",
         "d_fmt": "%Y\u5e74%m\u6708%d\u65e5 %A",
-        "t_fmt": "%I\u6642%M\u5206%S\u79d2 %Z",
+        "t_fmt": "%p %I\u6642%M\u5206%S\u79d2 %Z",
         "am_pm": [
             "\u4e0a\u5348",
             "\u4e0b\u5348"

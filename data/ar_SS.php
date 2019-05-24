@@ -142,7 +142,7 @@
     ),
     'd_t_fmt' => '%d %b, %Y %Z %I:%M:%S %p',
     'd_fmt' => '%d %b, %Y',
-    't_fmt' => '%Z %I:%M:%S ',
+    't_fmt' => '%Z %I:%M:%S %p',
     'am_pm' => 
     array (
       0 => 'ص',

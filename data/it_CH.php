@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => 'CHF',
     'mon_decimal_point' => '.',
-    'mon_thousands_sep' => '\'',
+    'mon_thousands_sep' => '’',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -64,8 +64,8 @@
   ),
   'LC_NUMERIC' => 
   array (
-    'decimal_point' => ',',
-    'thousands_sep' => '\'',
+    'decimal_point' => '.',
+    'thousands_sep' => '’',
     'grouping' => 
     array (
       0 => 3,
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %e %b %Y, %H.%M.%S, %Z',
+    'date_fmt' => '%a %-d %b %Y, %T, %Z',
     'abday' => 
     array (
       0 => 'dom',
@@ -143,8 +143,8 @@
       10 => 'novembre',
       11 => 'dicembre',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d. %m. %y',
+    'd_t_fmt' => '%a %-d %b %Y, %T',
+    'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (

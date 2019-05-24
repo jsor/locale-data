@@ -133,7 +133,7 @@
     ),
     'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'd_fmt' => '%A %d %b %Y',
-    't_fmt' => '%I:%M:%S %Z',
+    't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 
     array (
       0 => 'hengihengi',

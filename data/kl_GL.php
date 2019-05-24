@@ -89,7 +89,7 @@
     'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
     'abday' => 
     array (
-      0 => 'sab',
+      0 => 'sap',
       1 => 'ata',
       2 => 'mar',
       3 => 'pin',
@@ -99,7 +99,7 @@
     ),
     'day' => 
     array (
-      0 => 'sabaat',
+      0 => 'sapaat',
       1 => 'ataasinngorneq',
       2 => 'marlunngorneq',
       3 => 'pingasunngorneq',
@@ -130,21 +130,21 @@
     ),
     'mon' => 
     array (
-      0 => 'januari',
-      1 => 'februari',
-      2 => 'martsi',
-      3 => 'aprili',
-      4 => 'maji',
-      5 => 'juni',
-      6 => 'juli',
-      7 => 'augustusi',
-      8 => 'septemberi',
-      9 => 'oktoberi',
-      10 => 'novemberi',
-      11 => 'decemberi',
+      0 => 'januaarip',
+      1 => 'februaarip',
+      2 => 'marsip',
+      3 => 'apriilip',
+      4 => 'maajip',
+      5 => 'juunip',
+      6 => 'juulip',
+      7 => 'aggustip',
+      8 => 'septembarip',
+      9 => 'oktobarip',
+      10 => 'novembarip',
+      11 => 'decembarip',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
-    'd_fmt' => '%d %b %Y',
+    'd_t_fmt' => '%a %b %d %Y %T %Z',
+    'd_fmt' => '%b %d %Y',
     't_fmt' => '%T',
     'am_pm' => 
     array (
@@ -162,5 +162,20 @@
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,
+    'alt_mon' => 
+    array (
+      0 => 'januaari',
+      1 => 'februaari',
+      2 => 'marsi',
+      3 => 'apriili',
+      4 => 'maaji',
+      5 => 'juuni',
+      6 => 'juuli',
+      7 => 'aggusti',
+      8 => 'septembari',
+      9 => 'oktobari',
+      10 => 'novembari',
+      11 => 'decembari',
+    ),
   ),
 );

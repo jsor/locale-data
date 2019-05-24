@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "CHF",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": "'",
+            "mon_thousands_sep": "\u2019",
             "mon_grouping": [
                 3,
                 3
@@ -68,8 +68,8 @@
             "name_ms": null
         },
         "LC_NUMERIC": {
-            "decimal_point": ",",
-            "thousands_sep": "'",
+            "decimal_point": ".",
+            "thousands_sep": "\u2019",
             "grouping": [
                 3,
                 3
@@ -86,7 +86,7 @@
             "int_prefix": "41"
         },
         "LC_TIME": {
-            "date_fmt": "%a %e %b %Y, %H.%M.%S, %Z",
+            "date_fmt": "%a %-d %b %Y, %T, %Z",
             "abday": [
                 "dom",
                 "lun",
@@ -138,8 +138,8 @@
                 "novembre",
                 "dicembre"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d. %m. %y",
+            "d_t_fmt": "%a %-d %b %Y, %T",
+            "d_fmt": "%d.%m.%Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",

@@ -80,7 +80,7 @@
             "int_prefix": "679"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
             "abday": [
                 "Ravi",
                 "Som",
@@ -128,9 +128,9 @@
                 "November",
                 "December"
             ],
-            "d_t_fmt": "%A %d %b %Y %I:%M:%S %Z",
+            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p",
             "d_fmt": "%A %d %b %Y",
-            "t_fmt": "%I:%M:%S %Z",
+            "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [
                 "Purvahan",
                 "Aparaahna"

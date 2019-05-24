@@ -72,7 +72,7 @@
         "int_prefix": "389"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%a %-d %b %Y %I:%M:%S.%p %Z",
         "abday": [
             "Die",
             "H\u00ebn",
@@ -124,14 +124,14 @@
             "n\u00ebntor",
             "dhjetor"
         ],
-        "d_t_fmt": "%Y-%b-%d %I.%M.%S.%p %Z",
-        "d_fmt": "%Y-%b-%d",
-        "t_fmt": "%I.%M.%S. %Z",
+        "d_t_fmt": "%a %-d %b %Y %I:%M:%S.%p",
+        "d_fmt": "%-d.%-m.%y",
+        "t_fmt": "%I:%M:%S.%p %Z",
         "am_pm": [
             "PD",
             "MD"
         ],
-        "t_fmt_ampm": "%I.%M.%S.%p %Z",
+        "t_fmt_ampm": "%I:%M:%S.%p %Z",
         "era": null,
         "era_year": null,
         "era_d_t_fmt": null,

@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%A, %B %e, %r %Z %Y',
+    'date_fmt' => '%A, %B %e, %X %Z %Y',
     'abday' => 
     array (
       0 => 'Axd',
@@ -143,15 +143,15 @@
       10 => 'Bisha Kow iyo Tobnaad',
       11 => 'Bisha Laba iyo Tobnaad',
     ),
-    'd_t_fmt' => '%A, %B %e, %Y %r %Z',
+    'd_t_fmt' => '%A, %B %e, %Y %X %Z',
     'd_fmt' => '%d//%m//%Y',
-    't_fmt' => '%l:%M:%S',
+    't_fmt' => '%T',
     'am_pm' => 
     array (
       0 => 'subaxnimo',
       1 => 'galabnimo',
     ),
-    't_fmt_ampm' => '%X %p',
+    't_fmt_ampm' => '',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

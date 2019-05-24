@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "CHF",
             "mon_decimal_point": ".",
-            "mon_thousands_sep": "'",
+            "mon_thousands_sep": "\u2019",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ".",
-            "thousands_sep": "'",
+            "thousands_sep": "\u2019",
             "grouping": [
                 3,
                 3

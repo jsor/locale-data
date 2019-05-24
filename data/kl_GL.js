@@ -88,7 +88,7 @@
         "LC_TIME": {
             "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
             "abday": [
-                "sab",
+                "sap",
                 "ata",
                 "mar",
                 "pin",
@@ -97,7 +97,7 @@
                 "arf"
             ],
             "day": [
-                "sabaat",
+                "sapaat",
                 "ataasinngorneq",
                 "marlunngorneq",
                 "pingasunngorneq",
@@ -125,21 +125,21 @@
                 "dec"
             ],
             "mon": [
-                "januari",
-                "februari",
-                "martsi",
-                "aprili",
-                "maji",
-                "juni",
-                "juli",
-                "augustusi",
-                "septemberi",
-                "oktoberi",
-                "novemberi",
-                "decemberi"
+                "januaarip",
+                "februaarip",
+                "marsip",
+                "apriilip",
+                "maajip",
+                "juunip",
+                "juulip",
+                "aggustip",
+                "septembarip",
+                "oktobarip",
+                "novembarip",
+                "decembarip"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
-            "d_fmt": "%d %b %Y",
+            "d_t_fmt": "%a %b %d %Y %T %Z",
+            "d_fmt": "%b %d %Y",
             "t_fmt": "%T",
             "am_pm": [
                 "",
@@ -155,7 +155,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "januaari",
+                "februaari",
+                "marsi",
+                "apriili",
+                "maaji",
+                "juuni",
+                "juuli",
+                "aggusti",
+                "septembari",
+                "oktobari",
+                "novembari",
+                "decembari"
+            ]
         }
     };
 }));

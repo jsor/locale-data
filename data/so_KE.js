@@ -86,7 +86,7 @@
             "int_prefix": "254"
         },
         "LC_TIME": {
-            "date_fmt": "%A, %B %e, %r %Z %Y",
+            "date_fmt": "%A, %B %e, %X %Z %Y",
             "abday": [
                 "Axd",
                 "Isn",
@@ -138,14 +138,14 @@
                 "Bisha Kow iyo Tobnaad",
                 "Bisha Laba iyo Tobnaad"
             ],
-            "d_t_fmt": "%A, %B %e, %Y %r %Z",
+            "d_t_fmt": "%A, %B %e, %Y %X %Z",
             "d_fmt": "%d\/\/%m\/\/%Y",
-            "t_fmt": "%l:%M:%S",
+            "t_fmt": "%T",
             "am_pm": [
                 "subaxnimo",
                 "galabnimo"
             ],
-            "t_fmt_ampm": "%X %p",
+            "t_fmt_ampm": "",
             "era": null,
             "era_year": null,
             "era_d_t_fmt": null,

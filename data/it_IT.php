@@ -65,11 +65,11 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
+    'thousands_sep' => '.',
     'grouping' => 
     array (
-      0 => 0,
-      1 => 0,
+      0 => 3,
+      1 => 3,
     ),
   ),
   'LC_PAPER' => 
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %e %b %Y, %H.%M.%S, %Z',
+    'date_fmt' => '%a %-d %b %Y, %T, %Z',
     'abday' => 
     array (
       0 => 'dom',
@@ -143,7 +143,7 @@
       10 => 'novembre',
       11 => 'dicembre',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %-d %b %Y, %T',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 

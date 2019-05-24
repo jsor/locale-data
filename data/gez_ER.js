@@ -140,12 +140,12 @@
             ],
             "d_t_fmt": "%A\u1365%B\u1361%e\u1361\u1218\u12d3\u120d\u1275\u1361%Y\u1361%r\u1361%Z",
             "d_fmt": "%d\/\/%m\/\/%Y",
-            "t_fmt": "%l:%M:%S",
+            "t_fmt": "%l:%M:%S\u1361%p",
             "am_pm": [
                 "\u133d\u1263\u1215",
                 "\u121d\u1234\u1275"
             ],
-            "t_fmt_ampm": "%X\u1361%p",
+            "t_fmt_ampm": "%l:%M:%S\u1361%p",
             "era": null,
             "era_year": null,
             "era_d_t_fmt": null,

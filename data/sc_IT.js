@@ -69,10 +69,10 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "",
+            "thousands_sep": ".",
             "grouping": [
-                0,
-                0
+                3,
+                3
             ]
         },
         "LC_PAPER": {

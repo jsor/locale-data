@@ -143,7 +143,7 @@
                 "\u0c21\u0c3f\u0c38\u0c46\u0c02\u0c2c\u0c30\u0c4d"
             ],
             "d_t_fmt": "%B %d %A %Y %p%I.%M.%S %Z",
-            "d_fmt": "%B %d %A %Y",
+            "d_fmt": "%d-%m-%y",
             "t_fmt": "%p%I.%M.%S %Z",
             "am_pm": [
                 "\u0c09.",

@@ -58,10 +58,10 @@
     },
     "LC_NUMERIC": {
         "decimal_point": ",",
-        "thousands_sep": "",
+        "thousands_sep": ".",
         "grouping": [
-            0,
-            0
+            3,
+            3
         ]
     },
     "LC_PAPER": {
@@ -75,7 +75,7 @@
         "int_prefix": "39"
     },
     "LC_TIME": {
-        "date_fmt": "%a %e %b %Y, %H.%M.%S, %Z",
+        "date_fmt": "%a %-d %b %Y, %T, %Z",
         "abday": [
             "dom",
             "lun",
@@ -127,7 +127,7 @@
             "novembre",
             "dicembre"
         ],
-        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_t_fmt": "%a %-d %b %Y, %T",
         "d_fmt": "%d\/\/%m\/\/%Y",
         "t_fmt": "%T",
         "am_pm": [

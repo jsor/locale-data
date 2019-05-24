@@ -140,15 +140,15 @@
       10 => 'نونبر',
       11 => 'دجنبر',
     ),
-    'd_t_fmt' => '%d %b, %Y %Z %I:%M:%S %p',
+    'd_t_fmt' => '%d %b, %Y %Z %H:%M:%S',
     'd_fmt' => '%d %b, %Y',
-    't_fmt' => '%Z %I:%M:%S ',
+    't_fmt' => '%Z %H:%M:%S',
     'am_pm' => 
     array (
       0 => 'ص',
       1 => 'م',
     ),
-    't_fmt_ampm' => '%Z %I:%M:%S %p',
+    't_fmt_ampm' => '',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

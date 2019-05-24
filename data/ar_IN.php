@@ -145,8 +145,8 @@
       11 => 'ديسمبر',
     ),
     'd_t_fmt' => '%A %d %B %Y %I:%M:%S %p %Z',
-    'd_fmt' => '%A %d %B %Y',
-    't_fmt' => '%I:%M:%S  %Z',
+    'd_fmt' => '%-d//%-m//%y',
+    't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 
     array (
       0 => 'ص',

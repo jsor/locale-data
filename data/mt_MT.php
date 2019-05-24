@@ -140,15 +140,15 @@
       10 => 'Novembru',
       11 => 'Diċembru',
     ),
-    'd_t_fmt' => '%A, %d ta %b, %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A, %d ta %b, %Y %H:%M:%S %Z',
     'd_fmt' => '%A, %d ta %b, %Y',
-    't_fmt' => '%I:%M:%S  %Z',
+    't_fmt' => '%H:%M:%S %Z',
     'am_pm' => 
     array (
       0 => '',
       1 => '',
     ),
-    't_fmt_ampm' => '%I:%M:%S %p %Z',
+    't_fmt_ampm' => '',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

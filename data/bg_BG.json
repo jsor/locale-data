@@ -134,7 +134,7 @@
             "",
             ""
         ],
-        "t_fmt_ampm": "%l:%M:%S",
+        "t_fmt_ampm": "",
         "era": null,
         "era_year": null,
         "era_d_t_fmt": null,

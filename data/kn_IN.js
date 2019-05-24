@@ -140,8 +140,8 @@
                 "\u0ca1\u0cbf\u0cb8\u0cc6\u0c82\u0cac\u0cb0\u0ccd"
             ],
             "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
-            "d_fmt": "%A %d %b %Y",
-            "t_fmt": "%I:%M:%S  %Z",
+            "d_fmt": "%-d\/\/%-m\/\/%y",
+            "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [
                 "\u0caa\u0cc2\u0cb0\u0ccd\u0cb5\u0cbe\u0cb9\u0ccd\u0ca8",
                 "\u0c85\u0caa\u0cb0\u0cbe\u0cb9\u0ccd\u0ca8"

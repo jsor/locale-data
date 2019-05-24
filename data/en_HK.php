@@ -142,13 +142,13 @@
     ),
     'd_t_fmt' => '%A, %B %d, %Y %p%I:%M:%S %Z',
     'd_fmt' => '%A, %B %d, %Y',
-    't_fmt' => '%I:%M:%S %Z',
+    't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 
     array (
       0 => 'AM',
       1 => 'PM',
     ),
-    't_fmt_ampm' => '%p%I:%M:%S %Z',
+    't_fmt_ampm' => '%I:%M:%S %p %Z',
     'era' => NULL,
     'era_year' => NULL,
     'era_d_t_fmt' => NULL,

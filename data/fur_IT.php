@@ -65,11 +65,11 @@
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
+    'thousands_sep' => '.',
     'grouping' => 
     array (
-      0 => 0,
-      1 => 0,
+      0 => 3,
+      1 => 3,
     ),
   ),
   'LC_PAPER' => 
