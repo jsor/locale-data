@@ -1,56 +1,28 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData;
 
 interface LocaleDataInterface
 {
-    /**
-     * @return array
-     */
-    public function getLocales();
+    public function getLocales(): array;
 
-    /**
-     * @return array
-     */
-    public function getAddressData($locale);
+    public function getAddressData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getMeasurementData($locale);
+    public function getMeasurementData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getMessagesData($locale);
+    public function getMessagesData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getMonetaryData($locale);
+    public function getMonetaryData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getNameData($locale);
+    public function getNameData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getNumericData($locale);
+    public function getNumericData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getPaperData($locale);
+    public function getPaperData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getTelephoneData($locale);
+    public function getTelephoneData(string $locale): array;
 
-    /**
-     * @return array
-     */
-    public function getTimeData($locale);
+    public function getTimeData(string $locale): array;
 }

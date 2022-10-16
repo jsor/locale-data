@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData;
 
 class FileValidationTest extends TestCase
 {
-    public function assertFileData($data)
+    public function assertFileData(mixed $data): void
     {
-        $this->assertInternalType('array', $data);
+        $this->assertIsArray($data);
 
         $this->assertArrayHasKey('LC_ADDRESS', $data);
         $this->assertArrayHasKey('LC_MEASUREMENT', $data);
@@ -21,21 +23,29 @@ class FileValidationTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider providePhpFiles
      */
-    public function all_php_files_are_valid($file)
+    public function all_php_files_are_valid(string $file): void
     {
         $data = include $file;
 
         $this->assertFileData($data);
     }
+
     /**
      * @test
+     *
      * @dataProvider provideJsonFiles
      */
-    public function all_json_files_are_valid($file)
+    public function all_json_files_are_valid(string $file): void
     {
-        $data = json_decode(file_get_contents($file), true);
+        $data = json_decode(
+            file_get_contents($file),
+            true,
+            512,
+            JSON_THROW_ON_ERROR,
+        );
 
         $this->assertFileData($data);
     }

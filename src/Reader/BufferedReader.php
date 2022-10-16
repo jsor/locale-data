@@ -1,43 +1,49 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData\Reader;
 
-class BufferedReader implements ReaderInterface
+final class BufferedReader implements ReaderInterface
 {
-    private $size;
-    private $values = array();
-    private $indices = array();
-    private $cursor = 0;
+    private int $size;
+    private array $values = [];
+    private array $indices = [];
+    private int $cursor = 0;
 
-    private $reader;
+    private ReaderInterface $reader;
 
-    public function __construct(ReaderInterface $reader, $size)
-    {
+    public function __construct(
+        ReaderInterface $reader,
+        int $size,
+    ) {
         $this->reader = $reader;
         $this->size = $size;
     }
 
-    public function read($path, $locale)
+    public function read(string $path, string $locale): array
     {
-        $key = $path.'/'.$locale;
+        $key = $path . '/' . $locale;
 
         if (!isset($this->indices[$key])) {
             $this->set($key, $this->reader->read($path, $locale));
         }
 
-        return $this->values[$this->indices[$key]];
+        return (array) ($this->values[(string) $this->indices[$key]] ?? []);
     }
 
-    public function resolve($path, $locale)
+    public function resolve(string $path, string $locale): string
     {
         return $this->reader->resolve($path, $locale);
     }
 
-    private function set($key, $value)
+    private function set(string $key, mixed $value): void
     {
-        if (false !== ($keyToRemove = array_search($this->cursor, $this->indices))) {
-            unset($this->values[$this->indices[$keyToRemove]]);
-            unset($this->indices[$keyToRemove]);
+        if (false !== ($keyToRemove = array_search($this->cursor, $this->indices, true))) {
+            unset(
+                $this->values[(string) $this->indices[$keyToRemove]],
+                $this->indices[$keyToRemove],
+            );
         }
 
         $this->values[$this->cursor] = $value;

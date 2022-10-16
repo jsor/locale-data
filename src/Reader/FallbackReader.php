@@ -1,51 +1,51 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData\Reader;
 
 use Jsor\LocaleData\Exception\FileNotFoundException;
 
-class FallbackReader implements ReaderInterface
+final class FallbackReader implements ReaderInterface
 {
-    private $reader;
+    private ReaderInterface $reader;
 
     public function __construct(ReaderInterface $reader)
     {
         $this->reader = $reader;
     }
 
-    public function read($path, $locale)
+    public function read(string $path, string $locale): array
     {
-        $locale = (string) $locale;
-
-        $locales = array();
+        $readLocales = [];
 
         if ('' !== $locale) {
-            $locales[] = $locale;
+            $readLocales[] = $locale;
 
-            if (false !== strpos($locale, '_')) {
+            if (str_contains($locale, '_')) {
                 // en_US -> en
-                list($parent) = explode('_', $locale, 2);
+                [$parent] = explode('_', $locale, 2);
 
-                $locales[] = $parent;
+                $readLocales[] = $parent;
             }
         }
 
-        $locales[] = ReaderInterface::ROOT_LOCALE;
+        $readLocales[] = ReaderInterface::ROOT_LOCALE;
 
-        $files = array();
+        $files = [];
 
-        foreach ($locales as $locale) {
+        foreach ($readLocales as $readLocale) {
             try {
-                return $this->reader->read($path, $locale);
-            } catch (FileNotFoundException $e) {
-                $files[] = $this->reader->resolve($path, $locale);
+                return $this->reader->read($path, $readLocale);
+            } catch (FileNotFoundException) {
+                $files[] = $this->reader->resolve($path, $readLocale);
             }
         }
 
         throw FileNotFoundException::create($files);
     }
 
-    public function resolve($path, $locale)
+    public function resolve(string $path, string $locale): string
     {
         return $this->reader->resolve($path, $locale);
     }

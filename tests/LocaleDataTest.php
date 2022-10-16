@@ -1,14 +1,17 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData;
 
 class LocaleDataTest extends TestCase
 {
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_all_locales($locale)
+    public function it_provides_all_locales($locale): void
     {
         $locales = LocaleData::getInstance()->getLocales();
 
@@ -17,9 +20,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_address_data($locale)
+    public function it_provides_address_data($locale): void
     {
         $data = LocaleData::getInstance()->getAddressData($locale);
 
@@ -29,9 +33,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_address_fallback_data()
+    public function it_provides_address_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getAddressData(null);
+        $data = LocaleData::getInstance()->getAddressData('');
 
         $this->assertData($data, 'LC_ADDRESS');
     }
@@ -39,7 +43,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_address_data_for_invalid_locale()
+    public function it_provides_address_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getAddressData('invalid');
 
@@ -48,9 +52,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_measurement_data($locale)
+    public function it_provides_measurement_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getMeasurementData($locale);
 
@@ -60,9 +65,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_measurement_fallback_data()
+    public function it_provides_measurement_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getMeasurementData(null);
+        $data = LocaleData::getInstance()->getMeasurementData('');
 
         $this->assertData($data, 'LC_MEASUREMENT');
     }
@@ -70,7 +75,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_measurement_data_for_invalid_locale()
+    public function it_provides_measurement_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getMeasurementData('invalid');
 
@@ -79,9 +84,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_messages_data($locale)
+    public function it_provides_messages_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getMessagesData($locale);
 
@@ -91,9 +97,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_messages_fallback_data()
+    public function it_provides_messages_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getMessagesData(null);
+        $data = LocaleData::getInstance()->getMessagesData('');
 
         $this->assertData($data, 'LC_MESSAGES');
     }
@@ -101,7 +107,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_messages_data_for_invalid_locale()
+    public function it_provides_messages_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getMessagesData('invalid');
 
@@ -110,9 +116,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_monetary_data($locale)
+    public function it_provides_monetary_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getMonetaryData($locale);
 
@@ -122,9 +129,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_monetary_data_fallback_data()
+    public function it_provides_monetary_data_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getMonetaryData(null);
+        $data = LocaleData::getInstance()->getMonetaryData('');
 
         $this->assertData($data, 'LC_MONETARY');
     }
@@ -132,7 +139,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_monetary_data_for_invalid_locale()
+    public function it_provides_monetary_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getMonetaryData('invalid');
 
@@ -141,9 +148,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_name_data($locale)
+    public function it_provides_name_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getNameData($locale);
 
@@ -153,9 +161,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_name_fallback_data()
+    public function it_provides_name_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getNameData(null);
+        $data = LocaleData::getInstance()->getNameData('');
 
         $this->assertData($data, 'LC_NAME');
     }
@@ -163,7 +171,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_name_data_for_invalid_locale()
+    public function it_provides_name_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getNameData('invalid');
 
@@ -172,9 +180,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_numeric_data($locale)
+    public function it_provides_numeric_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getNumericData($locale);
 
@@ -184,9 +193,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_numeric_fallback_data()
+    public function it_provides_numeric_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getNumericData(null);
+        $data = LocaleData::getInstance()->getNumericData('');
 
         $this->assertData($data, 'LC_NUMERIC');
     }
@@ -194,7 +203,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_numeric_data_for_invalid_locale()
+    public function it_provides_numeric_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getNumericData('invalid');
 
@@ -203,9 +212,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_paper_data($locale)
+    public function it_provides_paper_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getPaperData($locale);
 
@@ -215,9 +225,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_paper_fallback_data()
+    public function it_provides_paper_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getPaperData(null);
+        $data = LocaleData::getInstance()->getPaperData('');
 
         $this->assertData($data, 'LC_PAPER');
     }
@@ -225,7 +235,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_paper_data_for_invalid_locale()
+    public function it_provides_paper_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getPaperData('invalid');
 
@@ -234,9 +244,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_telephone_data($locale)
+    public function it_provides_telephone_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getTelephoneData($locale);
 
@@ -246,9 +257,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_telephone_fallback_data()
+    public function it_provides_telephone_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getTelephoneData(null);
+        $data = LocaleData::getInstance()->getTelephoneData('');
 
         $this->assertData($data, 'LC_TELEPHONE');
     }
@@ -256,7 +267,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_telephone_data_for_invalid_locale()
+    public function it_provides_telephone_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getTelephoneData('invalid');
 
@@ -265,9 +276,10 @@ class LocaleDataTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider provideLocales
      */
-    public function it_provides_time_data($locale)
+    public function it_provides_time_data(string $locale): void
     {
         $data = LocaleData::getInstance()->getTimeData($locale);
 
@@ -277,9 +289,9 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_time_fallback_data()
+    public function it_provides_time_fallback_data(): void
     {
-        $data = LocaleData::getInstance()->getTimeData(null);
+        $data = LocaleData::getInstance()->getTimeData('');
 
         $this->assertData($data, 'LC_TIME');
     }
@@ -287,7 +299,7 @@ class LocaleDataTest extends TestCase
     /**
      * @test
      */
-    public function it_provides_time_data_for_invalid_locale()
+    public function it_provides_time_data_for_invalid_locale(): void
     {
         $data = LocaleData::getInstance()->getTimeData('invalid');
 

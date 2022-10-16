@@ -1,7 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData\Reader;
 
+use Jsor\LocaleData\Exception\FileNotFoundException;
+use Jsor\LocaleData\Exception\InvalidJsonException;
 use Jsor\LocaleData\TestCase;
 
 class JsonReaderTest extends TestCase
@@ -9,53 +13,61 @@ class JsonReaderTest extends TestCase
     /**
      * @test
      */
-    public function read_returns_array()
+    public function read_returns_array(): void
     {
         $reader = new JsonReader();
-        $data = $reader->read(__DIR__.'/_fixtures', 'valid');
+        $data = $reader->read(__DIR__ . '/_fixtures', 'valid');
 
-        $this->assertInternalType('array', $data);
+        $this->assertIsArray($data);
         $this->assertArrayHasKey('Foo', $data);
         $this->assertSame('Bar', $data['Foo']);
     }
 
     /**
      * @test
-     * @expectedException \Jsor\LocaleData\Exception\FileNotFoundException
      */
-    public function read_throws_for_non_existing_file()
+    public function read_throws_for_non_existing_file(): void
     {
         $reader = new JsonReader();
-        $reader->read(__DIR__.'/_fixtures', 'foo');
+
+        $this->expectException(FileNotFoundException::class);
+
+        $reader->read(__DIR__ . '/_fixtures', 'foo');
     }
 
     /**
      * @test
-     * @expectedException \Jsor\LocaleData\Exception\FileNotFoundException
      */
-    public function read_throws_for_non_existing_directory()
+    public function read_throws_for_non_existing_directory(): void
     {
         $reader = new JsonReader();
-        $reader->read(__DIR__.'/non-existing', 'en');
+
+        $this->expectException(FileNotFoundException::class);
+
+        $reader->read(__DIR__ . '/non-existing', 'en');
     }
 
     /**
      * @test
-     * @expectedException \Jsor\LocaleData\Exception\FileNotFoundException
      */
-    public function read_throws_for_file_is_a_directory()
+    public function read_throws_for_file_is_a_directory(): void
     {
         $reader = new JsonReader();
-        $reader->read(__DIR__.'/_fixtures', 'dir');
+
+        $this->expectException(FileNotFoundException::class);
+
+        $reader->read(__DIR__ . '/_fixtures', 'dir');
     }
 
     /**
      * @test
-     * @expectedException \Jsor\LocaleData\Exception\InvalidJsonException
      */
-    public function read_throws_for_invalid_json()
+    public function read_throws_for_invalid_json(): void
     {
         $reader = new JsonReader();
-        $reader->read(__DIR__.'/_fixtures', 'invalid');
+
+        $this->expectException(InvalidJsonException::class);
+
+        $reader->read(__DIR__ . '/_fixtures', 'invalid');
     }
 }

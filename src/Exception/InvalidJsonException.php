@@ -1,24 +1,26 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData\Exception;
 
-class InvalidJsonException extends \RuntimeException
+use RuntimeException;
+
+final class InvalidJsonException extends RuntimeException
 {
-    public static function create($file, $jsonError)
-    {
-        $jsonOptions = 0;
-
-        if (defined('JSON_UNESCAPED_SLASHES')) {
-            $jsonOptions |= JSON_UNESCAPED_SLASHES;
-        }
-
+    public static function create(
+        string $file,
+        string $jsonError,
+    ): self {
         return new self(
             sprintf(
-                'The file%s %s contains invalid JSON: %s.',
-                is_array($file) ? 's' : '',
-                json_encode($file, $jsonOptions),
-                $jsonError
-            )
+                'The file %s contains invalid JSON: %s.',
+                json_encode(
+                    $file,
+                    JSON_THROW_ON_ERROR | JSON_UNESCAPED_SLASHES,
+                ),
+                $jsonError,
+            ),
         );
     }
 }

@@ -1,23 +1,27 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData\Exception;
 
-class FileNotFoundException extends \RuntimeException
+use RuntimeException;
+
+use function is_array;
+
+final class FileNotFoundException extends RuntimeException
 {
-    public static function create($file)
-    {
-        $jsonOptions = 0;
-
-        if (defined('JSON_UNESCAPED_SLASHES')) {
-            $jsonOptions |= JSON_UNESCAPED_SLASHES;
-        }
-
+    public static function create(
+        array|string $file,
+    ): self {
         return new self(
             sprintf(
                 'The file%s %s could not be found.',
                 is_array($file) ? 's' : '',
-                json_encode($file, $jsonOptions)
-            )
+                json_encode(
+                    $file,
+                    JSON_THROW_ON_ERROR | JSON_UNESCAPED_SLASHES,
+                ),
+            ),
         );
     }
 }

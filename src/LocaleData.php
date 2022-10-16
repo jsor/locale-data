@@ -1,108 +1,106 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData;
 
 use Jsor\LocaleData\Reader\BufferedReader;
 use Jsor\LocaleData\Reader\FallbackReader;
 use Jsor\LocaleData\Reader\JsonReader;
 use Jsor\LocaleData\Reader\ReaderInterface;
+use RuntimeException;
 
-class LocaleData implements LocaleDataInterface
+use function dirname;
+
+final class LocaleData implements LocaleDataInterface
 {
-    const BUFFER_SIZE = 10;
+    public const BUFFER_SIZE = 10;
 
-    /**
-     * @var LocaleData
-     */
-    private static $instance;
+    private static ?self $instance = null;
 
-    /**
-     * @var string
-     */
-    private $path;
+    private string $path;
 
-    /**
-     * @var ReaderInterface
-     */
-    private $reader;
+    private ReaderInterface $reader;
 
-    public function __construct($path, ReaderInterface $reader)
-    {
+    public function __construct(
+        string $path,
+        ReaderInterface $reader,
+    ) {
         $this->path = $path;
         $this->reader = $reader;
     }
 
-    public function getLocales()
+    public function getLocales(): array
     {
         $data = $this->reader->read($this->path, 'meta');
 
-        return $data['locales'];
+        return (array) $data['locales'];
     }
 
-    public function getAddressData($locale)
+    public function getAddressData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_ADDRESS'];
+        return (array) $data['LC_ADDRESS'];
     }
 
-    public function getMeasurementData($locale)
+    public function getMeasurementData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_MEASUREMENT'];
+        return (array) $data['LC_MEASUREMENT'];
     }
 
-    public function getMessagesData($locale)
+    public function getMessagesData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_MESSAGES'];
+        return (array) $data['LC_MESSAGES'];
     }
 
-    public function getMonetaryData($locale)
+    public function getMonetaryData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_MONETARY'];
+        return (array) $data['LC_MONETARY'];
     }
 
-    public function getNameData($locale)
+    public function getNameData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_NAME'];
+        return (array) $data['LC_NAME'];
     }
 
-    public function getNumericData($locale)
+    public function getNumericData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_NUMERIC'];
+        return (array) $data['LC_NUMERIC'];
     }
 
-    public function getPaperData($locale)
+    public function getPaperData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_PAPER'];
+        return (array) $data['LC_PAPER'];
     }
 
-    public function getTelephoneData($locale)
+    public function getTelephoneData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_TELEPHONE'];
+        return (array) $data['LC_TELEPHONE'];
     }
 
-    public function getTimeData($locale)
+    public function getTimeData(string $locale): array
     {
         $data = $this->reader->read($this->path, $locale);
 
-        return $data['LC_TIME'];
+        return (array) $data['LC_TIME'];
     }
 
-    public static function getInstance()
+    public static function getInstance(): self
     {
         if (null === self::$instance) {
             self::$instance = self::create();
@@ -111,21 +109,21 @@ class LocaleData implements LocaleDataInterface
         return self::$instance;
     }
 
-    public static function create()
+    public static function create(): self
     {
         return new self(
             self::getDataPath(),
             new BufferedReader(
                 new FallbackReader(
-                    new JsonReader()
+                    new JsonReader(),
                 ),
-                self::BUFFER_SIZE
-            )
+                self::BUFFER_SIZE,
+            ),
         );
     }
 
-    public static function getDataPath()
+    public static function getDataPath(): string
     {
-        return realpath(__DIR__.'/../data');
+        return dirname(__DIR__) . '/data' ?: throw new RuntimeException('Invalid data path ' . __DIR__ . '/../data');
     }
 }

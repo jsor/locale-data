@@ -1,13 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jsor\LocaleData\Reader;
 
+use JsonException;
 use Jsor\LocaleData\Exception\FileNotFoundException;
 use Jsor\LocaleData\Exception\InvalidJsonException;
 
-class JsonReader implements ReaderInterface
+final class JsonReader implements ReaderInterface
 {
-    public function read($path, $locale)
+    public function read(string $path, string $locale): array
     {
         $fileName = $this->resolve($path, $locale);
 
@@ -19,20 +22,26 @@ class JsonReader implements ReaderInterface
             throw FileNotFoundException::create($fileName);
         }
 
-        $data = json_decode(file_get_contents($fileName), true);
-
-        if (null === $data) {
+        try {
+            /** @var array $data */
+            $data = json_decode(
+                file_get_contents($fileName),
+                true,
+                512,
+                JSON_THROW_ON_ERROR,
+            );
+        } catch (JsonException $e) {
             throw InvalidJsonException::create(
                 $fileName,
-                json_last_error_msg()
+                $e->getMessage(),
             );
         }
 
         return $data;
     }
 
-    public function resolve($path, $locale)
+    public function resolve(string $path, string $locale): string
     {
-        return $path.'/'.$locale.'.json';
+        return $path . '/' . $locale . '.json';
     }
 }
