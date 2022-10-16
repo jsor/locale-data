@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => 'Dʼar %A %d a viz %B %Y %T %Z',
     'abday' => 
     array (
       0 => 'sul',
@@ -135,7 +135,7 @@
       10 => 'Du',
       11 => 'Kerzu',
     ),
-    'd_t_fmt' => 'Dʼar %A %d a viz %B %Y',
+    'd_t_fmt' => 'Dʼar %A %d a viz %B %Y %T',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

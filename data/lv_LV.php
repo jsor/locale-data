@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A, %Y. gada %e. %B, %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'Sv',
@@ -143,7 +143,7 @@
       10 => 'novembris',
       11 => 'decembris',
     ),
-    'd_t_fmt' => '%A, %Y. gada %e. %B, plkst. %H un %M',
+    'd_t_fmt' => '%A, %Y. gada %e. %B, %H:%M:%S',
     'd_fmt' => '%Y.%m.%d.',
     't_fmt' => '%T',
     'am_pm' => 

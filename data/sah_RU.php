@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Россия',
+    'country_name' => 'Арассыыйа',
     'country_post' => NULL,
     'country_ab2' => 'RU',
     'country_ab3' => 'RUS',
     'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
-    'lang_name' => 'Саха тыла',
+    'lang_name' => 'саха тыла',
     'lang_ab' => '',
     'lang_term' => 'sah',
     'lang_lib' => 'sah',

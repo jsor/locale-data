@@ -19,7 +19,7 @@
             "country_num": 776,
             "country_car": "TON",
             "country_isbn": null,
-            "lang_name": "Tonga\n",
+            "lang_name": "lea fakatonga",
             "lang_ab": "to",
             "lang_term": "ton",
             "lang_lib": "ton"
@@ -80,7 +80,7 @@
             "int_prefix": "676"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
             "abday": [
                 "S\u0101p",
                 "M\u014dn",
@@ -128,7 +128,7 @@
                 "N\u014dvema",
                 "T\u012bsema"
             ],
-            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
+            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p",
             "d_fmt": "%A %d %b %Y",
             "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [

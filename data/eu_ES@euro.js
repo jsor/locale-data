@@ -86,7 +86,7 @@
             "int_prefix": "34"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%y-%m-%d %T %Z",
             "abday": [
                 "ig.",
                 "al.",
@@ -138,7 +138,7 @@
                 "azaroa",
                 "abendua"
             ],
-            "d_t_fmt": "%y-%m-%d %T %Z",
+            "d_t_fmt": "%y-%m-%d %T",
             "d_fmt": "%a, %Y.eko %bren %da",
             "t_fmt": "%T",
             "am_pm": [

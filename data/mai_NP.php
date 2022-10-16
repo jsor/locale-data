@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'रवि',
@@ -135,7 +135,7 @@
       10 => 'फागुन',
       11 => 'चैति',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

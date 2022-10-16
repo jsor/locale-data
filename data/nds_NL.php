@@ -9,7 +9,7 @@
     'country_num' => 528,
     'country_car' => 'NL',
     'country_isbn' => '3',
-    'lang_name' => 'Neddersassisch',
+    'lang_name' => 'Neddersass’sch',
     'lang_ab' => NULL,
     'lang_term' => 'nds',
     'lang_lib' => 'nds',
@@ -29,7 +29,7 @@
   array (
     'currency_symbol' => '€',
     'mon_decimal_point' => ',',
-    'mon_thousands_sep' => ' ',
+    'mon_thousands_sep' => '.',
     'mon_grouping' => 
     array (
       0 => 3,
@@ -41,9 +41,9 @@
     'p_cs_precedes' => 1,
     'p_sep_by_space' => 1,
     'n_cs_precedes' => 1,
-    'n_sep_by_space' => 1,
+    'n_sep_by_space' => 2,
     'p_sign_posn' => 1,
-    'n_sign_posn' => 2,
+    'n_sign_posn' => 4,
     'int_curr_symbol' => 'EUR ',
     'int_frac_digits' => 2,
     'int_p_cs_precedes' => NULL,
@@ -56,20 +56,20 @@
   'LC_NAME' => 
   array (
     'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => NULL,
-    'name_mrs' => NULL,
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'name_gen' => 'heer of mevrouw',
+    'name_mr' => 'heer',
+    'name_mrs' => 'mevrouw',
+    'name_miss' => 'mevrouw',
+    'name_ms' => 'mevrouw',
   ),
   'LC_NUMERIC' => 
   array (
     'decimal_point' => ',',
-    'thousands_sep' => '',
+    'thousands_sep' => '.',
     'grouping' => 
     array (
-      0 => 0,
-      1 => 0,
+      0 => 3,
+      1 => 3,
     ),
   ),
   'LC_PAPER' => 
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d. %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Sdg',
@@ -143,7 +143,7 @@
       10 => 'Nowamba',
       11 => 'Dezamba',
     ),
-    'd_t_fmt' => '%a %d. %b %Y %T %Z',
+    'd_t_fmt' => '%a %d. %b %Y %T',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

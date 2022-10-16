@@ -9,7 +9,7 @@
     'country_num' => 242,
     'country_car' => 'FJI',
     'country_isbn' => NULL,
-    'lang_name' => 'Fiji Baat',
+    'lang_name' => 'हिन्दी',
     'lang_ab' => '',
     'lang_term' => 'hif',
     'lang_lib' => '',

@@ -9,7 +9,7 @@
     'country_num' => 710,
     'country_car' => 'ZA',
     'country_isbn' => NULL,
-    'lang_name' => 'IsiNdebele',
+    'lang_name' => 'isiNdebele',
     'lang_ab' => 'nr',
     'lang_term' => 'nbl',
     'lang_lib' => 'nbl',

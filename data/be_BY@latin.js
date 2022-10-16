@@ -19,7 +19,7 @@
             "country_num": 112,
             "country_car": "BY",
             "country_isbn": null,
-            "lang_name": "bie\u0142aruskaja mova",
+            "lang_name": "bie\u0142aruskaja",
             "lang_ab": "be",
             "lang_term": "bel",
             "lang_lib": "bel"
@@ -86,7 +86,7 @@
             "int_prefix": "375"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Nia",
                 "Pan",

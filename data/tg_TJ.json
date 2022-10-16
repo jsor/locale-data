@@ -8,7 +8,7 @@
         "country_num": 762,
         "country_car": "TJ",
         "country_isbn": null,
-        "lang_name": null,
+        "lang_name": "\u0442\u043e\u04b7\u0438\u043a\u04e3",
         "lang_ab": "tg",
         "lang_term": "tgk",
         "lang_lib": "tgk"
@@ -75,7 +75,7 @@
         "int_prefix": "992"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%a %d %b %Y %T %Z",
         "abday": [
             "\u0412\u0441\u043a",
             "\u041f\u043d\u0434",

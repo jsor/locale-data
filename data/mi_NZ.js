@@ -19,7 +19,7 @@
             "country_num": 554,
             "country_car": "NZ",
             "country_isbn": null,
-            "lang_name": "Te Reo",
+            "lang_name": "M\u0101ori",
             "lang_ab": "mi",
             "lang_term": "mri",
             "lang_lib": "mao"
@@ -86,7 +86,7 @@
             "int_prefix": "64"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "Te %A, te %d o %B, %Y %T %Z",
             "abday": [
                 "Ta",
                 "Ma",
@@ -138,7 +138,7 @@
                 "Whiringa-\u0101-rangi",
                 "Hakihea"
             ],
-            "d_t_fmt": "Te %A, te %d o %B, %Y %T %Z",
+            "d_t_fmt": "Te %A, te %d o %B, %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [

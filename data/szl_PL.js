@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Polska",
             "country_post": null,
             "country_ab2": "PL",
             "country_ab3": "POL",
@@ -84,20 +84,20 @@
             "abday": [
                 "niy",
                 "py\u0144",
-                "wt\u014f",
+                "wto",
                 "str",
                 "szt",
-                "pj\u014d",
+                "pi\u014d",
                 "sob"
             ],
             "day": [
                 "niydziela",
-                "py\u0144dzi\u014fek",
-                "wt\u014frek",
-                "strz\u014fda",
+                "py\u0144dzia\u0142ek",
+                "wtorek",
+                "strzoda",
                 "sztwortek",
-                "pj\u014dntek",
-                "sob\u014fta"
+                "pi\u014dntek",
+                "sobota"
             ],
             "week": [
                 7,
@@ -107,30 +107,30 @@
             "abmon": [
                 "sty",
                 "lut",
-                "mer",
-                "kwj",
+                "mar",
+                "kwi",
                 "moj",
                 "czy",
                 "lip",
-                "siy",
+                "sie",
                 "wrz",
                 "pa\u017a",
                 "lis",
                 "gru"
             ],
             "mon": [
-                "styczy\u0144",
-                "luty",
-                "merc",
-                "kwjeciy\u0144",
-                "moj",
-                "czyrwjy\u0144",
-                "lipjy\u0144",
-                "siyrpjy\u0144",
-                "wrzesiy\u0144",
-                "pa\u017adziernik",
-                "listopad",
-                "grudziy\u0144"
+                "stycznia",
+                "lutego",
+                "marca",
+                "kwietnia",
+                "moja",
+                "czyrwca",
+                "lipca",
+                "sierpnia",
+                "wrze\u015bnia",
+                "pa\u017adziernika",
+                "listopada",
+                "grudnia"
             ],
             "d_t_fmt": "%a, %-d %b %Y, %T",
             "d_fmt": "%d.%m.%Y",
@@ -149,7 +149,21 @@
             "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
-            "timezone": null
+            "timezone": null,
+            "alt_mon": [
+                "styczy\u0144",
+                "luty",
+                "marzec",
+                "kwieciy\u0144",
+                "moj",
+                "czyrwiec",
+                "lipiec",
+                "sierpiy\u0144",
+                "wrzesiy\u0144",
+                "pa\u017adziernik",
+                "listopad",
+                "grudziy\u0144"
+            ]
         }
     };
 }));

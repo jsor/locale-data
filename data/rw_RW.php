@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Rwanda',
+    'country_name' => 'U Rwanda',
     'country_post' => NULL,
     'country_ab2' => 'RW',
     'country_ab3' => 'RWA',
@@ -82,7 +82,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Mwe',
@@ -139,7 +139,7 @@
       10 => 'Ugushyingo',
       11 => 'Ukuboza',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

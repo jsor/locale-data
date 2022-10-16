@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%h%s%N%T',
-    'country_name' => 'Mauritius',
+    'country_name' => 'Moris',
     'country_post' => NULL,
     'country_ab2' => 'MU',
     'country_ab3' => 'MUS',

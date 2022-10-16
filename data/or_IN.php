@@ -91,7 +91,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p %Z',
     'abday' => 
     array (
       0 => 'ରବି',
@@ -148,7 +148,7 @@
       10 => 'ନଭେମ୍ବର',
       11 => 'ଡିସେମ୍ବର',
     ),
-    'd_t_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p %Z',
+    'd_t_fmt' => '%Oe %B %Oy %OI:%OM:%OS %p',
     'd_fmt' => '%Od-%Om-%Oy',
     't_fmt' => '%OI:%OM:%OS %p',
     'am_pm' => 

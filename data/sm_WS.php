@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T, %S %z%N%c%N',
-    'country_name' => 'Samoa',
+    'country_name' => 'Sāmoa',
     'country_post' => '%a %N   %f %N   %d %N   %b %N   %h %s %e %r %N   %T, %c  %N',
     'country_ab2' => 'WS',
     'country_ab3' => 'WSM',
@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Aso Sa',
@@ -130,7 +130,7 @@
       10 => 'Novema',
       11 => 'Tesema',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%r',
     'am_pm' => 

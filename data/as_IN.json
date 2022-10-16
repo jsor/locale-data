@@ -79,7 +79,7 @@
         "int_prefix": "91"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%e %B, %Y %I.%M.%S %p %Z",
         "abday": [
             "\u09a6\u09c7\u0993",
             "\u09b8\u09cb\u09ae",
@@ -131,7 +131,7 @@
             "\u09a8\u09f1\u09c7\u09ae\u09cd\u09ac\u09f0",
             "\u09a1\u09bf\u099a\u09c7\u09ae\u09cd\u09ac\u09f0"
         ],
-        "d_t_fmt": "%e %B, %Y %I.%M.%S %p %Z",
+        "d_t_fmt": "%e %B, %Y %I.%M.%S %p",
         "d_fmt": "%e-%m-%Y",
         "t_fmt": "%I.%M.%S %p",
         "am_pm": [

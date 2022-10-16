@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": "\u202f",
+            "mon_thousands_sep": ".",
             "mon_grouping": [
                 3,
                 3
@@ -69,7 +69,7 @@
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "\u202f",
+            "thousands_sep": ".",
             "grouping": [
                 0,
                 0
@@ -86,7 +86,7 @@
             "int_prefix": "386"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "ned",
                 "pon",
@@ -138,7 +138,7 @@
                 "november",
                 "december"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d. %m. %Y",
             "t_fmt": "%T",
             "am_pm": [

@@ -9,7 +9,7 @@
     'country_num' => 762,
     'country_car' => 'TJ',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'тоҷикӣ',
     'lang_ab' => 'tg',
     'lang_term' => 'tgk',
     'lang_lib' => 'tgk',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Вск',

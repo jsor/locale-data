@@ -9,7 +9,7 @@
     'country_num' => 360,
     'country_car' => 'RI',
     'country_isbn' => NULL,
-    'lang_name' => 'Bahasa Indonesia',
+    'lang_name' => 'Indonesia',
     'lang_ab' => 'id',
     'lang_term' => 'ind',
     'lang_lib' => 'ind',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %r %Z',
     'abday' => 
     array (
       0 => 'Min',
@@ -143,7 +143,7 @@
       10 => 'November',
       11 => 'Desember',
     ),
-    'd_t_fmt' => '%a %d %b %Y %r %Z',
+    'd_t_fmt' => '%a %d %b %Y %r',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 

@@ -116,7 +116,7 @@
     'abmon' => 
     array (
       0 => 'Qun',
-      1 => 'Kud',
+      1 => 'Nah',
       2 => 'Cig',
       3 => 'Agd',
       4 => 'Cax',
@@ -131,9 +131,9 @@
     'mon' => 
     array (
       0 => 'Qunxa Garablu',
-      1 => 'Kudo',
+      1 => 'Naharsi Kudo',
       2 => 'Ciggilta Kudo',
-      3 => 'Agda Baxisso',
+      3 => 'Agda Baxis',
       4 => 'Caxah Alsa',
       5 => 'Qasa Dirri',
       6 => 'Qado Dirri',

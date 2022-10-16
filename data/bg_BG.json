@@ -75,7 +75,7 @@
         "int_prefix": "359"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%x (%a) %X %Z",
         "abday": [
             "\u043d\u0434",
             "\u043f\u043d",
@@ -127,7 +127,7 @@
             "\u043d\u043e\u0435\u043c\u0432\u0440\u0438",
             "\u0434\u0435\u043a\u0435\u043c\u0432\u0440\u0438"
         ],
-        "d_t_fmt": "%x (%a) %X %Z",
+        "d_t_fmt": "%x (%a) %X",
         "d_fmt": "%e.%m.%Y",
         "t_fmt": "%k:%M:%S",
         "am_pm": [

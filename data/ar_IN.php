@@ -87,7 +87,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %B %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'ح',
@@ -144,7 +144,7 @@
       10 => 'نوفمبر',
       11 => 'ديسمبر',
     ),
-    'd_t_fmt' => '%A %d %B %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %B %Y %I:%M:%S %p',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

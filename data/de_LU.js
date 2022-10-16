@@ -86,7 +86,7 @@
             "int_prefix": "352"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "So",
                 "Mo",
@@ -138,7 +138,7 @@
                 "November",
                 "Dezember"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%Y-%m-%d",
             "t_fmt": "%T",
             "am_pm": [

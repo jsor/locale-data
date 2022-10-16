@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "P\u00f2lsk\u00f4",
             "country_post": null,
             "country_ab2": "PL",
             "country_ab3": "POL",
@@ -80,7 +80,7 @@
             "int_prefix": "48"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "nie",
                 0,
@@ -132,7 +132,7 @@
                 "l\u00ebstopadnika",
                 "g\u00f2dnika"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%Y-%m-%d",
             "t_fmt": "%T",
             "am_pm": [

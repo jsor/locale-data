@@ -86,7 +86,7 @@
             "int_prefix": "234"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "ranar %A, %d ga %B cikin %r %Z",
             "abday": [
                 "Lah",
                 "Lit",
@@ -138,7 +138,7 @@
                 "Nuwamba",
                 "Disamba"
             ],
-            "d_t_fmt": "ranar %A, %d ga %B cikin %r %Z",
+            "d_t_fmt": "ranar %A, %d ga %B cikin %r",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

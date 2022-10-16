@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'dim',
@@ -135,7 +135,7 @@
       10 => 'novanm',
       11 => 'desanm',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 

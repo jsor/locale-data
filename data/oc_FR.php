@@ -9,7 +9,7 @@
     'country_num' => 250,
     'country_car' => 'F',
     'country_isbn' => '979-10',
-    'lang_name' => 'Occitan',
+    'lang_name' => 'occitan',
     'lang_ab' => 'oc',
     'lang_term' => 'oci',
     'lang_lib' => 'oci',
@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'dg.',
@@ -95,7 +95,7 @@
       1 => 'diluns',
       2 => 'dimars',
       3 => 'dimècres',
-      4 => 'dijóus',
+      4 => 'dijòus',
       5 => 'divendres',
       6 => 'dissabte',
     ),
@@ -125,7 +125,7 @@
       0 => 'de genièr',
       1 => 'de febrièr',
       2 => 'de març',
-      3 => 'd’abrial',
+      3 => 'd’abril',
       4 => 'de mai',
       5 => 'de junh',
       6 => 'de julhet',
@@ -135,7 +135,7 @@
       10 => 'de novembre',
       11 => 'de decembre',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%T',
     'am_pm' => 
@@ -159,7 +159,7 @@
       0 => 'genièr',
       1 => 'febrièr',
       2 => 'març',
-      3 => 'abrial',
+      3 => 'abril',
       4 => 'mai',
       5 => 'junh',
       6 => 'julhet',

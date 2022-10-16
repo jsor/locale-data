@@ -19,7 +19,7 @@
             "country_num": 158,
             "country_car": "RC",
             "country_isbn": 957,
-            "lang_name": "\u6f22\u8a9e\u5ba2\u5bb6\u8a9e",
+            "lang_name": "\u5ba2\u5bb6\u8a71",
             "lang_ab": null,
             "lang_term": "hak",
             "lang_lib": "hak"

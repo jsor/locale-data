@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Mexihco",
             "country_post": null,
             "country_ab2": "MX",
             "country_ab3": "MEX",
             "country_num": 484,
             "country_car": "MEX",
             "country_isbn": null,
-            "lang_name": "Tlaxcala-Puebla Nahuatl",
+            "lang_name": "Tlahco n\u0101huatlaht\u014dlli",
             "lang_ab": null,
             "lang_term": "nhn",
             "lang_lib": "nhn"
@@ -86,7 +86,7 @@
             "int_prefix": "52"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "teo",
                 "cei",
@@ -138,7 +138,7 @@
                 "noviembre",
                 "diciembre"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [

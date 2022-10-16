@@ -8,7 +8,7 @@
         "country_num": 686,
         "country_car": "SN",
         "country_isbn": null,
-        "lang_name": null,
+        "lang_name": "Wolof",
         "lang_ab": "wo",
         "lang_term": "wol",
         "lang_lib": "wol"
@@ -75,7 +75,7 @@
         "int_prefix": "221"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%a %d %b %Y %T %Z",
         "abday": [
             "dib",
             "alt",
@@ -127,7 +127,7 @@
             "nowaambar",
             "desaambar"
         ],
-        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_t_fmt": "%a %d %b %Y %T",
         "d_fmt": "%d.%m.%Y",
         "t_fmt": "%T",
         "am_pm": [

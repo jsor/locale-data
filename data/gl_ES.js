@@ -86,7 +86,7 @@
             "int_prefix": "34"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Dom",
                 "Lun",
@@ -138,7 +138,7 @@
                 "Novembro",
                 "Decembro"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [

@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Mexihco',
     'country_post' => NULL,
     'country_ab2' => 'MX',
     'country_ab3' => 'MEX',
     'country_num' => 484,
     'country_car' => 'MEX',
     'country_isbn' => NULL,
-    'lang_name' => 'Tlaxcala-Puebla Nahuatl',
+    'lang_name' => 'Tlahco nāhuatlahtōlli',
     'lang_ab' => NULL,
     'lang_term' => 'nhn',
     'lang_lib' => 'nhn',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'teo',
@@ -143,7 +143,7 @@
       10 => 'noviembre',
       11 => 'diciembre',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 

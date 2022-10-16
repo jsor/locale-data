@@ -69,7 +69,7 @@
         "int_prefix": "221"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%a %d %b %Y %R %Z",
         "abday": [
             "dew",
             "aa\u0253",
@@ -121,7 +121,7 @@
             "jolal",
             "bowte"
         ],
-        "d_t_fmt": "%a %d %b %Y %R %Z",
+        "d_t_fmt": "%a %d %b %Y %R",
         "d_fmt": "%d\/\/%m\/\/%Y",
         "t_fmt": "%R",
         "am_pm": [

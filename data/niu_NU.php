@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Niuē',
     'country_post' => 'NU',
     'country_ab2' => 'NU',
     'country_ab3' => 'NIU',
     'country_num' => 570,
     'country_car' => NULL,
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'ko e vagahau Niuē',
     'lang_ab' => NULL,
     'lang_term' => 'niu',
     'lang_lib' => 'niu',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Tapu',
@@ -143,7 +143,7 @@
       10 => 'Novema',
       11 => 'Tesemo',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 

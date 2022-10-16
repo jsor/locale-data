@@ -8,7 +8,7 @@
         "country_num": 702,
         "country_car": "SGP",
         "country_isbn": null,
-        "lang_name": null,
+        "lang_name": "\u7b80\u4f53\u4e2d\u6587",
         "lang_ab": "zh",
         "lang_term": "zho",
         "lang_lib": "chi"
@@ -73,7 +73,7 @@
         "int_prefix": "65"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%Y\u5e74%m\u6708%d\u65e5 %H\u65f6%M\u5206%S\u79d2 %Z",
         "abday": [
             "\u65e5",
             "\u4e00",
@@ -125,7 +125,7 @@
             "\u5341\u4e00\u6708",
             "\u5341\u4e8c\u6708"
         ],
-        "d_t_fmt": "%Y\u5e74%m\u6708%d\u65e5 %H\u65f6%M\u5206%S\u79d2 %Z",
+        "d_t_fmt": "%Y\u5e74%m\u6708%d\u65e5 %H\u65f6%M\u5206%S\u79d2",
         "d_fmt": "%Y\u5e74%m\u6708%d\u65e5",
         "t_fmt": "%H\u65f6%M\u5206%S\u79d2 %Z",
         "am_pm": [

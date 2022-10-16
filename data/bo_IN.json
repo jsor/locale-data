@@ -128,8 +128,8 @@
             "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f45\u0f74\u0f0b\u0f42\u0f45\u0f72\u0f42\u0f0b\u0f54\u0f0b",
             "\u0f5f\u0fb3\u0f0b\u0f56\u0f0b\u0f56\u0f45\u0f74\u0f0b\u0f42\u0f49\u0f72\u0f66\u0f0b\u0f54\u0f0b"
         ],
-        "d_t_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%H\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S",
-        "d_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d",
+        "d_t_fmt": "\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66date_fmt     \"\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66d_fmt        \"\u0f54\u0f66\u0fb1\u0f72\u0f0b\u0f63\u0f7c%y\u0f5f\u0f63%m\u0f5a\u0f7a\u0f66%d",
+        "d_fmt": "%m\/%d\/%y",
         "t_fmt": "\u0f46\u0f74\u0f0b\u0f5a\u0f7c\u0f51%H\u0f40\u0f66\u0f62\u0f0b\u0f58%M\u0f40\u0f66\u0f62\u0f0b\u0f46%S",
         "am_pm": [
             "\u0f44\u0f66\u0f0b\u0f46",
@@ -142,7 +142,7 @@
         "era_d_fmt": null,
         "era_t_fmt": null,
         "alt_digits": null,
-        "first_weekday": null,
+        "first_weekday": 2,
         "first_workday": null,
         "cal_direction": null,
         "timezone": null

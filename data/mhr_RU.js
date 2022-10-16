@@ -19,7 +19,7 @@
             "country_num": 643,
             "country_car": "RUS",
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "\u043c\u0430\u0440\u0438\u0439 \u0439\u044b\u043b\u043c\u0435",
             "lang_ab": null,
             "lang_term": "mhr",
             "lang_lib": "mhr"

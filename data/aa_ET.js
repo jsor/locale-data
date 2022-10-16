@@ -112,7 +112,7 @@
             ],
             "abmon": [
                 "Qun",
-                "Kud",
+                "Nah",
                 "Cig",
                 "Agd",
                 "Cax",
@@ -126,9 +126,9 @@
             ],
             "mon": [
                 "Qunxa Garablu",
-                "Kudo",
+                "Naharsi Kudo",
                 "Ciggilta Kudo",
-                "Agda Baxisso",
+                "Agda Baxis",
                 "Caxah Alsa",
                 "Qasa Dirri",
                 "Qado Dirri",

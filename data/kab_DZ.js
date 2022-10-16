@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Zzayer",
+            "country_name": "Lezzayer",
             "country_post": null,
             "country_ab2": "DZ",
             "country_ab3": "DZA",
@@ -84,7 +84,7 @@
             "int_prefix": "213"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Ace",
                 "Ari",
@@ -136,7 +136,7 @@
                 "Wambe\u1e5b",
                 "Dujembe\u1e5b"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [

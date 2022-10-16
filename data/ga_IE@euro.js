@@ -86,7 +86,7 @@
             "int_prefix": "353"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Domh",
                 "Luan",
@@ -138,7 +138,7 @@
                 "Samhain",
                 "Nollaig"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d.%m.%y",
             "t_fmt": "%T",
             "am_pm": [
@@ -152,7 +152,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

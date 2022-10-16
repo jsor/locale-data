@@ -9,7 +9,7 @@
     'country_num' => 604,
     'country_car' => 'PE',
     'country_isbn' => NULL,
-    'lang_name' => 'Quechua (Cusco)',
+    'lang_name' => 'Qusqu runasimi',
     'lang_ab' => NULL,
     'lang_term' => 'quz',
     'lang_lib' => 'quz',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'tum',
@@ -143,7 +143,7 @@
       10 => 'nuwiyimri',
       11 => 'tisiyimri',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%I:%M:%S %p',
     'am_pm' => 

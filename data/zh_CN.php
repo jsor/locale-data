@@ -150,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

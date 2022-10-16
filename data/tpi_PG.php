@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%s%z%C',
-    'country_name' => 'Papua New Guinea',
+    'country_name' => 'Papua Niugini',
     'country_post' => '',
     'country_ab2' => 'PG',
     'country_ab3' => 'PNG',
     'country_num' => 598,
     'country_car' => 'PNG',
     'country_isbn' => NULL,
-    'lang_name' => 'Tok  Pisin',
+    'lang_name' => 'Tok Pisin',
     'lang_ab' => '',
     'lang_term' => 'tpi',
     'lang_lib' => 'tpi',
@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'San',
@@ -135,7 +135,7 @@
       10 => 'Novemba',
       11 => 'Desemba',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%r',
     'am_pm' => 

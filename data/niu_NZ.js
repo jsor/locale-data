@@ -19,7 +19,7 @@
             "country_num": 554,
             "country_car": "NZ",
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "ko e vagahau Niu\u0113",
             "lang_ab": null,
             "lang_term": "niu",
             "lang_lib": "niu"
@@ -86,7 +86,7 @@
             "int_prefix": "64"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Tapu",
                 "Gofua",
@@ -138,7 +138,7 @@
                 "Novema",
                 "Tesemo"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [

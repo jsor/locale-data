@@ -132,7 +132,7 @@
                 "\u5341\u4e00\u6708",
                 "\u5341\u4e8c\u6708"
             ],
-            "d_t_fmt": "\u897f\u5143%Y\u5e74%m\u6708%d\u65e5 (%A) %H\u6642d_fmt\t\"\u897f\u5143%Y\u5e74%m\u6708%d\u65e5",
+            "d_t_fmt": "\u897f\u5143%Y\u5e74%m\u6708%d\u65e5 (%A) %H\u6642date_fmt \"\u897f\u5143%Y\u5e74%m\u6708%d\u65e5 (%A) %H\u6642d_fmt\t\"\u897f\u5143%Y\u5e74%m\u6708%d\u65e5",
             "d_fmt": "%m\/%d\/%y",
             "t_fmt": "%H\u6642%M\u5206%S\u79d2",
             "am_pm": [

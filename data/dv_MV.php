@@ -9,7 +9,7 @@
     'country_num' => 462,
     'country_car' => 'MV',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'ދިވެހި',
     'lang_ab' => 'dv',
     'lang_term' => 'div',
     'lang_lib' => 'div',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Z %H:%M:%S %Y %b %d %a',
     'abday' => 
     array (
       0 => 'އާދީއްތަ',
@@ -143,7 +143,7 @@
       10 => 'ނޮވެންބަރ',
       11 => 'ޑިސެންބަރ',
     ),
-    'd_t_fmt' => '%Z %H:%M:%S %Y %b %d %a',
+    'd_t_fmt' => '%H:%M:%S %Y %b %d %a',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 

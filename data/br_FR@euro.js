@@ -80,7 +80,7 @@
             "int_prefix": "33"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "D\u02bcar %A %d a viz %B %Y %T %Z",
             "abday": [
                 "sul",
                 "lun",
@@ -132,7 +132,7 @@
                 "Du",
                 "Kerzu"
             ],
-            "d_t_fmt": "D\u02bcar %A %d a viz %B %Y",
+            "d_t_fmt": "D\u02bcar %A %d a viz %B %Y %T",
             "d_fmt": "%d.%m.%Y",
             "t_fmt": "%T",
             "am_pm": [

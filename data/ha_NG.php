@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => 'ranar %A, %d ga %B cikin %r %Z',
     'abday' => 
     array (
       0 => 'Lah',
@@ -143,7 +143,7 @@
       10 => 'Nuwamba',
       11 => 'Disamba',
     ),
-    'd_t_fmt' => 'ranar %A, %d ga %B cikin %r %Z',
+    'd_t_fmt' => 'ranar %A, %d ga %B cikin %r',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 

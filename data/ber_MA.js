@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u2d5c\u2d30\u2d33\u2d4d\u2d37\u2d49\u2d5c \u2d4f \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31",
             "country_post": null,
             "country_ab2": "MA",
             "country_ab3": "MAR",
             "country_num": 504,
             "country_car": "MA",
             "country_isbn": null,
-            "lang_name": "\u2d5c\u2d30\u2d4e\u2d30\u2d49\u2d56\u2d5c",
+            "lang_name": "\u2d5c\u2d30\u2d4e\u2d30\u2d63\u2d49\u2d56\u2d5c",
             "lang_ab": null,
             "lang_term": "ber",
             "lang_lib": "ber"
@@ -84,7 +84,7 @@
             "int_prefix": "212"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A, %d %B %Y %T %Z",
             "abday": [
                 "baz",
                 "bir",

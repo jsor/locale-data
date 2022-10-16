@@ -19,7 +19,7 @@
             "country_num": 276,
             "country_car": "D",
             "country_isbn": "3",
-            "lang_name": "Neddersassisch",
+            "lang_name": "Neddersass\u2019sch",
             "lang_ab": null,
             "lang_term": "nds",
             "lang_lib": "nds"
@@ -86,7 +86,7 @@
             "int_prefix": "49"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d. %b %Y %T %Z",
             "abday": [
                 "Sdag",
                 "Maan",
@@ -138,7 +138,7 @@
                 "November",
                 "Dezember"
             ],
-            "d_t_fmt": "%a %d. %b %Y %T %Z",
+            "d_t_fmt": "%a %d. %b %Y %T",
             "d_fmt": "%d.%m.%Y",
             "t_fmt": "%T",
             "am_pm": [

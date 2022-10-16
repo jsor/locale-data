@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %r %Z',
     'abday' => 
     array (
       0 => 'Min',
@@ -143,7 +143,7 @@
       10 => 'Nippivik',
       11 => 'Siqiñġiḷaq',
     ),
-    'd_t_fmt' => '%a %d %b %Y %r %Z',
+    'd_t_fmt' => '%a %d %b %Y %r',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 

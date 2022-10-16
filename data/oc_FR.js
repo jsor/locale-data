@@ -19,7 +19,7 @@
             "country_num": 250,
             "country_car": "F",
             "country_isbn": "979-10",
-            "lang_name": "Occitan",
+            "lang_name": "occitan",
             "lang_ab": "oc",
             "lang_term": "oci",
             "lang_lib": "oci"
@@ -80,7 +80,7 @@
             "int_prefix": "33"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "dg.",
                 "dl.",
@@ -95,7 +95,7 @@
                 "diluns",
                 "dimars",
                 "dim\u00e8cres",
-                "dij\u00f3us",
+                "dij\u00f2us",
                 "divendres",
                 "dissabte"
             ],
@@ -122,7 +122,7 @@
                 "de geni\u00e8r",
                 "de febri\u00e8r",
                 "de mar\u00e7",
-                "d\u2019abrial",
+                "d\u2019abril",
                 "de mai",
                 "de junh",
                 "de julhet",
@@ -132,7 +132,7 @@
                 "de novembre",
                 "de decembre"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [
@@ -154,7 +154,7 @@
                 "geni\u00e8r",
                 "febri\u00e8r",
                 "mar\u00e7",
-                "abrial",
+                "abril",
                 "mai",
                 "junh",
                 "julhet",

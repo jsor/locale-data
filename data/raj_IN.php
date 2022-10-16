@@ -9,10 +9,10 @@
     'country_num' => 356,
     'country_car' => 'IND',
     'country_isbn' => NULL,
-    'lang_name' => 'हिन्दी',
-    'lang_ab' => 'hi',
-    'lang_term' => 'hin',
-    'lang_lib' => 'hin',
+    'lang_name' => 'राजस्थानी',
+    'lang_ab' => NULL,
+    'lang_term' => 'raj',
+    'lang_lib' => 'raj',
   ),
   'LC_MEASUREMENT' => 
   array (
@@ -87,7 +87,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'रवि',
@@ -144,7 +144,7 @@
       10 => 'नवंबर',
       11 => 'दिसंबर',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

@@ -9,7 +9,7 @@
     'country_num' => 250,
     'country_car' => 'F',
     'country_isbn' => '979-10',
-    'lang_name' => 'Interlingua',
+    'lang_name' => 'interlingua',
     'lang_ab' => 'ia',
     'lang_term' => 'ina',
     'lang_lib' => 'ina',
@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'dom',
@@ -135,7 +135,7 @@
       10 => 'novembre',
       11 => 'decembre',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

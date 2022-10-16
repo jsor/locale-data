@@ -9,7 +9,7 @@
     'country_num' => 276,
     'country_car' => 'D',
     'country_isbn' => '3',
-    'lang_name' => 'Neddersassisch',
+    'lang_name' => 'Neddersass’sch',
     'lang_ab' => NULL,
     'lang_term' => 'nds',
     'lang_lib' => 'nds',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d. %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Sdag',
@@ -143,7 +143,7 @@
       10 => 'November',
       11 => 'Dezember',
     ),
-    'd_t_fmt' => '%a %d. %b %Y %T %Z',
+    'd_t_fmt' => '%a %d. %b %Y %T',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u092d\u093e\u0930\u0924",
             "country_post": null,
             "country_ab2": "IN",
             "country_ab3": "IND",
@@ -87,7 +87,7 @@
             "int_prefix": "91"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
             "abday": [
                 "\u0910\u0924",
                 "\u0938\u094b\u092e",
@@ -139,7 +139,7 @@
                 "\u0928\u0935\u0902\u092c\u0930",
                 "\u0926\u093f\u0938\u0902\u092c\u0930"
             ],
-            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
+            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p",
             "d_fmt": "%-d\/\/%-m\/\/%y",
             "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [

@@ -87,7 +87,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
     'abday' => 
     array (
       0 => 'ཟླ་',

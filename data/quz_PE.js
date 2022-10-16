@@ -19,7 +19,7 @@
             "country_num": 604,
             "country_car": "PE",
             "country_isbn": null,
-            "lang_name": "Quechua (Cusco)",
+            "lang_name": "Qusqu runasimi",
             "lang_ab": null,
             "lang_term": "quz",
             "lang_lib": "quz"
@@ -86,7 +86,7 @@
             "int_prefix": "51"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "tum",
                 "lun",
@@ -138,7 +138,7 @@
                 "nuwiyimri",
                 "tisiyimri"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%I:%M:%S %p",
             "am_pm": [

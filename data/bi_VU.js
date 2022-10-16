@@ -80,7 +80,7 @@
             "int_prefix": "678"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
             "abday": [
                 "San",
                 "Man",
@@ -128,7 +128,7 @@
                 "Novemba",
                 "Disemba"
             ],
-            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
+            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p",
             "d_fmt": "%A %d %b %Y",
             "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [

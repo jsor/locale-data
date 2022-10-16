@@ -9,7 +9,7 @@
     'country_num' => 158,
     'country_car' => 'RC',
     'country_isbn' => 957,
-    'lang_name' => '漢語閩南語',
+    'lang_name' => '閩南語',
     'lang_ab' => NULL,
     'lang_term' => 'nan',
     'lang_lib' => 'nan',

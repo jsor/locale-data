@@ -83,7 +83,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %r %Z',
     'abday' => 
     array (
       0 => 'Sun',

@@ -19,7 +19,7 @@
             "country_num": null,
             "country_car": null,
             "country_isbn": null,
-            "lang_name": "Esperanto",
+            "lang_name": "esperanto",
             "lang_ab": "eo",
             "lang_term": "epo",
             "lang_lib": null
@@ -86,7 +86,7 @@
             "int_prefix": null
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %z",
             "abday": [
                 "dim",
                 "lun",
@@ -138,7 +138,7 @@
                 "Novembro",
                 "Decembro"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%Y-%m-%d",
             "t_fmt": "%T",
             "am_pm": [

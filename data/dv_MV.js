@@ -19,7 +19,7 @@
             "country_num": 462,
             "country_car": "MV",
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "\u078b\u07a8\u0788\u07ac\u0780\u07a8",
             "lang_ab": "dv",
             "lang_term": "div",
             "lang_lib": "div"
@@ -86,7 +86,7 @@
             "int_prefix": "960"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%Z %H:%M:%S %Y %b %d %a",
             "abday": [
                 "\u0787\u07a7\u078b\u07a9\u0787\u07b0\u078c\u07a6",
                 "\u0780\u07af\u0789\u07a6",
@@ -138,7 +138,7 @@
                 "\u0782\u07ae\u0788\u07ac\u0782\u07b0\u0784\u07a6\u0783",
                 "\u0791\u07a8\u0790\u07ac\u0782\u07b0\u0784\u07a6\u0783"
             ],
-            "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
+            "d_t_fmt": "%H:%M:%S %Y %b %d %a",
             "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [

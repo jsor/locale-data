@@ -9,7 +9,7 @@
     'country_num' => 56,
     'country_car' => 'B',
     'country_isbn' => '2',
-    'lang_name' => 'Walon',
+    'lang_name' => 'walon',
     'lang_ab' => 'wa',
     'lang_term' => 'wln',
     'lang_lib' => 'wln',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => 'Li %A %d %B %Y %T %Z',
     'abday' => 
     array (
       0 => 'dim',
@@ -143,7 +143,7 @@
       10 => 'di nôvimbe',
       11 => 'di decimbe',
     ),
-    'd_t_fmt' => 'Li %A %d %B %Y %T %Z',
+    'd_t_fmt' => 'Li %A %d %B %Y %T',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 

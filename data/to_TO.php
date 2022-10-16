@@ -9,8 +9,7 @@
     'country_num' => 776,
     'country_car' => 'TON',
     'country_isbn' => NULL,
-    'lang_name' => 'Tonga
-',
+    'lang_name' => 'lea fakatonga',
     'lang_ab' => 'to',
     'lang_term' => 'ton',
     'lang_lib' => 'ton',
@@ -79,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'Sāp',
@@ -131,7 +130,7 @@
       10 => 'Nōvema',
       11 => 'Tīsema',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%A %d %b %Y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

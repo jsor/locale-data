@@ -9,7 +9,7 @@
     'country_num' => 344,
     'country_car' => 'HK',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => '繁體中文',
     'lang_ab' => 'zh',
     'lang_term' => 'zho',
     'lang_lib' => 'chi',
@@ -83,7 +83,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Y年%m月%d日 %A %H:%M:%S %Z',
     'abday' => 
     array (
       0 => '日',

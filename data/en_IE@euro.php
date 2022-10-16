@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Sun',
@@ -143,7 +143,7 @@
       10 => 'November',
       11 => 'December',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 
@@ -158,7 +158,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

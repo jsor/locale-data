@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Kwe',
@@ -135,7 +135,7 @@
       10 => 'Ɔberɛfɛw-Obubuo',
       11 => 'Mumu-Ɔpɛnimba',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%Y//%m//%d',
     't_fmt' => '%r',
     'am_pm' => 

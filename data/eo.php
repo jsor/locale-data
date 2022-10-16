@@ -9,7 +9,7 @@
     'country_num' => NULL,
     'country_car' => NULL,
     'country_isbn' => NULL,
-    'lang_name' => 'Esperanto',
+    'lang_name' => 'esperanto',
     'lang_ab' => 'eo',
     'lang_term' => 'epo',
     'lang_lib' => NULL,
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %z',
     'abday' => 
     array (
       0 => 'dim',
@@ -143,7 +143,7 @@
       10 => 'Novembro',
       11 => 'Decembro',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%Y-%m-%d',
     't_fmt' => '%T',
     'am_pm' => 

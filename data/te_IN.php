@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%d%N%f%N%r%t%e%N%h%t%b%N%s%t%N%T%t%z%N%S%N%c',
-    'country_name' => 'భారత దేశం',
+    'country_name' => 'భారతదేశం',
     'country_post' => NULL,
     'country_ab2' => 'IN',
     'country_ab3' => 'IND',
@@ -91,7 +91,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%B %d %A %Y %p%I.%M.%S %Z',
     'abday' => 
     array (
       0 => 'ఆది',
@@ -148,7 +148,7 @@
       10 => 'నవంబర్',
       11 => 'డిసెంబర్',
     ),
-    'd_t_fmt' => '%B %d %A %Y %p%I.%M.%S %Z',
+    'd_t_fmt' => '%B %d %A %Y %p%I.%M.%S',
     'd_fmt' => '%d-%m-%y',
     't_fmt' => '%p%I.%M.%S %Z',
     'am_pm' => 

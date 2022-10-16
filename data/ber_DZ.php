@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'Lezzayer',
     'country_post' => NULL,
     'country_ab2' => 'DZ',
     'country_ab3' => 'DZA',
     'country_num' => 12,
     'country_car' => 'DZ',
     'country_isbn' => NULL,
-    'lang_name' => 'ⵜⴰⵎⴰⵉⵖⵜ',
+    'lang_name' => 'Tamaziɣt',
     'lang_ab' => NULL,
     'lang_term' => 'ber',
     'lang_lib' => 'ber',
@@ -83,7 +83,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A, %d %B %Y %T %Z',
     'abday' => 
     array (
       0 => 'baz',

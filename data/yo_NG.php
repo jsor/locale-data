@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Orílẹ́ède Nàìjíríà',
+    'country_name' => 'Orilẹ̀-èdè Nàìjíríà',
     'country_post' => NULL,
     'country_ab2' => 'NG',
     'country_ab3' => 'NGA',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => 'ọjọ́ %a, %d oṣù %b ọdún %Y %T %Z',
     'abday' => 
     array (
       0 => 'Àìkú',
@@ -143,7 +143,7 @@
       10 => 'Oṣù Bélú',
       11 => 'Oṣù Ọ̀pẹ̀',
     ),
-    'd_t_fmt' => 'ọjọ́ %a, %d oṣù %b ọdún %Y %T %Z',
+    'd_t_fmt' => 'ọjọ́ %a, %d oṣù %b ọdún %Y %T',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 

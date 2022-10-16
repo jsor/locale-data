@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Nigeria",
+            "country_name": "Na\u1ecbj\u1ecbr\u1ecba",
             "country_post": null,
             "country_ab2": "NG",
             "country_ab3": "NGA",
             "country_num": 566,
             "country_car": "WAN",
             "country_isbn": 978,
-            "lang_name": "Igbo",
+            "lang_name": "As\u1ee5s\u1ee5 Igbo",
             "lang_ab": "ig",
             "lang_term": "ibo",
             "lang_lib": "ibo"
@@ -86,7 +86,7 @@
             "int_prefix": "234"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A, %d %B %Y %T %Z",
             "abday": [
                 "s\u1ecdn",
                 "m\u1ecdn",
@@ -138,7 +138,7 @@
                 "Novemba",
                 "Disemba"
             ],
-            "d_t_fmt": "%A, %d %B %Y %T %Z",
+            "d_t_fmt": "%A, %d %B %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

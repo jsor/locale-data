@@ -9,7 +9,7 @@
     'country_num' => 710,
     'country_car' => 'ZA',
     'country_isbn' => NULL,
-    'lang_name' => 'SiSwati',
+    'lang_name' => 'siSwati',
     'lang_ab' => 'ss',
     'lang_term' => 'ssw',
     'lang_lib' => 'ssw',

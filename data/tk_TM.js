@@ -19,7 +19,7 @@
             "country_num": 795,
             "country_car": "TM",
             "country_isbn": null,
-            "lang_name": "t\u00fcrkmen\u00e7e",
+            "lang_name": "t\u00fcrkmen dili",
             "lang_ab": "tk",
             "lang_term": "tuk",
             "lang_lib": "tuk"
@@ -86,7 +86,7 @@
             "int_prefix": "993"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%d.%m.%Y %T %Z",
             "abday": [
                 "Du\u015f",
                 "Si\u015f",

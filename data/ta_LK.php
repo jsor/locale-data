@@ -82,7 +82,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %B %Y %H:%M:%S %Z',
     'abday' => 
     array (
       0 => 'ஞா',
@@ -139,7 +139,7 @@
       10 => 'நவம்பர்',
       11 => 'டிசம்பர்',
     ),
-    'd_t_fmt' => '%A %d %B %Y %H:%M:%S %Z',
+    'd_t_fmt' => '%A %d %B %Y %H:%M:%S',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%H:%M:%S %Z',
     'am_pm' => 

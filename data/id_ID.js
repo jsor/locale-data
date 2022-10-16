@@ -19,7 +19,7 @@
             "country_num": 360,
             "country_car": "RI",
             "country_isbn": null,
-            "lang_name": "Bahasa Indonesia",
+            "lang_name": "Indonesia",
             "lang_ab": "id",
             "lang_term": "ind",
             "lang_lib": "ind"
@@ -86,7 +86,7 @@
             "int_prefix": "62"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %r %Z",
             "abday": [
                 "Min",
                 "Sen",
@@ -138,7 +138,7 @@
                 "November",
                 "Desember"
             ],
-            "d_t_fmt": "%a %d %b %Y %r %Z",
+            "d_t_fmt": "%a %d %b %Y %r",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [

@@ -8,7 +8,7 @@
         "country_num": 104,
         "country_car": "MYA",
         "country_isbn": null,
-        "lang_name": "\u1017\u1019\u102c",
+        "lang_name": "\u1019\u103c\u1014\u103a\u1019\u102c",
         "lang_ab": "my",
         "lang_term": "mya",
         "lang_lib": "bur"
@@ -75,7 +75,7 @@
         "int_prefix": "95"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%OC%Oy %b %Od %A %OI:%OM:%OS %p %Z",
         "abday": [
             "\u1014\u103d\u1031",
             "\u101c\u102c",
@@ -127,7 +127,7 @@
             "\u1014\u102d\u102f\u101d\u1004\u103a\u1018\u102c",
             "\u1012\u102e\u1007\u1004\u103a\u1018\u102c"
         ],
-        "d_t_fmt": "%OC%Oy %b %Od %A %OI:%OM:%OS %Op %Z",
+        "d_t_fmt": "%OC%Oy %b %Od %A %OI:%OM:%OS %p",
         "d_fmt": "%OC%Oy %b %Od %A",
         "t_fmt": "%OI:%OM:%OS %p",
         "am_pm": [

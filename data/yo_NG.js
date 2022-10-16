@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Or\u00edl\u1eb9\u0301\u00e8de N\u00e0\u00ecj\u00edr\u00ed\u00e0",
+            "country_name": "Oril\u1eb9\u0300-\u00e8d\u00e8 N\u00e0\u00ecj\u00edr\u00ed\u00e0",
             "country_post": null,
             "country_ab2": "NG",
             "country_ab3": "NGA",
@@ -86,7 +86,7 @@
             "int_prefix": "234"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "\u1ecdj\u1ecd\u0301 %a, %d o\u1e63\u00f9 %b \u1ecdd\u00fan %Y %T %Z",
             "abday": [
                 "\u00c0\u00eck\u00fa",
                 "Aj\u00e9",
@@ -138,7 +138,7 @@
                 "O\u1e63\u00f9 B\u00e9l\u00fa",
                 "O\u1e63\u00f9 \u1ecc\u0300p\u1eb9\u0300"
             ],
-            "d_t_fmt": "\u1ecdj\u1ecd\u0301 %a, %d o\u1e63\u00f9 %b \u1ecdd\u00fan %Y %T %Z",
+            "d_t_fmt": "\u1ecdj\u1ecd\u0301 %a, %d o\u1e63\u00f9 %b \u1ecdd\u00fan %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

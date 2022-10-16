@@ -80,7 +80,7 @@
             "int_prefix": "233"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Kwe",
                 "Dwo",
@@ -132,7 +132,7 @@
                 "\u0186ber\u025bf\u025bw-Obubuo",
                 "Mumu-\u0186p\u025bnimba"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%Y\/\/%m\/\/%d",
             "t_fmt": "%r",
             "am_pm": [

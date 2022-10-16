@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%y-%m-%d %T %Z',
     'abday' => 
     array (
       0 => 'ig.',
@@ -143,7 +143,7 @@
       10 => 'azaroa',
       11 => 'abendua',
     ),
-    'd_t_fmt' => '%y-%m-%d %T %Z',
+    'd_t_fmt' => '%y-%m-%d %T',
     'd_fmt' => '%a, %Y.eko %bren %da',
     't_fmt' => '%T',
     'am_pm' => 

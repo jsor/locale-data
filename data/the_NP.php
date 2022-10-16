@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'नेपाल',
     'country_post' => NULL,
     'country_ab2' => 'NP',
     'country_ab3' => 'NPL',
     'country_num' => 524,
     'country_car' => 'NEP',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'थारु',
     'lang_ab' => NULL,
     'lang_term' => 'the',
     'lang_lib' => 'the',
@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'आइत',
@@ -135,7 +135,7 @@
       10 => 'नवम्बर',
       11 => 'दिसम्बर',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%A %d %b %Y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

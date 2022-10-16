@@ -9,7 +9,7 @@
     'country_num' => 112,
     'country_car' => 'BY',
     'country_isbn' => NULL,
-    'lang_name' => 'biełaruskaja mova',
+    'lang_name' => 'biełaruskaja',
     'lang_ab' => 'be',
     'lang_term' => 'bel',
     'lang_lib' => 'bel',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Nia',

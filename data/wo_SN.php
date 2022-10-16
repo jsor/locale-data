@@ -9,7 +9,7 @@
     'country_num' => 686,
     'country_car' => 'SN',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'Wolof',
     'lang_ab' => 'wo',
     'lang_term' => 'wol',
     'lang_lib' => 'wol',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'dib',
@@ -143,7 +143,7 @@
       10 => 'nowaambar',
       11 => 'desaambar',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d.%m.%Y',
     't_fmt' => '%T',
     'am_pm' => 

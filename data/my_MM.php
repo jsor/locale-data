@@ -9,7 +9,7 @@
     'country_num' => 104,
     'country_car' => 'MYA',
     'country_isbn' => NULL,
-    'lang_name' => 'ဗမာ',
+    'lang_name' => 'မြန်မာ',
     'lang_ab' => 'my',
     'lang_term' => 'mya',
     'lang_lib' => 'bur',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%OC%Oy %b %Od %A %OI:%OM:%OS %p %Z',
     'abday' => 
     array (
       0 => 'နွေ',
@@ -143,7 +143,7 @@
       10 => 'နိုဝင်ဘာ',
       11 => 'ဒီဇင်ဘာ',
     ),
-    'd_t_fmt' => '%OC%Oy %b %Od %A %OI:%OM:%OS %Op %Z',
+    'd_t_fmt' => '%OC%Oy %b %Od %A %OI:%OM:%OS %p',
     'd_fmt' => '%OC%Oy %b %Od %A',
     't_fmt' => '%OI:%OM:%OS %p',
     'am_pm' => 

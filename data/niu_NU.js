@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": null,
+            "country_name": "Niu\u0113",
             "country_post": "NU",
             "country_ab2": "NU",
             "country_ab3": "NIU",
             "country_num": 570,
             "country_car": null,
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "ko e vagahau Niu\u0113",
             "lang_ab": null,
             "lang_term": "niu",
             "lang_lib": "niu"
@@ -86,7 +86,7 @@
             "int_prefix": "683"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Tapu",
                 "Gofua",
@@ -138,7 +138,7 @@
                 "Novema",
                 "Tesemo"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%T",
             "am_pm": [

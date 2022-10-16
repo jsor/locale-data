@@ -86,7 +86,7 @@
             "int_prefix": "254"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%e %B %Y %I:%M:%S %p %Z",
             "abday": [
                 "J2",
                 "J3",
@@ -138,7 +138,7 @@
                 "Novemba",
                 "Desemba"
             ],
-            "d_t_fmt": "%e %B %Y %I:%M:%S %p %Z",
+            "d_t_fmt": "%e %B %Y %I:%M:%S %p",
             "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%I:%M:%S %p",
             "am_pm": [

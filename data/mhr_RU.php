@@ -9,7 +9,7 @@
     'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'марий йылме',
     'lang_ab' => NULL,
     'lang_term' => 'mhr',
     'lang_lib' => 'mhr',

@@ -9,7 +9,7 @@
     'country_num' => 804,
     'country_car' => 'UA',
     'country_isbn' => NULL,
-    'lang_name' => 'Qırımtatarca',
+    'lang_name' => 'qırımtatar tili',
     'lang_ab' => NULL,
     'lang_term' => 'crh',
     'lang_lib' => 'crh',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Baz',

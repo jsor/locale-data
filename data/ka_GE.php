@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Y წლის %d %B, %T %Z',
     'abday' => 
     array (
       0 => 'კვი',
@@ -143,7 +143,7 @@
       10 => 'ნოემბერი',
       11 => 'დეკემბერი',
     ),
-    'd_t_fmt' => '%Y წლის %d %B, %T %Z',
+    'd_t_fmt' => '%Y წლის %d %B, %T',
     'd_fmt' => '%m//%d//%Y',
     't_fmt' => '%T',
     'am_pm' => 

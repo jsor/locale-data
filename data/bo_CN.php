@@ -135,8 +135,8 @@
       10 => 'ཟླ་བ་བཅུ་གཅིག་པ་',
       11 => 'ཟླ་བ་བཅུ་གཉིས་པ་',
     ),
-    'd_t_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%dཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
-    'd_fmt' => 'པསྱི་ལོ%yཟལ%mཚེས%d',
+    'd_t_fmt' => 'པསྱི་ལོ%yཟལ%mཚེསdate_fmt     "པསྱི་ལོ%yཟལ%mཚེསd_fmt        "པསྱི་ལོ%yཟལ%mཚེས%d',
+    'd_fmt' => '%m/%d/%y',
     't_fmt' => 'ཆུ་ཚོད%Hཀསར་མ%Mཀསར་ཆ%S',
     'am_pm' => 
     array (
@@ -150,7 +150,7 @@
     'era_d_fmt' => NULL,
     'era_t_fmt' => NULL,
     'alt_digits' => NULL,
-    'first_weekday' => NULL,
+    'first_weekday' => 2,
     'first_workday' => NULL,
     'cal_direction' => NULL,
     'timezone' => NULL,

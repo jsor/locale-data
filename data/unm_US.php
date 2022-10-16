@@ -9,7 +9,7 @@
     'country_num' => 840,
     'country_car' => 'USA',
     'country_isbn' => 0,
-    'lang_name' => NULL,
+    'lang_name' => 'Lenape',
     'lang_ab' => NULL,
     'lang_term' => 'unm',
     'lang_lib' => 'unm',
@@ -84,7 +84,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'ken',
@@ -141,7 +141,7 @@
       10 => 'wini',
       11 => 'muxkotae',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%T',
     'am_pm' => 

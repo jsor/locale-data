@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %b %d %Y %T %Z',
     'abday' => 
     array (
       0 => 'sap',
@@ -143,7 +143,7 @@
       10 => 'novembarip',
       11 => 'decembarip',
     ),
-    'd_t_fmt' => '%a %b %d %Y %T %Z',
+    'd_t_fmt' => '%a %b %d %Y %T',
     'd_fmt' => '%b %d %Y',
     't_fmt' => '%T',
     'am_pm' => 

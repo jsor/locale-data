@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "Rwanda",
+            "country_name": "U Rwanda",
             "country_post": null,
             "country_ab2": "RW",
             "country_ab3": "RWA",
@@ -83,7 +83,7 @@
             "int_prefix": "250"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Mwe",
                 "Mbe",
@@ -135,7 +135,7 @@
                 "Ugushyingo",
                 "Ukuboza"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d.%m.%Y",
             "t_fmt": "%T",
             "am_pm": [

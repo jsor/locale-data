@@ -19,7 +19,7 @@
             "country_num": 156,
             "country_car": "CHN",
             "country_isbn": 7,
-            "lang_name": null,
+            "lang_name": "\u0626\u06c7\u064a\u063a\u06c7\u0631\u0686\u06d5",
             "lang_ab": "ug",
             "lang_term": "uig",
             "lang_lib": "uig"
@@ -146,7 +146,7 @@
             "era_d_fmt": null,
             "era_t_fmt": null,
             "alt_digits": null,
-            "first_weekday": null,
+            "first_weekday": 2,
             "first_workday": null,
             "cal_direction": null,
             "timezone": null

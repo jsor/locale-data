@@ -19,7 +19,7 @@
             "country_num": 344,
             "country_car": "HK",
             "country_isbn": null,
-            "lang_name": null,
+            "lang_name": "\u7e41\u9ad4\u4e2d\u6587",
             "lang_ab": "zh",
             "lang_term": "zho",
             "lang_lib": "chi"
@@ -84,7 +84,7 @@
             "int_prefix": "852"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%Y\u5e74%m\u6708%d\u65e5 %A %H:%M:%S %Z",
             "abday": [
                 "\u65e5",
                 "\u4e00",

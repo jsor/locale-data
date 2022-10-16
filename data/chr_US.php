@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T, %S %z%N%c%N',
-    'country_name' => 'ᎠᎹᏰᏟ',
+    'country_name' => 'ᏌᏊ ᎢᏳᎾᎵᏍᏔᏅ ᏍᎦᏚᎩ',
     'country_post' => 'USA',
     'country_ab2' => 'US',
     'country_ab3' => 'USA',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %r %Z',
     'abday' => 
     array (
       0 => 'ᏆᏍᎬ',
@@ -143,7 +143,7 @@
       10 => 'ᏅᏓᏕᏆ',
       11 => 'ᎥᏍᎩᏱ',
     ),
-    'd_t_fmt' => '%a %d %b %Y %r %Z',
+    'd_t_fmt' => '%a %d %b %Y %r',
     'd_fmt' => '%m//%d//%Y',
     't_fmt' => '%r',
     'am_pm' => 

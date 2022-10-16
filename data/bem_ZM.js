@@ -80,7 +80,7 @@
             "int_prefix": "260"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %R %Z",
             "abday": [
                 "Sun",
                 "Mon",
@@ -132,7 +132,7 @@
                 "Novemba",
                 "Disemba"
             ],
-            "d_t_fmt": "%a %d %b %Y %R %Z",
+            "d_t_fmt": "%a %d %b %Y %R",
             "d_fmt": "%m\/\/%d\/\/%Y",
             "t_fmt": "%T",
             "am_pm": [

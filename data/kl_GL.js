@@ -86,7 +86,7 @@
             "int_prefix": "299"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %b %d %Y %T %Z",
             "abday": [
                 "sap",
                 "ata",
@@ -138,7 +138,7 @@
                 "novembarip",
                 "decembarip"
             ],
-            "d_t_fmt": "%a %b %d %Y %T %Z",
+            "d_t_fmt": "%a %b %d %Y %T",
             "d_fmt": "%b %d %Y",
             "t_fmt": "%T",
             "am_pm": [

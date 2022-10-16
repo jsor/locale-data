@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => NULL,
+    'country_name' => 'ᱥᱤᱧᱚᱛ',
     'country_post' => NULL,
     'country_ab2' => 'IN',
     'country_ab3' => 'IND',
     'country_num' => 356,
     'country_car' => 'IND',
     'country_isbn' => NULL,
-    'lang_name' => 'Satār',
+    'lang_name' => 'ᱥᱟᱱᱛᱟᱲᱤ',
     'lang_ab' => NULL,
     'lang_term' => 'sat',
     'lang_lib' => 'sat',
@@ -87,7 +87,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'सिंगे',
@@ -144,7 +144,7 @@
       10 => 'नवम्बर',
       11 => 'दिसम्बर',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

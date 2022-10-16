@@ -1,14 +1,14 @@
 {
     "LC_ADDRESS": {
         "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-        "country_name": null,
+        "country_name": "Ur\u0131s Pat\u015fahl\u0131q",
         "country_post": null,
         "country_ab2": "RU",
         "country_ab3": "RUS",
         "country_num": 643,
         "country_car": "RUS",
         "country_isbn": null,
-        "lang_name": null,
+        "lang_name": "tatar tele",
         "lang_ab": "tt",
         "lang_term": "tat",
         "lang_lib": "tat"
@@ -75,7 +75,7 @@
         "int_prefix": "7"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%a %d %b %Y %T %Z",
         "abday": [
             "Yek",
             "D\u00fc\u015f",

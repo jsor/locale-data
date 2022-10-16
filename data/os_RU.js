@@ -86,7 +86,7 @@
             "int_prefix": "7"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "\u0425\u0446\u0431",
                 "\u041a\u0440\u0441",

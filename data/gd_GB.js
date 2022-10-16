@@ -86,7 +86,7 @@
             "int_prefix": "44"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "DiD",
                 "DiL",
@@ -138,7 +138,7 @@
                 "dhen t-Samhain",
                 "dhen D\u00f9bhlachd"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

@@ -83,7 +83,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A, %B %d, %Y %p%I:%M:%S %Z',
     'abday' => 
     array (
       0 => 'Sun',
@@ -140,7 +140,7 @@
       10 => 'November',
       11 => 'December',
     ),
-    'd_t_fmt' => '%A, %B %d, %Y %p%I:%M:%S %Z',
+    'd_t_fmt' => '%A, %B %d, %Y %p%I:%M:%S',
     'd_fmt' => '%A, %B %d, %Y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

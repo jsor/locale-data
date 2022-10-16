@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Z %H:%M:%S %Y %b %d %a',
     'abday' => 
     array (
       0 => 'זונ\'',
@@ -143,7 +143,7 @@
       10 => 'נאוועמבער',
       11 => 'דעצעמבער',
     ),
-    'd_t_fmt' => '%Z %H:%M:%S %Y %b %d %a',
+    'd_t_fmt' => '%H:%M:%S %Y %b %d %a',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 

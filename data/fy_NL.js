@@ -36,7 +36,7 @@
         "LC_MONETARY": {
             "currency_symbol": "\u20ac",
             "mon_decimal_point": ",",
-            "mon_thousands_sep": "\u202f",
+            "mon_thousands_sep": ".",
             "mon_grouping": [
                 3,
                 3
@@ -47,9 +47,9 @@
             "p_cs_precedes": 1,
             "p_sep_by_space": 1,
             "n_cs_precedes": 1,
-            "n_sep_by_space": 1,
+            "n_sep_by_space": 2,
             "p_sign_posn": 1,
-            "n_sign_posn": 2,
+            "n_sign_posn": 4,
             "int_curr_symbol": "EUR ",
             "int_frac_digits": 2,
             "int_p_cs_precedes": null,
@@ -61,18 +61,18 @@
         },
         "LC_NAME": {
             "name_fmt": "%d%t%g%t%m%t%f",
-            "name_gen": null,
-            "name_mr": null,
-            "name_mrs": null,
-            "name_miss": null,
-            "name_ms": null
+            "name_gen": "heer of mevrouw",
+            "name_mr": "heer",
+            "name_mrs": "mevrouw",
+            "name_miss": "mevrouw",
+            "name_ms": "mevrouw"
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
-            "thousands_sep": "",
+            "thousands_sep": ".",
             "grouping": [
-                0,
-                0
+                3,
+                3
             ]
         },
         "LC_PAPER": {
@@ -86,7 +86,7 @@
             "int_prefix": "31"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Sn",
                 "Mo",
@@ -138,7 +138,7 @@
                 "Novimber",
                 "Desimber"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d-%m-%y",
             "t_fmt": "%T",
             "am_pm": [

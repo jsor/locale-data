@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N",
-            "country_name": "\u0420\u043e\u0441\u0441\u0438\u044f",
+            "country_name": "\u0410\u0440\u0430\u0441\u0441\u044b\u044b\u0439\u0430",
             "country_post": null,
             "country_ab2": "RU",
             "country_ab3": "RUS",
             "country_num": 643,
             "country_car": "RUS",
             "country_isbn": null,
-            "lang_name": "\u0421\u0430\u0445\u0430 \u0442\u044b\u043b\u0430",
+            "lang_name": "\u0441\u0430\u0445\u0430 \u0442\u044b\u043b\u0430",
             "lang_ab": "",
             "lang_term": "sah",
             "lang_lib": "sah"

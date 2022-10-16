@@ -86,7 +86,7 @@
             "int_prefix": "370"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%Y m. %B %d d. %T %Z",
             "abday": [
                 "Sk",
                 "Pr",

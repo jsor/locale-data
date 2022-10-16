@@ -86,7 +86,7 @@
             "int_prefix": "1"
         },
         "LC_TIME": {
-            "date_fmt": "%a %d %b %Y %r %Z",
+            "date_fmt": "%a %b %e %r %Z %Y",
             "abday": [
                 "Sun",
                 "Mon",

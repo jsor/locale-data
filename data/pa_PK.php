@@ -2,7 +2,7 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N',
-    'country_name' => 'ਪਾਕਿਸਤਾਨ',
+    'country_name' => 'پکستان',
     'country_post' => NULL,
     'country_ab2' => 'PK',
     'country_ab3' => 'PAK',
@@ -91,7 +91,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => 'و %H:%M:%S %Z ت %d %B %Y',
     'abday' => 
     array (
       0 => 'اتوار',
@@ -148,7 +148,7 @@
       10 => 'نومبر',
       11 => 'دسمبر',
     ),
-    'd_t_fmt' => 'و %H:%M:%S %Z ت %d %B %Y',
+    'd_t_fmt' => 'و %H:%M:%S ت %d %B %Y',
     'd_fmt' => '%d//%m//%Y',
     't_fmt' => '%H:%M:%S',
     'am_pm' => 

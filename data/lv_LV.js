@@ -86,7 +86,7 @@
             "int_prefix": "371"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A, %Y. gada %e. %B, %H:%M:%S %Z",
             "abday": [
                 "Sv",
                 "P\u00a0",
@@ -138,7 +138,7 @@
                 "novembris",
                 "decembris"
             ],
-            "d_t_fmt": "%A, %Y. gada %e. %B, plkst. %H un %M",
+            "d_t_fmt": "%A, %Y. gada %e. %B, %H:%M:%S",
             "d_fmt": "%Y.%m.%d.",
             "t_fmt": "%T",
             "am_pm": [

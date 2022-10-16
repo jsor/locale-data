@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => 'Turkey',
+    'country_name' => 'Tirkiye',
     'country_post' => 'TR',
     'country_ab2' => 'TR',
     'country_ab3' => 'TUR',
     'country_num' => 792,
     'country_car' => 'TR',
     'country_isbn' => 975,
-    'lang_name' => 'kurdi',
+    'lang_name' => 'kurdî',
     'lang_ab' => 'ku',
     'lang_term' => 'kur',
     'lang_lib' => 'kur',

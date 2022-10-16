@@ -12,7 +12,7 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N",
-            "country_name": "\u0a2a\u0a3e\u0a15\u0a3f\u0a38\u0a24\u0a3e\u0a28",
+            "country_name": "\u067e\u06a9\u0633\u062a\u0627\u0646",
             "country_post": null,
             "country_ab2": "PK",
             "country_ab3": "PAK",
@@ -90,7 +90,7 @@
             "int_prefix": "92"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "\u0648 %H:%M:%S %Z \u062a %d %B %Y",
             "abday": [
                 "\u0627\u062a\u0648\u0627\u0631",
                 "\u067e\u064a\u0631",
@@ -142,7 +142,7 @@
                 "\u0646\u0648\u0645\u0628\u0631",
                 "\u062f\u0633\u0645\u0628\u0631"
             ],
-            "d_t_fmt": "\u0648 %H:%M:%S %Z \u062a %d %B %Y",
+            "d_t_fmt": "\u0648 %H:%M:%S \u062a %d %B %Y",
             "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [

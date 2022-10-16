@@ -86,7 +86,7 @@
             "int_prefix": "420"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a\u00a0%-d.\u00a0%B\u00a0%Y,\u00a0%H:%M:%S\u00a0%Z",
             "abday": [
                 "Ne",
                 "Po",
@@ -138,7 +138,7 @@
                 "listopadu",
                 "prosince"
             ],
-            "d_t_fmt": "%a\u00a0%-d.\u00a0%B\u00a0%Y,\u00a0%H:%M:%S\u00a0%Z",
+            "d_t_fmt": "%a\u00a0%-d.\u00a0%B\u00a0%Y,\u00a0%H:%M:%S",
             "d_fmt": "%-d.%-m.%Y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [

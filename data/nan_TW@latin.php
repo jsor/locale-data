@@ -9,7 +9,7 @@
     'country_num' => 158,
     'country_car' => 'RC',
     'country_isbn' => 957,
-    'lang_name' => 'Bân-lâm-gú, Hō-ló-oē',
+    'lang_name' => 'Bân-lâm-gú',
     'lang_ab' => NULL,
     'lang_term' => 'nan',
     'lang_lib' => 'nan',

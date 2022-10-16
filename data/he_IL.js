@@ -86,7 +86,7 @@
             "int_prefix": "972"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%Z %H:%M:%S %Y %b %d %a",
             "abday": [
                 "\u05d0'",
                 "\u05d1'",
@@ -138,7 +138,7 @@
                 "\u05e0\u05d5\u05d1\u05de\u05d1\u05e8",
                 "\u05d3\u05e6\u05de\u05d1\u05e8"
             ],
-            "d_t_fmt": "%Z %H:%M:%S %Y %b %d %a",
+            "d_t_fmt": "%H:%M:%S %Y %b %d %a",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%H:%M:%S",
             "am_pm": [

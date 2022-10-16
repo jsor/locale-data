@@ -19,7 +19,7 @@
             "country_num": 124,
             "country_car": "CDN",
             "country_isbn": null,
-            "lang_name": "Secwepemctsin",
+            "lang_name": "Secwepemcts\u00edn",
             "lang_ab": null,
             "lang_term": "shs",
             "lang_lib": "shs"
@@ -86,7 +86,7 @@
             "int_prefix": "1"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %r %Z",
             "abday": [
                 "Sxe",
                 "Spe",
@@ -138,7 +138,7 @@
                 "Pellc7ell7\u00e97llcwten\u0313",
                 "Pelltet\u00e9tq\u0313em"
             ],
-            "d_t_fmt": "%a %d %b %Y %r %Z",
+            "d_t_fmt": "%a %d %b %Y %r",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

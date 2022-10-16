@@ -8,7 +8,7 @@
         "country_num": 840,
         "country_car": "USA",
         "country_isbn": 0,
-        "lang_name": null,
+        "lang_name": "Lenape",
         "lang_ab": null,
         "lang_term": "unm",
         "lang_lib": "unm"
@@ -74,7 +74,7 @@
         "int_prefix": "1"
     },
     "LC_TIME": {
-        "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+        "date_fmt": "%a %d %b %Y %T %Z",
         "abday": [
             "ken",
             "man",
@@ -126,7 +126,7 @@
             "wini",
             "muxkotae"
         ],
-        "d_t_fmt": "%a %d %b %Y %T %Z",
+        "d_t_fmt": "%a %d %b %Y %T",
         "d_fmt": "%d\/\/%m\/\/%y",
         "t_fmt": "%T",
         "am_pm": [

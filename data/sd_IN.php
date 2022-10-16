@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%z%c%T%s%b%e%r',
-    'country_name' => 'ڀارت',
+    'country_name' => 'انڊيا',
     'country_post' => NULL,
     'country_ab2' => 'IN',
     'country_ab3' => 'IND',
     'country_num' => 356,
     'country_car' => 'IND',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'سنڌي',
     'lang_ab' => 'sd',
     'lang_term' => 'snd',
     'lang_lib' => 'snd',
@@ -87,7 +87,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'آرتوارُ',
@@ -144,7 +144,7 @@
       10 => 'نومبر',
       11 => 'ڊسمبر',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

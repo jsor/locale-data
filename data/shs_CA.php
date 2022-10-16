@@ -9,7 +9,7 @@
     'country_num' => 124,
     'country_car' => 'CDN',
     'country_isbn' => NULL,
-    'lang_name' => 'Secwepemctsin',
+    'lang_name' => 'Secwepemctsín',
     'lang_ab' => NULL,
     'lang_term' => 'shs',
     'lang_lib' => 'shs',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %r %Z',
     'abday' => 
     array (
       0 => 'Sxe',
@@ -143,7 +143,7 @@
       10 => 'Pellc7ell7é7llcwten̓',
       11 => 'Pelltetétq̓em',
     ),
-    'd_t_fmt' => '%a %d %b %Y %r %Z',
+    'd_t_fmt' => '%a %d %b %Y %r',
     'd_fmt' => '%d//%m//%y',
     't_fmt' => '%r',
     'am_pm' => 

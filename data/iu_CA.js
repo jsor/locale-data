@@ -86,7 +86,7 @@
             "int_prefix": "1"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %r %Z",
             "abday": [
                 "\u14c8",
                 "\u14c7",
@@ -138,7 +138,7 @@
                 "\u14c4\u1555\u1559",
                 "\u144e\u14ef\u155d\u1559"
             ],
-            "d_t_fmt": "%a %d %b %Y %r %Z",
+            "d_t_fmt": "%a %d %b %Y %r",
             "d_fmt": "%m\/\/%d\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

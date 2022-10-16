@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A, %-d %B de %Y, %T %Z',
     'abday' => 
     array (
       0 => 'dg.',
@@ -143,7 +143,7 @@
       10 => 'de novembre',
       11 => 'de desembre',
     ),
-    'd_t_fmt' => '%A, %-d %B de %Y, %T %Z',
+    'd_t_fmt' => '%A, %-d %B de %Y, %T',
     'd_fmt' => '%-d//%-m//%y',
     't_fmt' => '%T',
     'am_pm' => 

@@ -19,7 +19,7 @@
             "country_num": 804,
             "country_car": "UA",
             "country_isbn": null,
-            "lang_name": "Q\u0131r\u0131mtatarca",
+            "lang_name": "q\u0131r\u0131mtatar tili",
             "lang_ab": null,
             "lang_term": "crh",
             "lang_lib": "crh"
@@ -86,7 +86,7 @@
             "int_prefix": "380"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "Baz",
                 "Ber",

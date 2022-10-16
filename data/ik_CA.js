@@ -86,7 +86,7 @@
             "int_prefix": "1"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %r %Z",
             "abday": [
                 "Min",
                 "Sav",
@@ -138,7 +138,7 @@
                 "Nippivik",
                 "Siqi\u00f1\u0121i\u1e37aq"
             ],
-            "d_t_fmt": "%a %d %b %Y %r %Z",
+            "d_t_fmt": "%a %d %b %Y %r",
             "d_fmt": "%d\/\/%m\/\/%y",
             "t_fmt": "%r",
             "am_pm": [

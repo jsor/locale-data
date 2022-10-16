@@ -9,7 +9,7 @@
     'country_num' => 795,
     'country_car' => 'TM',
     'country_isbn' => NULL,
-    'lang_name' => 'türkmençe',
+    'lang_name' => 'türkmen dili',
     'lang_ab' => 'tk',
     'lang_term' => 'tuk',
     'lang_lib' => 'tuk',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%d.%m.%Y %T %Z',
     'abday' => 
     array (
       0 => 'Duş',

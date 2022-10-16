@@ -78,7 +78,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Y %B %d %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'आइत',

@@ -9,7 +9,7 @@
     'country_num' => 702,
     'country_car' => 'SGP',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => '简体中文',
     'lang_ab' => 'zh',
     'lang_term' => 'zho',
     'lang_lib' => 'chi',
@@ -83,7 +83,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%Y年%m月%d日 %H时%M分%S秒 %Z',
     'abday' => 
     array (
       0 => '日',
@@ -140,7 +140,7 @@
       10 => '十一月',
       11 => '十二月',
     ),
-    'd_t_fmt' => '%Y年%m月%d日 %H时%M分%S秒 %Z',
+    'd_t_fmt' => '%Y年%m月%d日 %H时%M分%S秒',
     'd_fmt' => '%Y年%m月%d日',
     't_fmt' => '%H时%M分%S秒 %Z',
     'am_pm' => 

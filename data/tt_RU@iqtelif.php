@@ -2,14 +2,14 @@
   'LC_ADDRESS' => 
   array (
     'postal_fmt' => '%f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N',
-    'country_name' => NULL,
+    'country_name' => 'Urıs Patşahlıq',
     'country_post' => NULL,
     'country_ab2' => 'RU',
     'country_ab3' => 'RUS',
     'country_num' => 643,
     'country_car' => 'RUS',
     'country_isbn' => NULL,
-    'lang_name' => NULL,
+    'lang_name' => 'tatar tele',
     'lang_ab' => 'tt',
     'lang_term' => 'tat',
     'lang_lib' => 'tat',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'Yek',

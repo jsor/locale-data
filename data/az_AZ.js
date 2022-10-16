@@ -19,7 +19,7 @@
             "country_num": 31,
             "country_car": "AZ",
             "country_isbn": null,
-            "lang_name": "az\u0259rbaycan dili",
+            "lang_name": "az\u0259rbaycan",
             "lang_ab": "az",
             "lang_term": "aze",
             "lang_lib": "aze"
@@ -86,7 +86,7 @@
             "int_prefix": "994"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A, %d %B %Y %T %Z",
             "abday": [
                 "baz",
                 "ber",

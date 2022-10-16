@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%a%s%z%C",
-            "country_name": "Papua New Guinea",
+            "country_name": "Papua Niugini",
             "country_post": "",
             "country_ab2": "PG",
             "country_ab3": "PNG",
             "country_num": 598,
             "country_car": "PNG",
             "country_isbn": null,
-            "lang_name": "Tok  Pisin",
+            "lang_name": "Tok Pisin",
             "lang_ab": "",
             "lang_term": "tpi",
             "lang_lib": "tpi"
@@ -80,7 +80,7 @@
             "int_prefix": "675"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "San",
                 "Man",
@@ -132,7 +132,7 @@
                 "Novemba",
                 "Desemba"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d\/\/%m\/\/%Y",
             "t_fmt": "%r",
             "am_pm": [

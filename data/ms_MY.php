@@ -9,7 +9,7 @@
     'country_num' => 458,
     'country_car' => 'MAL',
     'country_isbn' => NULL,
-    'lang_name' => 'Bahasa Melayu',
+    'lang_name' => 'Melayu',
     'lang_ab' => 'ms',
     'lang_term' => 'msa',
     'lang_lib' => 'may',
@@ -83,7 +83,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
     'abday' => 
     array (
       0 => 'Ahd',
@@ -140,7 +140,7 @@
       10 => 'November',
       11 => 'Disember',
     ),
-    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p %Z',
+    'd_t_fmt' => '%A %d %b %Y %I:%M:%S %p',
     'd_fmt' => '%A %d %b %Y',
     't_fmt' => '%I:%M:%S %p %Z',
     'am_pm' => 

@@ -84,7 +84,7 @@
             "int_prefix": "356"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A, %d ta %b, %Y %H:%M:%S %Z",
             "abday": [
                 "\u0126ad",
                 "Tne",
@@ -136,7 +136,7 @@
                 "Novembru",
                 "Di\u010bembru"
             ],
-            "d_t_fmt": "%A, %d ta %b, %Y %H:%M:%S %Z",
+            "d_t_fmt": "%A, %d ta %b, %Y %H:%M:%S",
             "d_fmt": "%A, %d ta %b, %Y",
             "t_fmt": "%H:%M:%S %Z",
             "am_pm": [

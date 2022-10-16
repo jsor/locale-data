@@ -56,11 +56,11 @@
   'LC_NAME' => 
   array (
     'name_fmt' => '%d%t%g%t%m%t%f',
-    'name_gen' => NULL,
-    'name_mr' => NULL,
-    'name_mrs' => NULL,
-    'name_miss' => NULL,
-    'name_ms' => NULL,
+    'name_gen' => 'heer of mevrouw',
+    'name_mr' => 'heer',
+    'name_mrs' => 'mevrouw',
+    'name_miss' => 'mevrouw',
+    'name_ms' => 'mevrouw',
   ),
   'LC_NUMERIC' => 
   array (
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%a %d %b %Y %T %Z',
     'abday' => 
     array (
       0 => 'zo',
@@ -143,7 +143,7 @@
       10 => 'november',
       11 => 'december',
     ),
-    'd_t_fmt' => '%a %d %b %Y %T %Z',
+    'd_t_fmt' => '%a %d %b %Y %T',
     'd_fmt' => '%d-%m-%y',
     't_fmt' => '%T',
     'am_pm' => 

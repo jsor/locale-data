@@ -61,11 +61,11 @@
         },
         "LC_NAME": {
             "name_fmt": "%d%t%g%t%m%t%f",
-            "name_gen": null,
-            "name_mr": null,
-            "name_mrs": null,
-            "name_miss": null,
-            "name_ms": null
+            "name_gen": "heer of mevrouw",
+            "name_mr": "heer",
+            "name_mrs": "mevrouw",
+            "name_miss": "mevrouw",
+            "name_ms": "mevrouw"
         },
         "LC_NUMERIC": {
             "decimal_point": ",",
@@ -86,7 +86,7 @@
             "int_prefix": "32"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%a %d %b %Y %T %Z",
             "abday": [
                 "zo",
                 "ma",
@@ -138,7 +138,7 @@
                 "november",
                 "december"
             ],
-            "d_t_fmt": "%a %d %b %Y %T %Z",
+            "d_t_fmt": "%a %d %b %Y %T",
             "d_fmt": "%d-%m-%y",
             "t_fmt": "%T",
             "am_pm": [

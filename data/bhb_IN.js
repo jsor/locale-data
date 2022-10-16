@@ -12,14 +12,14 @@
     return {
         "LC_ADDRESS": {
             "postal_fmt": "%z%c%T%s%b%e%r",
-            "country_name": null,
+            "country_name": "\u092d\u093e\u0930\u0924",
             "country_post": null,
             "country_ab2": "IN",
             "country_ab3": "IND",
             "country_num": 356,
             "country_car": "IND",
             "country_isbn": null,
-            "lang_name": "bhili",
+            "lang_name": "\u092d\u0940\u0932\u0940",
             "lang_ab": "",
             "lang_term": "bhb",
             "lang_lib": "bhb"
@@ -87,7 +87,7 @@
             "int_prefix": "91"
         },
         "LC_TIME": {
-            "date_fmt": "%a %b %e %H:%M:%S %Z %Y",
+            "date_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
             "abday": [
                 "Sun",
                 "Mon",
@@ -139,7 +139,7 @@
                 "November",
                 "December"
             ],
-            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p %Z",
+            "d_t_fmt": "%A %d %b %Y %I:%M:%S %p",
             "d_fmt": "%-d\/\/%-m\/\/%y",
             "t_fmt": "%I:%M:%S %p %Z",
             "am_pm": [

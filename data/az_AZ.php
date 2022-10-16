@@ -9,7 +9,7 @@
     'country_num' => 31,
     'country_car' => 'AZ',
     'country_isbn' => NULL,
-    'lang_name' => 'azərbaycan dili',
+    'lang_name' => 'azərbaycan',
     'lang_ab' => 'az',
     'lang_term' => 'aze',
     'lang_lib' => 'aze',
@@ -86,7 +86,7 @@
   ),
   'LC_TIME' => 
   array (
-    'date_fmt' => '%a %b %e %H:%M:%S %Z %Y',
+    'date_fmt' => '%A, %d %B %Y %T %Z',
     'abday' => 
     array (
       0 => 'baz',
